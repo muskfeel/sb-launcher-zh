@@ -1,0 +1,492 @@
+[
+ {
+  "key": "TUN mode starts the sing-box core as root only from a root-owned copy, and the copy's location failed the ownership check:\n%s\nIf the command below reports the same problem, fix the ownership of that path.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 TUN 模式仅从根拥有的副本中以根身份启动单盒核心，并且该副本的位置未通过所有权检查：\n%s\n如果以下命令报告相同的问题，请修复该路径的所有权。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The daemon service is installed on this Mac, so the command is its Install or update command: it refreshes the same copy and restarts the service.",
+  "value": "在 VPN/代理客户端 UI 上下文中。守护程序服务安装在这台 Mac 上，因此该命令是其安装或更新命令：它刷新相同的副本并重新启动服务。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Run this command in Terminal (it asks for your sudo password), then click Retry:",
+  "value": "在 VPN/代理客户端 UI 上下文中。在终端中运行此命令（它会要求您输入 sudo 密码），然后单击“重试”：（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Retry",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Retry（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Uninstall",
+  "value": "在 VPN/代理客户端 UI 上下文中。卸载（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "1. Forget the pairing on the launcher side:",
+  "value": "在 VPN/代理客户端 UI 上下文中。 1.忘记启动器端的配对：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "2. Remove the service (run in Terminal, your sudo):",
+  "value": "在 VPN/代理客户端 UI 上下文中。 2.删除服务（在终端中运行，你的sudo）：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Also wipe all daemon data — keys, clients, last-good (--purge)",
+  "value": "在 VPN/代理客户端 UI 上下文中。同时擦除所有守护进程数据——密钥、客户端、最后的好数据（--purge）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "The core runs inside a system daemon (sing-box lxd).",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心在系统守护程序 (sing-box lxd) 内运行。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Connecting to the daemon…",
+  "value": "在 VPN/代理客户端 UI 上下文中。连接到守护进程...（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "The daemon answers; the core is running. Click for connection settings.",
+  "value": "在 VPN/代理客户端 UI 上下文中。守护进程回答；核心正在运行。单击进行连接设置。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The daemon is paired and answers; the core is stopped. Press Start to bring the VPN up.",
+  "value": "在 VPN/代理客户端 UI 上下文中。守护进程配对并应答；核心停止。按开始启动 VPN。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The daemon stopped answering — reconnecting. Click for connection settings.",
+  "value": "在 VPN/代理客户端 UI 上下文中。守护进程停止应答——重新连接。单击进行连接设置。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The core inside the daemon failed: %s. Click for connection settings.",
+  "value": "在 VPN/代理客户端 UI 上下文中。守护程序内的核心失败：%s。单击进行连接设置。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The daemon is not answering. Check that the service is running (⚙).",
+  "value": "在 VPN/代理客户端 UI 上下文中。守护进程没有应答。检查服务是否正在运行 (⚙)。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "✅ gRPC (daemon) · core stopped",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ✅ gRPC (守护进程) · 核心停止(网络 UI 标签，简明翻译)"
+ },
+ {
+  "key": "The core is stopped — press Start to load the node list.",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心已停止 - 按“开始”加载节点列表。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The machine is not answering. Check that it is powered on and reachable on the network, then press Connect again.",
+  "value": "在 VPN/代理客户端 UI 上下文中。机器没有应答。检查它是否已开机且可在网络上访问，然后再次按“连接”。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The Bearer secret is only needed for a daemon running WITHOUT TLS (plain mode): there it is the whole authentication, paste it and press Enter. A paired mTLS daemon ignores it — the client certificate is the credential. The daemon owns the secret (daemon.json in its state dir); view it with the command below.",
+  "value": "在 VPN/代理客户端 UI 上下文中。仅在不使用 TLS（普通模式）运行的守护进程中才需要持有者密钥：这是整个身份验证，粘贴它并按 Enter 键。配对的 mTLS 守护进程会忽略它——客户端证书就是凭证。守护进程拥有秘密（其状态目录中的 daemon.json）；使用下面的命令查看它。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "On Save the config is written to bin/remote-config.json for deployment under the lxd daemon — the local bin/config.json is never touched. State lives in bin/wizard_states/remote/state.json.",
+  "value": "在 VPN/代理客户端 UI 上下文中。保存时，配置将写入 bin/remote-config.json 以便在 lxd 守护进程下部署 — 本地 bin/config.json 永远不会被触及。状态位于 bin/wizard_states/remote/state.json 中。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Target OS",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Target OS（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Target architecture",
+  "value": "在 VPN/代理客户端 UI 上下文中。目标架构（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Set the TUN interface name explicitly — the core default cannot be relied on, and on a router the name is needed for firewall rules and routes.",
+  "value": "在 VPN/代理客户端 UI 上下文中。显式设置 TUN 接口名称 - 不能依赖核心默认值，并且在路由器上，防火墙规则和路由需要该名称。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Remote config exported",
+  "value": "在 VPN/代理客户端 UI 上下文中。远程配置导出（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The config for the remote machine was written to a separate file. The local bin/config.json was not touched.",
+  "value": "在 VPN/代理客户端 UI 上下文中。远程计算机的配置已写入单独的文件中。本地 bin/config.json 没有被触及。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Failed to build the machine's config",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法构建机器的配置（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "The core rejected this config. The file was written, but the machine will refuse it on Deploy. Fix the problem below and save again.",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心拒绝了这个配置。文件已写入，但机器将在部署时拒绝它。修复以下问题并再次保存。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Could not read the subscriptions for this target, so the config would contain no proxy nodes. Check the sources on the Sources tab and try again.",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法读取此目标的订阅，因此配置将不包含代理节点。检查“源”选项卡上的源，然后重试。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Parsing subscriptions...",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在解析订阅...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Connect to this machine first: its config points at the machine's own resource store, and that path comes from the daemon when you connect.",
+  "value": "在 VPN/代理客户端 UI 上下文中。首先连接到这台机器：它的配置指向机器自己的资源存储，并且当您连接时该路径来自守护进程。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Core Status ⏳ Starting...",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心状态⏳正在启动...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Core Status ⏳ Stopping...",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心状态⏳正在停止...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Stop the core",
+  "value": "在 VPN/代理客户端 UI 上下文中。停止核心（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Stop the core on %s? Everyone routing through that machine loses VPN until it is started again.",
+  "value": "在 VPN/代理客户端 UI 上下文中。停止 %s 上的核心吗？通过该计算机路由的每个人都会丢失 VPN，直到再次启动为止。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Restart the core",
+  "value": "在 VPN/代理客户端 UI 上下文中。重启核心（网络UI标签，简明翻译）",
+  "special": {
+   "1": {
+    "value": "在 VPN/代理客户端 UI 上下文中。重启核心（网络UI标签，简明翻译）"
+   }
+  }
+ },
+ {
+  "key": "Restart the core on %s? Everyone routing through that machine loses VPN for a moment; if the start fails, the machine is left without a core.",
+  "value": "在 VPN/代理客户端 UI 上下文中。在 %s 上重新启动核心吗？通过该机器路由的每个人都会暂时失去 VPN；如果启动失败，机器就会失去核心。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Deploy",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Deploy（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The machine runs a different config than the one saved here. Press Deploy to send it.",
+  "value": "在 VPN/代理客户端 UI 上下文中。该机器运行的配置与此处保存的配置不同。按部署发送它。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The machine runs the config saved here.",
+  "value": "在 VPN/代理客户端 UI 上下文中。机器运行此处保存的配置。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The last deploy did not start: the core rolled back to the last-good config. Details under ⓘ.",
+  "value": "在 VPN/代理客户端 UI 上下文中。最后一次部署没有开始：核心回滚到最后一次好的配置。详情见ⓘ。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Built config sha256 (local)",
+  "value": "在 VPN/代理客户端 UI 上下文中。内置配置 sha256 (local)（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Deploy config",
+  "value": "在 VPN/代理客户端 UI 上下文中。部署配置（网络UI标签，简明翻译）",
+  "special": {
+   "1": {
+    "value": "在 VPN/代理客户端 UI 上下文中。部署配置（网络UI标签，简明翻译）"
+   }
+  }
+ },
+ {
+  "key": "Send the config to %s (%d bytes)? The daemon validates it before swapping the instance and rolls back to last-good if the new one fails to start.",
+  "value": "在 VPN/代理客户端 UI 上下文中。将配置发送到 %s（%d 字节）？守护进程在交换实例之前对其进行验证，如果新实例无法启动，则回滚到上一次正常状态。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Config applied on %s.",
+  "value": "在 VPN/代理客户端 UI 上下文中。配置应用于 %s。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Connection settings: core engine and daemon pairing",
+  "value": "在 VPN/代理客户端 UI 上下文中。连接设置：核心引擎与守护进程配对（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "RES",
+  "value": "在 VPN/代理客户端 UI 上下文中。 RES（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%s — resources",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s——资源（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Reading the machine's resource store…",
+  "value": "在 VPN/代理客户端 UI 上下文中。读取机器的资源存储…（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No resources: nothing stored on the machine and no rule-set files in this machine's profile.",
+  "value": "在 VPN/代理客户端 UI 上下文中。无资源：计算机上没有存储任何内容，并且该计算机的配置文件中没有规则集文件。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Could not read the resource store: %v",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法读取资源存储：%v（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "%d local · %d on server · %d orphan",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %d 本地 · %d 在服务器上 · %d 孤立（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Upload",
+  "value": "在 VPN/代理客户端 UI 上下文中。上传（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Upload all missing",
+  "value": "在 VPN/代理客户端 UI 上下文中。上传所有缺失的（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "✓ match",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ✓ 匹配（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "✗ not on server",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ✗ 不在服务器上（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "≠ differs",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ≠不同（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "⚠ only on server",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⚠ 仅在服务器上（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Delete from the machine",
+  "value": "在 VPN/代理客户端 UI 上下文中。从机器中删除（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The running config references this file — deploy a config without it first",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在运行的配置引用此文件 - 首先部署一个没有它的配置（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Delete resource",
+  "value": "在 VPN/代理客户端 UI 上下文中。删除资源（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Delete %s from the machine? The local copy stays.",
+  "value": "在 VPN/代理客户端 UI 上下文中。从机器中删除 %s 吗？本地副本保留。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Downloads to: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。下载至：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Reading the machine's selector groups…",
+  "value": "在 VPN/代理客户端 UI 上下文中。读取机器的选择器组...（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Traffic profiler",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Traffic profiler（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Connect to the machine first: the profiler reads its live connection stream.",
+  "value": "在 VPN/代理客户端 UI 上下文中。首先连接到机器：分析器读取其实时连接流。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Connections",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Connections（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Traffic",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Traffic（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Core runtime",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心运行时（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%d in / %d out",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %d in / %d out（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "↑%s/s  ↓%s/s   (total ↑%s ↓%s)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ↑%s/s ↓%s/s（总计↑%s ↓%s）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%s, goroutines %d",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s，goroutines %d（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Host telemetry",
+  "value": "在 VPN/代理客户端 UI 上下文中。主机遥测（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%s — host",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s — 主机（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Connect to the machine first: host telemetry is read over its control channel.",
+  "value": "在 VPN/代理客户端 UI 上下文中。首先连接到机器：通过其控制通道读取主机遥测数据。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Reading host telemetry…",
+  "value": "在 VPN/代理客户端 UI 上下文中。读取主机遥测…（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "This daemon has no host telemetry: the machine is reachable, but its sing-box build predates /admin/host. Update the daemon on the machine.",
+  "value": "在 VPN/代理客户端 UI 上下文中。该守护进程没有主机遥测：机器可以访问，但其单机版本早于 /admin/host。更新机器上的守护程序。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Could not read host telemetry: %v",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法读取主机遥测：%v（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "CPU  %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 CPU %s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Memory  %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。内存%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Temperature",
+  "value": "在 VPN/代理客户端 UI 上下文中。温度（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "no sensors on this machine",
+  "value": "在 VPN/代理客户端 UI 上下文中。本机上没有传感器（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "File descriptors",
+  "value": "在 VPN/代理客户端 UI 上下文中。文件描述符（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "daemon  %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 daemon %s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "system  %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 system %s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Disks  (max %s)",
+  "value": "在 VPN/代理客户端 UI 上下文中。磁盘（最大 %s）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Read-only filesystems are excluded from the maximum: a squashfs root sits at a permanent 100%.",
+  "value": "在 VPN/代理客户端 UI 上下文中。只读文件系统不包括在最大值中：squashfs 根永久处于 100%。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "State dir: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 State dir: %s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Interfaces",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Interfaces（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Interfaces (%d)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Interfaces (%d)（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Interfaces (%d of %d)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Interfaces (%d of %d)（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "All",
+  "value": "在 VPN/代理客户端 UI 上下文中。 All（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Up only",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Up only（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "With traffic",
+  "value": "在 VPN/代理客户端 UI 上下文中。有流量（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Could not read interfaces: %v",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法读取接口：%v（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Graph the counter, read the rate: a counter survives restarts and gaps, a rate lies across them.",
+  "value": "在 VPN/代理客户端 UI 上下文中。绘制计数器图表，读取速率：计数器在重启和间隙中幸存下来，速率位于它们之间。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "waiting for a second sample…",
+  "value": "在 VPN/代理客户端 UI 上下文中。等待第二个示例...（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "sampled over %.1f s",
+  "value": "在 VPN/代理客户端 UI 上下文中。在 %.1f s 上采样（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "load  %.2f  %.2f  %.2f",
+  "value": "在 VPN/代理客户端 UI 上下文中。 load %.2f %.2f %.2f（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%s used of %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s 使用了 %s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "%s available",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s可用（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "cache %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。缓存%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "swap disabled",
+  "value": "在 VPN/代理客户端 UI 上下文中。禁用交换（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "swap %s of %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 swap %s of %s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "⚠ This machine is recorded as %s, but the daemon runs on %s. config.json is built for the recorded platform — fix it in the machine settings.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⚠ 该机器记录为 %s，但守护进程在 %s 上运行。 config.json 是为记录的平台构建的 - 在机器设置中修复它。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "⚠ This machine is recorded as %s, but the daemon reports %s. config.json is built for the recorded architecture — fix it in the machine settings.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⚠ 该机器记录为 %s，但守护程序报告 %s。 config.json 是为记录的架构构建的 - 在机器设置中修复它。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "by design",
+  "value": "在 VPN/代理客户端 UI 上下文中。 by design（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "🔒 ro",
+  "value": "在 VPN/代理客户端 UI 上下文中。 🔒 ro（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "★ state",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ★ state（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "🔒 ro · ★ state",
+  "value": "在 VPN/代理客户端 UI 上下文中。 🔒 ro·★ state（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%dd %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %dd %s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "up %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 up %s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Mount",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Mount（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "FS",
+  "value": "在 VPN/代理客户端 UI 上下文中。 FS（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Free",
+  "value": "在 VPN/代理客户端 UI 上下文中。免费（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Flags",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Flags（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "— down —",
+  "value": "在 VPN/代理客户端 UI 上下文中。 — down —（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "(no address)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 （无地址）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "MAC %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 MAC %s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "MTU %d",
+  "value": "在 VPN/代理客户端 UI 上下文中。 MTU %d（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "pkt %s/%s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 pkt %s/%s（网络UI标签，简明翻译）"
+ }
+]

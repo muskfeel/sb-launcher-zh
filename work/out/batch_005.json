@@ -1,0 +1,482 @@
+[
+ {
+  "key": "rule must contain \"outbound\" or \"action\"",
+  "value": "在 VPN/代理客户端 UI 上下文中。规则必须包含“出站”或“操作”（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Rule not recognized",
+  "value": "在 VPN/代理客户端 UI 上下文中。规则无法识别（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Could not recognize rule, form cannot be loaded; staying on Raw.",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法识别规则，无法加载表单；保持原始状态。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "We recommend looking for suitable rule-set files in the project:",
+  "value": "在 VPN/代理客户端 UI 上下文中。我们建议在项目中寻找合适的规则集文件：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "SRS rule-sets",
+  "value": "在 VPN/代理客户端 UI 上下文中。 SRS规则集（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "enter at least one path pattern",
+  "value": "在 VPN/代理客户端 UI 上下文中。输入至少一种路径模式（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "enter at least one SRS URL",
+  "value": "在 VPN/代理客户端 UI 上下文中。输入至少一个SRS URL（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "enter at least one valid SRS URL",
+  "value": "在 VPN/代理客户端 UI 上下文中。输入至少一个有效的 SRS URL（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Custom JSON is empty",
+  "value": "在 VPN/代理客户端 UI 上下文中。自定义JSON为空（网络UI标签，简洁翻译）"
+ },
+ {
+  "key": "Custom JSON must be an object",
+  "value": "在 VPN/代理客户端 UI 上下文中。自定义JSON必须是一个对象（网络UI标签，简明翻译一下）"
+ },
+ {
+  "key": "Paste one rule at a time: the editor keeps one sing-box rule per entry",
+  "value": "在 VPN/代理客户端 UI 上下文中。一次粘贴一条规则：编辑器为每个条目保留一条单框规则（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Save State",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Save State（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Enter state ID (a-z, A-Z, 0-9, -, _)",
+  "value": "在 VPN/代理客户端 UI 上下文中。输入状态ID（a-z、A-Z、0-9、-、_）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Comment (optional)",
+  "value": "在 VPN/代理客户端 UI 上下文中。评论（可选）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "State with this ID already exists. It will be overwritten.",
+  "value": "在 VPN/代理客户端 UI 上下文中。具有此 ID 的状态已存在。它将被覆盖。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Make it the current state and rebuild config",
+  "value": "在 VPN/代理客户端 UI 上下文中。使其成为当前状态并重建配置（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "State ID:",
+  "value": "在 VPN/代理客户端 UI 上下文中。 State ID：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Comment:",
+  "value": "在 VPN/代理客户端 UI 上下文中。评论：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "ID cannot be empty",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ID不能为空（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Load State",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Load State（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Failed to load states list",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法加载状态列表（网络UI标签，简明翻译）"
+ },
+ {
+  "key": " (Current)",
+  "value": "在 VPN/代理客户端 UI 上下文中。  （当前）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Load",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Load（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "New",
+  "value": "在 VPN/代理客户端 UI 上下文中。新（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Delete",
+  "value": "在 VPN/代理客户端 UI 上下文中。删除（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Cannot delete current state (state.json)",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法删除当前状态（state.json）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Delete State",
+  "value": "在 VPN/代理客户端 UI 上下文中。删除状态（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Delete state '%s'?",
+  "value": "在 VPN/代理客户端 UI 上下文中。删除状态“%s”吗？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Failed to delete state",
+  "value": "在 VPN/代理客户端 UI 上下文中。删除状态失败（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Edit direction",
+  "value": "在 VPN/代理客户端 UI 上下文中。编辑方向（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Add direction",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加方向（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "e.g. vpn-1",
+  "value": "在 VPN/代理客户端 UI 上下文中。例如vpn-1（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Source ",
+  "value": "在 VPN/代理客户端 UI 上下文中。来源（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "tag",
+  "value": "在 VPN/代理客户端 UI 上下文中。 tag（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Add auto-select (paired <tag>-auto group)",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加自动选择（配对<tag>-自动组）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Auto-select",
+  "value": "在 VPN/代理客户端 UI 上下文中。自动选择（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "A paired urltest group named <tag>-auto with the same nodes as this direction. It is offered as the first option and becomes the default unless a default node is set.",
+  "value": "在 VPN/代理客户端 UI 上下文中。名为 <tag>-auto 的配对 urltest 组，其节点与此方向相同。它作为第一个选项提供，并成为默认选项，除非设置了默认节点。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "· auto",
+  "value": "在 VPN/代理客户端 UI 上下文中。 · auto（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "(off)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 (off)（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Include this direction in the config. A switched-off direction keeps its settings but is not built and cannot be picked as a rule target.",
+  "value": "在 VPN/代理客户端 UI 上下文中。将此方向包含在配置中。关闭的方向会保留其设置，但不会构建，也无法选为规则目标。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Auto-select mode",
+  "value": "在 VPN/代理客户端 UI 上下文中。自动选择模式（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "fastest node",
+  "value": "在 VPN/代理客户端 UI 上下文中。最快的节点（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "spread across a pool",
+  "value": "在 VPN/代理客户端 UI 上下文中。分布在一个池中（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Invert: keep nodes that do NOT match",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Invert：保留不匹配的节点（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Filter syntax and examples",
+  "value": "在 VPN/代理客户端 UI 上下文中。过滤器语法及示例（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "e.g. 🇳🇱 or DE-",
+  "value": "在 VPN/代理客户端 UI 上下文中。例如🇳🇱 或 DE-（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "e.g. 🇳🇱",
+  "value": "在 VPN/代理客户端 UI 上下文中。例如🇳🇱（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Node filter (regular expression body; empty = every node)",
+  "value": "在 VPN/代理客户端 UI 上下文中。节点过滤器（正则表达式体；空=每个节点）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Default node (regular expression; first match wins)",
+  "value": "在 VPN/代理客户端 UI 上下文中。默认节点（正则表达式；第一个匹配获胜）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Extra options offered in the picker",
+  "value": "在 VPN/代理客户端 UI 上下文中。选择器中提供的额外选项（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Raw outbound JSON",
+  "value": "在 VPN/代理客户端 UI 上下文中。原始出站 JSON（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "📖 Documentation",
+  "value": "在 VPN/代理客户端 UI 上下文中。 📖 文档（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Switch to Preview to see nodes for this outbound.",
+  "value": "在 VPN/代理客户端 UI 上下文中。切换到预览以查看此出站的节点。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Preview is not available in this context (no presenter).",
+  "value": "在 VPN/代理客户端 UI 上下文中。在这种情况下预览不可用（无演示者）。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Preview is not available: wizard model is nil.",
+  "value": "在 VPN/代理客户端 UI 上下文中。预览不可用：向导模型为零。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Failed to build preview: invalid outbound JSON. Please switch to the \"Raw\" tab and fix JSON first.",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法构建预览：出站 JSON 无效。请切换到“Raw”选项卡并首先修复 JSON。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Failed to build preview cache: %v",
+  "value": "在 VPN/代理客户端 UI 上下文中。构建预览缓存失败：%v（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No nodes available for preview. Please configure sources and try again.",
+  "value": "在 VPN/代理客户端 UI 上下文中。没有可供预览的节点。请配置源并重试。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Unknown source",
+  "value": "在 VPN/代理客户端 UI 上下文中。来源不明（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%d node(s) total, %d matched filters",
+  "value": "在 VPN/代理客户端 UI 上下文中。总共 %d 个节点，%d 个匹配的过滤器（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": ", default: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ，默认：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": " | Also includes: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。  |还包括：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": " | ⚠️ %d source error(s)",
+  "value": "在 VPN/代理客户端 UI 上下文中。  | ⚠️ %d 个源错误（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "ParserConfig is not available",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ParserConfig不可用（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "invalid JSON",
+  "value": "在 VPN/代理客户端 UI 上下文中。无效的 JSON（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "tag is required",
+  "value": "在 VPN/代理客户端 UI 上下文中。 tag为必填项（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "failed to open documentation",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法打开文档（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Directions:",
+  "value": "在 VPN/代理客户端 UI 上下文中。说明：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Packets travel top to bottom: the first hop is next to you, the last one is the address the site sees.",
+  "value": "在 VPN/代理客户端 UI 上下文中。数据包从上到下传输：第一跳是您旁边的，最后一跳是站点看到的地址。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Chain name",
+  "value": "在 VPN/代理客户端 UI 上下文中。链名（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Directions and rules reference this name",
+  "value": "在 VPN/代理客户端 UI 上下文中。方向和规则引用此名称（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Add hop",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加hop（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "unnamed",
+  "value": "在 VPN/代理客户端 UI 上下文中。未命名（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No positions yet — add at least two.",
+  "value": "在 VPN/代理客户端 UI 上下文中。尚无职位 - 至少添加两个。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "One more position needed: the core rejects a single-hop chain.",
+  "value": "在 VPN/代理客户端 UI 上下文中。还需要一个位置：核心拒绝单跳链。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Nothing left to add: every available target is already in the chain.",
+  "value": "在 VPN/代理客户端 UI 上下文中。没有什么需要添加的：每个可用的目标都已经在链中。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "ClientHello fingerprint is stripped, but positions %s are reality nodes that require it — the chain will keep tls.utls on every position. Clear tls.utls to match.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ClientHello 指纹被剥离，但位置 %s 是需要它的现实节点——链将在每个位置保留 tls.utls。清除 tls.utls 以进行匹配。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "A nested chain (%s) is only allowed at the first position — move it to the top or remove it.",
+  "value": "在 VPN/代理客户端 UI 上下文中。嵌套链 (%s) 只允许出现在第一个位置 - 将其移动到顶部或将其删除。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Chains %s are declared below this one in the sources list — a chain may only reference chains above it. Drag them higher, or this chain will not build.",
+  "value": "在 VPN/代理客户端 UI 上下文中。链 %s 在源列表中的该链下方声明 — 链只能引用其上方的链。将它们拖得更高，否则这条链将无法构建。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The name “%s” is already taken by another node, Direction or chain — two outbounds with one tag cannot coexist, this chain will be dropped at build.",
+  "value": "在 VPN/代理客户端 UI 上下文中。名称“%s”已被另一节点、方向或链占用 - 具有一个标签的两个出站不能共存，该链将在构建时被删除。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The first position (%s) dials through its own detour — the real path is longer than shown: one more hop precedes it that is not in this list.",
+  "value": "在 VPN/代理客户端 UI 上下文中。第一个位置 (%s) 绕了它自己的弯路 — 实际路径比显示的要长：它前面还有一个不在此列表中的跃点。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Positions %s have their own detour — it does not apply inside a chain: a link always dials through the previous position. The path is exactly as shown.",
+  "value": "在 VPN/代理客户端 UI 上下文中。位置 %s 有自己的绕道 — 它不适用于链内：链接始终会经过前一个位置。路径完全如图所示。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "These positions are no longer among the available targets: %s. A chain with such a reference will not reach the config.",
+  "value": "在 VPN/代理客户端 UI 上下文中。这些位置不再属于可用目标：%s。具有此类引用的链将无法到达配置。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Chain %s is used as a position by: %s. After renaming, their position will point nowhere — fix those too.",
+  "value": "在 VPN/代理客户端 UI 上下文中。链 %s 被 %s 用作位置。重命名后，它们的位置将指向任何地方——也修复它们。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "node",
+  "value": "在 VPN/代理客户端 UI 上下文中。 node（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "group",
+  "value": "在 VPN/代理客户端 UI 上下文中。 group（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "direction",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Direction（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "chain",
+  "value": "在 VPN/代理客户端 UI 上下文中。 chain（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "built-in",
+  "value": "在 VPN/代理客户端 UI 上下文中。内置（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "not found",
+  "value": "在 VPN/代理客户端 UI 上下文中。未找到（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "loading…",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在加载...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Advanced",
+  "value": "在 VPN/代理客户端 UI 上下文中。高级（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Option overrides",
+  "value": "在 VPN/代理客户端 UI 上下文中。选项覆盖（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Applied from the 2nd position on: the first one dials as-is.",
+  "value": "在 VPN/代理客户端 UI 上下文中。从第二个位置开始应用：第一个位置按原样拨号。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The value is JSON: quote strings (\"safari\"), write numbers as 1280, nest as {\"utls\":{\"fingerprint\":\"safari\"}}. null is special — it does not store a value, it removes the option from the link.",
+  "value": "在 VPN/代理客户端 UI 上下文中。该值为 JSON：引用字符串（“safari”），将数字写入 1280，嵌套为 {“utls”：{“fingerprint”：“safari”}}。 null 很特殊——它不存储值，而是从链接中删除选项。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Add override",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加覆盖（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "type",
+  "value": "在 VPN/代理客户端 UI 上下文中。 type（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "option",
+  "value": "在 VPN/代理客户端 UI 上下文中。 option（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "value (JSON)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 value (JSON)（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The value must be JSON: quote strings, e.g. \"safari\".",
+  "value": "在 VPN/代理客户端 UI 上下文中。该值必须是 JSON: 引号字符串，例如“野生动物园”。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Option %s · %s is set twice — only the last one reaches the config.",
+  "value": "在 VPN/代理客户端 UI 上下文中。选项 %s · %s 设置了两次 — 只有最后一个达到了配置。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Link idle timeout",
+  "value": "在 VPN/代理客户端 UI 上下文中。链路空闲超时（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "5m — core default, 0s — never drop",
+  "value": "在 VPN/代理客户端 UI 上下文中。 5m——核心默认，0s——永不掉线（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Strip DPI evasion from links",
+  "value": "在 VPN/代理客户端 UI 上下文中。从链接中剥离 DPI 规避（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "ClientHello fragmentation",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ClientHello 碎片（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "multiplex padding",
+  "value": "在 VPN/代理客户端 UI 上下文中。 plex padding（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "XHTTP padding",
+  "value": "在 VPN/代理客户端 UI 上下文中。 XHTTP padding（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "ClientHello fingerprint (must not be stripped on reality nodes)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ClientHello 指纹（不得在现实节点上剥离）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Free community servers",
+  "value": "在 VPN/代理客户端 UI 上下文中。免费社区服务器（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Community VPN sources",
+  "value": "在 VPN/代理客户端 UI 上下文中。社区VPN源码（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Loading",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Loading（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Fetching community sources list…",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在获取社区源列表...（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "These are subscription URLs maintained by the community. Pick one and click Insert — the URL goes into the input field, then click Add to register it.",
+  "value": "在 VPN/代理客户端 UI 上下文中。这些是社区维护的订阅 URL。选择一个并单击“插入”——URL 将进入输入字段，然后单击“添加”进行注册。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Insert",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Insert（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Failed to load community sources:\n\nLocal cache missing or corrupted.",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法加载社区源：\n\n本地缓存丢失或损坏。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No community sources available right now.",
+  "value": "在 VPN/代理客户端 UI 上下文中。目前没有可用的社区资源。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Port:",
+  "value": "在 VPN/代理客户端 UI 上下文中。端口：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Invalid port",
+  "value": "在 VPN/代理客户端 UI 上下文中。端口无效（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Port must be a number between 1024 and 65535.",
+  "value": "在 VPN/代理客户端 UI 上下文中。端口必须是 1024 到 65535 之间的数字。（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Must be a number.",
+  "value": "在 VPN/代理客户端 UI 上下文中。必须是一个数字。 （网络UI标签，简明翻译）"
+ }
+]

@@ -1,0 +1,492 @@
+[
+ {
+  "key": "Copy API info",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制API信息（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "API info copied",
+  "value": "在 VPN/代理客户端 UI 上下文中。 API信息复制（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Connection card (base URL, token, versions, docs link) copied. Hand it to an agent — it has everything to connect.",
+  "value": "在 VPN/代理客户端 UI 上下文中。已复制连接卡（基本 URL、令牌、版本、文档链接）。将其交给代理——它拥有所有可连接的东西。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Regenerate token",
+  "value": "在 VPN/代理客户端 UI 上下文中。重新生成token（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Regenerate Debug API token?",
+  "value": "在 VPN/代理客户端 UI 上下文中。重新生成调试 API 令牌？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "A new bearer token will be generated and the old one will stop working immediately. Any scripts or automation using the old token must be updated. If the API is running it will restart with the new token. Continue?",
+  "value": "在 VPN/代理客户端 UI 上下文中。将生成一个新的不记名令牌，旧的令牌将立即停止工作。使用旧令牌的任何脚本或自动化都必须更新。如果 API 正在运行，它将使用新令牌重新启动。继续？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Token regenerated",
+  "value": "在 VPN/代理客户端 UI 上下文中。重新生成的Token（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "A new Debug API token is active. Use “Copy token” to grab it.",
+  "value": "在 VPN/代理客户端 UI 上下文中。新的调试 API 令牌处于活动状态。使用“复制令牌”来获取它。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "⚙️ Configurator",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⚙️Configurator（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Download Config Template",
+  "value": "在 VPN/代理客户端 UI 上下文中。下载配置模板（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Sing-box",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Sing-box（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "sing-box is the core binary.\n\n",
+  "value": "在 VPN/代理客户端 UI 上下文中。 sing-box 是核心二进制文件。\n\n （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Look for: %s\n",
+  "value": "在 VPN/代理客户端 UI 上下文中。寻找：%s\n （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Extract the binary into the bin folder.\n\n",
+  "value": "在 VPN/代理客户端 UI 上下文中。将二进制文件提取到 bin 文件夹中。\n\n （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "You can download with the button above, or manually from:",
+  "value": "在 VPN/代理客户端 UI 上下文中。您可以使用上面的按钮下载，也可以手动从：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Checking...",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在检查...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "❌ not found",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ❌未找到（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Download",
+  "value": "在 VPN/代理客户端 UI 上下文中。下载（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Download v%s",
+  "value": "在 VPN/代理客户端 UI 上下文中。下载v%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Reinstall v%s",
+  "value": "在 VPN/代理客户端 UI 上下文中。重新安装v%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Close",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Close（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Open bin folder",
+  "value": "在 VPN/代理客户端 UI 上下文中。打开bin文件夹（网络UI标签，简明翻译一下）"
+ },
+ {
+  "key": "Wintun",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Wintun（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "wintun.dll is required for TUN mode on Windows.\n\n",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Windows 上的 TUN 模式需要 wintun.dll。\n\n （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "In the download archive, take wintun.dll \n\n Your system is %s.\n\n ",
+  "value": "在 VPN/代理客户端 UI 上下文中。在下载存档中，获取 wintun.dll \n\n 您的系统是 %s。\n\n  （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Place it in the bin folder: bin\n\n",
+  "value": "在 VPN/代理客户端 UI 上下文中。放入bin文件夹：bin\n\n （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "ok",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ok（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "❌ Error checking wintun.dll",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ❌检查wintun.dll时出错（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Config Template",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Config Template（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Template saved to %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。模板保存到%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Downloading config template…",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在下载配置模板...（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Config template download failed",
+  "value": "在 VPN/代理客户端 UI 上下文中。配置模板下载失败（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "server returned an empty file",
+  "value": "在 VPN/代理客户端 UI 上下文中。服务器返回一个空文件（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Download Complete",
+  "value": "在 VPN/代理客户端 UI 上下文中。下载完整（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Update Available",
+  "value": "在 VPN/代理客户端 UI 上下文中。可用更新（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "A new version of the application is available",
+  "value": "在 VPN/代理客户端 UI 上下文中。新版本应用程序可用（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Current version: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。当前版本：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "New version: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。新版本：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Download from GitHub",
+  "value": "在 VPN/代理客户端 UI 上下文中。从GitHub下载（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Configuration Not Found",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Configuration Not Found（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "⚠️ Configuration file not found!\n\nThe file %s is missing from the bin/ folder.\n\nTo get started:\n1. open ⚙️ Configurator\n2. add subscription URLs in the Sources tab and click Save\n3. click 🔄 Update on this dashboard to fetch and build config\n4. press Start\n",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⚠️ 找不到配置文件！\n\nbin/ 文件夹中缺少文件 %s。\n\n开始使用：\n1.打开⚙️配置器\n2. 在“来源”选项卡中添加订阅 URL，然后单击“保存”\n3. 单击此仪表板上的 🔄 更新以获取并构建配置\n4. 按开始\n （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Information",
+  "value": "在 VPN/代理客户端 UI 上下文中。信息（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The application is already running. Use the existing instance or close it before starting a new one.",
+  "value": "在 VPN/代理客户端 UI 上下文中。该应用程序已经在运行。使用现有实例或在启动新实例之前关闭它。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Info",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Info（网络UI标签，简明翻译）",
+  "special": {
+   "1": {
+    "value": "在 VPN/代理客户端 UI 上下文中。 Info（网络UI标签，简明翻译）"
+   }
+  }
+ },
+ {
+  "key": "Sing-Box already running (according to internal state).",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Sing-Box 已在运行（根据内部状态）。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Crash",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Crash（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Sing-Box crashed, restarting... (attempt %d/%d)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Sing-Box 崩溃，正在重新启动...（尝试 %d/%d）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Failed to start sing-box:\n\n%s\n\nPlease check:\n1. config.json is valid\n2. sing-box executable exists\n3. Check logs for details",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法启动歌唱盒：\n\n%s\n\n请检查：\n1.config.json有效\n2.单盒可执行文件存在\n3.查看日志了解详情（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Failed to rebuild config.json:\n\n%s\n\nsing-box was not started with the previous config.json: it may not match your current settings. Fix the cause and try again.",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法重建 config.json：\n\n%s\n\nsing-box 未使用之前的 config.json 启动：它可能与您当前的设置不匹配。修复原因并重试。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Parser failed:\n\n%s\n\nPlease check:\n1. Subscription URL is valid\n2. Network connection\n3. Check parser.log for details",
+  "value": "在 VPN/代理客户端 UI 上下文中。解析器失败：\n\n%s\n\n请检查：\n1.订阅地址有效\n2. 网络连接\n3.查看parser.log了解详细信息（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Linux capabilities required",
+  "value": "在 VPN/代理客户端 UI 上下文中。所需的Linux能力（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Could not stop sing-box with administrator rights (dialog cancelled or error). The core may still be running — try Stop again or quit sing-box in Activity Monitor.",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法使用管理员权限停止 sing-box（对话框取消或错误）。核心可能仍在运行 - 再次尝试停止或退出活动监视器中的sing-box。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Sing-Box failed to restart after %d attempts. Check sing-box.log for details.",
+  "value": "在 VPN/代理客户端 UI 上下文中。在 %d 次尝试后，Sing-Box 未能重新启动。检查 sing-box.log 了解详细信息。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Open",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Open（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Quit",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Quit（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Start VPN",
+  "value": "在 VPN/代理客户端 UI 上下文中。启动VPN（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Stop VPN",
+  "value": "在 VPN/代理客户端 UI 上下文中。停止VPN（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Select Proxy",
+  "value": "在 VPN/代理客户端 UI 上下文中。选择Proxy（网络UI标签，简明翻译一下）"
+ },
+ {
+  "key": "No proxies available",
+  "value": "在 VPN/代理客户端 UI 上下文中。没有可用的代理（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Hide app from Dock",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Hide app from Dock（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Config folder",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Config文件夹（网络UI标签，简明翻译一下）"
+ },
+ {
+  "key": "🛑 Kill Sing-Box",
+  "value": "在 VPN/代理客户端 UI 上下文中。 🛑 Kill Sing-Box（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Kill",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Kill（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Sing-Box killed if running.",
+  "value": "在 VPN/代理客户端 UI 上下文中。如果运行，Sing-Box 就会被杀死。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "📦 Version: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 📦版本：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Checking for updates...",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在检查更新...（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Unable to check for updates",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法检查更新（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "🆕 Update available: %s\nCurrent: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 🆕 可用更新：%s\n当前：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "✅ You are using a development build\nCurrent: %s\nLatest release: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ✅ 您正在使用开发版本\n当前：%s\n最新版本：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "✅ You are using the latest version\nCurrent: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ✅ 您使用的是最新版本\n当前：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "💬 Telegram Channel",
+  "value": "在 VPN/代理客户端 UI 上下文中。 💬 Telegram Channel（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "🐙 GitHub Repository",
+  "value": "在 VPN/代理客户端 UI 上下文中。 🐙 GitHub Repository（网络UI标签，简明翻译一下）"
+ },
+ {
+  "key": "Language:",
+  "value": "在 VPN/代理客户端 UI 上下文中。语言：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Language changed. Restart the app to apply fully.",
+  "value": "在 VPN/代理客户端 UI 上下文中。语言变了。重新启动应用程序以完全应用。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "📥 Download translations",
+  "value": "在 VPN/代理客户端 UI 上下文中。 📥 下载翻译（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "⬇",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⬇（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Translations downloaded (%d). Restart to see new languages.",
+  "value": "在 VPN/代理客户端 UI 上下文中。翻译已下载 (%d)。重新启动即可看到新语言。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Failed to download translations",
+  "value": "在 VPN/代理客户端 UI 上下文中。下载翻译失败（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Downloading...",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在下载...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "🔄",
+  "value": "在 VPN/代理客户端 UI 上下文中。 🔄（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "STUN [UDP]",
+  "value": "在 VPN/代理客户端 UI 上下文中。 STUN [UDP]（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "STUN Check",
+  "value": "在 VPN/代理客户端 UI 上下文中。 STUN Check（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Checking, please wait...",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在检查，请稍候...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Your External IP: %s\n%s",
+  "value": "在 VPN/代理客户端 UI 上下文中。您的外部 IP：%s\n%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Copy IP",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制IP（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Copied",
+  "value": "在 VPN/代理客户端 UI 上下文中。已复制（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "IP address copied to clipboard.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 IP 地址已复制到剪贴板。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "STUN Check Result",
+  "value": "在 VPN/代理客户端 UI 上下文中。 STUN 检查结果（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "STUN server (host:port):",
+  "value": "在 VPN/代理客户端 UI 上下文中。 STUN服务器（主机：端口）：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Use system SOCKS5 proxy",
+  "value": "在 VPN/代理客户端 UI 上下文中。使用系统SOCKS5代理（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "STUN settings",
+  "value": "在 VPN/代理客户端 UI 上下文中。 STUN设置（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Save",
+  "value": "在 VPN/代理客户端 UI 上下文中。保存（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Cancel",
+  "value": "在 VPN/代理客户端 UI 上下文中。取消（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Log window",
+  "value": "在 VPN/代理客户端 UI 上下文中。日志窗口（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Logs folder",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Logs文件夹（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Clean unused rule-sets",
+  "value": "在 VPN/代理客户端 UI 上下文中。清理未使用的规则集（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Removed %d unused rule-set file(s).",
+  "value": "在 VPN/代理客户端 UI 上下文中。已删除 %d 个未使用的规则集文件。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Traffic Profiler",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Traffic Profiler（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Disable Mesa3D (use hardware OpenGL)",
+  "value": "在 VPN/代理客户端 UI 上下文中。禁用Mesa3D（使用硬件OpenGL）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Enable Mesa3D (software rendering)",
+  "value": "在 VPN/代理客户端 UI 上下文中。启用Mesa3D（软件渲染）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Stop rendering through Mesa3D and use hardware OpenGL?",
+  "value": "在 VPN/代理客户端 UI 上下文中。停止通过 Mesa3D 渲染并使用硬件 OpenGL？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Render the window through the Mesa3D software renderer instead of the GPU?",
+  "value": "在 VPN/代理客户端 UI 上下文中。通过 Mesa3D 软件渲染器而不是 GPU 渲染窗口？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The launcher will restart now.",
+  "value": "在 VPN/代理客户端 UI 上下文中。启动器现在将重新启动。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "OpenGL",
+  "value": "在 VPN/代理客户端 UI 上下文中。 OpenGL（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Hardware OpenGL is now available:\n%s\nDisable Mesa3D and use it? The launcher will restart now.",
+  "value": "在 VPN/代理客户端 UI 上下文中。硬件 OpenGL 现已可用：\n%s\n禁用 Mesa3D 并使用它？启动器现在将重新启动。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Yes",
+  "value": "在 VPN/代理客户端 UI 上下文中。是（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Later",
+  "value": "在 VPN/代理客户端 UI 上下文中。后来（网络UI标签，简明翻译一下）"
+ },
+ {
+  "key": "IP Check Services:",
+  "value": "在 VPN/代理客户端 UI 上下文中。 IP 检查服务：（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Open in browser",
+  "value": "在 VPN/代理客户端 UI 上下文中。在浏览器中打开（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Logs",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Logs（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Level:",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Level：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Error",
+  "value": "在 VPN/代理客户端 UI 上下文中。错误（网络UI标签，简明翻译）",
+  "special": {
+   "1": {
+    "value": "在 VPN/代理客户端 UI 上下文中。错误（网络UI标签，简明翻译）"
+   }
+  }
+ },
+ {
+  "key": "Warn",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Warn（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Verbose",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Verbose（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Trace",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Trace（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Refresh",
+  "value": "在 VPN/代理客户端 UI 上下文中。刷新（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Internal",
+  "value": "在 VPN/代理客户端 UI 上下文中。内部（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Core",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Core（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "API",
+  "value": "API"
+ },
+ {
+  "key": "Log file not available.",
+  "value": "在 VPN/代理客户端 UI 上下文中。日志文件不可用。 （网络UI标签，简明翻译）"
+ }
+]

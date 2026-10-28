@@ -1,0 +1,487 @@
+[
+ {
+  "key": "Download failed. See the log for details.",
+  "value": "在 VPN/代理客户端 UI 上下文中。下载失败。详细信息请参阅日志。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Please download the file manually and place it in the folder below.",
+  "value": "在 VPN/代理客户端 UI 上下文中。请手动下载该文件并将其放在下面的文件夹中。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Open download page",
+  "value": "在 VPN/代理客户端 UI 上下文中。打开下载页面（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Open folder",
+  "value": "在 VPN/代理客户端 UI 上下文中。打开文件夹（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "OK",
+  "value": "在 VPN/代理客户端 UI 上下文中。 OK（网络UI标签，简洁翻译）"
+ },
+ {
+  "key": "Kill Process",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Kill Process（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Close This Warning",
+  "value": "在 VPN/代理客户端 UI 上下文中。关闭此警告（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Sing-Box appears to be already running.\nWould you like to kill the existing process?",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Sing-Box 似乎已经在运行。\n您想终止现有进程吗？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Warning",
+  "value": "在 VPN/代理客户端 UI 上下文中。警告（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Status: Not checked",
+  "value": "在 VPN/代理客户端 UI 上下文中。状态：未勾选（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Click 'Load Proxies'",
+  "value": "在 VPN/代理客户端 UI 上下文中。单击“Load Proxies”（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Loading proxies for '%s'...",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在加载“%s”的代理...（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Proxies loaded for '%s'. Active: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。已为“%s”加载代理。 Active: %s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Clash API disabled due to config error",
+  "value": "在 VPN/代理客户端 UI 上下文中。由于配置错误而禁用 Clash API（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "❌ Clash API Off (Error)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ❌ Clash API Off (Error)（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "❌ Clash API Off (Config Error)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ❌ Clash API Off (Config Error)（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "✅ Clash API On",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ✅ Clash API On（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Status: Not running",
+  "value": "在 VPN/代理客户端 UI 上下文中。状态：未运行（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Sing-box is stopped.",
+  "value": "在 VPN/代理客户端 UI 上下文中。歌盒已停止。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "API service is not initialized",
+  "value": "在 VPN/代理客户端 UI 上下文中。 API服务未初始化（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "API is disabled: config error",
+  "value": "在 VPN/代理客户端 UI 上下文中。 API被禁用：配置错误（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Delay error: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。延迟错误：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Delay: %d ms for %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。延迟：%s %d 毫秒（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Selected: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。已选择：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Selected: %d proxies",
+  "value": "在 VPN/代理客户端 UI 上下文中。已选择：%d 个代理（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "No proxy selected",
+  "value": "在 VPN/代理客户端 UI 上下文中。未选择代理（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Switch error: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。交换机错误：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Switched '%s' to %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。将“%s”切换为 %s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Sorted by name (A-Z)",
+  "value": "在 VPN/代理客户端 UI 上下文中。按名称排序（A-Z）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Sorted by name (Z-A)",
+  "value": "在 VPN/代理客户端 UI 上下文中。按名称排序（Z-A）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Sorted by delay (fastest first)",
+  "value": "在 VPN/代理客户端 UI 上下文中。按延迟排序（最快的优先）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Sorted by delay (slowest first)",
+  "value": "在 VPN/代理客户端 UI 上下文中。按延迟排序（最慢的在前）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No proxies to ping",
+  "value": "在 VPN/代理客户端 UI 上下文中。无代理 ping（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Total / Available: %d / %d",
+  "value": "在 VPN/代理客户端 UI 上下文中。总计/可用：%d / %d（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Pinging %d proxies...",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Pinging %d 代理...（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Pinging %d/%d...",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Pinging %d/%d...（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Ping test completed for %d proxies",
+  "value": "在 VPN/代理客户端 UI 上下文中。已完成 %d 个代理的 Ping 测试（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Selected group '%s'. Last used proxy: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。已选择组“%s”。最后使用的代理：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Selected group '%s'.",
+  "value": "在 VPN/代理客户端 UI 上下文中。已选择组“%s”。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Ping test URL updated: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Ping 测试 URL 已更新：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Ping",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Ping（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "test",
+  "value": "在 VPN/代理客户端 UI 上下文中。 test（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Hide servers with ping errors",
+  "value": "在 VPN/代理客户端 UI 上下文中。隐藏有 ping 错误的服务器（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Show all servers",
+  "value": "在 VPN/代理客户端 UI 上下文中。显示所有服务器（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Sort by name (toggle A–Z / Z–A)",
+  "value": "在 VPN/代理客户端 UI 上下文中。按名称排序（切换 A–Z / Z–A）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Sort by ping delay (toggle fastest first / slowest first)",
+  "value": "在 VPN/代理客户端 UI 上下文中。按 ping 延迟排序（切换最快优先/最慢优先）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Ping all proxies in this group",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Ping 该组中的所有代理（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Ping test URL and parallel requests",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Ping 测试 URL 和并行请求（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Copy share links for all rows visible now, in current list order (one URI per line; hidden ping-error rows are skipped; excludes selector, urltest, direct).",
+  "value": "在 VPN/代理客户端 UI 上下文中。按当前列表顺序复制现在可见的所有行的共享链接（每行一个 URI；隐藏的 ping 错误行将被跳过；排除选择器、urltest、直接）。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Copy share links for selected proxies only (multiple selection), in current list order (same URI rules as the default copy).",
+  "value": "在 VPN/代理客户端 UI 上下文中。按当前列表顺序（与默认副本相同的 URI 规则）仅复制选定代理的共享链接（多项选择）。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Nothing to export (no rows match the current view).",
+  "value": "在 VPN/代理客户端 UI 上下文中。没有要导出的内容（没有行与当前视图匹配）。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Nothing to export (no selected rows in the current view).",
+  "value": "在 VPN/代理客户端 UI 上下文中。没有可导出的内容（当前视图中没有选定的行）。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Preparing export…",
+  "value": "在 VPN/代理客户端 UI 上下文中。准备导出…（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Clipboard: %d lines (one URI per line)",
+  "value": "在 VPN/代理客户端 UI 上下文中。剪贴板：%d 行（每行一个 URI）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "No share links could be built for this list.",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法为此列表建立共享链接。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Config path is not set.",
+  "value": "在 VPN/代理客户端 UI 上下文中。未设置配置路径。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "A…Z",
+  "value": "在 VPN/代理客户端 UI 上下文中。 A…Z（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Select selector group",
+  "value": "在 VPN/代理客户端 UI 上下文中。选择选择器组（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Selector group:",
+  "value": "在 VPN/代理客户端 UI 上下文中。选择器组：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Reload the selector groups from the core",
+  "value": "在 VPN/代理客户端 UI 上下文中。从核心重新加载选择器组（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Ping test settings",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Ping测试设置（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Ping test URL",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Ping 测试 URL（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Parallel requests (ping all):",
+  "value": "在 VPN/代理客户端 UI 上下文中。并行请求（ping all）：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Single test timeout:",
+  "value": "在 VPN/代理客户端 UI 上下文中。单次测试超时：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "https://example.com/generate_204",
+  "value": "在 VPN/代理客户端 UI 上下文中。 https://example.com/generate_204（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Custom",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Custom（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%d ms",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %d ms（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Copy server link",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制服务器链接（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Copy jump server link",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制跳转服务器链接（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Unknown type",
+  "value": "在 VPN/代理客户端 UI 上下文中。未知类型（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Building share URI from outbound…",
+  "value": "在 VPN/代理客户端 UI 上下文中。从出站构建共享 URI…（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Share URI copied to clipboard",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制到剪贴板的共享 URI（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Building share URI for jump outbound…",
+  "value": "在 VPN/代理客户端 UI 上下文中。构建用于跳转出站的共享 URI...（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Jump share URI copied to clipboard",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制到剪贴板的跳转共享 URI（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "This outbound cannot be turned into a share link (e.g. selector, direct-out, or fields not supported by the URI encoder).",
+  "value": "在 VPN/代理客户端 UI 上下文中。此出站无法转换为共享链接（例如选择器、直接输出或 URI 编码器不支持的字段）。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Private key in the link",
+  "value": "在 VPN/代理客户端 UI 上下文中。链接中的私钥（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Config Wizard",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Config Wizard（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Target",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Target（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Sources",
+  "value": "在 VPN/代理客户端 UI 上下文中。来源（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Directions",
+  "value": "在 VPN/代理客户端 UI 上下文中。方向（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "DNS",
+  "value": "DNS"
+ },
+ {
+  "key": "Rules",
+  "value": "在 VPN/代理客户端 UI 上下文中。规则（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Show config",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Show config（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Final",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Final（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "The build passed with no warnings.",
+  "value": "在 VPN/代理客户端 UI 上下文中。构建通过，没有任何警告。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Build warnings:",
+  "value": "在 VPN/代理客户端 UI 上下文中。构建警告：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Show source",
+  "value": "在 VPN/代理客户端 UI 上下文中。显示源码（网络UI标签，简洁翻译）"
+ },
+ {
+  "key": "Source %q produced no nodes: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。源 %q 未生成节点：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Source %q excluded from the config: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。从配置中排除的源 %q：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Source %q: %d node(s) dropped — %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。源 %q：%d 个节点已删除 — %s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Chain %q did not build: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。链 %q 未构建：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "%d node(s) dropped: detour target %q is gone",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %d 个节点丢失：绕行目标 %q 消失（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "node %q: %s removed — it cannot be combined with detour %q",
+  "value": "在 VPN/代理客户端 UI 上下文中。节点 %q: %s 已删除 — 它不能与 detour %q 结合使用（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "%d node(s) left out of group %q: they dial through this very group (%s)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %d 个节点被排除在组 %q 之外：它们通过这个组 (%s) 进行拨号（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "%s (not applied)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s（未应用）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "This node was written by hand, so the app changed nothing in it. The rule below would normally apply.",
+  "value": "在 VPN/代理客户端 UI 上下文中。该节点是手工编写的，因此应用程序没有对其进行任何更改。通常适用以下规则。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "group %q: member %q left the group (%s)",
+  "value": "在 VPN/代理客户端 UI 上下文中。组%q：成员%q离开组（%s）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "the node fell out of the config",
+  "value": "在 VPN/代理客户端 UI 上下文中。节点脱离配置（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "group %q is not emitted: no members left (an empty group breaks core startup)",
+  "value": "在 VPN/代理客户端 UI 上下文中。组 %q 未发出：没有成员留下（空组中断核心启动）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "group %q: default %q is not among the members — the key was dropped",
+  "value": "在 VPN/代理客户端 UI 上下文中。组 %q：默认 %q 不在成员之中 — 密钥已被删除（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "%s — %d node(s) skipped: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s — 跳过 %d 个节点：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Detour target %q is missing from the build: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。构建中缺少 Detour 目标 %q：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "⚠ %d node(s) dropped: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⚠ %d 个节点已删除：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Build OK",
+  "value": "在 VPN/代理客户端 UI 上下文中。构建OK（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Build OK, %d warning(s)",
+  "value": "在 VPN/代理客户端 UI 上下文中。构建正常，%d 个警告（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Build FAILED: %v",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Build FAILED: %v （网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Copy config",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制配置（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Direction %q: node %q is listed as an option — a node cannot be added to a Direction directly, use a filter",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Direction %q：节点 %q 被列为选项 — 节点不能直接添加到 Direction，请使用过滤器（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Direction %q: option %q was not found — it is left out of the group",
+  "value": "在 VPN/代理客户端 UI 上下文中。方向 %q：未找到选项 %q — 它被排除在组之外（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Generated config.json",
+  "value": "在 VPN/代理客户端 UI 上下文中。生成的config.json（网络UI标签，简明翻译一下）"
+ },
+ {
+  "key": "No template variables in this profile.",
+  "value": "在 VPN/代理客户端 UI 上下文中。此配置文件中没有模板变量。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "⚠ No inbound is enabled — sing-box will start, but won't accept any traffic. Turn on Enable TUN above, or Enable Proxy-in below.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⚠ 未启用入站 — 信号盒将启动，但不接受任何流量。打开上面的“启用 TUN”，或下面的“启用代理-in”。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Reset",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Reset（网络UI标签，简明翻译）",
+  "special": {
+   "1": {
+    "value": "在 VPN/代理客户端 UI 上下文中。 Reset（网络UI标签，简明翻译）"
+   }
+  }
+ },
+ {
+  "key": "Reset to the template default.",
+  "value": "在 VPN/代理客户端 UI 上下文中。重置为模板默认值。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Generate a new random secret.",
+  "value": "在 VPN/代理客户端 UI 上下文中。生成一个新的随机秘密。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Stop the sing-box core first (Core tab -> Stop), then turn off TUN.\n\nAfter TUN ran with administrator rights, the experimental cache under bin/ and core log files (logs/sing-box.log) may be owned by root. They are removed automatically when you turn TUN off, but only while the core is stopped.",
+  "value": "在 VPN/代理客户端 UI 上下文中。首先停止 sing-box 核心（“核心”选项卡 ->“停止”），然后关闭 TUN。\n\nTUN以管理员权限运行后，bin/下的实验缓存和核心日志文件（logs/sing-box.log）可能归root所有。当您关闭 TUN 时，它们会自动删除，但仅限于核心停止时。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "sing-box is still running on the system (detected PID %d). Use Core -> Stop (enter your password if asked) until the process exits, or end it in Activity Monitor, then turn off TUN.\n\nIf Stop was cancelled earlier, the launcher could think the core was stopped while sing-box was still running — that leaves the TUN interface and ports (e.g. mixed proxy) busy.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 sing-box 仍在系统上运行（检测到 PID %d）。使用 Core -> Stop（如果要求输入密码）直到进程退出，或在 Activity Monitor 中结束它，然后关闭 TUN。\n\n如果较早取消停止，启动器可能会认为核心已停止，而 single-box 仍在运行，这会使 TUN 接口和端口（例如混合代理）繁忙。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Read",
+  "value": "在 VPN/代理客户端 UI 上下文中。阅读（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Save As",
+  "value": "在 VPN/代理客户端 UI 上下文中。另存为（网络UI标签，简明翻译）"
+ }
+]

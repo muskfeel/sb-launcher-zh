@@ -1,0 +1,487 @@
+[
+ {
+  "key": "DNS servers",
+  "value": "在 VPN/代理客户端 UI 上下文中。 DNS服务器（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No DNS servers.",
+  "value": "在 VPN/代理客户端 UI 上下文中。没有 DNS 服务器。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "(invalid server JSON)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 （无效的服务器 JSON）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "(no tag)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 （无标签）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Final DNS:",
+  "value": "在 VPN/代理客户端 UI 上下文中。最终DNS：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Default domain resolver:",
+  "value": "在 VPN/代理客户端 UI 上下文中。默认域名解析器：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Rules (JSON object with \"rules\" array)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Rules（带有“rules”数组的 JSON 对象）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "{\n  \"rules\": [\n    {\"rule_set\":\"example\",\"server\":\"tag\"}\n  ]\n}",
+  "value": "在 VPN/代理客户端 UI 上下文中。 {\n  “规则”：[\n    {“rule_set”：“示例”，“服务器”：“标签”}\n  ]\n}（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Strategy:",
+  "value": "在 VPN/代理客户端 UI 上下文中。策略：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Edit DNS server",
+  "value": "在 VPN/代理客户端 UI 上下文中。编辑DNS服务器（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Add DNS server",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加DNS服务器（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Edit the DNS server. Its tag is what rules and the DNS default refer to.",
+  "value": "在 VPN/代理客户端 UI 上下文中。编辑 DNS 服务器。它的标签是规则和 DNS 默认值所引用的内容。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "A new DNS server. The tag must be unique — rules and the DNS default refer to it.",
+  "value": "在 VPN/代理客户端 UI 上下文中。新的 DNS 服务器。该标签必须是唯一的——规则和 DNS 默认值都会引用它。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "DNS server (from template)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 DNS 服务器（来自模板）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "This server is declared by the template: its body is fixed. Toggle it on or off with the checkbox in the list.",
+  "value": "在 VPN/代理客户端 UI 上下文中。该服务器由模板声明：其主体是固定的。使用列表中的复选框将其打开或关闭。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "This server is declared by the template: its body is fixed. Toggle it on or off with the checkbox in the list; Params below changes what it does let you set.",
+  "value": "在 VPN/代理客户端 UI 上下文中。该服务器由模板声明：其主体是固定的。使用列表中的复选框打开或关闭它；下面的参数会更改您可以设置的内容。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Copy JSON",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制JSON（网络UI标签，简明翻译一下）"
+ },
+ {
+  "key": "Add member",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加成员（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No members yet",
+  "value": "在 VPN/代理客户端 UI 上下文中。还没有会员（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "(off — will be skipped)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 (off — 将被跳过) (网络 UI 标签，简明翻译)"
+ },
+ {
+  "key": "No other DNS servers to add. Create one first — a group queries existing servers.",
+  "value": "在 VPN/代理客户端 UI 上下文中。无需添加其他 DNS 服务器。首先创建一个——一组查询现有服务器。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The same entry as raw JSON, in sing-box dns.servers form. Types without a form are edited here.",
+  "value": "在 VPN/代理客户端 UI 上下文中。与原始 JSON 相同的条目，采用单盒 dns.servers 形式。没有表单的类型在此处编辑。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Parameters",
+  "value": "在 VPN/代理客户端 UI 上下文中。参数（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Tag",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Tag（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Port",
+  "value": "在 VPN/代理客户端 UI 上下文中。端口（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Path",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Path（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "TLS server name (SNI)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 TLS 服务器名称（SNI）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Direction",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Direction（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Resolve name via",
+  "value": "在 VPN/代理客户端 UI 上下文中。通过（网络 UI 标签，简明翻译）解析名称"
+ },
+ {
+  "key": "(none)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 (无)（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Members",
+  "value": "在 VPN/代理客户端 UI 上下文中。成员（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Tailnet node",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Tailnet节点（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Also use the system resolvers",
+  "value": "在 VPN/代理客户端 UI 上下文中。还使用系统解析器（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Mode",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Mode（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Error TTL",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Error TTL（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Win TTL",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Win TTL（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "This server type has no form yet — edit it as JSON. The form covers udp, tcp, tls (DoT), https (DoH) and group.",
+  "value": "在 VPN/代理客户端 UI 上下文中。该服务器类型还没有表单 - 将其编辑为 JSON。形式涵盖udp、tcp、tls (DoT)、https (DoH) 和group。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "JSON must not be empty.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 JSON 不能为空。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Invalid JSON",
+  "value": "在 VPN/代理客户端 UI 上下文中。无效的 JSON（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Add DNS Rule",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加DNS规则（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Edit DNS Rule",
+  "value": "在 VPN/代理客户端 UI 上下文中。编辑 DNS 规则（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Rule is empty",
+  "value": "在 VPN/代理客户端 UI 上下文中。规则为空（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Server must have a non-empty \"tag\".",
+  "value": "在 VPN/代理客户端 UI 上下文中。服务器必须有一个非空的“标签”。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Duplicate tag",
+  "value": "在 VPN/代理客户端 UI 上下文中。重复标签（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "DNS settings are invalid",
+  "value": "在 VPN/代理客户端 UI 上下文中。 DNS设置无效（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Include this server in the generated sing-box DNS config. Disabled servers stay in the list and in state; rules and Final must use enabled tags only.",
+  "value": "在 VPN/代理客户端 UI 上下文中。将此服务器包含在生成的单一 DNS 配置中。禁用的服务器保留在列表中并处于状态；规则和最终必须仅使用启用的标签。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "This row comes from template config.dns: it cannot be edited, removed, or toggled here. The checkbox shows inclusion in the generated DNS config (from saved state / template); when included, dns_options for the same tag can override the skeleton body.",
+  "value": "在 VPN/代理客户端 UI 上下文中。该行来自模板 config.dns：无法在此处编辑、删除或切换。该复选框显示包含在生成的 DNS 配置中（来自保存的状态/模板）；当包含时，同一标签的 dns_options 可以覆盖骨架体。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "This DNS server cannot be edited (template config.dns).",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法编辑此 DNS 服务器（模板 config.dns）。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No DNS rules.",
+  "value": "在 VPN/代理客户端 UI 上下文中。没有 DNS 规则。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Toggle between unified list view and raw JSON editor (user rules only).",
+  "value": "在 VPN/代理客户端 UI 上下文中。在统一列表视图和原始 JSON 编辑器之间切换（仅限用户规则）。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "⬇ srs",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⬇ srs（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "🔄 srs",
+  "value": "在 VPN/代理客户端 UI 上下文中。 🔄 srs（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "✔️ srs",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ✔️ srs（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Template file bin/%s not found.",
+  "value": "在 VPN/代理客户端 UI 上下文中。未找到模板文件 bin/%s。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Create the template file to enable this tab.",
+  "value": "在 VPN/代理客户端 UI 上下文中。创建模板文件以启用此选项卡。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Direction:",
+  "value": "在 VPN/代理客户端 UI 上下文中。方向：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Delete rule",
+  "value": "在 VPN/代理客户端 UI 上下文中。删除规则（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "(unnamed rule)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 （未命名规则）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Delete custom rule \"%s\"?",
+  "value": "在 VPN/代理客户端 UI 上下文中。删除自定义规则“%s”？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "➕ Add Rule",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ➕ 添加规则（网络UI标签，简明翻译一下）"
+ },
+ {
+  "key": "📚 Add from library",
+  "value": "在 VPN/代理客户端 UI 上下文中。 📚 从库添加（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Append copies of template presets to your rules list.",
+  "value": "在 VPN/代理客户端 UI 上下文中。将模板预设的副本附加到您的规则列表中。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Rule library",
+  "value": "在 VPN/代理客户端 UI 上下文中。规则库（网络UI标签，简明翻译一下）"
+ },
+ {
+  "key": "Check presets to append copies to the end of the list. You can add the same preset multiple times.",
+  "value": "在 VPN/代理客户端 UI 上下文中。检查预设以将副本附加到列表末尾。您可以多次添加相同的预设。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Add selected",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加选定（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No route rules yet. Open the library or add a custom rule.",
+  "value": "在 VPN/代理客户端 UI 上下文中。还没有路线规则。打开库或添加自定义规则。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Include this rule in the generated route when enabled",
+  "value": "在 VPN/代理客户端 UI 上下文中。启用后在生成的路由中包含此规则（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Drag to reorder",
+  "value": "在 VPN/代理客户端 UI 上下文中。拖动重新排序（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Rule-set file not downloaded — this rule won't work until the SRS is fetched. The launcher is downloading it in the background; you can also click ⬇ srs to retry.",
+  "value": "在 VPN/代理客户端 UI 上下文中。规则集文件未下载 - 在获取 SRS 之前，此规则将不起作用。启动器正在后台下载它；您也可以单击 ⬇ srs 重试。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Default direction:",
+  "value": "在 VPN/代理客户端 UI 上下文中。默认方向：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Rule-set (SRS) download failed",
+  "value": "在 VPN/代理客户端 UI 上下文中。规则集（SRS）下载失败（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Add at least one source: use the Sources tab (Add) or add proxies in ParserConfig on the Outbounds tab.",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加至少一个源：使用“源”选项卡（添加）或在“出站”选项卡上的 ParserConfig 中添加代理。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Saving",
+  "value": "在 VPN/代理客户端 UI 上下文中。保存（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Save operation already in progress... Please wait.",
+  "value": "在 VPN/代理客户端 UI 上下文中。保存操作已在进行中...请稍候。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Saving state...",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在保存状态...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Done",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Done（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "State saved to %s\n\nConfiguration will be rebuilt on next Update or Restart.",
+  "value": "在 VPN/代理客户端 UI 上下文中。状态已保存到 %s\n\n配置将在下次更新或重新启动时重建。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "State Saved",
+  "value": "在 VPN/代理客户端 UI 上下文中。 State Saved（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "controller not available",
+  "value": "在 VPN/代理客户端 UI 上下文中。控制器不可用（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Add Rule",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加规则（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Edit Rule",
+  "value": "在 VPN/代理客户端 UI 上下文中。编辑规则（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Rule name",
+  "value": "在 VPN/代理客户端 UI 上下文中。规则名称（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Enter IP addresses (CIDR format)\ne.g., 192.168.1.0/24",
+  "value": "在 VPN/代理客户端 UI 上下文中。输入 IP 地址（CIDR 格式）\n例如，192.168.1.0/24（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Enter domains or URLs (one per line)\ne.g., example.com",
+  "value": "在 VPN/代理客户端 UI 上下文中。输入域名或 URL（每行一个）\n例如，example.com（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Processes (select one or more via popup):",
+  "value": "在 VPN/代理客户端 UI 上下文中。进程（通过弹出窗口选择一个或多个）：（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Select Processes...",
+  "value": "在 VPN/代理客户端 UI 上下文中。选择Processes...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Match by path",
+  "value": "在 VPN/代理客户端 UI 上下文中。按路径匹配（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Simple",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Simple（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Regex",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Regex（网络UI标签，简明翻译）",
+  "special": {
+   "1": {
+    "value": "在 VPN/代理客户端 UI 上下文中。 Regex（网络UI标签，简明翻译）"
+   }
+  }
+ },
+ {
+  "key": "One per line. Use * as wildcard (e.g. */steam/* or *\\Steam\\*).",
+  "value": "在 VPN/代理客户端 UI 上下文中。每行一个。使用 * 作为通配符（例如 */steam/* 或 *\\Steam\\*）。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "One per line. Full regex as-is (no /regex/i wrapping). E.g. ^C:\\\\Games\\\\.* or .*steam.*",
+  "value": "在 VPN/代理客户端 UI 上下文中。每行一个。完整的正则表达式按原样（没有 /regex/i 包装）。例如。 ^C:\\\\Games\\\\.* 或 .*steam.* （网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Path patterns (one per line):",
+  "value": "在 VPN/代理客户端 UI 上下文中。路径模式（每行一个）：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Custom JSON:",
+  "value": "在 VPN/代理客户端 UI 上下文中。自定义JSON：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "SRS URLs (one per line)\ne.g. https://raw.githubusercontent.com/.../file.srs",
+  "value": "在 VPN/代理客户端 UI 上下文中。 SRS URL（每行一个）\n例如https://raw.githubusercontent.com/.../file.srs（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "SRS URLs (one per line):",
+  "value": "在 VPN/代理客户端 UI 上下文中。 SRS URL（每行一个）：（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "IP Addresses (CIDR)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 IP 地址 (CIDR)（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Domains/URLs",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Domains/URLs（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Processes",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Processes（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "SRS",
+  "value": "SRS"
+ },
+ {
+  "key": "Custom JSON",
+  "value": "在 VPN/代理客户端 UI 上下文中。自定义JSON（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Domain mode:",
+  "value": "在 VPN/代理客户端 UI 上下文中。域模式：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Exact domains",
+  "value": "在 VPN/代理客户端 UI 上下文中。精确域（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Suffix",
+  "value": "在 VPN/代理客户端 UI 上下文中。后缀（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Keyword",
+  "value": "在 VPN/代理客户端 UI 上下文中。关键词（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "IP Addresses (one per line, CIDR format):",
+  "value": "在 VPN/代理客户端 UI 上下文中。 IP 地址（每行一个，CIDR 格式）：（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Domains (one per line):",
+  "value": "在 VPN/代理客户端 UI 上下文中。域（每行一个）：（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Domain suffixes (one per line):",
+  "value": "在 VPN/代理客户端 UI 上下文中。域名后缀（每行一个）：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Domain keywords (one per line):",
+  "value": "在 VPN/代理客户端 UI 上下文中。域关键字（每行一个）：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Domain regex:",
+  "value": "在 VPN/代理客户端 UI 上下文中。域正则表达式：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "E.g. ^.*\\.google\\.com$ or .*\\.(google|youtube)\\.com$ (full regex, no /wrapping/)",
+  "value": "在 VPN/代理客户端 UI 上下文中。例如。 ^.*\\.google\\.com$ 或 .*\\.(google|youtube)\\.com$ （完整正则表达式，无 /wrapping/）（网络 UI 标签，简洁翻译）"
+ },
+ {
+  "key": "−",
+  "value": "在 VPN/代理客户端 UI 上下文中。 −（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Select Processes",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Select Processes（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Rule Name:",
+  "value": "在 VPN/代理客户端 UI 上下文中。规则名称：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Rule Type:",
+  "value": "在 VPN/代理客户端 UI 上下文中。规则类型：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Form",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Form（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Preset",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Preset（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Preset definition from the wizard template, read-only.",
+  "value": "在 VPN/代理客户端 UI 上下文中。来自向导模板的预设定义，只读。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Rule name is required",
+  "value": "在 VPN/代理客户端 UI 上下文中。规则名称为必填项（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Raw JSON is empty",
+  "value": "在 VPN/代理客户端 UI 上下文中。原始 JSON 为空（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "rule must be a JSON object",
+  "value": "在 VPN/代理客户端 UI 上下文中。规则必须是 JSON 对象（网络 UI 标签，简明翻译）"
+ }
+]

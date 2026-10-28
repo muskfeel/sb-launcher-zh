@@ -1,0 +1,482 @@
+[
+ {
+  "key": "Origin (raw JSON)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Origin（原始JSON）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "A manual config_json is set — the origin above is ignored at build time (see the JSON tab). Regen from raw rebuilds the node from it.",
+  "value": "在 VPN/代理客户端 UI 上下文中。设置手动 config_json — 上面的源在构建时被忽略（请参阅 JSON 选项卡）。 Regen from raw 会从中重建节点。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Endpoints",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Endpoints（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Skip Tailscale presets",
+  "value": "在 VPN/代理客户端 UI 上下文中。跳过 Tailscale 预设（网络 UI 标签，简明翻译一下）"
+ },
+ {
+  "key": "Tailscale presets will not add routing or DNS rules for this node.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Tailscale 预设不会为此节点添加路由或 DNS 规则。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Incoming connections from this tunnel",
+  "value": "在 VPN/代理客户端 UI 上下文中。来自该隧道的传入连接（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Peers on the other side of this tunnel can open connections to this device. Without the switches below they are rejected.",
+  "value": "在 VPN/代理客户端 UI 上下文中。该隧道另一侧的对等方可以打开与该设备的连接。如果没有下面的开关，它们将被拒绝。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Allow access to this device",
+  "value": "在 VPN/代理客户端 UI 上下文中。允许访问此设备（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Peers reach services on this device's tunnel address. The service sees them as 127.0.0.1, so everything that trusts localhost becomes reachable.",
+  "value": "在 VPN/代理客户端 UI 上下文中。对等方可访问该设备隧道地址上的服务。该服务将它们视为 127.0.0.1，因此信任 localhost 的所有内容都可以访问。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Expose local network",
+  "value": "在 VPN/代理客户端 UI 上下文中。暴露本地网络（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Peers reach private networks behind this device.",
+  "value": "在 VPN/代理客户端 UI 上下文中。对等方可以访问此设备后面的专用网络。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Allow as gateway",
+  "value": "在 VPN/代理客户端 UI 上下文中。允许作为网关（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Peers route any traffic through this device; it leaves through the outbound chosen in the Tunnel ingress preset.",
+  "value": "在 VPN/代理客户端 UI 上下文中。对等点通过此设备路由任何流量；它通过在隧道入口预设中选择的出站离开。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No matching nodes",
+  "value": "在 VPN/代理客户端 UI 上下文中。没有匹配的节点（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No matching nodes.",
+  "value": "在 VPN/代理客户端 UI 上下文中。没有匹配的节点。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Loading…",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在加载...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No selector groups in the config.",
+  "value": "在 VPN/代理客户端 UI 上下文中。配置中没有选择器组。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No endpoints in the config.",
+  "value": "在 VPN/代理客户端 UI 上下文中。配置中没有端点。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "error: %v",
+  "value": "在 VPN/代理客户端 UI 上下文中。错误：%v（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "(no active outbound)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 （无主动出站）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "running",
+  "value": "在 VPN/代理客户端 UI 上下文中。 running（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "needs login",
+  "value": "在 VPN/代理客户端 UI 上下文中。需要登录（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "stopped",
+  "value": "在 VPN/代理客户端 UI 上下文中。已停止（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "no state",
+  "value": "在 VPN/代理客户端 UI 上下文中。无状态（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Network",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Network（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "exit node",
+  "value": "在 VPN/代理客户端 UI 上下文中。退出节点（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "last seen %s ago",
+  "value": "在 VPN/代理客户端 UI 上下文中。上次出现是在 %s 之前（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "no traffic yet",
+  "value": "在 VPN/代理客户端 UI 上下文中。还没有流量（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Direct: packets go straight between the devices over UDP, to the address:port shown. The fastest path.",
+  "value": "在 VPN/代理客户端 UI 上下文中。直接：数据包通过 UDP 在设备之间直接传送到所示的地址：端口。最快的路径。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Peer relay: no direct path, so packets go through another device of your tailnet that relays them. Usually faster than a Tailscale relay server.",
+  "value": "在 VPN/代理客户端 UI 上下文中。对等中继：没有直接路径，因此数据包会通过尾网的另一个设备来中继它们。通常比 Tailscale 中继服务器更快。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Relay (DERP): no direct path, so packets go through a Tailscale relay server; the code is its region (ams = Amsterdam). Works through any NAT or firewall, but adds latency and limits speed. Tailscale keeps trying to switch to direct.",
+  "value": "在 VPN/代理客户端 UI 上下文中。中继（DERP）：没有直接路径，因此数据包通过 Tailscale 中继服务器；代码是其区域（ams = 阿姆斯特丹）。可通过任何 NAT 或防火墙，但会增加延迟并限制速度。 Tailscale 不断尝试切换到直接。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Nothing has been sent to this device yet: Tailscale opens the tunnel on the first packet. Ping it from the ⋯ menu to see the path.",
+  "value": "在 VPN/代理客户端 UI 上下文中。尚未向该设备发送任何内容：Tailscale 在第一个数据包上打开隧道。从 ⋯ 菜单中对其进行 ping 操作以查看路径。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%ds",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %ds（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%dm",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %dm（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%dh",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %dh（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%dd",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %dd（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Notifications",
+  "value": "在 VPN/代理客户端 UI 上下文中。通知（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Errors",
+  "value": "在 VPN/代理客户端 UI 上下文中。错误（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Warnings",
+  "value": "在 VPN/代理客户端 UI 上下文中。警告（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "What happened:",
+  "value": "在 VPN/代理客户端 UI 上下文中。发生了什么：（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "+%d",
+  "value": "在 VPN/代理客户端 UI 上下文中。 +%d（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "⚠ %d field(s) stripped on %d node(s)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⚠ %d 个节点上的 %d 个字段被剥离（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "⚠ %d warning(s) on %d node(s)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⚠ %d 个节点上有 %d 个警告（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "⚠ %d node(s) with warnings",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⚠ %d 个节点带有警告（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": " · %d with warnings",
+  "value": "在 VPN/代理客户端 UI 上下文中。  · %d 带有警告（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Why it happens:",
+  "value": "在 VPN/代理客户端 UI 上下文中。为什么会发生：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "What you can do:",
+  "value": "在 VPN/代理客户端 UI 上下文中。你能做什么：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "For your information: %d node(s)",
+  "value": "在 VPN/代理客户端 UI 上下文中。供您参考：%d 个节点（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Filters…",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Filters…（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Filters",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Filters（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Filters — %d / %d shown",
+  "value": "在 VPN/代理客户端 UI 上下文中。过滤器 — 显示 %d / %d（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Filter: %d of %d shown",
+  "value": "在 VPN/代理客户端 UI 上下文中。过滤器：显示 %d 个（共 %d 个）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Emoji",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Emoji（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Test",
+  "value": "在 VPN/代理客户端 UI 上下文中。测试（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "any",
+  "value": "在 VPN/代理客户端 UI 上下文中。 any（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "untested",
+  "value": "在 VPN/代理客户端 UI 上下文中。未经测试（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "ms",
+  "value": "ms"
+ },
+ {
+  "key": "ping ≤",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ping ≤（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Invert all",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Invert all（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Clear the pattern",
+  "value": "在 VPN/代理客户端 UI 上下文中。清除模式（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Invalid regex: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。无效的正则表达式：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Copy the pattern body (no wrapper) — paste it into a Direction's filter field.",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制模式主体（无包装器）- 将其粘贴到方向的过滤字段中。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Pattern body copied. Its invert flag is NOT part of the body: tick Invert in the Direction's filter.",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制了图案主体。它的反转标志不是主体的一部分：在方向过滤器中勾选反转。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Pattern body copied.",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制了图案主体。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Invert this category: keep the nodes it does NOT select.",
+  "value": "在 VPN/代理客户端 UI 上下文中。反转此类别：保留未选择的节点。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Invert the whole filter: show exactly the rows it hides now.",
+  "value": "在 VPN/代理客户端 UI 上下文中。反转整个过滤器：准确显示它现在隐藏的行。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Toggle this emoji in the Regex field (OR pattern).",
+  "value": "在 VPN/代理客户端 UI 上下文中。在正则表达式字段（OR 模式）中切换此表情符号。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No emoji in the names of the nodes in this list.",
+  "value": "在 VPN/代理客户端 UI 上下文中。此列表中的节点名称中没有表情符号。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Selected rows, direct-out and the active proxy are never hidden.",
+  "value": "在 VPN/代理客户端 UI 上下文中。选定的行、直接输出和活动代理永远不会隐藏。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Show nodes at or below this latency. Untested nodes pass the threshold — it answers «show me the fast ones», not «drop the unmeasured»; nodes whose test failed do not pass.",
+  "value": "在 VPN/代理客户端 UI 上下文中。显示处于或低于此延迟的节点。未经测试的节点通过了阈值——它回答“显示速度最快的节点”，而不是“丢弃未测量的节点”；测试失败的节点不会通过。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "regex, e.g. NL|DE|Proton",
+  "value": "在 VPN/代理客户端 UI 上下文中。正则表达式，例如NL|DE|Proton（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "1 server disabled",
+  "value": "在 VPN/代理客户端 UI 上下文中。 1 个服务器已禁用（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "%d servers disabled",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %d 服务器已禁用（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "The core rejected it, so it was turned off to let the VPN start: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心拒绝了它，因此将其关闭以让VPN启动：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The core rejected them, so they were turned off to let the VPN start: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心拒绝了它们，因此它们被关闭以让 VPN 启动：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "+%d more",
+  "value": "在 VPN/代理客户端 UI 上下文中。 +%d 更多（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Show",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Show（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%d servers disabled — there may be more",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %d 服务器已禁用 — 可能还有更多（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "The core has rejected %d servers so far, and each was turned off. Keep checking the rest? On a large subscription this can take a while.",
+  "value": "在 VPN/代理客户端 UI 上下文中。到目前为止，核心已拒绝 %d 个服务器，并且每个服务器均已关闭。继续检查剩下的吗？对于大量订阅，这可能需要一段时间。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "If you stop, the VPN will not start. The servers already turned off will stay off.",
+  "value": "在 VPN/代理客户端 UI 上下文中。如果停止，VPN 将不会启动。已关闭的服务器将保持关闭状态。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Keep checking",
+  "value": "在 VPN/代理客户端 UI 上下文中。继续检查（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Checking servers… (%d disabled)",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在检查服务器...（%d 已禁用）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Servers turned off by the core",
+  "value": "在 VPN/代理客户端 UI 上下文中。服务器被核心关闭（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "(unnamed)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 （未命名）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%d files, %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %d 个文件，%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Copy paths",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制路径（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Data from before the migration, inside the app bundle",
+  "value": "在 VPN/代理客户端 UI 上下文中。迁移前应用程序包内的数据（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Data from before the migration, next to the program",
+  "value": "在 VPN/代理客户端 UI 上下文中。迁移前的数据，位于程序旁边（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Data",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Data（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Data, logs, core and template paths copied. Paste them into the bug report.",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制的数据、日志、核心和模板路径。将它们粘贴到错误报告中。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Environment",
+  "value": "在 VPN/代理客户端 UI 上下文中。环境（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Left over from a data move",
+  "value": "在 VPN/代理客户端 UI 上下文中。数据移动留下的内容（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Legacy",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Legacy（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Move launcher data",
+  "value": "在 VPN/代理客户端 UI 上下文中。移动启动器数据（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Moving data…",
+  "value": "在 VPN/代理客户端 UI 上下文中。移动数据……（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Network cleanup: ghost wintun adapters and orphan firewall rules",
+  "value": "在 VPN/代理客户端 UI 上下文中。网络清理：ghost wintun适配器和孤立防火墙规则（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Settings and subscriptions are kept in the data folder below. If you used an earlier version of the launcher and your subscriptions are missing, restore them from an LX Backup (Settings → Backup). Data folder:",
+  "value": "在 VPN/代理客户端 UI 上下文中。设置和订阅保存在下面的数据文件夹中。如果您使用早期版本的启动器并且您的订阅丢失，请从 LX 备份中恢复它们（设置 → 备份）。 Data文件夹：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Welcome",
+  "value": "在 VPN/代理客户端 UI 上下文中。欢迎（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Not found: the core will be downloaded to this path",
+  "value": "在 VPN/代理客户端 UI 上下文中。未找到：核心将下载到此路径（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Not found: the template will be downloaded to this path",
+  "value": "在 VPN/代理客户端 UI 上下文中。未找到：模板将下载到此路径（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Nothing to remove.",
+  "value": "在 VPN/代理客户端 UI 上下文中。没有什么可删除的。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Old logs next to the program",
+  "value": "在 VPN/代理客户端 UI 上下文中。程序旁边的旧日志（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Paths are set by environment variables",
+  "value": "在 VPN/代理客户端 UI 上下文中。路径由环境变量设置（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Paths copied",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制的路径（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Portable mode (keep data next to the program)",
+  "value": "在 VPN/代理客户端 UI 上下文中。便携模式（将数据放在程序旁边）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Portable",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Portable（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Program",
+  "value": "在 VPN/代理客户端 UI 上下文中。程序（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The service is installed but not running.",
+  "value": "在 VPN/代理客户端 UI 上下文中。该服务已安装但未运行。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "launchd reports: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 launchd 报告：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Run as administrator",
+  "value": "在 VPN/代理客户端 UI 上下文中。以管理员身份运行（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Start the service",
+  "value": "在 VPN/代理客户端 UI 上下文中。启动服务（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Service Control Manager reports: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。服务控制管理器报告：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "The service copy differs from the launcher core in %s. Install or update the service to refresh it.",
+  "value": "在 VPN/代理客户端 UI 上下文中。服务副本与启动器核心的不同之处在于 %s。安装或更新服务以刷新它。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The service runs a binary your user can modify. Install or update the service to move it to a protected copy.",
+  "value": "在 VPN/代理客户端 UI 上下文中。该服务运行您的用户可以修改的二进制文件。安装或更新服务以将其移动到受保护的副本。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "2. Remove the service (Windows asks for administrator rights):",
+  "value": "在 VPN/代理客户端 UI 上下文中。 2.删除服务（Windows要求管理员权限）：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Remove the service",
+  "value": "在 VPN/代理客户端 UI 上下文中。删除服务（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Keep the protected core copy? The classic engine starts from it when the launcher runs as administrator. Remove all also deletes the copy and all daemon data.",
+  "value": "在 VPN/代理客户端 UI 上下文中。保留受保护的核心副本吗？当启动器以管理员身份运行时，经典引擎将从它启动。全部删除还会删除副本和所有守护程序数据。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Keep the core copy",
+  "value": "在 VPN/代理客户端 UI 上下文中。保留核心文案（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Remove all",
+  "value": "在 VPN/代理客户端 UI 上下文中。全部删除（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The daemon service is installed and is not removed with the data: it runs from its own protected copy of the core. To remove the service as well, run this command as administrator:",
+  "value": "在 VPN/代理客户端 UI 上下文中。守护程序服务已安装，并且不会随数据一起删除：它从其自己受保护的核心副本运行。要同时删除该服务，请以管理员身份运行以下命令：（网络 UI 标签，简明翻译）"
+ }
+]

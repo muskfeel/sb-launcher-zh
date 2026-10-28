@@ -1,0 +1,497 @@
+[
+ {
+  "key": "Local",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Local（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "🌐 Remote",
+  "value": "在 VPN/代理客户端 UI 上下文中。 🌐Remote（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "🖥️ Servers",
+  "value": "在 VPN/代理客户端 UI 上下文中。 🖥️ Servers（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "MACHINES",
+  "value": "在 VPN/代理客户端 UI 上下文中。 MACHINES（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "+ Add",
+  "value": "在 VPN/代理客户端 UI 上下文中。 + 添加（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Add remote machine",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加远程机器（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Run `sudo sing-box lxd client add` on the machine you want to manage — it prints a one-time invite. Paste it below. The code burns after the first attempt; mint a fresh one if pairing fails.",
+  "value": "在 VPN/代理客户端 UI 上下文中。在您要管理的计算机上运行“sudo sing-box lxd client add”——它会打印一次性邀请。粘贴在下面。代码在第一次尝试后就会被烧毁；如果配对失败，请更换新的。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Run this on the machine to get an invite:",
+  "value": "在 VPN/代理客户端 UI 上下文中。在机器上运行此命令以获得邀请：（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "How to install the daemon on a machine",
+  "value": "在 VPN/代理客户端 UI 上下文中。如何在机器上安装守护进程（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Advanced (address, secret)",
+  "value": "在 VPN/代理客户端 UI 上下文中。高级（地址、秘密）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Invite",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Invite（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "address#fingerprint#code",
+  "value": "在 VPN/代理客户端 UI 上下文中。 address#fingerprint#code（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Name",
+  "value": "在 VPN/代理客户端 UI 上下文中。名称（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Router, home VPS, … (defaults to the address)",
+  "value": "在 VPN/代理客户端 UI 上下文中。路由器、家庭 VPS、...（默认为地址）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Address",
+  "value": "在 VPN/代理客户端 UI 上下文中。地址（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "host:port — leave empty to use the invite's address",
+  "value": "在 VPN/代理客户端 UI 上下文中。 host:port — 留空以使用邀请地址（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Secret",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Secret（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "only for a plain-h2c daemon; leave empty for mTLS",
+  "value": "在 VPN/代理客户端 UI 上下文中。仅适用于普通 h2c 守护进程； mTLS 留空（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Add",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Pairing…",
+  "value": "在 VPN/代理客户端 UI 上下文中。配对…（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Paste the invite printed by the daemon.",
+  "value": "在 VPN/代理客户端 UI 上下文中。粘贴守护程序打印的邀请。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Pairing failed: %v",
+  "value": "在 VPN/代理客户端 UI 上下文中。配对失败：%v（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No remote machines yet. Press “+ Add” and paste the invite printed by `sing-box lxd` on the machine you want to manage.",
+  "value": "在 VPN/代理客户端 UI 上下文中。还没有远程机器。按“+添加”并将“sing-box lxd”打印的邀请粘贴到您要管理的计算机上。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Configure",
+  "value": "在 VPN/代理客户端 UI 上下文中。配置（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Connect",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Connect（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Connecting… %d/%d",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在连接…%d/%d（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Disconnect",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Disconnect（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No machine connected. Pick one on the right and press Connect.",
+  "value": "在 VPN/代理客户端 UI 上下文中。没有连接机器。选择右侧的一个并按“连接”。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The core on this machine is not running. Press Start in its row.",
+  "value": "在 VPN/代理客户端 UI 上下文中。这台机器上的核心没有运行。按其行中的“开始”。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "reachable",
+  "value": "在 VPN/代理客户端 UI 上下文中。 reachable（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Edit name, address and platform",
+  "value": "在 VPN/代理客户端 UI 上下文中。编辑姓名、地址和平台（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Remove this machine",
+  "value": "在 VPN/代理客户端 UI 上下文中。删除本机（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "What the daemon reports about itself",
+  "value": "在 VPN/代理客户端 UI 上下文中。守护进程报告其自身的内容（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "%s — daemon status",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s — 守护进程状态（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Machine",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Machine（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Platform",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Platform（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Daemon version",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Daemon版本（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Core status",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心状态（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "State dir",
+  "value": "在 VPN/代理客户端 UI 上下文中。 State dir（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Active config sha256",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Active config sha256（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Last-good config sha256",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Last-good config sha256（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Interrupted apply",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Interrupted apply（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "yes — the core runs the last-good config",
+  "value": "在 VPN/代理客户端 UI 上下文中。是的 - 核心运行最后的好配置（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Last error",
+  "value": "在 VPN/代理客户端 UI 上下文中。最后一个错误（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Unreachable",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Unreachable（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Connection failures this session (%d)",
+  "value": "在 VPN/代理客户端 UI 上下文中。本次会话连接失败（%d）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Machine — %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Machine — %s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Re-pair — reconnect this machine with a fresh invite",
+  "value": "在 VPN/代理客户端 UI 上下文中。重新配对 — 使用新的邀请重新连接这台机器（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Use this when the channel broke on the machine's side: the daemon was reinstalled, its state directory was wiped, this client was revoked, or its server certificate changed and the pin no longer matches. Name, address, platform and every setting of this machine are kept — only the pin and the client key are replaced.",
+  "value": "在 VPN/代理客户端 UI 上下文中。当机器端的通道中断时使用此选项：重新安装守护程序、擦除其状态目录、吊销此客户端或其服务器证书更改且 pin 不再匹配。名称、地址、平台和这台机器的每一项设置都会被保留——只有密码和客户端密钥被替换。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "host:port — leave empty to keep the current address",
+  "value": "在 VPN/代理客户端 UI 上下文中。 host:port — 留空以保留当前地址（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Re-pair",
+  "value": "在 VPN/代理客户端 UI 上下文中。重新配对（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Re-pairing…",
+  "value": "在 VPN/代理客户端 UI 上下文中。重新配对……（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Re-paired at %s. A new client key was issued; connect again.",
+  "value": "在 VPN/代理客户端 UI 上下文中。在 %s 重新配对。颁发了新的客户端密钥；再次连接。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Re-pair machine",
+  "value": "在 VPN/代理客户端 UI 上下文中。重新配对机器（联网UI标签，简明翻译）"
+ },
+ {
+  "key": "Issue a new client key for %s?\n\nThe current key stops being this launcher's credential and stays on the machine as a leftover — remove it there with `sing-box lxd client remove`. Settings of this machine are not touched.",
+  "value": "在 VPN/代理客户端 UI 上下文中。为 %s 颁发新的客户端密钥吗？\n\n当前密钥不再是此启动器的凭据，而是作为剩余物保留在计算机上 - 使用“sing-box lxd client remove”将其删除。不会触及本机的设置。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Copy settings from another machine",
+  "value": "在 VPN/代理客户端 UI 上下文中。从另一台机器复制设置（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Copies the wizard setup — sources, rules, DNS and variables — from another machine onto this one, so you don't build the same thing twice. Pairing is NOT copied: each machine keeps its own client key, because one shared key would mean revoking access on one machine revokes it on both. The built config and rule-set files are rebuilt for this machine on the next Save and Deploy.",
+  "value": "在 VPN/代理客户端 UI 上下文中。将向导设置（源、规则、DNS 和变量）从另一台计算机复制到这台计算机上，这样您就不会两次构建相同的东西。配对不会被复制：每台机器都保留自己的客户端密钥，因为一个共享密钥意味着撤销一台机器上的访问权限会同时撤销两台机器上的访问权限。构建的配置和规则集文件将在下次保存和部署时为此计算机重新构建。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Take settings from…",
+  "value": "在 VPN/代理客户端 UI 上下文中。从…获取设置（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Copy",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制（网络UI标签，简明翻译）",
+  "special": {
+   "1": {
+    "value": "在 VPN/代理客户端 UI 上下文中。复制（网络UI标签，简明翻译）"
+   }
+  }
+ },
+ {
+  "key": "Settings copied from %s. Open Configure to review them and press Save.",
+  "value": "在 VPN/代理客户端 UI 上下文中。从 %s 复制的设置。打开“配置”以查看它们，然后按“保存”。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Copy failed: %v",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制失败：%v（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Pick the machine to copy settings from.",
+  "value": "在 VPN/代理客户端 UI 上下文中。选择要从中复制设置的计算机。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No other configured machine to copy from yet.",
+  "value": "在 VPN/代理客户端 UI 上下文中。尚无其他已配置的计算机可供复制。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Overwrite settings",
+  "value": "在 VPN/代理客户端 UI 上下文中。覆盖设置（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%s already has its own setup. Copying replaces it, and there is no way back.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s 已经有了自己的设置。复制取代了它，并且没有回头路。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Architecture",
+  "value": "在 VPN/代理客户端 UI 上下文中。架构（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Remove machine",
+  "value": "在 VPN/代理客户端 UI 上下文中。移除机器（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Remove %s? Its config, wizard states and client keys are deleted from this launcher.\n\nAccess on the machine itself stays registered — revoke it there with `sing-box lxd client remove`.",
+  "value": "在 VPN/代理客户端 UI 上下文中。删除%s？其配置、向导状态和客户端密钥将从该启动器中删除。\n\n机器本身的访问权限保持注册状态 - 使用“sing-box lxd client remove”撤销它。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No config built for %s yet. Press Configure on its row, set it up and press Save — that writes the config this button sends.",
+  "value": "在 VPN/代理客户端 UI 上下文中。尚未为 %s 构建配置。按其行上的“配置”，进行设置并按“保存”——写入此按钮发送的配置。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "🔍 Diagnostics",
+  "value": "在 VPN/代理客户端 UI 上下文中。 🔍Diagnostics（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "❓ Help",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ❓ 帮助（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "⚙️ Settings",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⚙️设置（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Settings",
+  "value": "在 VPN/代理客户端 UI 上下文中。设置（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Subscriptions",
+  "value": "在 VPN/代理客户端 UI 上下文中。订阅（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "User-Agent:",
+  "value": "在 VPN/代理客户端 UI 上下文中。 User-Agent：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Custom User-Agent sent on subscription fetches. Leave empty to use the default: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。在订阅获取时发送的自定义用户代理。留空以使用默认值：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Reset to default",
+  "value": "在 VPN/代理客户端 UI 上下文中。重置为默认（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Subscription identification",
+  "value": "在 VPN/代理客户端 UI 上下文中。订阅标识（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Send device ID",
+  "value": "在 VPN/代理客户端 UI 上下文中。发送设备ID（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Sends a UUIDv4 device ID + OS family/version + device model with every subscription fetch. Required by Marzban / Remnawave / NashVPN-style panels for device counting. Unchecking returns a less-fingerprinted request — HWID-binding panels will then return empty subscriptions.",
+  "value": "在 VPN/代理客户端 UI 上下文中。每次获取订阅时发送 UUIDv4 设备 ID + 操作系统系列/版本 + 设备型号。 Marzban / Remnawave / NashVPN 式面板需要进行设备计数。取消选中会返回较少指纹的请求 - HWID 绑定面板将返回空订阅。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Hash device model (privacy)",
+  "value": "在 VPN/代理客户端 UI 上下文中。哈希设备模型（隐私）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "When enabled, X-Device-Model is sent as sha256(model)[:16] instead of the raw value (e.g. MacBookPro18,1). The provider still counts you as one device but does not see the hardware family.",
+  "value": "在 VPN/代理客户端 UI 上下文中。启用后，X-Device-Model 将作为 sha256(model)[:16] 而不是原始值发送（例如 MacBookPro18,1）。提供商仍将您视为一台设备，但看不到硬件系列。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Device ID (HWID):",
+  "value": "在 VPN/代理客户端 UI 上下文中。设备ID（HWID）：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Regenerate",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Regenerate（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Regenerate device ID?",
+  "value": "在 VPN/代理客户端 UI 上下文中。重新生成设备 ID？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "This will generate a new UUID and the next subscription fetch will register a new device with HWID-binding providers — consuming one of your allowed device slots. The previous ID stays counted until you remove it via the provider's management bot. Continue?",
+  "value": "在 VPN/代理客户端 UI 上下文中。这将生成一个新的 UUID，并且下一次订阅获取将向 HWID 绑定提供程序注册一个新设备 - 消耗您允许的设备插槽之一。之前的 ID 会一直保留，直到您通过提供商的管理机器人将其删除为止。继续？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Language",
+  "value": "在 VPN/代理客户端 UI 上下文中。语言（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Connection",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Connection（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Core Status Checking...",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心状态检查...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Core Status ❌ Error: sing-box not found",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心状态❌错误：找不到sing-box（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Core Status 🔄 Restarting...",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Core Status 🔄 Restarting...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Core Status ✅ Running",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心状态 ✅ 正在运行（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Core Status ⏸️ Stopped",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心状态⏸️已停止（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Start",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Start（网络UI标签，简明翻译）",
+  "special": {
+   "1": {
+    "value": "在 VPN/代理客户端 UI 上下文中。 Start（网络UI标签，简明翻译）"
+   }
+  }
+ },
+ {
+  "key": "Stop",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Stop（网络UI标签，简明翻译）",
+  "special": {
+   "1": {
+    "value": "在 VPN/代理客户端 UI 上下文中。 Stop（网络UI标签，简明翻译）"
+   }
+  }
+ },
+ {
+  "key": "Exit",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Exit（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Config",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Config（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Checking config...",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在检查配置...（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "%s ✅ %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s ✅ %s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%s ❌ not found",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s ❌未找到（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Config error: %v",
+  "value": "在 VPN/代理客户端 UI 上下文中。配置错误：%v（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Starting...",
+  "value": "在 VPN/代理客户端 UI 上下文中。开始...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Refreshing subscriptions",
+  "value": "在 VPN/代理客户端 UI 上下文中。刷新订阅（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Update subscriptions (%s+U)",
+  "value": "在 VPN/代理客户端 UI 上下文中。更新订阅（%s+U）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Restart sing-box (%s+R)",
+  "value": "在 VPN/代理客户端 UI 上下文中。重启sing-box (%s+R)（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "State edited — restart sing-box to apply",
+  "value": "在 VPN/代理客户端 UI 上下文中。状态已编辑——重启sing-box即可应用（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Auto-update subscriptions",
+  "value": "在 VPN/代理客户端 UI 上下文中。自动更新订阅（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Auto-ping on connect",
+  "value": "在 VPN/代理客户端 UI 上下文中。连接时自动 ping（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "(subs: just now)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 （subs：刚才）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "(subs: %dm ago)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 （subs：%dm 前）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "(subs: %dh ago)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 (subs: %dh ago) (网络UI标签，简明翻译)"
+ },
+ {
+  "key": "(subs: %dd ago)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 (subs: %dd ago) (网络 UI 标签，简明翻译)"
+ },
+ {
+  "key": "Debug API (localhost)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Debug API (localhost)（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Local read-only HTTP API for scripts and automation. Off by default. Bound to 127.0.0.1 only.",
+  "value": "在 VPN/代理客户端 UI 上下文中。用于脚本和自动化的本地只读 HTTP API。默认关闭。仅绑定到 127.0.0.1。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Enable",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Enable（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Copy token",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制token（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Status: Off",
+  "value": "在 VPN/代理客户端 UI 上下文中。状态：关闭（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Status: Listening on %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。状态：正在收听%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Token copied",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制的令牌（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Debug API bearer token copied to clipboard. Pass as: Authorization: Bearer …",
+  "value": "在 VPN/代理客户端 UI 上下文中。调试 API 持有者令牌已复制到剪贴板。 Pass as: Authorization: Bearer …（网络UI标签，简明翻译）"
+ }
+]

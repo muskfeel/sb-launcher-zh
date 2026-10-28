@@ -1,0 +1,482 @@
+[
+ {
+  "key": "HTTP",
+  "value": "HTTP"
+ },
+ {
+  "key": "Source",
+  "value": "在 VPN/代理客户端 UI 上下文中。来源（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Rebuild from fields",
+  "value": "在 VPN/代理客户端 UI 上下文中。从字段重建（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "JSON is empty",
+  "value": "在 VPN/代理客户端 UI 上下文中。 JSON为空（网络UI标签，简洁翻译）"
+ },
+ {
+  "key": "Input is empty",
+  "value": "在 VPN/代理客户端 UI 上下文中。输入为空（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Nothing recognized yet.",
+  "value": "在 VPN/代理客户端 UI 上下文中。尚未识别任何内容。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Shown as the server title in the Sources list. If empty, the host or the link fragment is used.",
+  "value": "在 VPN/代理客户端 UI 上下文中。在源列表中显示为服务器标题。如果为空，则使用主机或链接片段。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Paste anything: share-URI (one per line), a sing-box outbound or config JSON, or [Interface]/[Peer] WireGuard conf.",
+  "value": "在 VPN/代理客户端 UI 上下文中。粘贴任何内容：共享 URI（每行一个）、单个出站或配置 JSON，或 [Interface]/[Peer] WireGuard conf。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Preview of what this source unpacks into. Edit it and your version wins — the fields above stop overwriting it.",
+  "value": "在 VPN/代理客户端 UI 上下文中。预览此源代码解压后的内容。编辑它，您的版本获胜 - 上面的字段将停止覆盖它。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Edited by hand — the fields no longer overwrite this JSON.",
+  "value": "在 VPN/代理客户端 UI 上下文中。手动编辑 — 字段不再覆盖此 JSON。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Server type",
+  "value": "在 VPN/代理客户端 UI 上下文中。服务器类型（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Private key",
+  "value": "在 VPN/代理客户端 UI 上下文中。私钥（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Peer public key",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Peer public key（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Pre-shared key",
+  "value": "在 VPN/代理客户端 UI 上下文中。预共享密钥（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Allowed IPs",
+  "value": "在 VPN/代理客户端 UI 上下文中。允许的IP（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Keepalive",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Keepalive（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Tailscale",
+  "value": "Tailscale"
+ },
+ {
+  "key": "Auth key",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Auth key（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "One-off keys are consumed at first login; the node identity then lives in the state directory. Deleting the profile registers a new device — use a reusable key for that.",
+  "value": "在 VPN/代理客户端 UI 上下文中。一次性密钥在第一次登录时消耗；然后，节点身份位于状态目录中。删除配置文件会注册一个新设备 - 为此使用可重复使用的密钥。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Control URL",
+  "value": "在 VPN/代理客户端 UI 上下文中。控制URL（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "optional — the official coordination server by default",
+  "value": "在 VPN/代理客户端 UI 上下文中。可选 — 默认官方协调服务器（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Hostname",
+  "value": "在 VPN/代理客户端 UI 上下文中。主机名（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "optional — this machine's name by default",
+  "value": "在 VPN/代理客户端 UI 上下文中。可选 — 默认本机名称（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Ephemeral node (removed from the tailnet when it goes offline)",
+  "value": "在 VPN/代理客户端 UI 上下文中。临时节点（离线时从尾网移除）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Accept routes advertised by other nodes",
+  "value": "在 VPN/代理客户端 UI 上下文中。接受其他节点通告的路由（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Exit node",
+  "value": "在 VPN/代理客户端 UI 上下文中。退出节点（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Auth key is required",
+  "value": "在 VPN/代理客户端 UI 上下文中。需要Auth key（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "macOS is blocking the launcher's access to the local network: the system rejects the connection instantly, before it even leaves this Mac. Enable the launcher in System Settings → Privacy & Security → Local Network. If it is already enabled there, the app bundle's code signature is broken (typical after swapping a dev binary into the installed app) — reinstall the launcher.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 macOS 阻止启动器访问本地网络：系统甚至在离开这台 Mac 之前就立即拒绝连接。在系统设置 → 隐私和安全 → 本地网络中启用启动器。如果它已经在那里启用，则应用程序包的代码签名已损坏（通常在将开发二进制文件交换到已安装的应用程序后） - 重新安装启动器。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The machine is answering again — the failure was transient (macOS re-checked its local-network policy or the network blinked). Press Connect again.",
+  "value": "在 VPN/代理客户端 UI 上下文中。机器再次应答 - 故障是暂时的（macOS 重新检查其本地网络策略或网络闪烁）。再次按连接。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Links to the deleted node",
+  "value": "在 VPN/代理客户端 UI 上下文中。已删除节点的链接（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Node %q was deleted. Links through it were removed, and anything that chose it as a target needs a new one. Affected: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。节点 %q 已删除。通过它的链接已被删除，任何选择它作为目标的东西都需要一个新的链接。受影响：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "tag %q is already taken — directions, nodes and service outbounds share one namespace",
+  "value": "在 VPN/代理客户端 UI 上下文中。标签 %q 已被占用 — 方向、节点和服务出站共享一个命名空间（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "node %q cannot be added to a Direction directly — use a filter",
+  "value": "在 VPN/代理客户端 UI 上下文中。节点 %q 无法直接添加到 Direction — 使用过滤器（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "option %q not found",
+  "value": "在 VPN/代理客户端 UI 上下文中。未找到选项 %q（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Clone from…",
+  "value": "在 VPN/代理客户端 UI 上下文中。克隆自…（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Clone from",
+  "value": "在 VPN/代理客户端 UI 上下文中。克隆自（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Clone",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Clone（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Pick the machine whose settings you want to copy here.",
+  "value": "在 VPN/代理客户端 UI 上下文中。在此处选择您要复制其设置的机器。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "not configured yet",
+  "value": "在 VPN/代理客户端 UI 上下文中。尚未配置（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "There are no other machines to clone from. Add a machine on the Remote tab, or configure the local one first.",
+  "value": "在 VPN/代理客户端 UI 上下文中。没有其他机器可供克隆。在“远程”选项卡上添加计算机，或先配置本地计算机。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%s has no saved configuration yet — there is nothing to clone from it.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s 尚未保存配置 — 没有任何内容可从中克隆。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Copying settings from %s.",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在从 %s 复制设置。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Will be copied:",
+  "value": "在 VPN/代理客户端 UI 上下文中。将复制：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "  Subscriptions: %d",
+  "value": "在 VPN/代理客户端 UI 上下文中。   订阅：%d（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "  Servers: %d",
+  "value": "在 VPN/代理客户端 UI 上下文中。   服务器：%d（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "  Chains: %d",
+  "value": "在 VPN/代理客户端 UI 上下文中。   Chains：%d（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "  Directions: %d",
+  "value": "在 VPN/代理客户端 UI 上下文中。   方向：%d（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "  Rules: %d",
+  "value": "在 VPN/代理客户端 UI 上下文中。   规则：%d（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "  Variables: %d",
+  "value": "在 VPN/代理客户端 UI 上下文中。   变量：%d（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Stays machine-specific (not copied):",
+  "value": "在 VPN/代理客户端 UI 上下文中。保持机器特定（不复制）：（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "This replaces the current settings of this machine. The current state is saved as a snapshot first — you can get it back with Read.",
+  "value": "在 VPN/代理客户端 UI 上下文中。这将替换本机的当前设置。当前状态首先保存为快照 - 您可以通过“读取”将其恢复。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "before cloning from %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。从 %s 克隆之前（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Could not save a snapshot of the current settings, so nothing was changed",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法保存当前设置的快照，因此没有任何更改（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Settings copied from %s. Press Save to apply them to this machine; the previous state is saved as %s.",
+  "value": "在 VPN/代理客户端 UI 上下文中。从 %s 复制的设置。按“保存”将它们应用到本机；先前的状态保存为 %s。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Traffic follows the system default route.",
+  "value": "在 VPN/代理客户端 UI 上下文中。流量遵循系统默认路由。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Cannot verify: the machine's interfaces are unavailable.",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法验证：机器的接口不可用。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Reading the machine's interfaces…",
+  "value": "在 VPN/代理客户端 UI 上下文中。读取机器的接口…（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Add an interface from the machine's list.",
+  "value": "在 VPN/代理客户端 UI 上下文中。从机器列表中添加接口。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No interfaces to add — type the name manually.",
+  "value": "在 VPN/代理客户端 UI 上下文中。无需添加接口 — 手动输入名称。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "no IP address — no traffic will go through it",
+  "value": "在 VPN/代理客户端 UI 上下文中。没有 IP 地址——没有流量通过它（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "this is a tunnel — the core cannot use it as an uplink",
+  "value": "在 VPN/代理客户端 UI 上下文中。这是一条隧道——核心不能将其用作上行链路（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Tunnel — traffic will go out through it.",
+  "value": "在 VPN/代理客户端 UI 上下文中。隧道——交通将通过它出去。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "tunnel: traffic will go out through it",
+  "value": "在 VPN/代理客户端 UI 上下文中。隧道：流量将通过它出去（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "loopback — no traffic will leave the machine through it",
+  "value": "在 VPN/代理客户端 UI 上下文中。环回 — 没有流量会通过它离开机器（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Traffic will go through this interface.",
+  "value": "在 VPN/代理客户端 UI 上下文中。流量将通过此接口。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Auto-detect is on — the core picks the interface itself.",
+  "value": "在 VPN/代理客户端 UI 上下文中。自动检测已开启 - 核心自行选择接口。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "not found on this machine",
+  "value": "在 VPN/代理客户端 UI 上下文中。在本机上找不到（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "empty — follow system default route",
+  "value": "在 VPN/代理客户端 UI 上下文中。空 — 遵循系统默认路由（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "The machine answers. Click to see the exchange log.",
+  "value": "在 VPN/代理客户端 UI 上下文中。机器回答。点击查看交换日志。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No answer to the last poll — retrying. Click to see the exchange log.",
+  "value": "在 VPN/代理客户端 UI 上下文中。上次民意调查没有答案 - 重试。点击查看交换日志。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The machine is not answering. Click to see the exchange log.",
+  "value": "在 VPN/代理客户端 UI 上下文中。机器没有应答。点击查看交换日志。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Not connected. Click to see the exchange log.",
+  "value": "在 VPN/代理客户端 UI 上下文中。未连接。点击查看交换日志。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%s — exchange log",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s — 交换日志（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No exchange with this machine yet — press Connect.",
+  "value": "在 VPN/代理客户端 UI 上下文中。尚未与该机器进行交换 — 按“连接”。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "\nAnswering.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 \n正在回答。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "\nNo answer to the last %d poll(s) — retrying.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 \n最后 %d 次民意调查没有答复 — 正在重试。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "\nNot answering.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 \n没有回答。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "\nNot connected.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 \n未连接。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "  Last answer at %s.",
+  "value": "在 VPN/代理客户端 UI 上下文中。   最后回复于 %s。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Provider message",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Provider message（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Announcement",
+  "value": "在 VPN/代理客户端 UI 上下文中。公告（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Announcement URL",
+  "value": "在 VPN/代理客户端 UI 上下文中。公告URL（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Why nodes were rejected:",
+  "value": "在 VPN/代理客户端 UI 上下文中。为什么节点被拒绝：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Default update interval:",
+  "value": "在 VPN/代理客户端 UI 上下文中。默认更新间隔：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Default max nodes:",
+  "value": "在 VPN/代理客户端 UI 上下文中。默认最大节点数：（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Used when a subscription has neither its own schedule nor a profile-update-interval header. Go-duration form: 4h, 30m. Empty — built-in default (%s).",
+  "value": "在 VPN/代理客户端 UI 上下文中。当订阅既没有自己的计划也没有配置文件更新间隔标头时使用。持续时间形式：4h，30m。空 — 内置默认值 (%s)。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Used when a subscription has no max_nodes of its own — providers do not send this one in headers. It is a real parse limit, not a badge: nodes past it are not read at all. Empty — the hard ceiling (%d).",
+  "value": "在 VPN/代理客户端 UI 上下文中。当订阅没有自己的 max_nodes 时使用 - 提供者不会在标头中发送此节点。这是一个真正的解析限制，而不是一个徽章：超过它的节点根本不会被读取。空——硬天花板（%d）。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Update interval %q is not a duration — use forms like 4h or 30m.",
+  "value": "在 VPN/代理客户端 UI 上下文中。更新间隔 %q 不是持续时间 — 使用 4h 或 30m 等形式。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Max nodes %q is not a positive number.",
+  "value": "在 VPN/代理客户端 UI 上下文中。最大节点 %q 不是正数。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Selector choices will reset",
+  "value": "在 VPN/代理客户端 UI 上下文中。选择器选项将重置（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Tag prefix/postfix changed — every node of this source is renamed in the config.",
+  "value": "在 VPN/代理客户端 UI 上下文中。标签前缀/后缀已更改 - 该源的每个节点在配置中都被重命名。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Group tags changed: %s.",
+  "value": "在 VPN/代理客户端 UI 上下文中。组标签已更改：%s。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "A manual pick in a selector is remembered by the running core (cache.db) by tag, and the launcher cannot rewrite it: the affected selectors fall back to their default until you pick again. On a remote machine this applies to its own core.",
+  "value": "在 VPN/代理客户端 UI 上下文中。运行的核心 (cache.db) 通过标记记住选择器中的手动选择，并且启动器无法重写它：受影响的选择器会回退到默认值，直到您再次选择。在远程计算机上，这适用于其自己的核心。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Add folder",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加文件夹（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Delete folder",
+  "value": "在 VPN/代理客户端 UI 上下文中。删除文件夹（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Folder %q holds %d node(s). Delete them together with the folder, or move them to the root of the sources list?",
+  "value": "在 VPN/代理客户端 UI 上下文中。文件夹 %q 包含 %d 个节点。将它们与文件夹一起删除，还是将它们移动到源列表的根目录？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Delete with nodes",
+  "value": "在 VPN/代理客户端 UI 上下文中。带节点删除（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Move nodes to root",
+  "value": "在 VPN/代理客户端 UI 上下文中。将节点移动到根（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Folder — %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。文件夹——%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Folder name",
+  "value": "在 VPN/代理客户端 UI 上下文中。文件夹名称（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "folder name",
+  "value": "在 VPN/代理客户端 UI 上下文中。文件夹名称（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Fold this folder into a group",
+  "value": "在 VPN/代理客户端 UI 上下文中。将这个文件夹折叠成一组（网络UI标签，简明翻译一下）"
+ },
+ {
+  "key": "This folder has no nodes yet.",
+  "value": "在 VPN/代理客户端 UI 上下文中。该文件夹还没有节点。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Read-only: the sing-box outbounds this folder is built from. Edit a node through its own entry on the Preview tab.",
+  "value": "在 VPN/代理客户端 UI 上下文中。只读：构建此文件夹的单一框。通过“预览”选项卡上节点自己的条目来编辑节点。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Copy to…",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制到…（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Move to…",
+  "value": "在 VPN/代理客户端 UI 上下文中。移至...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Copy node",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制节点（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Move node",
+  "value": "在 VPN/代理客户端 UI 上下文中。移动节点（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Node %q — pick the destination:",
+  "value": "在 VPN/代理客户端 UI 上下文中。节点 %q — 选择目的地：（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Top level",
+  "value": "在 VPN/代理客户端 UI 上下文中。顶层（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No folders yet",
+  "value": "在 VPN/代理客户端 UI 上下文中。还没有文件夹（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Create a folder first: Sources → ⋮ → Add folder.",
+  "value": "在 VPN/代理客户端 UI 上下文中。首先创建一个文件夹：Sources → ⋮ → 添加文件夹。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Tag %q is already taken in this container.",
+  "value": "在 VPN/代理客户端 UI 上下文中。标签 %q 已被占用在此容器中。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Delete node",
+  "value": "在 VPN/代理客户端 UI 上下文中。删除节点（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Delete node %q from this folder?",
+  "value": "在 VPN/代理客户端 UI 上下文中。从此文件夹中删除节点 %q 吗？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Node unlinked from its subscription",
+  "value": "在 VPN/代理客户端 UI 上下文中。节点与其订阅取消链接（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Node %q was edited, so it no longer follows the subscription: the next fill will neither overwrite nor remove it.",
+  "value": "在 VPN/代理客户端 UI 上下文中。节点 %q 已被编辑，因此它不再遵循订阅：下一次填充既不会覆盖也不会删除它。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Add nodes…",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加节点...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Folder",
+  "value": "在 VPN/代理客户端 UI 上下文中。文件夹（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Folder is empty — paste links above to add nodes.",
+  "value": "在 VPN/代理客户端 UI 上下文中。文件夹为空 - 粘贴上面的链接以添加节点。 （网络UI标签，简明翻译）"
+ }
+]

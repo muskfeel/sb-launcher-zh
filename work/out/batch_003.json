@@ -1,0 +1,502 @@
+[
+ {
+  "key": "Prev",
+  "value": "在 VPN/代理客户端 UI 上下文中。上一篇（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Next",
+  "value": "在 VPN/代理客户端 UI 上下文中。接下来（网络UI标签，简明翻译一下）"
+ },
+ {
+  "key": "Confirmation",
+  "value": "在 VPN/代理客户端 UI 上下文中。确认（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Current changes will be lost. Save current state?",
+  "value": "在 VPN/代理客户端 UI 上下文中。当前的更改将会丢失。保存当前状态？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Save changes before closing?",
+  "value": "在 VPN/代理客户端 UI 上下文中。关闭前保存更改吗？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Discard",
+  "value": "在 VPN/代理客户端 UI 上下文中。丢弃（网络UI标签，简明翻译）",
+  "special": {
+   "1": {
+    "value": "在 VPN/代理客户端 UI 上下文中。丢弃（网络UI标签，简明翻译）"
+   }
+  }
+ },
+ {
+  "key": "Convert to user rule(s)",
+  "value": "在 VPN/代理客户端 UI 上下文中。转换为用户规则（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Edit",
+  "value": "在 VPN/代理客户端 UI 上下文中。编辑（网络UI标签，简明翻译）",
+  "special": {
+   "1": {
+    "value": "在 VPN/代理客户端 UI 上下文中。编辑（网络UI标签，简明翻译）"
+   }
+  }
+ },
+ {
+  "key": "Del",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Del（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Failed to load existing config",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法加载现有配置（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Failed to save state",
+  "value": "在 VPN/代理客户端 UI 上下文中。保存状态失败（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Failed to load state",
+  "value": "在 VPN/代理客户端 UI 上下文中。无法加载状态（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Failed to restore state",
+  "value": "在 VPN/代理客户端 UI 上下文中。恢复状态失败（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Config template failed to load",
+  "value": "在 VPN/代理客户端 UI 上下文中。配置模板加载失败（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Config template missing",
+  "value": "在 VPN/代理客户端 UI 上下文中。缺少配置模板（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Supports subscription URLs (http/https) or direct links (vless://, vmess://, trojan://, ss://, hysteria://, hysteria2://, ssh://, wireguard://). For multiple links, use a new line for each.",
+  "value": "在 VPN/代理客户端 UI 上下文中。支持订阅 URL (http/https) 或直接链接（vless://、vmess://、trojan://、ss://、hysteria://、hysteria2://、ssh://、wireguard://）。对于多个链接，每个链接使用一个新行。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Add from file",
+  "value": "在 VPN/代理客户端 UI 上下文中。从文件添加（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Select a config file (.conf / .vpn / .txt)",
+  "value": "在 VPN/代理客户端 UI 上下文中。选择一个配置文件（.conf / .vpn / .txt）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Preview all servers…",
+  "value": "在 VPN/代理客户端 UI 上下文中。预览所有服务器...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Servers from all sources",
+  "value": "在 VPN/代理客户端 UI 上下文中。来自所有来源的服务器（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "No sources defined in ParserConfig.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ParserConfig 中未定义源。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Source %d",
+  "value": "在 VPN/代理客户端 UI 上下文中。来源%d（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "prefix",
+  "value": "在 VPN/代理客户端 UI 上下文中。 prefix（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "View",
+  "value": "在 VPN/代理客户端 UI 上下文中。 View（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Delete \"%s\"? The source and its nodes are removed from the configuration.",
+  "value": "在 VPN/代理客户端 UI 上下文中。删除“%s”？源及其节点将从配置中删除。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Click Refresh to load servers from all sources.",
+  "value": "在 VPN/代理客户端 UI 上下文中。单击“刷新”以从所有源加载服务器。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No sources. Add URLs and click Refresh.",
+  "value": "在 VPN/代理客户端 UI 上下文中。没有来源。添加 URL 并单击刷新。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Loading...",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在加载...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Subscription has not been fetched yet",
+  "value": "在 VPN/代理客户端 UI 上下文中。订阅尚未获取（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Fetch now",
+  "value": "在 VPN/代理客户端 UI 上下文中。立即获取（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Error: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。错误：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%d server(s) from %d source(s)",
+  "value": "在 VPN/代理客户端 UI 上下文中。来自 %d 个源的 %d 个服务器（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "  ⚠️ %d error(s)",
+  "value": "在 VPN/代理客户端 UI 上下文中。   ⚠️ %d 个错误（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "🔄 Refresh from sources",
+  "value": "在 VPN/代理客户端 UI 上下文中。 🔄 来源刷新（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Fetch this subscription now",
+  "value": "在 VPN/代理客户端 UI 上下文中。立即获取此订阅（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Subscription update failed — click for details",
+  "value": "在 VPN/代理客户端 UI 上下文中。订阅更新失败——点击查看详情（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Provider sent a notice — click to read",
+  "value": "在 VPN/代理客户端 UI 上下文中。提供商发送通知——点击阅读（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Subscription",
+  "value": "在 VPN/代理客户端 UI 上下文中。订阅（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Server",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Server（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "● ok",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ● ok（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "● err",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ● err（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "● never",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ● 从不（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%s / %s used",
+  "value": "在 VPN/代理客户端 UI 上下文中。使用了%s / %s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "expires in %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s 后过期（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "expired",
+  "value": "在 VPN/代理客户端 UI 上下文中。过期（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "fetched %s ago",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s 前获取（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "just fetched",
+  "value": "在 VPN/代理客户端 UI 上下文中。刚刚获取（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "never fetched",
+  "value": "在 VPN/代理客户端 UI 上下文中。从未获取（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "%d nodes",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %d个节点（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%d nodes (truncated, max %d)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %d 个节点（已截断，最多 %d）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Refresh failed: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。刷新失败：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Refreshed successfully",
+  "value": "在 VPN/代理客户端 UI 上下文中。刷新成功（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Overview",
+  "value": "在 VPN/代理客户端 UI 上下文中。概述（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "JSON",
+  "value": "JSON"
+ },
+ {
+  "key": "Subscription URL",
+  "value": "在 VPN/代理客户端 UI 上下文中。订阅URL（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Server URI",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Server URI（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Label",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Label（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Detour server (chain)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Detour服务器（链）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "(none — direct)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 （无 - 直接）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Dial this source's nodes through another outbound to build a proxy chain. Directions chain through a selector; Nodes chain through one concrete server, tracked by that server and its node tag — editing the server's settings or tag prefix keeps the link, renaming its node tag clears it.",
+  "value": "在 VPN/代理客户端 UI 上下文中。通过另一个出站拨打该源的节点，构建代理链。通过选择器的方向链；节点通过一台具体服务器进行链接，由该服务器及其节点标签进行跟踪 - 编辑服务器的设置或标签前缀会保留链接，重命名其节点标签会清除它。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Tag postfix",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Tag postfix（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "postfix",
+  "value": "在 VPN/代理客户端 UI 上下文中。 postfix（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Status",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Status（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Subscription metadata (HTTP headers)",
+  "value": "在 VPN/代理客户端 UI 上下文中。订阅元数据（HTTP headers）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Traffic quota",
+  "value": "在 VPN/代理客户端 UI 上下文中。流量配额（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Type",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Type（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "ID",
+  "value": "ID"
+ },
+ {
+  "key": "URL",
+  "value": "URL"
+ },
+ {
+  "key": "Enabled",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Enabled（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Last status",
+  "value": "在 VPN/代理客户端 UI 上下文中。最后状态（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Last fetched",
+  "value": "在 VPN/代理客户端 UI 上下文中。最后获取的（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "HTTP status",
+  "value": "在 VPN/代理客户端 UI 上下文中。 HTTP状态（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Body size",
+  "value": "在 VPN/代理客户端 UI 上下文中。机身尺寸（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Error count",
+  "value": "在 VPN/代理客户端 UI 上下文中。错误计数（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Profile title",
+  "value": "在 VPN/代理客户端 UI 上下文中。个人资料标题（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Update interval",
+  "value": "在 VPN/代理客户端 UI 上下文中。更新间隔（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Support URL",
+  "value": "在 VPN/代理客户端 UI 上下文中。支持URL（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Web page",
+  "value": "在 VPN/代理客户端 UI 上下文中。网页（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Content-Disposition filename",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Content-Disposition 文件名（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Used",
+  "value": "在 VPN/代理客户端 UI 上下文中。使用（网络UI标签，简明翻译）",
+  "special": {
+   "1": {
+    "value": "在 VPN/代理客户端 UI 上下文中。使用（网络UI标签，简明翻译）"
+   }
+  }
+ },
+ {
+  "key": "Total",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Total（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Remaining",
+  "value": "在 VPN/代理客户端 UI 上下文中。剩余（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Expires",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Expires（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Nodes fetched",
+  "value": "在 VPN/代理客户端 UI 上下文中。获取的节点（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "No meta yet — press Refresh to fetch this subscription.",
+  "value": "在 VPN/代理客户端 UI 上下文中。还没有元 - 按“刷新”以获取此订阅。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Server source — meta is not collected (only fetched per subscription).",
+  "value": "在 VPN/代理客户端 UI 上下文中。服务器源 - 不收集元数据（仅根据订阅获取）。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "No servers found.",
+  "value": "在 VPN/代理客户端 UI 上下文中。未找到服务器。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Source — %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。来源 — %s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Preview",
+  "value": "在 VPN/代理客户端 UI 上下文中。预览（网络UI标签，翻译简洁）",
+  "special": {
+   "1": {
+    "value": "在 VPN/代理客户端 UI 上下文中。预览（网络UI标签，翻译简洁）"
+   }
+  }
+ },
+ {
+  "key": "The chain object exactly as it will reach the config. This is also where rewrite is edited — per-protocol overrides of node options; everything else is easier to change on the Chain tab.",
+  "value": "在 VPN/代理客户端 UI 上下文中。链对象与到达配置时完全相同。这也是编辑重写的地方——节点选项的每个协议覆盖；在“链”选项卡上更改其他所有内容都更容易。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Chain is ready to build",
+  "value": "在 VPN/代理客户端 UI 上下文中。链已准备好构建（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "No URI set. Paste a sing-box outbound object below and press Apply.",
+  "value": "在 VPN/代理客户端 UI 上下文中。未设置 URI。将单框出站对象粘贴到下面，然后按“应用”。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "URI does not unpack: %s. You can write the outbound JSON by hand and press Apply.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 URI 未解包：%s。您可以手动编写出站 JSON，然后按“应用”。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Origin does not unpack: %s. You can write the outbound JSON by hand and press Apply.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Origin 未解压：%s。您可以手动编写出站 JSON，然后按“应用”。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Unpacked nodes: %d",
+  "value": "在 VPN/代理客户端 UI 上下文中。解压节点：%d（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "(showing first %d)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 （显示第一个%d）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Apply JSON",
+  "value": "在 VPN/代理客户端 UI 上下文中。应用JSON（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "JSON is empty.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 JSON 为空。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Invalid JSON: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。无效的 JSON：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Node document rejected: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。节点文档被拒绝：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The outbound object must have a non-empty \"type\" field.",
+  "value": "在 VPN/代理客户端 UI 上下文中。出站对象必须具有非空“类型”字段。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Storage record (state.json)",
+  "value": "在 VPN/代理客户端 UI 上下文中。存储记录（state.json）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Local outbounds: %d · Servers: load failed — %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。本地出站：%d · 服务器：加载失败 — %s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Tag prefix",
+  "value": "在 VPN/代理客户端 UI 上下文中。标签前缀（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Fold this subscription into a group",
+  "value": "在 VPN/代理客户端 UI 上下文中。将这个订阅折叠到一个组中（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Its nodes are replaced by a single entry in the directions list. Pick what to fold into on the Group tab.",
+  "value": "在 VPN/代理客户端 UI 上下文中。它的节点被方向列表中的单个条目替换。在“组”选项卡上选择要折叠的内容。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Group",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Group（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Add hop chain",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加跳链（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Chain",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Chain（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "[chain: %d]",
+  "value": "在 VPN/代理客户端 UI 上下文中。 [chain: %d]（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "· %d nodes",
+  "value": "在 VPN/代理客户端 UI 上下文中。 · %d个节点（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "· %d of %d nodes",
+  "value": "在 VPN/代理客户端 UI 上下文中。 · %d 个节点，共 %d 个（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "[chain] ⚠️ core has no chain support",
+  "value": "在 VPN/代理客户端 UI 上下文中。 [链]⚠️核心没有链支持（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "⚠ No nodes from this source: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⚠ 此来源没有节点：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "⚠ Excluded from the config: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ⚠ 从配置中排除：%s（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Fold into",
+  "value": "在 VPN/代理客户端 UI 上下文中。折叠成（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Selector (manual pick)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Selector（手动挑选）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Auto-select group (urltest)",
+  "value": "在 VPN/代理客户端 UI 上下文中。自动选择组（urltest）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Selector with an auto-select group",
+  "value": "在 VPN/代理客户端 UI 上下文中。具有自动选择组的选择器（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Tags: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。标签：%s（网络UI标签，简明翻译）"
+ }
+]

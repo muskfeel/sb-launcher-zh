@@ -1,0 +1,482 @@
+[
+ {
+  "key": "Rebuild config only",
+  "value": "在 VPN/代理客户端 UI 上下文中。仅重建配置（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Rebuild & restart sing-box",
+  "value": "在 VPN/代理客户端 UI 上下文中。重建&重启sing-box（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Rebuild & start sing-box",
+  "value": "在 VPN/代理客户端 UI 上下文中。重建并启动sing-box（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Switch state…",
+  "value": "在 VPN/代理客户端 UI 上下文中。切换状态……（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "● Current (active)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ● Current（活动）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Saved states",
+  "value": "在 VPN/代理客户端 UI 上下文中。保存的状态（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Save current state?",
+  "value": "在 VPN/代理客户端 UI 上下文中。保存当前状态？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Switching will overwrite the current state.json with \"%s\". Save the current state under a new name first, or discard it?",
+  "value": "在 VPN/代理客户端 UI 上下文中。切换会用“%s”覆盖当前的state.json。先用新名称保存当前状态，还是放弃它？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Save current…",
+  "value": "在 VPN/代理客户端 UI 上下文中。保存当前...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Save current state as…",
+  "value": "在 VPN/代理客户端 UI 上下文中。将当前状态保存为...（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Name (letters, digits, - and _ only):",
+  "value": "在 VPN/代理客户端 UI 上下文中。名称（仅限字母、数字、- 和 _）：（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "my-vpn-profile",
+  "value": "在 VPN/代理客户端 UI 上下文中。 my-vpn-profile（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Name cannot be empty",
+  "value": "在 VPN/代理客户端 UI 上下文中。名称不能为空（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "%s already exists — it will be overwritten",
+  "value": "在 VPN/代理客户端 UI 上下文中。 %s 已经存在 - 它将被覆盖（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Emoji picker",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Emoji picker（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Emoji picker — %d / %d match",
+  "value": "在 VPN/代理客户端 UI 上下文中。表情符号选择器 — %d / %d 匹配（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "No emoji in the names of these nodes.",
+  "value": "在 VPN/代理客户端 UI 上下文中。这些节点的名称中没有表情符号。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Filter body: a regex over node names, applied live. Emoji chips above toggle terms in it.",
+  "value": "在 VPN/代理客户端 UI 上下文中。过滤器主体：实时应用的节点名称正则表达式。上面的表情符号芯片切换其中的术语。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Copy the pattern body.",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制图案主体。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Apply",
+  "value": "在 VPN/代理客户端 UI 上下文中。 apply（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Add WARP",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加WARP（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Generate Cloudflare WARP",
+  "value": "在 VPN/代理客户端 UI 上下文中。生成Cloudflare WARP（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Registers a new anonymous WARP account. The key is generated on this device — only the public key is sent to Cloudflare.",
+  "value": "在 VPN/代理客户端 UI 上下文中。注册一个新的匿名 WARP 帐户。密钥是在此设备上生成的 - 只有公钥会发送到 Cloudflare。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Transport",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Transport（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "WARP+ license",
+  "value": "在 VPN/代理客户端 UI 上下文中。 WARP+许可证（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "optional — leave empty for free WARP",
+  "value": "在 VPN/代理客户端 UI 上下文中。可选 — 留空表示免费 WARP（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Create",
+  "value": "在 VPN/代理客户端 UI 上下文中。创建（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Registering WARP…",
+  "value": "在 VPN/代理客户端 UI 上下文中。正在注册WARP…（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Contacting Cloudflare and generating keys.",
+  "value": "在 VPN/代理客户端 UI 上下文中。联系 Cloudflare 并生成密钥。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "WARP registration failed",
+  "value": "在 VPN/代理客户端 UI 上下文中。 WARP注册失败（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "WARP added",
+  "value": "在 VPN/代理客户端 UI 上下文中。添加WARP（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The WARP node was added to Sources. Click Add-list / rebuild to use it.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 WARP 节点已添加到源中。单击“添加列表/重建”即可使用它。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "WireGuard",
+  "value": "WireGuard"
+ },
+ {
+  "key": "MASQUE",
+  "value": "在 VPN/代理客户端 UI 上下文中。 MASQUE（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "AmneziaWG obfuscation (anti-DPI)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 AmneziaWG混淆（反DPI）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Obfuscation preset",
+  "value": "在 VPN/代理客户端 UI 上下文中。混淆预设（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Advanced (all fields)",
+  "value": "在 VPN/代理客户端 UI 上下文中。高级（所有领域）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Endpoint",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Endpoint（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Bind to this device (reserved)",
+  "value": "在 VPN/代理客户端 UI 上下文中。绑定到此设备（保留）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Masquerade",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Masquerade（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Protocol (ip)",
+  "value": "在 VPN/代理客户端 UI 上下文中。协议（ip）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Domain (id)",
+  "value": "在 VPN/代理客户端 UI 上下文中。域（id）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Browser (ib)",
+  "value": "在 VPN/代理客户端 UI 上下文中。浏览器（ib）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "jc/jmin/jmax add standalone junk packets (safe with WARP). Packet padding (s1–s4) and magic headers (h1–h4) are fixed to WARP-compatible values — a plain-WireGuard WARP server drops any other padding, breaking the handshake.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 jc/jmin/jmax 添加独立的垃圾数据包（使用 WARP 安全）。数据包填充 (s1–s4) 和魔术标头 (h1–h4) 固定为 WARP 兼容值 — 普通 WireGuard WARP 服务器会丢弃任何其他填充，从而破坏握手。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "MASQUE tunnels over HTTPS/QUIC and masks itself — AmneziaWG obfuscation does not apply. Requires core lx.3+.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 MASQUE 通过 HTTPS/QUIC 建立隧道并屏蔽自身 — AmneziaWG 混淆不适用。需要核心 lx.3+。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "SNI",
+  "value": "SNI"
+ },
+ {
+  "key": "Idle timeout (min)",
+  "value": "在 VPN/代理客户端 UI 上下文中。空闲超时（分钟）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Keep-alive (sec)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Keep-alive (sec)（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Create new keys (fresh Cloudflare registration)",
+  "value": "在 VPN/代理客户端 UI 上下文中。创建新密钥（新鲜的Cloudflare注册）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "By default the node reuses the registration you already have, so H2 and H3 share one key. Tick this if you need a new account — the old one is replaced.",
+  "value": "在 VPN/代理客户端 UI 上下文中。默认情况下，节点会重用您已有的注册，因此 H2 和 H3 共享一个密钥。如果您需要新帐户，请勾选此项 - 旧帐户将被替换。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Node info…",
+  "value": "在 VPN/代理客户端 UI 上下文中。节点信息…（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Node: %s",
+  "value": "在 VPN/代理客户端 UI 上下文中。节点：%s（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "General",
+  "value": "在 VPN/代理客户端 UI 上下文中。 General（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Group members (%d)",
+  "value": "在 VPN/代理客户端 UI 上下文中。群组成员（%d）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "TLS",
+  "value": "TLS"
+ },
+ {
+  "key": "Outbound JSON",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Outbound JSON（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Display name",
+  "value": "在 VPN/代理客户端 UI 上下文中。显示名称（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Last delay",
+  "value": "在 VPN/代理客户端 UI 上下文中。最后延迟（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Detour",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Detour（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Test URL",
+  "value": "在 VPN/代理客户端 UI 上下文中。测试URL（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Test interval",
+  "value": "在 VPN/代理客户端 UI 上下文中。测试间隔（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Default",
+  "value": "在 VPN/代理客户端 UI 上下文中。默认（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Skip cert verify",
+  "value": "在 VPN/代理客户端 UI 上下文中。跳过证书验证（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "uTLS fingerprint",
+  "value": "在 VPN/代理客户端 UI 上下文中。 uTLS指纹（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "REALITY public key",
+  "value": "在 VPN/代理客户端 UI 上下文中。 REALITY公钥（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "REALITY short ID",
+  "value": "在 VPN/代理客户端 UI 上下文中。 REALITY短ID（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Service name",
+  "value": "在 VPN/代理客户端 UI 上下文中。服务名称（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Max early data",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Max早期数据（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "This node is not present in the current config.json.",
+  "value": "在 VPN/代理客户端 UI 上下文中。当前 config.json 中不存在此节点。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Details",
+  "value": "在 VPN/代理客户端 UI 上下文中。详情（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Copy tag",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制标签（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "balanced",
+  "value": "在 VPN/代理客户端 UI 上下文中。平衡（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "fastest",
+  "value": "在 VPN/代理客户端 UI 上下文中。最快（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Selection mode",
+  "value": "在 VPN/代理客户端 UI 上下文中。选择模式（网络UI标签，翻译简洁）"
+ },
+ {
+  "key": "Tolerance",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Tolerance（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Idle timeout",
+  "value": "在 VPN/代理客户端 UI 上下文中。空闲超时（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Pool size",
+  "value": "在 VPN/代理客户端 UI 上下文中。池大小（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Pool tolerance",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Pool Tolerance（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Sticky by",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Sticky by（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Sticky TTL",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Sticky TTL（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "off",
+  "value": "在 VPN/代理客户端 UI 上下文中。 off（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Node tag",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Node标签（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "node tag (referenced by rules and filters)",
+  "value": "在 VPN/代理客户端 UI 上下文中。节点标签（规则和过滤器引用）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Run the VPN core inside a long-lived system daemon (sing-box lxd). Config changes swap the core in-process — no password prompts, and quitting the launcher can keep the VPN up. Managed over gRPC like the Android app.",
+  "value": "在 VPN/代理客户端 UI 上下文中。在长期系统守护进程 (sing-box lxd) 内运行 VPN 核心。配置更改会在进程中交换核心 — 没有密码提示，退出启动器可以保持 VPN 运行。像 Android 应用程序一样通过 gRPC 进行管理。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Stop VPN when quitting the launcher",
+  "value": "在 VPN/代理客户端 UI 上下文中。退出启动器时停止 VPN（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "❌ Installed core has no lxd support (a sing-box-lx build with the lxd command is required)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ❌安装的核心没有lxd支持（需要使用lxd命令的sing-box-lx构建）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Stop the VPN before switching the core engine.",
+  "value": "在 VPN/代理客户端 UI 上下文中。在切换核心引擎之前停止 VPN。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Bearer secret (only for a daemon without TLS)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Bearer Secret（仅适用于没有 TLS 的守护进程）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Pair",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Pair（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Paired with the daemon.",
+  "value": "在 VPN/代理客户端 UI 上下文中。与守护进程配对。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Paste an invite first (address#fingerprint#code).",
+  "value": "在 VPN/代理客户端 UI 上下文中。首先粘贴邀请（地址#指纹#代码）。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Unpair",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Unpair（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Forget pairing?",
+  "value": "在 VPN/代理客户端 UI 上下文中。忘记配对？ （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Removes the launcher's client keys and daemon address. The daemon keeps its record of this client until removed there (sing-box lxd client remove).",
+  "value": "在 VPN/代理客户端 UI 上下文中。删除启动器的客户端密钥和守护程序地址。守护进程会保留该客户端的记录，直到将其删除（sing-box lxd client remove）。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "(daemon log buffer is empty — no core output yet)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 （守护进程日志缓冲区为空 - 还没有核心输出）（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "✅ gRPC (daemon)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ✅ gRPC (daemon)（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "❌ gRPC unavailable",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ❌ gRPC 不可用（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Live balancer pool (gRPC)",
+  "value": "在 VPN/代理客户端 UI 上下文中。实时平衡器池（gRPC）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Chain positions (%d)",
+  "value": "在 VPN/代理客户端 UI 上下文中。链位置（%d）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Probe by position",
+  "value": "在 VPN/代理客户端 UI 上下文中。按位置探测（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Probe again",
+  "value": "在 VPN/代理客户端 UI 上下文中。再次探测（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Measuring…",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Measuring… (networking UI label, translate concisely)"
+ },
+ {
+  "key": "collapsed",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Collapsed（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "This core cannot switch chain positions on the fly — update the core.",
+  "value": "在 VPN/代理客户端 UI 上下文中。该核心无法动态切换链位置 - 更新核心。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "—",
+  "value": "在 VPN/代理客户端 UI 上下文中。 ——（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "error",
+  "value": "在 VPN/代理客户端 UI 上下文中。错误（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Connection settings",
+  "value": "在 VPN/代理客户端 UI 上下文中。连接设置（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Core engine",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心引擎（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Process (classic)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Process（经典）（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Daemon (lxd)",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Daemon (lxd)（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The launcher spawns `sing-box run` itself and talks to it over the Clash API from config.json. There is nothing to configure here — the clash_api section is managed in the configurator.",
+  "value": "在 VPN/代理客户端 UI 上下文中。启动器会生成“sing-box run”本身，并通过 config.json 中的 Clash API 与其进行对话。这里没有什么需要配置的——clash_api 部分是在配置器中管理的。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Copy the command",
+  "value": "在 VPN/代理客户端 UI 上下文中。复制命令（网络UI标签，简明翻译一下）"
+ },
+ {
+  "key": "Run in Terminal",
+  "value": "在 VPN/代理客户端 UI 上下文中。 Run in Terminal（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "Core updated — update the daemon service",
+  "value": "在 VPN/代理客户端 UI 上下文中。核心更新——更新守护服务（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "The daemon service still runs the previous core. Run this command in Terminal to install the new core into the service and restart it (it asks for your sudo password):",
+  "value": "在 VPN/代理客户端 UI 上下文中。守护进程服务仍然运行以前的核心。在终端中运行此命令，将新核心安装到服务中并重新启动它（它要求您输入 sudo 密码）：（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Core copy for privileged start is missing",
+  "value": "在 VPN/代理客户端 UI 上下文中。缺少特权启动的核心副本（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Core copy for privileged start is outdated",
+  "value": "在 VPN/代理客户端 UI 上下文中。特权启动的核心副本已过时（网络 UI 标签，简明翻译）"
+ },
+ {
+  "key": "Core copy for privileged start is not protected",
+  "value": "在 VPN/代理客户端 UI 上下文中。特权启动的核心副本不受保护（网络UI标签，简明翻译）"
+ },
+ {
+  "key": "TUN mode starts the sing-box core as root. For safety the launcher runs only a root-owned copy of the core that your user account cannot modify, and there is no such copy yet.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 TUN 模式以 root 身份启动 single-box 核心。为了安全起见，启动器仅运行 root 拥有的核心副本，您的用户帐户无法修改该副本，而且目前还没有这样的副本。 （网络UI标签，简明翻译）"
+ },
+ {
+  "key": "TUN mode starts the sing-box core as root from a root-owned copy, and the copy is not the launcher's current core (copy %s, launcher core %s) — for example after a core update.",
+  "value": "在 VPN/代理客户端 UI 上下文中。 TUN 模式以 root 身份从 root 拥有的副本启动单盒核心，并且该副本不是启动器的当前核心（副本 %s，启动器核心 %s）——例如在核心更新之后。 （网络UI标签，简明翻译）"
+ }
+]
