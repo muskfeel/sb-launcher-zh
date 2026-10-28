@@ -1,0 +1,68 @@
+name: build-zh-locale
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/build-zh.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch upstream ru.json and split
+        run: python scripts/fetch_split.py
+
+      - name: Translate batches
+        run: python scripts/translate.py
+
+      - name: Merge and validate
+        run: python scripts/merge_validate.py
+
+      - name: Show report
+        if: always()
+        run: |
+          echo "==== report ===="
+          cat out/report.txt || true
+          echo "==== size ===="
+          ls -l out/ || true
+          echo "==== sample ===="
+          python - <<'PY'
+          import json
+          d=json.load(open("out/zh.json",encoding="utf-8"))
+          ks=[k for k in d if k!="_display_name"]
+          print("keys:",len(ks))
+          for k in ks[:12]: print(" ",repr(k),"->",d[k])
+          PY
+
+      - name: Commit result
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p bin/locale
+          cp out/zh.json bin/locale/zh.json || true
+          cp out/report.txt bin/locale/REPORT.txt || true
+          git add bin/locale/ out/ work/ 2>/dev/null || true
+          git commit -m "chore: build zh.json ($(date -u +%FT%TZ))" || echo "nothing to commit"
+          git push || echo "push failed"
+
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: zh-locale
+          path: |
+            out/zh.json
+            out/report.txt
