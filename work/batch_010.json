@@ -1,0 +1,602 @@
+[
+ {
+  "key": "Enable all nodes",
+  "en": "Enable all nodes",
+  "special": []
+ },
+ {
+  "key": "Disable all nodes",
+  "en": "Disable all nodes",
+  "special": []
+ },
+ {
+  "key": "Paste links or JSON…",
+  "en": "Paste links or JSON…",
+  "special": []
+ },
+ {
+  "key": "Add nodes to folder",
+  "en": "Add nodes to folder",
+  "special": []
+ },
+ {
+  "key": "Subscription URLs, direct links (vless://, wireguard://, …), [Interface]/[Peer] config text or a sing-box outbound JSON. One per line.",
+  "en": "Subscription URLs, direct links (vless://, wireguard://, …), [Interface]/[Peer] config text or a sing-box outbound JSON. One per line.",
+  "special": []
+ },
+ {
+  "key": "Select config files (.conf / .vpn / .txt / .json)",
+  "en": "Select config files (.conf / .vpn / .txt / .json)",
+  "special": []
+ },
+ {
+  "key": "a subscription URL cannot be added to a folder — add it in Sources, then fill the folder from it",
+  "en": "a subscription URL cannot be added to a folder — add it in Sources, then fill the folder from it",
+  "special": []
+ },
+ {
+  "key": "Some files were not added",
+  "en": "Some files were not added",
+  "special": []
+ },
+ {
+  "key": "Nodes added",
+  "en": "Nodes added",
+  "special": []
+ },
+ {
+  "key": "%d node(s) added to the folder.",
+  "en": "%d node(s) added to the folder.",
+  "special": []
+ },
+ {
+  "key": "Fill from subscription…",
+  "en": "Fill from subscription…",
+  "special": []
+ },
+ {
+  "key": "Fill folder from subscription",
+  "en": "Fill folder from subscription",
+  "special": []
+ },
+ {
+  "key": "Fill",
+  "en": "Fill",
+  "special": []
+ },
+ {
+  "key": "Nodes of the chosen subscription are merged into this folder by raw tag: your enabled flags, detours and order survive, and a node that disappeared at the provider stays in the folder.",
+  "en": "Nodes of the chosen subscription are merged into this folder by raw tag: your enabled flags, detours and order survive, and a node that disappeared at the provider stays in the folder.",
+  "special": []
+ },
+ {
+  "key": "No subscriptions yet",
+  "en": "No subscriptions yet",
+  "special": []
+ },
+ {
+  "key": "Add a subscription in Sources first, then fill the folder from it.",
+  "en": "Add a subscription in Sources first, then fill the folder from it.",
+  "special": []
+ },
+ {
+  "key": "not fetched yet",
+  "en": "not fetched yet",
+  "special": []
+ },
+ {
+  "key": "%d node(s)",
+  "en": "%d node(s)",
+  "special": []
+ },
+ {
+  "key": "Subscription %q has no nodes yet — it has never been fetched. Refresh it now?",
+  "en": "Subscription %q has no nodes yet — it has never been fetched. Refresh it now?",
+  "special": []
+ },
+ {
+  "key": "Filled with warnings",
+  "en": "Filled with warnings",
+  "special": []
+ },
+ {
+  "key": "Folder filled",
+  "en": "Folder filled",
+  "special": []
+ },
+ {
+  "key": "The folder is already up to date with this subscription.",
+  "en": "The folder is already up to date with this subscription.",
+  "special": []
+ },
+ {
+  "key": "Folder filled from %q.",
+  "en": "Folder filled from %q.",
+  "special": []
+ },
+ {
+  "key": "Copy nodes as JSON",
+  "en": "Copy nodes as JSON",
+  "special": []
+ },
+ {
+  "key": "Nothing to copy",
+  "en": "Nothing to copy",
+  "special": []
+ },
+ {
+  "key": "None of the folder nodes could be built into an outbound.",
+  "en": "None of the folder nodes could be built into an outbound.",
+  "special": []
+ },
+ {
+  "key": "All nodes of this folder are disabled — they do not reach the config either.",
+  "en": "All nodes of this folder are disabled — they do not reach the config either.",
+  "special": []
+ },
+ {
+  "key": "%d node(s) copied as JSON.",
+  "en": "%d node(s) copied as JSON.",
+  "special": []
+ },
+ {
+  "key": "%d node(s) could not be built and were left out.",
+  "en": "%d node(s) could not be built and were left out.",
+  "special": []
+ },
+ {
+  "key": "Nodes: %d",
+  "en": "Nodes: %d",
+  "special": []
+ },
+ {
+  "key": " + %d unsupported",
+  "en": " + %d unsupported",
+  "special": []
+ },
+ {
+  "key": "could not be parsed",
+  "en": "could not be parsed",
+  "special": []
+ },
+ {
+  "key": "Origin",
+  "en": "Origin",
+  "special": []
+ },
+ {
+  "key": "Copy source line",
+  "en": "Copy source line",
+  "special": []
+ },
+ {
+  "key": "Raw response",
+  "en": "Raw response",
+  "special": []
+ },
+ {
+  "key": "Reload",
+  "en": "Reload",
+  "special": []
+ },
+ {
+  "key": "Not fetched — press Reload to download the body as it is now.",
+  "en": "Not fetched — press Reload to download the body as it is now.",
+  "special": []
+ },
+ {
+  "key": "Fetch failed: %s",
+  "en": "Fetch failed: %s",
+  "special": []
+ },
+ {
+  "key": "HTTP %d · %s",
+  "en": "HTTP %d · %s",
+  "special": []
+ },
+ {
+  "key": "base64",
+  "en": "base64",
+  "special": []
+ },
+ {
+  "key": "urldecode",
+  "en": "urldecode",
+  "special": []
+ },
+ {
+  "key": "pretty-print",
+  "en": "pretty-print",
+  "special": []
+ },
+ {
+  "key": "A backup of the original file was saved next to it:",
+  "en": "A backup of the original file was saved next to it:",
+  "special": []
+ },
+ {
+  "key": "Configuration migration report",
+  "en": "Configuration migration report",
+  "special": []
+ },
+ {
+  "key": "The saved configuration was migrated to the new storage format. Some settings could not be carried over unchanged:",
+  "en": "The saved configuration was migrated to the new storage format. Some settings could not be carried over unchanged:",
+  "special": []
+ },
+ {
+  "key": "Disabled subscriptions are not auto-fetched, so this one has no nodes yet. Click below to fetch it once without enabling it.",
+  "en": "Disabled subscriptions are not auto-fetched, so this one has no nodes yet. Click below to fetch it once without enabling it.",
+  "special": []
+ },
+ {
+  "key": "Group tag",
+  "en": "Group tag",
+  "special": []
+ },
+ {
+  "key": "MTU",
+  "en": "MTU",
+  "special": []
+ },
+ {
+  "key": "Read-only: the sing-box outbounds this subscription is built from. Nodes of a subscription are not free-form — they are refreshed from the provider.",
+  "en": "Read-only: the sing-box outbounds this subscription is built from. Nodes of a subscription are not free-form — they are refreshed from the provider.",
+  "special": []
+ },
+ {
+  "key": "Rebuild the outbound from the original URI/JSON, discarding manual edits?",
+  "en": "Rebuild the outbound from the original URI/JSON, discarding manual edits?",
+  "special": []
+ },
+ {
+  "key": "Regen from raw",
+  "en": "Regen from raw",
+  "special": []
+ },
+ {
+  "key": "The outbound as it will reach the config.",
+  "en": "The outbound as it will reach the config.",
+  "special": []
+ },
+ {
+  "key": "The sing-box outbound this node is built from — exactly what the build writes to config.json. Edit and press Apply to store it; Regen from raw rebuilds it from the original URI/JSON. Tag and detour are restamped by the launcher at build time.",
+  "en": "The sing-box outbound this node is built from — exactly what the build writes to config.json. Edit and press Apply to store it; Regen from raw rebuilds it from the original URI/JSON. Tag and detour are restamped by the launcher at build time.",
+  "special": []
+ },
+ {
+  "key": "The source arrives as one entry instead of every node. Its nodes stay in the config as that group's members.",
+  "en": "The source arrives as one entry instead of every node. Its nodes stay in the config as that group's members.",
+  "special": []
+ },
+ {
+  "key": "Variables (work in both fields): {$tag} original node tag · {$server} address · {$port} port · {$scheme} protocol (also {$protocol}) · {$label} name from the link's #fragment · {$comment} comment · {$num} node number from 1",
+  "en": "Variables (work in both fields): {$tag} original node tag · {$server} address · {$port} port · {$scheme} protocol (also {$protocol}) · {$label} name from the link's #fragment · {$comment} comment · {$num} node number from 1",
+  "special": []
+ },
+ {
+  "key": "node has no body — set a URI or JSON",
+  "en": "node has no body — set a URI or JSON",
+  "special": []
+ },
+ {
+  "key": "No nodes yet — refresh this subscription in the sources list.",
+  "en": "No nodes yet — refresh this subscription in the sources list.",
+  "special": []
+ },
+ {
+  "key": "no working members",
+  "en": "no working members",
+  "special": []
+ },
+ {
+  "key": "node error(s)",
+  "en": "node error(s)",
+  "special": []
+ },
+ {
+  "key": "Regen",
+  "en": "Regen",
+  "special": []
+ },
+ {
+  "key": "Origin is empty.",
+  "en": "Origin is empty.",
+  "special": []
+ },
+ {
+  "key": "Subscription URL, Direct Links, JSON, WG/AWG INI, OpenVPN ...",
+  "en": "Subscription URL, Direct Links, JSON, WG/AWG INI, OpenVPN ...",
+  "special": []
+ },
+ {
+  "key": "subscription has never been updated — no nodes yet; press Update",
+  "en": "subscription has never been updated — no nodes yet; press Update",
+  "special": []
+ },
+ {
+  "key": "reason was not stored",
+  "en": "reason was not stored",
+  "special": []
+ },
+ {
+  "key": "last update failed: %s",
+  "en": "last update failed: %s",
+  "special": []
+ },
+ {
+  "key": "; config built from nodes fetched at %s",
+  "en": "; config built from nodes fetched at %s",
+  "special": []
+ },
+ {
+  "key": "User-Agent",
+  "en": "User-Agent",
+  "special": []
+ },
+ {
+  "key": "as in system",
+  "en": "as in system",
+  "special": []
+ },
+ {
+  "key": "client User-Agent",
+  "en": "client User-Agent",
+  "special": []
+ },
+ {
+  "key": "device ID for this subscription",
+  "en": "device ID for this subscription",
+  "special": []
+ },
+ {
+  "key": "Some providers return a different node list depending on the client that asks, and bind the subscription to a device by its ID. Leave “as in system” to use the global settings.",
+  "en": "Some providers return a different node list depending on the client that asks, and bind the subscription to a device by its ID. Leave “as in system” to use the global settings.",
+  "special": []
+ },
+ {
+  "key": "Offer provider relays in Directions",
+  "en": "Offer provider relays in Directions",
+  "special": []
+ },
+ {
+  "key": "Some providers route a node through an intermediate relay. The relay is always part of the route — it shows in the node list with a gear and can be picked as a chain hop. Turn this on to also offer it in Directions, alongside regular nodes.",
+  "en": "Some providers route a node through an intermediate relay. The relay is always part of the route — it shows in the node list with a gear and can be picked as a chain hop. Turn this on to also offer it in Directions, alongside regular nodes.",
+  "special": []
+ },
+ {
+  "key": "%d node(s) dial through %d provider relay(s)",
+  "en": "%d node(s) dial through %d provider relay(s)",
+  "special": []
+ },
+ {
+  "key": "The machine did not return its groups — press ↻ to retry",
+  "en": "The machine did not return its groups — press ↻ to retry",
+  "special": []
+ },
+ {
+  "key": "The input was recognized, but nothing was added.",
+  "en": "The input was recognized, but nothing was added.",
+  "special": []
+ },
+ {
+  "key": "Nothing added",
+  "en": "Nothing added",
+  "special": []
+ },
+ {
+  "key": "Sources added",
+  "en": "Sources added",
+  "special": []
+ },
+ {
+  "key": "%d subscription(s)",
+  "en": "%d subscription(s)",
+  "special": []
+ },
+ {
+  "key": "%d folder(s)",
+  "en": "%d folder(s)",
+  "special": []
+ },
+ {
+  "key": "%d item(s) are already in the list.",
+  "en": "%d item(s) are already in the list.",
+  "special": []
+ },
+ {
+  "key": "Added: %s.",
+  "en": "Added: %s.",
+  "special": []
+ },
+ {
+  "key": "%d item(s) skipped — already in the list.",
+  "en": "%d item(s) skipped — already in the list.",
+  "special": []
+ },
+ {
+  "key": "Re-test now",
+  "en": "Re-test now",
+  "special": []
+ },
+ {
+  "key": "Device ID (HWID)",
+  "en": "Device ID (HWID)",
+  "special": []
+ },
+ {
+  "key": "Origin (wg-quick config)",
+  "en": "Origin (wg-quick config)",
+  "special": []
+ },
+ {
+  "key": "Nodes moved, so their tags changed. Links to them were updated in: %s",
+  "en": "Nodes moved, so their tags changed. Links to them were updated in: %s",
+  "special": []
+ },
+ {
+  "key": "Links updated",
+  "en": "Links updated",
+  "special": []
+ },
+ {
+  "key": "Max nodes clamped to %d — that is the hard ceiling.",
+  "en": "Max nodes clamped to %d — that is the hard ceiling.",
+  "special": []
+ },
+ {
+  "key": "%s — a Direction with this tag already exists here, the incoming one is skipped",
+  "en": "%s — a Direction with this tag already exists here, the incoming one is skipped",
+  "special": []
+ },
+ {
+  "key": "%s — the tag mask is gone, only prefix and postfix apply now",
+  "en": "%s — the tag mask is gone, only prefix and postfix apply now",
+  "special": []
+ },
+ {
+  "key": "%s — per-source Directions are gone, this one is not imported (create a global Direction with a filter instead)",
+  "en": "%s — per-source Directions are gone, this one is not imported (create a global Direction with a filter instead)",
+  "special": []
+ },
+ {
+  "key": "%s — these subscription settings are not part of the shared format and did not go into the file; the provider may return a different set of nodes on the other machine",
+  "en": "%s — these subscription settings are not part of the shared format and did not go into the file; the provider may return a different set of nodes on the other machine",
+  "special": []
+ },
+ {
+  "key": "%s — the \"exclude from the global list\" flag is gone; its nodes stay in the candidate pool (fold the source into a group for the previous behaviour)",
+  "en": "%s — the \"exclude from the global list\" flag is gone; its nodes stay in the candidate pool (fold the source into a group for the previous behaviour)",
+  "special": []
+ },
+ {
+  "key": "%s — label dropped, a node is named by its tag",
+  "en": "%s — label dropped, a node is named by its tag",
+  "special": []
+ },
+ {
+  "key": "%s — these Direction options are settings of this machine (folder replacements, service tags, nodes) and did not go into the file; a node joins a Direction through its filter",
+  "en": "%s — these Direction options are settings of this machine (folder replacements, service tags, nodes) and did not go into the file; a node joins a Direction through its filter",
+  "special": []
+ },
+ {
+  "key": "%s — these Direction options are not Directions or known names here, they were left out; a node joins a Direction through its filter",
+  "en": "%s — these Direction options are not Directions or known names here, they were left out; a node joins a Direction through its filter",
+  "special": []
+ },
+ {
+  "key": "%s — this group picks its members by a rule, which the launcher does not support; it was not imported, and links to it will not resolve",
+  "en": "%s — this group picks its members by a rule, which the launcher does not support; it was not imported, and links to it will not resolve",
+  "special": []
+ },
+ {
+  "key": "Settings are merged, not replaced: subscriptions match by address, servers by what they connect to, and anything of yours that is not in the file stays. Routing rules are the exception — they are replaced by the file.",
+  "en": "Settings are merged, not replaced: subscriptions match by address, servers by what they connect to, and anything of yours that is not in the file stays. Routing rules are the exception — they are replaced by the file.",
+  "special": []
+ },
+ {
+  "key": "Added: %d",
+  "en": "Added: %d",
+  "special": []
+ },
+ {
+  "key": "Updated subscriptions: %d",
+  "en": "Updated subscriptions: %d",
+  "special": []
+ },
+ {
+  "key": "Already here, skipped: %d server(s)",
+  "en": "Already here, skipped: %d server(s)",
+  "special": []
+ },
+ {
+  "key": "AmneziaWG obfuscation",
+  "en": "AmneziaWG obfuscation",
+  "special": []
+ },
+ {
+  "key": "domain to masquerade as, e.g. example.com",
+  "en": "domain to masquerade as, e.g. example.com",
+  "special": []
+ },
+ {
+  "key": "Node has no body to edit",
+  "en": "Node has no body to edit",
+  "special": []
+ },
+ {
+  "key": "%s is required",
+  "en": "%s is required",
+  "special": []
+ },
+ {
+  "key": "%s is invalid",
+  "en": "%s is invalid",
+  "special": []
+ },
+ {
+  "key": "Junk datagrams go out before the handshake, and the first one is disguised as traffic to the domain above. Packet padding (s1-s4) and magic headers (h1-h4) stay at the WireGuard defaults — any other value there and the server stops recognising the handshake. Not available with a detour: a node dialled through another outbound does not raise its own transport.",
+  "en": "Junk datagrams go out before the handshake, and the first one is disguised as traffic to the domain above. Packet padding (s1-s4) and magic headers (h1-h4) stay at the WireGuard defaults — any other value there and the server stops recognising the handshake. Not available with a detour: a node dialled through another outbound does not raise its own transport.",
+  "special": []
+ },
+ {
+  "key": "This node carries AmneziaWG obfuscation fields, but it dials through a detour — the transport is raised by the detour's outbound, so the fields do nothing here and still travel into the config. Clear the detour to edit or remove them.",
+  "en": "This node carries AmneziaWG obfuscation fields, but it dials through a detour — the transport is raised by the detour's outbound, so the fields do nothing here and still travel into the config. Clear the detour to edit or remove them.",
+  "special": []
+ },
+ {
+  "key": "Interrupt existing connections on position toggle",
+  "en": "Interrupt existing connections on position toggle",
+  "special": []
+ },
+ {
+  "key": "Otherwise live connections finish on the old route; only new ones take the new path.",
+  "en": "Otherwise live connections finish on the old route; only new ones take the new path.",
+  "special": []
+ },
+ {
+  "key": "starting",
+  "en": "starting",
+  "special": []
+ },
+ {
+  "key": "active",
+  "en": "active",
+  "special": []
+ },
+ {
+  "key": "idle",
+  "en": "idle",
+  "special": []
+ },
+ {
+  "key": "Advertise this node as an exit node",
+  "en": "Advertise this node as an exit node",
+  "special": []
+ },
+ {
+  "key": "Advertise routes",
+  "en": "Advertise routes",
+  "special": []
+ },
+ {
+  "key": "ACL tags",
+  "en": "ACL tags",
+  "special": []
+ },
+ {
+  "key": "optional — CIDR list, comma-separated",
+  "en": "optional — CIDR list, comma-separated",
+  "special": []
+ },
+ {
+  "key": "optional — tag:name list, comma-separated",
+  "en": "optional — tag:name list, comma-separated",
+  "special": []
+ },
+ {
+  "key": "Advertised routes and exit nodes stay pending until they are approved in the tailnet admin console.",
+  "en": "Advertised routes and exit nodes stay pending until they are approved in the tailnet admin console.",
+  "special": []
+ }
+]

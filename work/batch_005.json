@@ -1,0 +1,602 @@
+[
+ {
+  "key": "rule must contain \"outbound\" or \"action\"",
+  "en": "rule must contain \"outbound\" or \"action\"",
+  "special": []
+ },
+ {
+  "key": "Rule not recognized",
+  "en": "Rule not recognized",
+  "special": []
+ },
+ {
+  "key": "Could not recognize rule, form cannot be loaded; staying on Raw.",
+  "en": "Could not recognize rule, form cannot be loaded; staying on Raw.",
+  "special": []
+ },
+ {
+  "key": "We recommend looking for suitable rule-set files in the project:",
+  "en": "We recommend looking for suitable rule-set files in the project:",
+  "special": []
+ },
+ {
+  "key": "SRS rule-sets",
+  "en": "SRS rule-sets",
+  "special": []
+ },
+ {
+  "key": "enter at least one path pattern",
+  "en": "enter at least one path pattern",
+  "special": []
+ },
+ {
+  "key": "enter at least one SRS URL",
+  "en": "enter at least one SRS URL",
+  "special": []
+ },
+ {
+  "key": "enter at least one valid SRS URL",
+  "en": "enter at least one valid SRS URL",
+  "special": []
+ },
+ {
+  "key": "Custom JSON is empty",
+  "en": "Custom JSON is empty",
+  "special": []
+ },
+ {
+  "key": "Custom JSON must be an object",
+  "en": "Custom JSON must be an object",
+  "special": []
+ },
+ {
+  "key": "Paste one rule at a time: the editor keeps one sing-box rule per entry",
+  "en": "Paste one rule at a time: the editor keeps one sing-box rule per entry",
+  "special": []
+ },
+ {
+  "key": "Save State",
+  "en": "Save State",
+  "special": []
+ },
+ {
+  "key": "Enter state ID (a-z, A-Z, 0-9, -, _)",
+  "en": "Enter state ID (a-z, A-Z, 0-9, -, _)",
+  "special": []
+ },
+ {
+  "key": "Comment (optional)",
+  "en": "Comment (optional)",
+  "special": []
+ },
+ {
+  "key": "State with this ID already exists. It will be overwritten.",
+  "en": "State with this ID already exists. It will be overwritten.",
+  "special": []
+ },
+ {
+  "key": "Make it the current state and rebuild config",
+  "en": "Make it the current state and rebuild config",
+  "special": []
+ },
+ {
+  "key": "State ID:",
+  "en": "State ID:",
+  "special": []
+ },
+ {
+  "key": "Comment:",
+  "en": "Comment:",
+  "special": []
+ },
+ {
+  "key": "ID cannot be empty",
+  "en": "ID cannot be empty",
+  "special": []
+ },
+ {
+  "key": "Load State",
+  "en": "Load State",
+  "special": []
+ },
+ {
+  "key": "Failed to load states list",
+  "en": "Failed to load states list",
+  "special": []
+ },
+ {
+  "key": " (Current)",
+  "en": " (Current)",
+  "special": []
+ },
+ {
+  "key": "Load",
+  "en": "Load",
+  "special": []
+ },
+ {
+  "key": "New",
+  "en": "New",
+  "special": []
+ },
+ {
+  "key": "Delete",
+  "en": "Delete",
+  "special": []
+ },
+ {
+  "key": "Cannot delete current state (state.json)",
+  "en": "Cannot delete current state (state.json)",
+  "special": []
+ },
+ {
+  "key": "Delete State",
+  "en": "Delete State",
+  "special": []
+ },
+ {
+  "key": "Delete state '%s'?",
+  "en": "Delete state '%s'?",
+  "special": []
+ },
+ {
+  "key": "Failed to delete state",
+  "en": "Failed to delete state",
+  "special": []
+ },
+ {
+  "key": "Edit direction",
+  "en": "Edit direction",
+  "special": []
+ },
+ {
+  "key": "Add direction",
+  "en": "Add direction",
+  "special": []
+ },
+ {
+  "key": "e.g. vpn-1",
+  "en": "e.g. vpn-1",
+  "special": []
+ },
+ {
+  "key": "Source ",
+  "en": "Source ",
+  "special": []
+ },
+ {
+  "key": "tag",
+  "en": "tag",
+  "special": []
+ },
+ {
+  "key": "Add auto-select (paired <tag>-auto group)",
+  "en": "Add auto-select (paired <tag>-auto group)",
+  "special": []
+ },
+ {
+  "key": "Auto-select",
+  "en": "Auto-select",
+  "special": []
+ },
+ {
+  "key": "A paired urltest group named <tag>-auto with the same nodes as this direction. It is offered as the first option and becomes the default unless a default node is set.",
+  "en": "A paired urltest group named <tag>-auto with the same nodes as this direction. It is offered as the first option and becomes the default unless a default node is set.",
+  "special": []
+ },
+ {
+  "key": "· auto",
+  "en": "· auto",
+  "special": []
+ },
+ {
+  "key": "(off)",
+  "en": "(off)",
+  "special": []
+ },
+ {
+  "key": "Include this direction in the config. A switched-off direction keeps its settings but is not built and cannot be picked as a rule target.",
+  "en": "Include this direction in the config. A switched-off direction keeps its settings but is not built and cannot be picked as a rule target.",
+  "special": []
+ },
+ {
+  "key": "Auto-select mode",
+  "en": "Auto-select mode",
+  "special": []
+ },
+ {
+  "key": "fastest node",
+  "en": "fastest node",
+  "special": []
+ },
+ {
+  "key": "spread across a pool",
+  "en": "spread across a pool",
+  "special": []
+ },
+ {
+  "key": "Invert: keep nodes that do NOT match",
+  "en": "Invert: keep nodes that do NOT match",
+  "special": []
+ },
+ {
+  "key": "Filter syntax and examples",
+  "en": "Filter syntax and examples",
+  "special": []
+ },
+ {
+  "key": "e.g. 🇳🇱 or DE-",
+  "en": "e.g. 🇳🇱 or DE-",
+  "special": []
+ },
+ {
+  "key": "e.g. 🇳🇱",
+  "en": "e.g. 🇳🇱",
+  "special": []
+ },
+ {
+  "key": "Node filter (regular expression body; empty = every node)",
+  "en": "Node filter (regular expression body; empty = every node)",
+  "special": []
+ },
+ {
+  "key": "Default node (regular expression; first match wins)",
+  "en": "Default node (regular expression; first match wins)",
+  "special": []
+ },
+ {
+  "key": "Extra options offered in the picker",
+  "en": "Extra options offered in the picker",
+  "special": []
+ },
+ {
+  "key": "Raw outbound JSON",
+  "en": "Raw outbound JSON",
+  "special": []
+ },
+ {
+  "key": "📖 Documentation",
+  "en": "📖 Documentation",
+  "special": []
+ },
+ {
+  "key": "Switch to Preview to see nodes for this outbound.",
+  "en": "Switch to Preview to see nodes for this outbound.",
+  "special": []
+ },
+ {
+  "key": "Preview is not available in this context (no presenter).",
+  "en": "Preview is not available in this context (no presenter).",
+  "special": []
+ },
+ {
+  "key": "Preview is not available: wizard model is nil.",
+  "en": "Preview is not available: wizard model is nil.",
+  "special": []
+ },
+ {
+  "key": "Failed to build preview: invalid outbound JSON. Please switch to the \"Raw\" tab and fix JSON first.",
+  "en": "Failed to build preview: invalid outbound JSON. Please switch to the \"Raw\" tab and fix JSON first.",
+  "special": []
+ },
+ {
+  "key": "Failed to build preview cache: %v",
+  "en": "Failed to build preview cache: %v",
+  "special": []
+ },
+ {
+  "key": "No nodes available for preview. Please configure sources and try again.",
+  "en": "No nodes available for preview. Please configure sources and try again.",
+  "special": []
+ },
+ {
+  "key": "Unknown source",
+  "en": "Unknown source",
+  "special": []
+ },
+ {
+  "key": "%d node(s) total, %d matched filters",
+  "en": "%d node(s) total, %d matched filters",
+  "special": []
+ },
+ {
+  "key": ", default: %s",
+  "en": ", default: %s",
+  "special": []
+ },
+ {
+  "key": " | Also includes: %s",
+  "en": " | Also includes: %s",
+  "special": []
+ },
+ {
+  "key": " | ⚠️ %d source error(s)",
+  "en": " | ⚠️ %d source error(s)",
+  "special": []
+ },
+ {
+  "key": "ParserConfig is not available",
+  "en": "ParserConfig is not available",
+  "special": []
+ },
+ {
+  "key": "invalid JSON",
+  "en": "invalid JSON",
+  "special": []
+ },
+ {
+  "key": "tag is required",
+  "en": "tag is required",
+  "special": []
+ },
+ {
+  "key": "failed to open documentation",
+  "en": "failed to open documentation",
+  "special": []
+ },
+ {
+  "key": "Directions:",
+  "en": "Directions:",
+  "special": []
+ },
+ {
+  "key": "Packets travel top to bottom: the first hop is next to you, the last one is the address the site sees.",
+  "en": "Packets travel top to bottom: the first hop is next to you, the last one is the address the site sees.",
+  "special": []
+ },
+ {
+  "key": "Chain name",
+  "en": "Chain name",
+  "special": []
+ },
+ {
+  "key": "Directions and rules reference this name",
+  "en": "Directions and rules reference this name",
+  "special": []
+ },
+ {
+  "key": "Add hop",
+  "en": "Add hop",
+  "special": []
+ },
+ {
+  "key": "unnamed",
+  "en": "unnamed",
+  "special": []
+ },
+ {
+  "key": "No positions yet — add at least two.",
+  "en": "No positions yet — add at least two.",
+  "special": []
+ },
+ {
+  "key": "One more position needed: the core rejects a single-hop chain.",
+  "en": "One more position needed: the core rejects a single-hop chain.",
+  "special": []
+ },
+ {
+  "key": "Nothing left to add: every available target is already in the chain.",
+  "en": "Nothing left to add: every available target is already in the chain.",
+  "special": []
+ },
+ {
+  "key": "ClientHello fingerprint is stripped, but positions %s are reality nodes that require it — the chain will keep tls.utls on every position. Clear tls.utls to match.",
+  "en": "ClientHello fingerprint is stripped, but positions %s are reality nodes that require it — the chain will keep tls.utls on every position. Clear tls.utls to match.",
+  "special": []
+ },
+ {
+  "key": "A nested chain (%s) is only allowed at the first position — move it to the top or remove it.",
+  "en": "A nested chain (%s) is only allowed at the first position — move it to the top or remove it.",
+  "special": []
+ },
+ {
+  "key": "Chains %s are declared below this one in the sources list — a chain may only reference chains above it. Drag them higher, or this chain will not build.",
+  "en": "Chains %s are declared below this one in the sources list — a chain may only reference chains above it. Drag them higher, or this chain will not build.",
+  "special": []
+ },
+ {
+  "key": "The name “%s” is already taken by another node, Direction or chain — two outbounds with one tag cannot coexist, this chain will be dropped at build.",
+  "en": "The name “%s” is already taken by another node, Direction or chain — two outbounds with one tag cannot coexist, this chain will be dropped at build.",
+  "special": []
+ },
+ {
+  "key": "The first position (%s) dials through its own detour — the real path is longer than shown: one more hop precedes it that is not in this list.",
+  "en": "The first position (%s) dials through its own detour — the real path is longer than shown: one more hop precedes it that is not in this list.",
+  "special": []
+ },
+ {
+  "key": "Positions %s have their own detour — it does not apply inside a chain: a link always dials through the previous position. The path is exactly as shown.",
+  "en": "Positions %s have their own detour — it does not apply inside a chain: a link always dials through the previous position. The path is exactly as shown.",
+  "special": []
+ },
+ {
+  "key": "These positions are no longer among the available targets: %s. A chain with such a reference will not reach the config.",
+  "en": "These positions are no longer among the available targets: %s. A chain with such a reference will not reach the config.",
+  "special": []
+ },
+ {
+  "key": "Chain %s is used as a position by: %s. After renaming, their position will point nowhere — fix those too.",
+  "en": "Chain %s is used as a position by: %s. After renaming, their position will point nowhere — fix those too.",
+  "special": []
+ },
+ {
+  "key": "node",
+  "en": "node",
+  "special": []
+ },
+ {
+  "key": "group",
+  "en": "group",
+  "special": []
+ },
+ {
+  "key": "direction",
+  "en": "direction",
+  "special": []
+ },
+ {
+  "key": "chain",
+  "en": "chain",
+  "special": []
+ },
+ {
+  "key": "built-in",
+  "en": "built-in",
+  "special": []
+ },
+ {
+  "key": "not found",
+  "en": "not found",
+  "special": []
+ },
+ {
+  "key": "loading…",
+  "en": "loading…",
+  "special": []
+ },
+ {
+  "key": "Advanced",
+  "en": "Advanced",
+  "special": []
+ },
+ {
+  "key": "Option overrides",
+  "en": "Option overrides",
+  "special": []
+ },
+ {
+  "key": "Applied from the 2nd position on: the first one dials as-is.",
+  "en": "Applied from the 2nd position on: the first one dials as-is.",
+  "special": []
+ },
+ {
+  "key": "The value is JSON: quote strings (\"safari\"), write numbers as 1280, nest as {\"utls\":{\"fingerprint\":\"safari\"}}. null is special — it does not store a value, it removes the option from the link.",
+  "en": "The value is JSON: quote strings (\"safari\"), write numbers as 1280, nest as {\"utls\":{\"fingerprint\":\"safari\"}}. null is special — it does not store a value, it removes the option from the link.",
+  "special": []
+ },
+ {
+  "key": "Add override",
+  "en": "Add override",
+  "special": []
+ },
+ {
+  "key": "type",
+  "en": "type",
+  "special": []
+ },
+ {
+  "key": "option",
+  "en": "option",
+  "special": []
+ },
+ {
+  "key": "value (JSON)",
+  "en": "value (JSON)",
+  "special": []
+ },
+ {
+  "key": "The value must be JSON: quote strings, e.g. \"safari\".",
+  "en": "The value must be JSON: quote strings, e.g. \"safari\".",
+  "special": []
+ },
+ {
+  "key": "Option %s · %s is set twice — only the last one reaches the config.",
+  "en": "Option %s · %s is set twice — only the last one reaches the config.",
+  "special": []
+ },
+ {
+  "key": "Link idle timeout",
+  "en": "Link idle timeout",
+  "special": []
+ },
+ {
+  "key": "5m — core default, 0s — never drop",
+  "en": "5m — core default, 0s — never drop",
+  "special": []
+ },
+ {
+  "key": "Strip DPI evasion from links",
+  "en": "Strip DPI evasion from links",
+  "special": []
+ },
+ {
+  "key": "ClientHello fragmentation",
+  "en": "ClientHello fragmentation",
+  "special": []
+ },
+ {
+  "key": "multiplex padding",
+  "en": "multiplex padding",
+  "special": []
+ },
+ {
+  "key": "XHTTP padding",
+  "en": "XHTTP padding",
+  "special": []
+ },
+ {
+  "key": "ClientHello fingerprint (must not be stripped on reality nodes)",
+  "en": "ClientHello fingerprint (must not be stripped on reality nodes)",
+  "special": []
+ },
+ {
+  "key": "Free community servers",
+  "en": "Free community servers",
+  "special": []
+ },
+ {
+  "key": "Community VPN sources",
+  "en": "Community VPN sources",
+  "special": []
+ },
+ {
+  "key": "Loading",
+  "en": "Loading",
+  "special": []
+ },
+ {
+  "key": "Fetching community sources list…",
+  "en": "Fetching community sources list…",
+  "special": []
+ },
+ {
+  "key": "These are subscription URLs maintained by the community. Pick one and click Insert — the URL goes into the input field, then click Add to register it.",
+  "en": "These are subscription URLs maintained by the community. Pick one and click Insert — the URL goes into the input field, then click Add to register it.",
+  "special": []
+ },
+ {
+  "key": "Insert",
+  "en": "Insert",
+  "special": []
+ },
+ {
+  "key": "Failed to load community sources:\n\nLocal cache missing or corrupted.",
+  "en": "Failed to load community sources:\n\nLocal cache missing or corrupted.",
+  "special": []
+ },
+ {
+  "key": "No community sources available right now.",
+  "en": "No community sources available right now.",
+  "special": []
+ },
+ {
+  "key": "Port:",
+  "en": "Port:",
+  "special": []
+ },
+ {
+  "key": "Invalid port",
+  "en": "Invalid port",
+  "special": []
+ },
+ {
+  "key": "Port must be a number between 1024 and 65535.",
+  "en": "Port must be a number between 1024 and 65535.",
+  "special": []
+ },
+ {
+  "key": "Must be a number.",
+  "en": "Must be a number.",
+  "special": []
+ }
+]

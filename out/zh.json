@@ -1,0 +1,5918 @@
+{
+ "_display_name": "简体中文",
+ "Local": {
+  "value": "当地的"
+ },
+ "🌐 Remote": {
+  "value": "🌐 远程"
+ },
+ "🖥️ Servers": {
+  "value": "🖥️服务器"
+ },
+ "MACHINES": {
+  "value": "机器"
+ },
+ "+ Add": {
+  "value": "+ 添加"
+ },
+ "Add remote machine": {
+  "value": "添加远程机器"
+ },
+ "Run `sudo sing-box lxd client add` on the machine you want to manage — it prints a one-time invite. Paste it below. The code burns after the first attempt; mint a fresh one if pairing fails.": {
+  "value": "在您要管理的计算机上运行“sudo sing-box lxd client add”——它会打印一次性邀请。粘贴在下面。代码在第一次尝试后就会被烧毁；如果配对失败，请更换新的。"
+ },
+ "Run this on the machine to get an invite:": {
+  "value": "在计算机上运行此命令以获得邀请："
+ },
+ "How to install the daemon on a machine": {
+  "value": "如何在机器上安装守护进程"
+ },
+ "Advanced (address, secret)": {
+  "value": "高级（地址、秘密）"
+ },
+ "Invite": {
+  "value": "邀请"
+ },
+ "address#fingerprint#code": {
+  "value": "地址#指纹#代码"
+ },
+ "Name": {
+  "value": "姓名"
+ },
+ "Router, home VPS, … (defaults to the address)": {
+  "value": "路由器、家庭 VPS……（默认为地址）"
+ },
+ "Address": {
+  "value": "地址"
+ },
+ "host:port — leave empty to use the invite's address": {
+  "value": "主机：端口 — 留空以使用邀请地址"
+ },
+ "Secret": {
+  "value": "秘密"
+ },
+ "only for a plain-h2c daemon; leave empty for mTLS": {
+  "value": "仅适用于普通 h2c 守护进程；对于 mTLS 留空"
+ },
+ "Add": {
+  "value": "添加"
+ },
+ "Pairing…": {
+  "value": "配对…"
+ },
+ "Paste the invite printed by the daemon.": {
+  "value": "粘贴守护程序打印的邀请。"
+ },
+ "Pairing failed: %v": {
+  "value": "配对失败：%v"
+ },
+ "No remote machines yet. Press “+ Add” and paste the invite printed by `sing-box lxd` on the machine you want to manage.": {
+  "value": "还没有远程机器。按“+添加”并将“sing-box lxd”打印的邀请粘贴到您要管理的计算机上。"
+ },
+ "Configure": {
+  "value": "配置"
+ },
+ "Connect": {
+  "value": "连接"
+ },
+ "Connecting… %d/%d": {
+  "value": "正在连接…%d/%d"
+ },
+ "Disconnect": {
+  "value": "断开"
+ },
+ "No machine connected. Pick one on the right and press Connect.": {
+  "value": "没有连接机器。选择右侧的一个并按“连接”。"
+ },
+ "The core on this machine is not running. Press Start in its row.": {
+  "value": "这台机器上的核心没有运行。按其行中的“开始”。"
+ },
+ "reachable": {
+  "value": "可达的"
+ },
+ "Edit name, address and platform": {
+  "value": "编辑姓名、地址和平台"
+ },
+ "Remove this machine": {
+  "value": "删除这台机器"
+ },
+ "What the daemon reports about itself": {
+  "value": "守护进程报告其自身的内容"
+ },
+ "%s — daemon status": {
+  "value": "%s — 守护进程状态"
+ },
+ "Machine": {
+  "value": "机器"
+ },
+ "Platform": {
+  "value": "平台"
+ },
+ "Daemon version": {
+  "value": "守护进程版本"
+ },
+ "Core status": {
+  "value": "核心地位"
+ },
+ "State dir": {
+  "value": "状态目录"
+ },
+ "Active config sha256": {
+  "value": "活动配置 sha256"
+ },
+ "Last-good config sha256": {
+  "value": "最后的好配置 sha256"
+ },
+ "Interrupted apply": {
+  "value": "中断申请"
+ },
+ "yes — the core runs the last-good config": {
+  "value": "是的 - 核心运行最后的好配置"
+ },
+ "Last error": {
+  "value": "最后一个错误"
+ },
+ "Unreachable": {
+  "value": "无法到达"
+ },
+ "Connection failures this session (%d)": {
+  "value": "此会话连接失败（%d）"
+ },
+ "Machine — %s": {
+  "value": "机器 — %s"
+ },
+ "Re-pair — reconnect this machine with a fresh invite": {
+  "value": "重新配对 — 使用新邀请重新连接这台机器"
+ },
+ "Use this when the channel broke on the machine's side: the daemon was reinstalled, its state directory was wiped, this client was revoked, or its server certificate changed and the pin no longer matches. Name, address, platform and every setting of this machine are kept — only the pin and the client key are replaced.": {
+  "value": "当机器端的通道中断时使用此选项：重新安装守护程序、擦除其状态目录、吊销此客户端或其服务器证书更改且 pin 不再匹配。名称、地址、平台和这台机器的每一项设置都会被保留——只有密码和客户端密钥被替换。"
+ },
+ "host:port — leave empty to keep the current address": {
+  "value": "主机：端口 — 留空以保留当前地址"
+ },
+ "Re-pair": {
+  "value": "维修"
+ },
+ "Re-pairing…": {
+  "value": "重新配对..."
+ },
+ "Re-paired at %s. A new client key was issued; connect again.": {
+  "value": "在 %s 重新配对。颁发了新的客户端密钥；再次连接。"
+ },
+ "Re-pair machine": {
+  "value": "修机"
+ },
+ "Issue a new client key for %s?\n\nThe current key stops being this launcher's credential and stays on the machine as a leftover — remove it there with `sing-box lxd client remove`. Settings of this machine are not touched.": {
+  "value": "为 %s 颁发新的客户端密钥吗？\n\n当前密钥不再是此启动器的凭据，而是作为剩余物保留在计算机上 - 使用“sing-box lxd client remove”将其删除。不会触及本机的设置。"
+ },
+ "Copy settings from another machine": {
+  "value": "从另一台机器复制设置"
+ },
+ "Copies the wizard setup — sources, rules, DNS and variables — from another machine onto this one, so you don't build the same thing twice. Pairing is NOT copied: each machine keeps its own client key, because one shared key would mean revoking access on one machine revokes it on both. The built config and rule-set files are rebuilt for this machine on the next Save and Deploy.": {
+  "value": "将向导设置（源、规则、DNS 和变量）从另一台计算机复制到这台计算机上，这样您就不会两次构建相同的东西。配对不会被复制：每台机器都保留自己的客户端密钥，因为一个共享密钥意味着撤销一台机器上的访问权限会同时撤销两台机器上的访问权限。构建的配置和规则集文件将在下次保存和部署时为此计算机重新构建。"
+ },
+ "Take settings from…": {
+  "value": "从...获取设置"
+ },
+ "Copy": {
+  "value": "复制",
+  "special": {
+   "1": {
+    "value": "复制"
+   }
+  }
+ },
+ "Settings copied from %s. Open Configure to review them and press Save.": {
+  "value": "从 %s 复制的设置。打开“配置”以查看它们，然后按“保存”。"
+ },
+ "Copy failed: %v": {
+  "value": "复制失败：%v"
+ },
+ "Pick the machine to copy settings from.": {
+  "value": "选择要从中复制设置的计算机。"
+ },
+ "No other configured machine to copy from yet.": {
+  "value": "尚无其他已配置的计算机可供复制。"
+ },
+ "Overwrite settings": {
+  "value": "覆盖设置"
+ },
+ "%s already has its own setup. Copying replaces it, and there is no way back.": {
+  "value": "%s 已经有了自己的设置。复制取代了它，并且没有回头路。"
+ },
+ "Architecture": {
+  "value": "建筑学"
+ },
+ "Remove machine": {
+  "value": "拆机"
+ },
+ "Remove %s? Its config, wizard states and client keys are deleted from this launcher.\n\nAccess on the machine itself stays registered — revoke it there with `sing-box lxd client remove`.": {
+  "value": "删除%s？其配置、向导状态和客户端密钥将从该启动器中删除。\n\n机器本身的访问权限保持注册状态 - 使用“sing-box lxd client remove”撤销它。"
+ },
+ "No config built for %s yet. Press Configure on its row, set it up and press Save — that writes the config this button sends.": {
+  "value": "尚未为 %s 构建配置。按其行上的“配置”，进行设置并按“保存”——写入此按钮发送的配置。"
+ },
+ "🔍 Diagnostics": {
+  "value": "🔍诊断"
+ },
+ "❓ Help": {
+  "value": "❓ 帮助"
+ },
+ "⚙️ Settings": {
+  "value": "⚙️ 设置"
+ },
+ "Settings": {
+  "value": "设置"
+ },
+ "Subscriptions": {
+  "value": "订阅"
+ },
+ "User-Agent:": {
+  "value": "用户代理："
+ },
+ "Custom User-Agent sent on subscription fetches. Leave empty to use the default: %s": {
+  "value": "在订阅获取时发送的自定义用户代理。留空以使用默认值：%s"
+ },
+ "Reset to default": {
+  "value": "重置为默认值"
+ },
+ "Subscription identification": {
+  "value": "订阅标识"
+ },
+ "Send device ID": {
+  "value": "发送设备ID"
+ },
+ "Sends a UUIDv4 device ID + OS family/version + device model with every subscription fetch. Required by Marzban / Remnawave / NashVPN-style panels for device counting. Unchecking returns a less-fingerprinted request — HWID-binding panels will then return empty subscriptions.": {
+  "value": "每次获取订阅时发送 UUIDv4 设备 ID + 操作系统系列/版本 + 设备型号。 Marzban / Remnawave / NashVPN 式面板需要进行设备计数。取消选中会返回较少指纹的请求 - HWID 绑定面板将返回空订阅。"
+ },
+ "Hash device model (privacy)": {
+  "value": "哈希设备模型（隐私）"
+ },
+ "When enabled, X-Device-Model is sent as sha256(model)[:16] instead of the raw value (e.g. MacBookPro18,1). The provider still counts you as one device but does not see the hardware family.": {
+  "value": "启用后，X-Device-Model 将作为 sha256(model)[:16] 而不是原始值发送（例如 MacBookPro18,1）。提供商仍将您视为一台设备，但看不到硬件系列。"
+ },
+ "Device ID (HWID):": {
+  "value": "设备 ID (HWID)："
+ },
+ "Regenerate": {
+  "value": "再生"
+ },
+ "Regenerate device ID?": {
+  "value": "重新生成设备 ID？"
+ },
+ "This will generate a new UUID and the next subscription fetch will register a new device with HWID-binding providers — consuming one of your allowed device slots. The previous ID stays counted until you remove it via the provider's management bot. Continue?": {
+  "value": "这将生成一个新的 UUID，并且下一次订阅获取将向 HWID 绑定提供程序注册一个新设备 - 消耗您允许的设备插槽之一。之前的 ID 会一直保留，直到您通过提供商的管理机器人将其删除为止。继续？"
+ },
+ "Language": {
+  "value": "语言"
+ },
+ "Connection": {
+  "value": "联系"
+ },
+ "Core Status Checking...": {
+  "value": "核心状态检查..."
+ },
+ "Core Status ❌ Error: sing-box not found": {
+  "value": "核心状态❌错误：找不到单盒"
+ },
+ "Core Status 🔄 Restarting...": {
+  "value": "核心状态🔄正在重新启动..."
+ },
+ "Core Status ✅ Running": {
+  "value": "核心状态 ✅ 运行"
+ },
+ "Core Status ⏸️ Stopped": {
+  "value": "核心状态⏸️已停止"
+ },
+ "Start": {
+  "value": "开始",
+  "special": {
+   "1": {
+    "value": "开始"
+   }
+  }
+ },
+ "Stop": {
+  "value": "停止",
+  "special": {
+   "1": {
+    "value": "停止"
+   }
+  }
+ },
+ "Exit": {
+  "value": "出口"
+ },
+ "Config": {
+  "value": "配置"
+ },
+ "Checking config...": {
+  "value": "正在检查配置..."
+ },
+ "%s ✅ %s": {
+  "value": "%s ✅ %s"
+ },
+ "%s ❌ not found": {
+  "value": "%s ❌ 未找到"
+ },
+ "Config error: %v": {
+  "value": "配置错误：%v"
+ },
+ "Starting...": {
+  "value": "开始..."
+ },
+ "Refreshing subscriptions": {
+  "value": "刷新订阅"
+ },
+ "Update subscriptions (%s+U)": {
+  "value": "更新订阅 (%s+U)"
+ },
+ "Restart sing-box (%s+R)": {
+  "value": "重新启动歌唱盒（%s+R）"
+ },
+ "State edited — restart sing-box to apply": {
+  "value": "状态已编辑-重启sing-box以应用"
+ },
+ "Auto-update subscriptions": {
+  "value": "自动更新订阅"
+ },
+ "Auto-ping on connect": {
+  "value": "连接时自动 ping"
+ },
+ "(subs: just now)": {
+  "value": "（替补：刚才）"
+ },
+ "(subs: %dm ago)": {
+  "value": "（订阅者：%dm 前）"
+ },
+ "(subs: %dh ago)": {
+  "value": "（订阅者：%dh 前）"
+ },
+ "(subs: %dd ago)": {
+  "value": "（订阅者：%dd 前）"
+ },
+ "Debug API (localhost)": {
+  "value": "调试 API（本地主机）"
+ },
+ "Local read-only HTTP API for scripts and automation. Off by default. Bound to 127.0.0.1 only.": {
+  "value": "用于脚本和自动化的本地只读 HTTP API。默认关闭。仅绑定到 127.0.0.1。"
+ },
+ "Enable": {
+  "value": "使能够"
+ },
+ "Copy token": {
+  "value": "复制令牌"
+ },
+ "Status: Off": {
+  "value": "状态：关闭"
+ },
+ "Status: Listening on %s": {
+  "value": "状态：正在收听 %s"
+ },
+ "Token copied": {
+  "value": "令牌已复制"
+ },
+ "Debug API bearer token copied to clipboard. Pass as: Authorization: Bearer …": {
+  "value": "调试 API 持有者令牌已复制到剪贴板。传递为：授权：持有者……"
+ },
+ "Copy API info": {
+  "value": "复制 API 信息"
+ },
+ "API info copied": {
+  "value": "已复制 API 信息"
+ },
+ "Connection card (base URL, token, versions, docs link) copied. Hand it to an agent — it has everything to connect.": {
+  "value": "已复制连接卡（基本 URL、令牌、版本、文档链接）。将其交给代理——它拥有所有可连接的东西。"
+ },
+ "Regenerate token": {
+  "value": "重新生成令牌"
+ },
+ "Regenerate Debug API token?": {
+  "value": "重新生成调试 API 令牌？"
+ },
+ "A new bearer token will be generated and the old one will stop working immediately. Any scripts or automation using the old token must be updated. If the API is running it will restart with the new token. Continue?": {
+  "value": "将生成一个新的不记名令牌，旧的令牌将立即停止工作。使用旧令牌的任何脚本或自动化都必须更新。如果 API 正在运行，它将使用新令牌重新启动。继续？"
+ },
+ "Token regenerated": {
+  "value": "令牌重新生成"
+ },
+ "A new Debug API token is active. Use “Copy token” to grab it.": {
+  "value": "新的调试 API 令牌处于活动状态。使用“复制令牌”来获取它。"
+ },
+ "⚙️ Configurator": {
+  "value": "⚙️ 配置器"
+ },
+ "Download Config Template": {
+  "value": "下载配置模板"
+ },
+ "Sing-box": {
+  "value": "唱盒"
+ },
+ "sing-box is the core binary.\n\n": {
+  "value": "sing-box 是核心二进制文件。"
+ },
+ "Look for: %s\n": {
+  "value": "寻找：%s"
+ },
+ "Extract the binary into the bin folder.\n\n": {
+  "value": "将二进制文件提取到 bin 文件夹中。"
+ },
+ "You can download with the button above, or manually from:": {
+  "value": "您可以使用上面的按钮下载，也可以从以下位置手动下载："
+ },
+ "Checking...": {
+  "value": "检查..."
+ },
+ "❌ not found": {
+  "value": "❌未找到"
+ },
+ "Download": {
+  "value": "下载"
+ },
+ "Download v%s": {
+  "value": "下载 v%s"
+ },
+ "Reinstall v%s": {
+  "value": "重新安装 v%s"
+ },
+ "Close": {
+  "value": "关闭"
+ },
+ "Open bin folder": {
+  "value": "打开bin文件夹"
+ },
+ "Wintun": {
+  "value": "温顿"
+ },
+ "wintun.dll is required for TUN mode on Windows.\n\n": {
+  "value": "Windows 上的 TUN 模式需要 wintun.dll。"
+ },
+ "In the download archive, take wintun.dll \n\n Your system is %s.\n\n ": {
+  "value": "在下载存档中，获取 wintun.dll \n\n 您的系统是 %s。"
+ },
+ "Place it in the bin folder: bin\n\n": {
+  "value": "放入bin文件夹：bin"
+ },
+ "ok": {
+  "value": "好的"
+ },
+ "❌ Error checking wintun.dll": {
+  "value": "❌ 检查 wintun.dll 时出错"
+ },
+ "Config Template": {
+  "value": "配置模板"
+ },
+ "Template saved to %s": {
+  "value": "模板已保存至 %s"
+ },
+ "Downloading config template…": {
+  "value": "正在下载配置模板..."
+ },
+ "Config template download failed": {
+  "value": "配置模板下载失败"
+ },
+ "server returned an empty file": {
+  "value": "服务器返回一个空文件"
+ },
+ "Download Complete": {
+  "value": "下载完成"
+ },
+ "Update Available": {
+  "value": "可用更新"
+ },
+ "A new version of the application is available": {
+  "value": "该应用程序有新版本可用"
+ },
+ "Current version: %s": {
+  "value": "当前版本：%s"
+ },
+ "New version: %s": {
+  "value": "新版本：%s"
+ },
+ "Download from GitHub": {
+  "value": "从 GitHub 下载"
+ },
+ "Configuration Not Found": {
+  "value": "未找到配置"
+ },
+ "⚠️ Configuration file not found!\n\nThe file %s is missing from the bin/ folder.\n\nTo get started:\n1. open ⚙️ Configurator\n2. add subscription URLs in the Sources tab and click Save\n3. click 🔄 Update on this dashboard to fetch and build config\n4. press Start\n": {
+  "value": "⚠️ 找不到配置文件！\n\nbin/ 文件夹中缺少文件 %s。\n\n开始使用：\n1.打开⚙️配置器\n2. 在“来源”选项卡中添加订阅 URL，然后单击“保存”\n3. 单击此仪表板上的 🔄 更新以获取并构建配置\n4. 按开始"
+ },
+ "Information": {
+  "value": "信息"
+ },
+ "The application is already running. Use the existing instance or close it before starting a new one.": {
+  "value": "该应用程序已经在运行。使用现有实例或在启动新实例之前关闭它。"
+ },
+ "Info": {
+  "value": "信息",
+  "special": {
+   "1": {
+    "value": "信息"
+   }
+  }
+ },
+ "Sing-Box already running (according to internal state).": {
+  "value": "Sing-Box 已在运行（根据内部状态）。"
+ },
+ "Crash": {
+  "value": "碰撞"
+ },
+ "Sing-Box crashed, restarting... (attempt %d/%d)": {
+  "value": "Sing-Box 崩溃，正在重新启动...（尝试 %d/%d）"
+ },
+ "Failed to start sing-box:\n\n%s\n\nPlease check:\n1. config.json is valid\n2. sing-box executable exists\n3. Check logs for details": {
+  "value": "无法启动歌唱盒：\n\n%s\n\n请检查：\n1.config.json有效\n2.单盒可执行文件存在\n3.查看日志了解详细信息"
+ },
+ "Failed to rebuild config.json:\n\n%s\n\nsing-box was not started with the previous config.json: it may not match your current settings. Fix the cause and try again.": {
+  "value": "无法重建 config.json：\n\n%s\n\nsing-box 未使用之前的 config.json 启动：它可能与您当前的设置不匹配。修复原因并重试。"
+ },
+ "Parser failed:\n\n%s\n\nPlease check:\n1. Subscription URL is valid\n2. Network connection\n3. Check parser.log for details": {
+  "value": "解析器失败：\n\n%s\n\n请检查：\n1.订阅地址有效\n2. 网络连接\n3.查看parser.log了解详细信息"
+ },
+ "Linux capabilities required": {
+  "value": "所需的 Linux 功能"
+ },
+ "Could not stop sing-box with administrator rights (dialog cancelled or error). The core may still be running — try Stop again or quit sing-box in Activity Monitor.": {
+  "value": "无法使用管理员权限停止 sing-box（对话框取消或错误）。核心可能仍在运行 - 再次尝试停止或退出活动监视器中的sing-box。"
+ },
+ "Sing-Box failed to restart after %d attempts. Check sing-box.log for details.": {
+  "value": "在 %d 次尝试后，Sing-Box 未能重新启动。检查 sing-box.log 了解详细信息。"
+ },
+ "Open": {
+  "value": "打开"
+ },
+ "Quit": {
+  "value": "辞职"
+ },
+ "Start VPN": {
+  "value": "启动VPN"
+ },
+ "Stop VPN": {
+  "value": "停止VPN"
+ },
+ "Select Proxy": {
+  "value": "选择代理"
+ },
+ "No proxies available": {
+  "value": "没有可用的代理"
+ },
+ "Hide app from Dock": {
+  "value": "从 Dock 隐藏应用程序"
+ },
+ "Config folder": {
+  "value": "配置文件夹"
+ },
+ "🛑 Kill Sing-Box": {
+  "value": "🛑 杀歌盒"
+ },
+ "Kill": {
+  "value": "杀"
+ },
+ "Sing-Box killed if running.": {
+  "value": "如果运行，Sing-Box 就会被杀死。"
+ },
+ "📦 Version: %s": {
+  "value": "📦版本：%s"
+ },
+ "Checking for updates...": {
+  "value": "正在检查更新..."
+ },
+ "Unable to check for updates": {
+  "value": "无法检查更新"
+ },
+ "🆕 Update available: %s\nCurrent: %s": {
+  "value": "🆕 可用更新：%s\n当前：%s"
+ },
+ "✅ You are using a development build\nCurrent: %s\nLatest release: %s": {
+  "value": "✅ 您正在使用开发版本\n当前：%s\n最新版本：%s"
+ },
+ "✅ You are using the latest version\nCurrent: %s": {
+  "value": "✅ 您使用的是最新版本\n当前：%s"
+ },
+ "💬 Telegram Channel": {
+  "value": "💬 电报频道"
+ },
+ "🐙 GitHub Repository": {
+  "value": "🐙 GitHub 存储库"
+ },
+ "Language:": {
+  "value": "语言："
+ },
+ "Language changed. Restart the app to apply fully.": {
+  "value": "语言变了。重新启动应用程序以完全应用。"
+ },
+ "📥 Download translations": {
+  "value": "📥 下载翻译"
+ },
+ "⬇": {
+  "value": "⬇"
+ },
+ "Translations downloaded (%d). Restart to see new languages.": {
+  "value": "翻译已下载 (%d)。重新启动即可看到新语言。"
+ },
+ "Failed to download translations": {
+  "value": "下载翻译失败"
+ },
+ "Downloading...": {
+  "value": "正在下载..."
+ },
+ "🔄": {
+  "value": "🔄"
+ },
+ "STUN [UDP]": {
+  "value": "眩晕 [UDP]"
+ },
+ "STUN Check": {
+  "value": "眩晕检查"
+ },
+ "Checking, please wait...": {
+  "value": "正在检查，请稍等..."
+ },
+ "Your External IP: %s\n%s": {
+  "value": "您的外部 IP：%s\n%s"
+ },
+ "Copy IP": {
+  "value": "复制IP"
+ },
+ "Copied": {
+  "value": "已复制"
+ },
+ "IP address copied to clipboard.": {
+  "value": "IP 地址已复制到剪贴板。"
+ },
+ "STUN Check Result": {
+  "value": "STUN 检查结果"
+ },
+ "STUN server (host:port):": {
+  "value": "STUN 服务器（主机：端口）："
+ },
+ "Use system SOCKS5 proxy": {
+  "value": "使用系统SOCKS5代理"
+ },
+ "STUN settings": {
+  "value": "眩晕设置"
+ },
+ "Save": {
+  "value": "节省"
+ },
+ "Cancel": {
+  "value": "取消"
+ },
+ "Log window": {
+  "value": "日志窗口"
+ },
+ "Logs folder": {
+  "value": "日志文件夹"
+ },
+ "Clean unused rule-sets": {
+  "value": "清理未使用的规则集"
+ },
+ "Removed %d unused rule-set file(s).": {
+  "value": "已删除 %d 个未使用的规则集文件。"
+ },
+ "Traffic Profiler": {
+  "value": "流量分析器"
+ },
+ "Disable Mesa3D (use hardware OpenGL)": {
+  "value": "禁用 Mesa3D（使用硬件 OpenGL）"
+ },
+ "Enable Mesa3D (software rendering)": {
+  "value": "启用 Mesa3D（软件渲染）"
+ },
+ "Stop rendering through Mesa3D and use hardware OpenGL?": {
+  "value": "停止通过 Mesa3D 渲染并使用硬件 OpenGL？"
+ },
+ "Render the window through the Mesa3D software renderer instead of the GPU?": {
+  "value": "通过 Mesa3D 软件渲染器而不是 GPU 渲染窗口？"
+ },
+ "The launcher will restart now.": {
+  "value": "启动器现在将重新启动。"
+ },
+ "OpenGL": {
+  "value": "OpenGL"
+ },
+ "Hardware OpenGL is now available:\n%s\nDisable Mesa3D and use it? The launcher will restart now.": {
+  "value": "硬件 OpenGL 现已可用：\n%s\n禁用 Mesa3D 并使用它？启动器现在将重新启动。"
+ },
+ "Yes": {
+  "value": "是的"
+ },
+ "Later": {
+  "value": "之后"
+ },
+ "IP Check Services:": {
+  "value": "IP检查服务："
+ },
+ "Open in browser": {
+  "value": "在浏览器中打开"
+ },
+ "Logs": {
+  "value": "日志"
+ },
+ "Level:": {
+  "value": "等级："
+ },
+ "Error": {
+  "value": "错误",
+  "special": {
+   "1": {
+    "value": "错误"
+   }
+  }
+ },
+ "Warn": {
+  "value": "警告"
+ },
+ "Verbose": {
+  "value": "冗长"
+ },
+ "Trace": {
+  "value": "痕迹"
+ },
+ "Refresh": {
+  "value": "刷新"
+ },
+ "Internal": {
+  "value": "内部的"
+ },
+ "Core": {
+  "value": "核"
+ },
+ "API": {
+  "value": "API"
+ },
+ "Log file not available.": {
+  "value": "日志文件不可用。"
+ },
+ "Download failed. See the log for details.": {
+  "value": "下载失败。详细信息请参阅日志。"
+ },
+ "Please download the file manually and place it in the folder below.": {
+  "value": "请手动下载该文件并将其放在下面的文件夹中。"
+ },
+ "Open download page": {
+  "value": "打开下载页面"
+ },
+ "Open folder": {
+  "value": "打开文件夹"
+ },
+ "OK": {
+  "value": "好的"
+ },
+ "Kill Process": {
+  "value": "杀死进程"
+ },
+ "Close This Warning": {
+  "value": "关闭此警告"
+ },
+ "Sing-Box appears to be already running.\nWould you like to kill the existing process?": {
+  "value": "Sing-Box 似乎已经在运行。\n您想终止现有进程吗？"
+ },
+ "Warning": {
+  "value": "警告"
+ },
+ "Status: Not checked": {
+  "value": "状态：未检查"
+ },
+ "Click 'Load Proxies'": {
+  "value": "单击“加载代理”"
+ },
+ "Loading proxies for '%s'...": {
+  "value": "正在加载“%s”的代理..."
+ },
+ "Proxies loaded for '%s'. Active: %s": {
+  "value": "已为“%s”加载代理。活跃：%s"
+ },
+ "Clash API disabled due to config error": {
+  "value": "由于配置错误，Clash API 被禁用"
+ },
+ "❌ Clash API Off (Error)": {
+  "value": "❌ 冲突 API 关闭（错误）"
+ },
+ "❌ Clash API Off (Config Error)": {
+  "value": "❌ Clash API 关闭（配置错误）"
+ },
+ "✅ Clash API On": {
+  "value": "✅ 冲突 API 开启"
+ },
+ "Status: Not running": {
+  "value": "状态：未运行"
+ },
+ "Sing-box is stopped.": {
+  "value": "歌盒已停止。"
+ },
+ "API service is not initialized": {
+  "value": "API服务未初始化"
+ },
+ "API is disabled: config error": {
+  "value": "API 被禁用：配置错误"
+ },
+ "Delay error: %s": {
+  "value": "延迟错误：%s"
+ },
+ "Delay: %d ms for %s": {
+  "value": "延迟：%s %d 毫秒"
+ },
+ "Selected: %s": {
+  "value": "已选择：%s"
+ },
+ "Selected: %d proxies": {
+  "value": "已选择：%d 个代理"
+ },
+ "No proxy selected": {
+  "value": "未选择代理"
+ },
+ "Switch error: %s": {
+  "value": "开关错误：%s"
+ },
+ "Switched '%s' to %s": {
+  "value": "已将“%s”切换为 %s"
+ },
+ "Sorted by name (A-Z)": {
+  "value": "按名称排序 (A-Z)"
+ },
+ "Sorted by name (Z-A)": {
+  "value": "按名称排序 (Z-A)"
+ },
+ "Sorted by delay (fastest first)": {
+  "value": "按延迟排序（最快的优先）"
+ },
+ "Sorted by delay (slowest first)": {
+  "value": "按延迟排序（最慢的在前）"
+ },
+ "No proxies to ping": {
+  "value": "没有代理可以 ping"
+ },
+ "Total / Available: %d / %d": {
+  "value": "总计/可用：%d / %d"
+ },
+ "Pinging %d proxies...": {
+  "value": "正在 Ping %d 个代理..."
+ },
+ "Pinging %d/%d...": {
+  "value": "正在 %d/%d 执行 ping 操作..."
+ },
+ "Ping test completed for %d proxies": {
+  "value": "已完成 %d 个代理的 Ping 测试"
+ },
+ "Selected group '%s'. Last used proxy: %s": {
+  "value": "已选择组“%s”。上次使用的代理：%s"
+ },
+ "Selected group '%s'.": {
+  "value": "已选择组“%s”。"
+ },
+ "Ping test URL updated: %s": {
+  "value": "Ping 测试 URL 已更新：%s"
+ },
+ "Ping": {
+  "value": "平"
+ },
+ "test": {
+  "value": "测试"
+ },
+ "Hide servers with ping errors": {
+  "value": "隐藏有 ping 错误的服务器"
+ },
+ "Show all servers": {
+  "value": "显示所有服务器"
+ },
+ "Sort by name (toggle A–Z / Z–A)": {
+  "value": "按名称排序（切换 A–Z / Z–A）"
+ },
+ "Sort by ping delay (toggle fastest first / slowest first)": {
+  "value": "按 ping 延迟排序（切换最快的优先/最慢的优先）"
+ },
+ "Ping all proxies in this group": {
+  "value": "Ping 该组中的所有代理"
+ },
+ "Ping test URL and parallel requests": {
+  "value": "Ping 测试 URL 和并行请求"
+ },
+ "Copy share links for all rows visible now, in current list order (one URI per line; hidden ping-error rows are skipped; excludes selector, urltest, direct).": {
+  "value": "按当前列表顺序复制现在可见的所有行的共享链接（每行一个 URI；隐藏的 ping 错误行将被跳过；排除选择器、urltest、直接）。"
+ },
+ "Copy share links for selected proxies only (multiple selection), in current list order (same URI rules as the default copy).": {
+  "value": "按当前列表顺序（与默认副本相同的 URI 规则）仅复制选定代理的共享链接（多项选择）。"
+ },
+ "Nothing to export (no rows match the current view).": {
+  "value": "没有要导出的内容（没有行与当前视图匹配）。"
+ },
+ "Nothing to export (no selected rows in the current view).": {
+  "value": "没有可导出的内容（当前视图中没有选定的行）。"
+ },
+ "Preparing export…": {
+  "value": "正在准备导出..."
+ },
+ "Clipboard: %d lines (one URI per line)": {
+  "value": "剪贴板：%d 行（每行一个 URI）"
+ },
+ "No share links could be built for this list.": {
+  "value": "无法为此列表建立共享链接。"
+ },
+ "Config path is not set.": {
+  "value": "未设置配置路径。"
+ },
+ "A…Z": {
+  "value": "A…Z"
+ },
+ "Select selector group": {
+  "value": "选择选择器组"
+ },
+ "Selector group:": {
+  "value": "选择器组："
+ },
+ "Reload the selector groups from the core": {
+  "value": "从核心重新加载选择器组"
+ },
+ "Ping test settings": {
+  "value": "Ping 测试设置"
+ },
+ "Ping test URL": {
+  "value": "Ping 测试 URL"
+ },
+ "Parallel requests (ping all):": {
+  "value": "并行请求（ping 全部）："
+ },
+ "Single test timeout:": {
+  "value": "单次测试超时："
+ },
+ "s": {
+  "value": "s"
+ },
+ "https://example.com/generate_204": {
+  "value": "https://example.com/generate_204"
+ },
+ "Custom": {
+  "value": "风俗"
+ },
+ "%d ms": {
+  "value": "%d 毫秒"
+ },
+ "Copy server link": {
+  "value": "复制服务器链接"
+ },
+ "Copy jump server link": {
+  "value": "复制跳转服务器链接"
+ },
+ "Unknown type": {
+  "value": "未知类型"
+ },
+ "Building share URI from outbound…": {
+  "value": "从出站构建共享 URI..."
+ },
+ "Share URI copied to clipboard": {
+  "value": "共享 URI 已复制到剪贴板"
+ },
+ "Building share URI for jump outbound…": {
+  "value": "构建用于跳转出站的共享 URI..."
+ },
+ "Jump share URI copied to clipboard": {
+  "value": "跳转共享 URI 已复制到剪贴板"
+ },
+ "This outbound cannot be turned into a share link (e.g. selector, direct-out, or fields not supported by the URI encoder).": {
+  "value": "此出站无法转换为共享链接（例如选择器、直接输出或 URI 编码器不支持的字段）。"
+ },
+ "Private key in the link": {
+  "value": "链接中的私钥"
+ },
+ "Config Wizard": {
+  "value": "配置向导"
+ },
+ "Target": {
+  "value": "目标"
+ },
+ "Sources": {
+  "value": "来源"
+ },
+ "Directions": {
+  "value": "路线"
+ },
+ "DNS": {
+  "value": "DNS"
+ },
+ "Rules": {
+  "value": "规则"
+ },
+ "Show config": {
+  "value": "显示配置"
+ },
+ "Final": {
+  "value": "最终的"
+ },
+ "The build passed with no warnings.": {
+  "value": "构建通过，没有任何警告。"
+ },
+ "Build warnings:": {
+  "value": "构建警告："
+ },
+ "Show source": {
+  "value": "显示来源"
+ },
+ "Source %q produced no nodes: %s": {
+  "value": "源 %q 未生成节点：%s"
+ },
+ "Source %q excluded from the config: %s": {
+  "value": "源 %q 从配置中排除：%s"
+ },
+ "Source %q: %d node(s) dropped — %s": {
+  "value": "源 %q：%d 个节点已删除 — %s"
+ },
+ "Chain %q did not build: %s": {
+  "value": "链 %q 未构建：%s"
+ },
+ "%d node(s) dropped: detour target %q is gone": {
+  "value": "%d 个节点已丢弃：绕行目标 %q 已消失"
+ },
+ "node %q: %s removed — it cannot be combined with detour %q": {
+  "value": "节点 %q：%s 已删除 — 它不能与绕行 %q 结合使用"
+ },
+ "%d node(s) left out of group %q: they dial through this very group (%s)": {
+  "value": "%d 个节点被排除在组 %q 之外：它们通过该组进行拨号 (%s)"
+ },
+ "%s (not applied)": {
+  "value": "%s（未应用）"
+ },
+ "This node was written by hand, so the app changed nothing in it. The rule below would normally apply.": {
+  "value": "该节点是手工编写的，因此应用程序没有对其进行任何更改。通常适用以下规则。"
+ },
+ "group %q: member %q left the group (%s)": {
+  "value": "群组 %q：成员 %q 离开群组 (%s)"
+ },
+ "the node fell out of the config": {
+  "value": "该节点脱离了配置"
+ },
+ "group %q is not emitted: no members left (an empty group breaks core startup)": {
+  "value": "组 %q 未发出：没有剩余成员（空组会中断核心启动）"
+ },
+ "group %q: default %q is not among the members — the key was dropped": {
+  "value": "组 %q：默认 %q 不在成员中 — 密钥已被删除"
+ },
+ "%s — %d node(s) skipped: %s": {
+  "value": "%s — 已跳过 %d 个节点：%s"
+ },
+ "Detour target %q is missing from the build: %s": {
+  "value": "构建中缺少绕行目标 %q：%s"
+ },
+ "⚠ %d node(s) dropped: %s": {
+  "value": "⚠ %d 个节点已删除：%s"
+ },
+ "Build OK": {
+  "value": "构建成功"
+ },
+ "Build OK, %d warning(s)": {
+  "value": "构建正常，%d 条警告"
+ },
+ "Build FAILED: %v": {
+  "value": "构建失败：%v"
+ },
+ "Copy config": {
+  "value": "复制配置"
+ },
+ "Direction %q: node %q is listed as an option — a node cannot be added to a Direction directly, use a filter": {
+  "value": "方向 %q：节点 %q 被列为选项 — 节点无法直接添加到方向，请使用过滤器"
+ },
+ "Direction %q: option %q was not found — it is left out of the group": {
+  "value": "方向 %q：未找到选项 %q — 它被排除在组之外"
+ },
+ "Generated config.json": {
+  "value": "生成的config.json"
+ },
+ "No template variables in this profile.": {
+  "value": "此配置文件中没有模板变量。"
+ },
+ "⚠ No inbound is enabled — sing-box will start, but won't accept any traffic. Turn on Enable TUN above, or Enable Proxy-in below.": {
+  "value": "⚠ 未启用入站 — 信号盒将启动，但不会接受任何流量。打开上面的“启用 TUN”，或下面的“启用代理-in”。"
+ },
+ "Reset": {
+  "value": "重置",
+  "special": {
+   "1": {
+    "value": "重置"
+   }
+  }
+ },
+ "Reset to the template default.": {
+  "value": "重置为模板默认值。"
+ },
+ "Generate a new random secret.": {
+  "value": "生成一个新的随机秘密。"
+ },
+ "Stop the sing-box core first (Core tab -> Stop), then turn off TUN.\n\nAfter TUN ran with administrator rights, the experimental cache under bin/ and core log files (logs/sing-box.log) may be owned by root. They are removed automatically when you turn TUN off, but only while the core is stopped.": {
+  "value": "首先停止 sing-box 核心（“核心”选项卡 ->“停止”），然后关闭 TUN。\n\nTUN以管理员权限运行后，bin/下的实验缓存和核心日志文件（logs/sing-box.log）可能归root所有。当您关闭 TUN 时，它们会自动删除，但仅限于核心停止时。"
+ },
+ "sing-box is still running on the system (detected PID %d). Use Core -> Stop (enter your password if asked) until the process exits, or end it in Activity Monitor, then turn off TUN.\n\nIf Stop was cancelled earlier, the launcher could think the core was stopped while sing-box was still running — that leaves the TUN interface and ports (e.g. mixed proxy) busy.": {
+  "value": "sing-box 仍在系统上运行（检测到 PID %d）。使用 Core -> Stop（如果要求输入密码）直到进程退出，或在 Activity Monitor 中结束它，然后关闭 TUN。\n\n如果较早取消停止，启动器可能会认为核心已停止，而 single-box 仍在运行，这会使 TUN 接口和端口（例如混合代理）繁忙。"
+ },
+ "Read": {
+  "value": "读"
+ },
+ "Save As": {
+  "value": "另存为"
+ },
+ "Prev": {
+  "value": "上一篇"
+ },
+ "Next": {
+  "value": "下一个"
+ },
+ "Confirmation": {
+  "value": "确认"
+ },
+ "Current changes will be lost. Save current state?": {
+  "value": "当前的更改将会丢失。保存当前状态？"
+ },
+ "Save changes before closing?": {
+  "value": "关闭前保存更改吗？"
+ },
+ "Discard": {
+  "value": "丢弃",
+  "special": {
+   "1": {
+    "value": "丢弃"
+   }
+  }
+ },
+ "Convert to user rule(s)": {
+  "value": "转换为用户规则"
+ },
+ "Edit": {
+  "value": "编辑",
+  "special": {
+   "1": {
+    "value": "编辑"
+   }
+  }
+ },
+ "Del": {
+  "value": "德尔"
+ },
+ "Failed to load existing config": {
+  "value": "无法加载现有配置"
+ },
+ "Failed to save state": {
+  "value": "保存状态失败"
+ },
+ "Failed to load state": {
+  "value": "加载状态失败"
+ },
+ "Failed to restore state": {
+  "value": "无法恢复状态"
+ },
+ "Config template failed to load": {
+  "value": "配置模板加载失败"
+ },
+ "Config template missing": {
+  "value": "缺少配置模板"
+ },
+ "Supports subscription URLs (http/https) or direct links (vless://, vmess://, trojan://, ss://, hysteria://, hysteria2://, ssh://, wireguard://). For multiple links, use a new line for each.": {
+  "value": "支持订阅 URL (http/https) 或直接链接（vless://、vmess://、trojan://、ss://、hysteria://、hysteria2://、ssh://、wireguard://）。对于多个链接，每个链接使用一个新行。"
+ },
+ "Add from file": {
+  "value": "从文件添加"
+ },
+ "Select a config file (.conf / .vpn / .txt)": {
+  "value": "选择配置文件（.conf / .vpn / .txt）"
+ },
+ "Preview all servers…": {
+  "value": "预览所有服务器..."
+ },
+ "Servers from all sources": {
+  "value": "来自所有来源的服务器"
+ },
+ "No sources defined in ParserConfig.": {
+  "value": "ParserConfig 中未定义源。"
+ },
+ "Source %d": {
+  "value": "来源%d"
+ },
+ "prefix": {
+  "value": "前缀"
+ },
+ "View": {
+  "value": "看法"
+ },
+ "Delete \"%s\"? The source and its nodes are removed from the configuration.": {
+  "value": "删除“%s”？源及其节点将从配置中删除。"
+ },
+ "Click Refresh to load servers from all sources.": {
+  "value": "单击“刷新”以从所有源加载服务器。"
+ },
+ "No sources. Add URLs and click Refresh.": {
+  "value": "没有来源。添加 URL 并单击刷新。"
+ },
+ "Loading...": {
+  "value": "加载中..."
+ },
+ "Subscription has not been fetched yet": {
+  "value": "尚未获取订阅"
+ },
+ "Fetch now": {
+  "value": "立即获取"
+ },
+ "Error: %s": {
+  "value": "错误：%s"
+ },
+ "%d server(s) from %d source(s)": {
+  "value": "来自 %d 个源的 %d 个服务器"
+ },
+ "  ⚠️ %d error(s)": {
+  "value": "⚠️ %d 个错误"
+ },
+ "🔄 Refresh from sources": {
+  "value": "🔄 从来源刷新"
+ },
+ "Fetch this subscription now": {
+  "value": "立即获取此订阅"
+ },
+ "Subscription update failed — click for details": {
+  "value": "订阅更新失败——点击查看详情"
+ },
+ "Provider sent a notice — click to read": {
+  "value": "提供商发送了通知 — 点击阅读"
+ },
+ "Subscription": {
+  "value": "订阅"
+ },
+ "Server": {
+  "value": "服务器"
+ },
+ "● ok": {
+  "value": "● 好的"
+ },
+ "● err": {
+  "value": "● 犯错"
+ },
+ "● never": {
+  "value": "● 从来没有"
+ },
+ "%s / %s used": {
+  "value": "%s / %s 已使用"
+ },
+ "expires in %s": {
+  "value": "%s 后到期"
+ },
+ "expired": {
+  "value": "已到期"
+ },
+ "fetched %s ago": {
+  "value": "%s 前获取"
+ },
+ "just fetched": {
+  "value": "刚刚取来"
+ },
+ "never fetched": {
+  "value": "从未获取过"
+ },
+ "%d nodes": {
+  "value": "%d 个节点"
+ },
+ "%d nodes (truncated, max %d)": {
+  "value": "%d 个节点（已截断，最多 %d 个）"
+ },
+ "Refresh failed: %s": {
+  "value": "刷新失败：%s"
+ },
+ "Refreshed successfully": {
+  "value": "刷新成功"
+ },
+ "Overview": {
+  "value": "概述"
+ },
+ "JSON": {
+  "value": "JSON"
+ },
+ "Subscription URL": {
+  "value": "订阅网址"
+ },
+ "Server URI": {
+  "value": "服务器URI"
+ },
+ "Label": {
+  "value": "标签"
+ },
+ "Detour server (chain)": {
+  "value": "绕行服务器（链）"
+ },
+ "(none — direct)": {
+  "value": "（无 — 直接）"
+ },
+ "Dial this source's nodes through another outbound to build a proxy chain. Directions chain through a selector; Nodes chain through one concrete server, tracked by that server and its node tag — editing the server's settings or tag prefix keeps the link, renaming its node tag clears it.": {
+  "value": "通过另一个出站拨打该源的节点，构建代理链。通过选择器的方向链；节点通过一台具体服务器进行链接，由该服务器及其节点标签进行跟踪 - 编辑服务器的设置或标签前缀会保留链接，重命名其节点标签会清除它。"
+ },
+ "Tag postfix": {
+  "value": "标签后缀"
+ },
+ "postfix": {
+  "value": "后缀"
+ },
+ "Status": {
+  "value": "地位"
+ },
+ "Subscription metadata (HTTP headers)": {
+  "value": "订阅元数据（HTTP 标头）"
+ },
+ "Traffic quota": {
+  "value": "流量配额"
+ },
+ "Type": {
+  "value": "类型"
+ },
+ "ID": {
+  "value": "ID"
+ },
+ "URL": {
+  "value": "URL"
+ },
+ "Enabled": {
+  "value": "启用"
+ },
+ "Last status": {
+  "value": "最后状态"
+ },
+ "Last fetched": {
+  "value": "最后获取的"
+ },
+ "HTTP status": {
+  "value": "HTTP状态"
+ },
+ "Body size": {
+  "value": "机身尺寸"
+ },
+ "Error count": {
+  "value": "错误计数"
+ },
+ "Profile title": {
+  "value": "个人资料标题"
+ },
+ "Update interval": {
+  "value": "更新间隔"
+ },
+ "Support URL": {
+  "value": "支持网址"
+ },
+ "Web page": {
+  "value": "网页"
+ },
+ "Content-Disposition filename": {
+  "value": "内容处置文件名"
+ },
+ "Used": {
+  "value": "用过的",
+  "special": {
+   "1": {
+    "value": "用过的"
+   }
+  }
+ },
+ "Total": {
+  "value": "全部的"
+ },
+ "Remaining": {
+  "value": "其余的"
+ },
+ "Expires": {
+  "value": "过期"
+ },
+ "Nodes fetched": {
+  "value": "获取的节点"
+ },
+ "No meta yet — press Refresh to fetch this subscription.": {
+  "value": "还没有元 - 按“刷新”以获取此订阅。"
+ },
+ "Server source — meta is not collected (only fetched per subscription).": {
+  "value": "服务器源 - 不收集元数据（仅根据订阅获取）。"
+ },
+ "No servers found.": {
+  "value": "未找到服务器。"
+ },
+ "Source — %s": {
+  "value": "来源 — %s"
+ },
+ "Preview": {
+  "value": "预览",
+  "special": {
+   "1": {
+    "value": "预览"
+   }
+  }
+ },
+ "The chain object exactly as it will reach the config. This is also where rewrite is edited — per-protocol overrides of node options; everything else is easier to change on the Chain tab.": {
+  "value": "链对象与到达配置时完全相同。这也是编辑重写的地方——节点选项的每个协议覆盖；在“链”选项卡上更改其他所有内容都更容易。"
+ },
+ "Chain is ready to build": {
+  "value": "链条已准备好构建"
+ },
+ "No URI set. Paste a sing-box outbound object below and press Apply.": {
+  "value": "未设置 URI。将单框出站对象粘贴到下面，然后按“应用”。"
+ },
+ "URI does not unpack: %s. You can write the outbound JSON by hand and press Apply.": {
+  "value": "URI 未解包：%s。您可以手动编写出站 JSON，然后按“应用”。"
+ },
+ "Origin does not unpack: %s. You can write the outbound JSON by hand and press Apply.": {
+  "value": "Origin 未解压：%s。您可以手动编写出站 JSON，然后按“应用”。"
+ },
+ "Unpacked nodes: %d": {
+  "value": "解压节点：%d"
+ },
+ "(showing first %d)": {
+  "value": "（显示第一个 %d）"
+ },
+ "Apply JSON": {
+  "value": "应用 JSON"
+ },
+ "JSON is empty.": {
+  "value": "JSON 为空。"
+ },
+ "Invalid JSON: %s": {
+  "value": "无效 JSON：%s"
+ },
+ "Node document rejected: %s": {
+  "value": "节点文档被拒绝：%s"
+ },
+ "The outbound object must have a non-empty \"type\" field.": {
+  "value": "出站对象必须具有非空“类型”字段。"
+ },
+ "Storage record (state.json)": {
+  "value": "存储记录（state.json）"
+ },
+ "Local outbounds: %d · Servers: load failed — %s": {
+  "value": "本地出站：%d · 服务器：加载失败 — %s"
+ },
+ "Tag prefix": {
+  "value": "标签前缀"
+ },
+ "Fold this subscription into a group": {
+  "value": "将此订阅合并到一个组中"
+ },
+ "Its nodes are replaced by a single entry in the directions list. Pick what to fold into on the Group tab.": {
+  "value": "它的节点被方向列表中的单个条目替换。在“组”选项卡上选择要折叠的内容。"
+ },
+ "Group": {
+  "value": "团体"
+ },
+ "Add hop chain": {
+  "value": "添加跳链"
+ },
+ "Chain": {
+  "value": "链"
+ },
+ "[chain: %d]": {
+  "value": "[链：%d]"
+ },
+ "· %d nodes": {
+  "value": "· %d 个节点"
+ },
+ "· %d of %d nodes": {
+  "value": "· %d 个节点，共 %d 个节点"
+ },
+ "[chain] ⚠️ core has no chain support": {
+  "value": "[链条]⚠️核心无链条支撑"
+ },
+ "⚠ No nodes from this source: %s": {
+  "value": "⚠ 此源没有节点：%s"
+ },
+ "⚠ Excluded from the config: %s": {
+  "value": "⚠ 从配置中排除：%s"
+ },
+ "Fold into": {
+  "value": "折叠成"
+ },
+ "Selector (manual pick)": {
+  "value": "选择器（手动选择）"
+ },
+ "Auto-select group (urltest)": {
+  "value": "自动选择组（urltest）"
+ },
+ "Selector with an auto-select group": {
+  "value": "具有自动选择组的选择器"
+ },
+ "Tags: %s": {
+  "value": "标签：%s"
+ },
+ "DNS servers": {
+  "value": "DNS服务器"
+ },
+ "No DNS servers.": {
+  "value": "没有 DNS 服务器。"
+ },
+ "(invalid server JSON)": {
+  "value": "（无效的服务器 JSON）"
+ },
+ "(no tag)": {
+  "value": "（无标签）"
+ },
+ "Final DNS:": {
+  "value": "最终DNS："
+ },
+ "Default domain resolver:": {
+  "value": "默认域名解析器："
+ },
+ "Rules (JSON object with \"rules\" array)": {
+  "value": "规则（带有“rules”数组的 JSON 对象）"
+ },
+ "{\n  \"rules\": [\n    {\"rule_set\":\"example\",\"server\":\"tag\"}\n  ]\n}": {
+  "value": "{\n  “规则”：[\n    {“rule_set”：“示例”，“服务器”：“标签”}\n  ]\n}"
+ },
+ "Strategy:": {
+  "value": "战略："
+ },
+ "Edit DNS server": {
+  "value": "编辑 DNS 服务器"
+ },
+ "Add DNS server": {
+  "value": "添加DNS服务器"
+ },
+ "Edit the DNS server. Its tag is what rules and the DNS default refer to.": {
+  "value": "编辑 DNS 服务器。它的标签是规则和 DNS 默认值所引用的内容。"
+ },
+ "A new DNS server. The tag must be unique — rules and the DNS default refer to it.": {
+  "value": "新的 DNS 服务器。该标签必须是唯一的——规则和 DNS 默认值都会引用它。"
+ },
+ "DNS server (from template)": {
+  "value": "DNS 服务器（来自模板）"
+ },
+ "This server is declared by the template: its body is fixed. Toggle it on or off with the checkbox in the list.": {
+  "value": "该服务器由模板声明：其主体是固定的。使用列表中的复选框将其打开或关闭。"
+ },
+ "This server is declared by the template: its body is fixed. Toggle it on or off with the checkbox in the list; Params below changes what it does let you set.": {
+  "value": "该服务器由模板声明：其主体是固定的。使用列表中的复选框打开或关闭它；下面的参数会更改您可以设置的内容。"
+ },
+ "Copy JSON": {
+  "value": "复制 JSON"
+ },
+ "Add member": {
+  "value": "添加会员"
+ },
+ "No members yet": {
+  "value": "还没有会员"
+ },
+ "(off — will be skipped)": {
+  "value": "（关闭 — 将被跳过）"
+ },
+ "No other DNS servers to add. Create one first — a group queries existing servers.": {
+  "value": "无需添加其他 DNS 服务器。首先创建一个——一组查询现有服务器。"
+ },
+ "The same entry as raw JSON, in sing-box dns.servers form. Types without a form are edited here.": {
+  "value": "与原始 JSON 相同的条目，采用单框 dns.servers 形式。没有表单的类型在此处编辑。"
+ },
+ "Parameters": {
+  "value": "参数"
+ },
+ "Tag": {
+  "value": "标签"
+ },
+ "Port": {
+  "value": "港口"
+ },
+ "Path": {
+  "value": "小路"
+ },
+ "TLS server name (SNI)": {
+  "value": "TLS 服务器名称 (SNI)"
+ },
+ "Direction": {
+  "value": "方向"
+ },
+ "Resolve name via": {
+  "value": "解析名称通过"
+ },
+ "(none)": {
+  "value": "（没有任何）"
+ },
+ "Members": {
+  "value": "会员"
+ },
+ "Tailnet node": {
+  "value": "尾网节点"
+ },
+ "Also use the system resolvers": {
+  "value": "还可以使用系统解析器"
+ },
+ "Mode": {
+  "value": "模式"
+ },
+ "Error TTL": {
+  "value": "错误生存时间"
+ },
+ "Win TTL": {
+  "value": "赢得TTL"
+ },
+ "This server type has no form yet — edit it as JSON. The form covers udp, tcp, tls (DoT), https (DoH) and group.": {
+  "value": "该服务器类型还没有表单 - 将其编辑为 JSON。形式涵盖udp、tcp、tls (DoT)、https (DoH) 和group。"
+ },
+ "JSON must not be empty.": {
+  "value": "JSON 不能为空。"
+ },
+ "Invalid JSON": {
+  "value": "无效的 JSON"
+ },
+ "Add DNS Rule": {
+  "value": "添加 DNS 规则"
+ },
+ "Edit DNS Rule": {
+  "value": "编辑 DNS 规则"
+ },
+ "Rule is empty": {
+  "value": "规则为空"
+ },
+ "Server must have a non-empty \"tag\".": {
+  "value": "服务器必须有一个非空的“标签”。"
+ },
+ "Duplicate tag": {
+  "value": "重复标签"
+ },
+ "DNS settings are invalid": {
+  "value": "DNS 设置无效"
+ },
+ "Include this server in the generated sing-box DNS config. Disabled servers stay in the list and in state; rules and Final must use enabled tags only.": {
+  "value": "将此服务器包含在生成的单一 DNS 配置中。禁用的服务器保留在列表中并处于状态；规则和最终必须仅使用启用的标签。"
+ },
+ "This row comes from template config.dns: it cannot be edited, removed, or toggled here. The checkbox shows inclusion in the generated DNS config (from saved state / template); when included, dns_options for the same tag can override the skeleton body.": {
+  "value": "该行来自模板 config.dns：无法在此处编辑、删除或切换。该复选框显示包含在生成的 DNS 配置中（来自保存的状态/模板）；当包含时，同一标签的 dns_options 可以覆盖骨架体。"
+ },
+ "This DNS server cannot be edited (template config.dns).": {
+  "value": "无法编辑此 DNS 服务器（模板 config.dns）。"
+ },
+ "No DNS rules.": {
+  "value": "没有 DNS 规则。"
+ },
+ "Toggle between unified list view and raw JSON editor (user rules only).": {
+  "value": "在统一列表视图和原始 JSON 编辑器之间切换（仅限用户规则）。"
+ },
+ "⬇ srs": {
+  "value": "⬇ 高级工程师"
+ },
+ "🔄 srs": {
+  "value": "🔄 先生"
+ },
+ "✔️ srs": {
+  "value": "✔️ 老先生"
+ },
+ "Template file bin/%s not found.": {
+  "value": "未找到模板文件 bin/%s。"
+ },
+ "Create the template file to enable this tab.": {
+  "value": "创建模板文件以启用此选项卡。"
+ },
+ "Direction:": {
+  "value": "方向："
+ },
+ "Delete rule": {
+  "value": "删除规则"
+ },
+ "(unnamed rule)": {
+  "value": "（未命名规则）"
+ },
+ "Delete custom rule \"%s\"?": {
+  "value": "删除自定义规则“%s”？"
+ },
+ "➕ Add Rule": {
+  "value": "➕ 添加规则"
+ },
+ "📚 Add from library": {
+  "value": "📚 从库添加"
+ },
+ "Append copies of template presets to your rules list.": {
+  "value": "将模板预设的副本附加到您的规则列表中。"
+ },
+ "Rule library": {
+  "value": "规则库"
+ },
+ "Check presets to append copies to the end of the list. You can add the same preset multiple times.": {
+  "value": "检查预设以将副本附加到列表末尾。您可以多次添加相同的预设。"
+ },
+ "Add selected": {
+  "value": "添加选定的"
+ },
+ "No route rules yet. Open the library or add a custom rule.": {
+  "value": "还没有路线规则。打开库或添加自定义规则。"
+ },
+ "Include this rule in the generated route when enabled": {
+  "value": "启用后，将此规则包含在生成的路由中"
+ },
+ "Drag to reorder": {
+  "value": "拖动以重新排序"
+ },
+ "Rule-set file not downloaded — this rule won't work until the SRS is fetched. The launcher is downloading it in the background; you can also click ⬇ srs to retry.": {
+  "value": "规则集文件未下载 - 在获取 SRS 之前，此规则将不起作用。启动器正在后台下载它；您也可以单击 ⬇ srs 重试。"
+ },
+ "Default direction:": {
+  "value": "默认方向："
+ },
+ "Rule-set (SRS) download failed": {
+  "value": "规则集 (SRS) 下载失败"
+ },
+ "Add at least one source: use the Sources tab (Add) or add proxies in ParserConfig on the Outbounds tab.": {
+  "value": "添加至少一个源：使用“源”选项卡（添加）或在“出站”选项卡上的 ParserConfig 中添加代理。"
+ },
+ "Saving": {
+  "value": "保存"
+ },
+ "Save operation already in progress... Please wait.": {
+  "value": "保存操作已在进行中...请稍候。"
+ },
+ "Saving state...": {
+  "value": "正在保存状态..."
+ },
+ "Done": {
+  "value": "完毕"
+ },
+ "State saved to %s\n\nConfiguration will be rebuilt on next Update or Restart.": {
+  "value": "状态已保存到 %s\n\n配置将在下次更新或重新启动时重建。"
+ },
+ "State Saved": {
+  "value": "状态已保存"
+ },
+ "controller not available": {
+  "value": "控制器不可用"
+ },
+ "Add Rule": {
+  "value": "添加规则"
+ },
+ "Edit Rule": {
+  "value": "编辑规则"
+ },
+ "Rule name": {
+  "value": "规则名称"
+ },
+ "Enter IP addresses (CIDR format)\ne.g., 192.168.1.0/24": {
+  "value": "输入 IP 地址（CIDR 格式）\n例如，192.168.1.0/24"
+ },
+ "Enter domains or URLs (one per line)\ne.g., example.com": {
+  "value": "输入域名或 URL（每行一个）\n例如，example.com"
+ },
+ "Processes (select one or more via popup):": {
+  "value": "进程（通过弹出窗口选择一个或多个）："
+ },
+ "Select Processes...": {
+  "value": "选择进程..."
+ },
+ "Match by path": {
+  "value": "按路径匹配"
+ },
+ "Simple": {
+  "value": "简单的"
+ },
+ "Regex": {
+  "value": "正则表达式",
+  "special": {
+   "1": {
+    "value": "正则表达式"
+   }
+  }
+ },
+ "One per line. Use * as wildcard (e.g. */steam/* or *\\Steam\\*).": {
+  "value": "每行一个。使用 * 作为通配符（例如 */steam/* 或 *\\Steam\\*）。"
+ },
+ "One per line. Full regex as-is (no /regex/i wrapping). E.g. ^C:\\\\Games\\\\.* or .*steam.*": {
+  "value": "每行一个。完整的正则表达式按原样（没有 /regex/i 包装）。例如。 ^C:\\\\Games\\\\.* 或 .*steam.*"
+ },
+ "Path patterns (one per line):": {
+  "value": "路径模式（每行一个）："
+ },
+ "Custom JSON:": {
+  "value": "自定义 JSON："
+ },
+ "SRS URLs (one per line)\ne.g. https://raw.githubusercontent.com/.../file.srs": {
+  "value": "SRS URL（每行一个）\n例如https://raw.githubusercontent.com/.../file.srs"
+ },
+ "SRS URLs (one per line):": {
+  "value": "SRS URL（每行一个）："
+ },
+ "IP Addresses (CIDR)": {
+  "value": "IP 地址 (CIDR)"
+ },
+ "Domains/URLs": {
+  "value": "域名/URL"
+ },
+ "Processes": {
+  "value": "流程"
+ },
+ "SRS": {
+  "value": "SRS"
+ },
+ "Custom JSON": {
+  "value": "自定义 JSON"
+ },
+ "Domain mode:": {
+  "value": "域模式："
+ },
+ "Exact domains": {
+  "value": "精确域"
+ },
+ "Suffix": {
+  "value": "后缀"
+ },
+ "Keyword": {
+  "value": "关键词"
+ },
+ "IP Addresses (one per line, CIDR format):": {
+  "value": "IP 地址（每行一个，CIDR 格式）："
+ },
+ "Domains (one per line):": {
+  "value": "域（每行一个）："
+ },
+ "Domain suffixes (one per line):": {
+  "value": "域后缀（每行一个）："
+ },
+ "Domain keywords (one per line):": {
+  "value": "域关键字（每行一个）："
+ },
+ "Domain regex:": {
+  "value": "域正则表达式："
+ },
+ "E.g. ^.*\\.google\\.com$ or .*\\.(google|youtube)\\.com$ (full regex, no /wrapping/)": {
+  "value": "例如。 ^.*\\.google\\.com$ 或 .*\\.(google|youtube)\\.com$ （完整正则表达式，无 /wrapping/）"
+ },
+ "−": {
+  "value": "-"
+ },
+ "Select Processes": {
+  "value": "选择流程"
+ },
+ "Rule Name:": {
+  "value": "规则名称："
+ },
+ "Rule Type:": {
+  "value": "规则类型："
+ },
+ "Form": {
+  "value": "形式"
+ },
+ "Preset": {
+  "value": "预设"
+ },
+ "Preset definition from the wizard template, read-only.": {
+  "value": "来自向导模板的预设定义，只读。"
+ },
+ "Rule name is required": {
+  "value": "规则名称为必填项"
+ },
+ "Raw JSON is empty": {
+  "value": "原始 JSON 为空"
+ },
+ "rule must be a JSON object": {
+  "value": "规则必须是 JSON 对象"
+ },
+ "rule must contain \"outbound\" or \"action\"": {
+  "value": "规则必须包含“出站”或“操作”"
+ },
+ "Rule not recognized": {
+  "value": "规则未被认可"
+ },
+ "Could not recognize rule, form cannot be loaded; staying on Raw.": {
+  "value": "无法识别规则，无法加载表单；保持原始状态。"
+ },
+ "We recommend looking for suitable rule-set files in the project:": {
+  "value": "我们建议在项目中寻找合适的规则集文件："
+ },
+ "SRS rule-sets": {
+  "value": "SRS 规则集"
+ },
+ "enter at least one path pattern": {
+  "value": "输入至少一种路径模式"
+ },
+ "enter at least one SRS URL": {
+  "value": "输入至少一个 SRS URL"
+ },
+ "enter at least one valid SRS URL": {
+  "value": "输入至少一个有效的 SRS URL"
+ },
+ "Custom JSON is empty": {
+  "value": "自定义 JSON 为空"
+ },
+ "Custom JSON must be an object": {
+  "value": "自定义 JSON 必须是对象"
+ },
+ "Paste one rule at a time: the editor keeps one sing-box rule per entry": {
+  "value": "一次粘贴一条规则：编辑器为每个条目保留一条单框规则"
+ },
+ "Save State": {
+  "value": "保存状态"
+ },
+ "Enter state ID (a-z, A-Z, 0-9, -, _)": {
+  "value": "输入状态 ID（a-z、A-Z、0-9、-、_）"
+ },
+ "Comment (optional)": {
+  "value": "评论（可选）"
+ },
+ "State with this ID already exists. It will be overwritten.": {
+  "value": "具有此 ID 的状态已存在。它将被覆盖。"
+ },
+ "Make it the current state and rebuild config": {
+  "value": "使其成为当前状态并重建配置"
+ },
+ "State ID:": {
+  "value": "州 ID："
+ },
+ "Comment:": {
+  "value": "评论："
+ },
+ "ID cannot be empty": {
+  "value": "身份证不能为空"
+ },
+ "Load State": {
+  "value": "负载状态"
+ },
+ "Failed to load states list": {
+  "value": "无法加载状态列表"
+ },
+ " (Current)": {
+  "value": "（当前的）"
+ },
+ "Load": {
+  "value": "加载"
+ },
+ "New": {
+  "value": "新的"
+ },
+ "Delete": {
+  "value": "删除"
+ },
+ "Cannot delete current state (state.json)": {
+  "value": "无法删除当前状态 (state.json)"
+ },
+ "Delete State": {
+  "value": "删除状态"
+ },
+ "Delete state '%s'?": {
+  "value": "删除状态“%s”吗？"
+ },
+ "Failed to delete state": {
+  "value": "删除状态失败"
+ },
+ "Edit direction": {
+  "value": "编辑方向"
+ },
+ "Add direction": {
+  "value": "添加方向"
+ },
+ "e.g. vpn-1": {
+  "value": "例如VPN-1"
+ },
+ "Source ": {
+  "value": "来源"
+ },
+ "tag": {
+  "value": "标签"
+ },
+ "Add auto-select (paired <tag>-auto group)": {
+  "value": "添加自动选择（配对 <tag>-自动组）"
+ },
+ "Auto-select": {
+  "value": "自动选择"
+ },
+ "A paired urltest group named <tag>-auto with the same nodes as this direction. It is offered as the first option and becomes the default unless a default node is set.": {
+  "value": "名为 <tag>-auto 的配对 urltest 组，其节点与此方向相同。它作为第一个选项提供，并成为默认选项，除非设置了默认节点。"
+ },
+ "· auto": {
+  "value": "· 汽车"
+ },
+ "(off)": {
+  "value": "（离开）"
+ },
+ "Include this direction in the config. A switched-off direction keeps its settings but is not built and cannot be picked as a rule target.": {
+  "value": "将此方向包含在配置中。关闭的方向会保留其设置，但不会构建，也无法选为规则目标。"
+ },
+ "Auto-select mode": {
+  "value": "自动选择模式"
+ },
+ "fastest node": {
+  "value": "最快的节点"
+ },
+ "spread across a pool": {
+  "value": "分布在整个池子上"
+ },
+ "Invert: keep nodes that do NOT match": {
+  "value": "反转：保留不匹配的节点"
+ },
+ "Filter syntax and examples": {
+  "value": "过滤器语法和示例"
+ },
+ "e.g. 🇳🇱 or DE-": {
+  "value": "例如🇳🇱 或 DE-"
+ },
+ "e.g. 🇳🇱": {
+  "value": "例如🇳🇱"
+ },
+ "Node filter (regular expression body; empty = every node)": {
+  "value": "节点过滤器（正则表达式主体；空=每个节点）"
+ },
+ "Default node (regular expression; first match wins)": {
+  "value": "默认节点（正则表达式；第一个匹配获胜）"
+ },
+ "Extra options offered in the picker": {
+  "value": "选择器中提供的额外选项"
+ },
+ "Raw outbound JSON": {
+  "value": "原始出站 JSON"
+ },
+ "📖 Documentation": {
+  "value": "📖 文档"
+ },
+ "Switch to Preview to see nodes for this outbound.": {
+  "value": "切换到预览以查看此出站的节点。"
+ },
+ "Preview is not available in this context (no presenter).": {
+  "value": "在这种情况下预览不可用（无演示者）。"
+ },
+ "Preview is not available: wizard model is nil.": {
+  "value": "预览不可用：向导模型为零。"
+ },
+ "Failed to build preview: invalid outbound JSON. Please switch to the \"Raw\" tab and fix JSON first.": {
+  "value": "无法构建预览：出站 JSON 无效。请切换到“Raw”选项卡并首先修复 JSON。"
+ },
+ "Failed to build preview cache: %v": {
+  "value": "无法构建预览缓存：%v"
+ },
+ "No nodes available for preview. Please configure sources and try again.": {
+  "value": "没有可供预览的节点。请配置源并重试。"
+ },
+ "Unknown source": {
+  "value": "来源不明"
+ },
+ "%d node(s) total, %d matched filters": {
+  "value": "总共 %d 个节点，%d 个匹配的过滤器"
+ },
+ ", default: %s": {
+  "value": "，默认：%s"
+ },
+ " | Also includes: %s": {
+  "value": "|还包括：%s"
+ },
+ " | ⚠️ %d source error(s)": {
+  "value": "| ⚠️ %d 个源错误"
+ },
+ "ParserConfig is not available": {
+  "value": "ParserConfig 不可用"
+ },
+ "invalid JSON": {
+  "value": "无效的 JSON"
+ },
+ "tag is required": {
+  "value": "标签为必填项"
+ },
+ "failed to open documentation": {
+  "value": "无法打开文档"
+ },
+ "Directions:": {
+  "value": "路线："
+ },
+ "Packets travel top to bottom: the first hop is next to you, the last one is the address the site sees.": {
+  "value": "数据包从上到下传输：第一跳是您旁边的，最后一跳是站点看到的地址。"
+ },
+ "Chain name": {
+  "value": "连锁名称"
+ },
+ "Directions and rules reference this name": {
+  "value": "方向和规则引用此名称"
+ },
+ "Add hop": {
+  "value": "添加跃点"
+ },
+ "unnamed": {
+  "value": "未命名的"
+ },
+ "No positions yet — add at least two.": {
+  "value": "尚无职位 - 至少添加两个。"
+ },
+ "One more position needed: the core rejects a single-hop chain.": {
+  "value": "还需要一个位置：核心拒绝单跳链。"
+ },
+ "Nothing left to add: every available target is already in the chain.": {
+  "value": "没有什么需要添加的：每个可用的目标都已经在链中。"
+ },
+ "ClientHello fingerprint is stripped, but positions %s are reality nodes that require it — the chain will keep tls.utls on every position. Clear tls.utls to match.": {
+  "value": "ClientHello 指纹被剥离，但位置 %s 是需要它的现实节点——链将在每个位置保留 tls.utls。清除 tls.utls 以进行匹配。"
+ },
+ "A nested chain (%s) is only allowed at the first position — move it to the top or remove it.": {
+  "value": "嵌套链 (%s) 只允许出现在第一个位置 - 将其移至顶部或将其删除。"
+ },
+ "Chains %s are declared below this one in the sources list — a chain may only reference chains above it. Drag them higher, or this chain will not build.": {
+  "value": "链 %s 在源列表中的该链下方声明 — 链只能引用其上方的链。将它们拖得更高，否则这条链将无法构建。"
+ },
+ "The name “%s” is already taken by another node, Direction or chain — two outbounds with one tag cannot coexist, this chain will be dropped at build.": {
+  "value": "名称“%s”已被另一节点、方向或链占用 - 具有一个标签的两个出站不能共存，该链将在构建时被删除。"
+ },
+ "The first position (%s) dials through its own detour — the real path is longer than shown: one more hop precedes it that is not in this list.": {
+  "value": "第一个位置 (%s) 绕了自己的弯路 — 实际路径比显示的要长：它前面还有一个不在此列表中的跃点。"
+ },
+ "Positions %s have their own detour — it does not apply inside a chain: a link always dials through the previous position. The path is exactly as shown.": {
+  "value": "位置 %s 有自己的绕道 — 它不适用于链内：链接始终会经过前一个位置。路径完全如图所示。"
+ },
+ "These positions are no longer among the available targets: %s. A chain with such a reference will not reach the config.": {
+  "value": "这些位置不再属于可用目标：%s。具有此类引用的链将无法到达配置。"
+ },
+ "Chain %s is used as a position by: %s. After renaming, their position will point nowhere — fix those too.": {
+  "value": "链 %s 被 %s 用作位置。重命名后，它们的位置将指向任何地方——也修复它们。"
+ },
+ "node": {
+  "value": "节点"
+ },
+ "group": {
+  "value": "团体"
+ },
+ "direction": {
+  "value": "方向"
+ },
+ "chain": {
+  "value": "链"
+ },
+ "built-in": {
+  "value": "内置"
+ },
+ "not found": {
+  "value": "未找到"
+ },
+ "loading…": {
+  "value": "加载中…"
+ },
+ "Advanced": {
+  "value": "先进的"
+ },
+ "Option overrides": {
+  "value": "选项覆盖"
+ },
+ "Applied from the 2nd position on: the first one dials as-is.": {
+  "value": "从第二个位置开始应用：第一个位置按原样拨号。"
+ },
+ "The value is JSON: quote strings (\"safari\"), write numbers as 1280, nest as {\"utls\":{\"fingerprint\":\"safari\"}}. null is special — it does not store a value, it removes the option from the link.": {
+  "value": "该值为 JSON：引用字符串（“safari”），将数字写入 1280，嵌套为 {“utls”：{“fingerprint”：“safari”}}。 null 很特殊——它不存储值，而是从链接中删除选项。"
+ },
+ "Add override": {
+  "value": "添加覆盖"
+ },
+ "type": {
+  "value": "类型"
+ },
+ "option": {
+  "value": "选项"
+ },
+ "value (JSON)": {
+  "value": "值（JSON）"
+ },
+ "The value must be JSON: quote strings, e.g. \"safari\".": {
+  "value": "该值必须是 JSON: 引号字符串，例如“野生动物园”。"
+ },
+ "Option %s · %s is set twice — only the last one reaches the config.": {
+  "value": "选项 %s · %s 设置了两次 — 只有最后一个达到了配置。"
+ },
+ "Link idle timeout": {
+  "value": "链路空闲超时"
+ },
+ "5m — core default, 0s — never drop": {
+  "value": "5m — 核心默认值，0s — 永不掉落"
+ },
+ "Strip DPI evasion from links": {
+  "value": "从链接中去除 DPI 规避"
+ },
+ "ClientHello fragmentation": {
+  "value": "ClientHello 碎片"
+ },
+ "multiplex padding": {
+  "value": "多重填充"
+ },
+ "XHTTP padding": {
+  "value": "XHTTP 填充"
+ },
+ "ClientHello fingerprint (must not be stripped on reality nodes)": {
+  "value": "ClientHello 指纹（不得在现实节点上剥离）"
+ },
+ "Free community servers": {
+  "value": "免费社区服务器"
+ },
+ "Community VPN sources": {
+  "value": "社区 VPN 来源"
+ },
+ "Loading": {
+  "value": "加载中"
+ },
+ "Fetching community sources list…": {
+  "value": "正在获取社区来源列表..."
+ },
+ "These are subscription URLs maintained by the community. Pick one and click Insert — the URL goes into the input field, then click Add to register it.": {
+  "value": "这些是社区维护的订阅 URL。选择一个并单击“插入”——URL 将进入输入字段，然后单击“添加”进行注册。"
+ },
+ "Insert": {
+  "value": "插入"
+ },
+ "Failed to load community sources:\n\nLocal cache missing or corrupted.": {
+  "value": "无法加载社区源：\n\n本地缓存丢失或损坏。"
+ },
+ "No community sources available right now.": {
+  "value": "目前没有可用的社区资源。"
+ },
+ "Port:": {
+  "value": "港口："
+ },
+ "Invalid port": {
+  "value": "端口无效"
+ },
+ "Port must be a number between 1024 and 65535.": {
+  "value": "端口必须是 1024 到 65535 之间的数字。"
+ },
+ "Must be a number.": {
+  "value": "必须是一个数字。"
+ },
+ "Rebuild config only": {
+  "value": "仅重建配置"
+ },
+ "Rebuild & restart sing-box": {
+  "value": "重建并重新启动单盒"
+ },
+ "Rebuild & start sing-box": {
+  "value": "重建并启动歌唱盒"
+ },
+ "Switch state…": {
+  "value": "切换状态..."
+ },
+ "● Current (active)": {
+  "value": "● 当前（活动）"
+ },
+ "Saved states": {
+  "value": "已保存的状态"
+ },
+ "Save current state?": {
+  "value": "保存当前状态？"
+ },
+ "Switching will overwrite the current state.json with \"%s\". Save the current state under a new name first, or discard it?": {
+  "value": "切换会用“%s”覆盖当前的state.json。先用新名称保存当前状态，还是放弃它？"
+ },
+ "Save current…": {
+  "value": "保存当前..."
+ },
+ "Save current state as…": {
+  "value": "将当前状态保存为..."
+ },
+ "Name (letters, digits, - and _ only):": {
+  "value": "姓名（仅限字母、数字、- 和 _）："
+ },
+ "my-vpn-profile": {
+  "value": "我的 VPN 配置文件"
+ },
+ "Name cannot be empty": {
+  "value": "名称不能为空"
+ },
+ "%s already exists — it will be overwritten": {
+  "value": "%s 已存在 — 它将被覆盖"
+ },
+ "Emoji picker": {
+  "value": "表情符号选择器"
+ },
+ "Emoji picker — %d / %d match": {
+  "value": "表情符号选择器 — %d / %d 匹配"
+ },
+ "No emoji in the names of these nodes.": {
+  "value": "这些节点的名称中没有表情符号。"
+ },
+ "Filter body: a regex over node names, applied live. Emoji chips above toggle terms in it.": {
+  "value": "过滤器主体：实时应用的节点名称正则表达式。上面的表情符号芯片切换其中的术语。"
+ },
+ "Copy the pattern body.": {
+  "value": "复制图案主体。"
+ },
+ "Apply": {
+  "value": "申请"
+ },
+ "Add WARP": {
+  "value": "添加扭曲"
+ },
+ "Generate Cloudflare WARP": {
+  "value": "生成 Cloudflare WARP"
+ },
+ "Registers a new anonymous WARP account. The key is generated on this device — only the public key is sent to Cloudflare.": {
+  "value": "注册一个新的匿名 WARP 帐户。密钥是在此设备上生成的 - 只有公钥会发送到 Cloudflare。"
+ },
+ "Transport": {
+  "value": "运输"
+ },
+ "WARP+ license": {
+  "value": "WARP+ 许可证"
+ },
+ "optional — leave empty for free WARP": {
+  "value": "可选 — 留空可免费获得 WARP"
+ },
+ "Create": {
+  "value": "创造"
+ },
+ "Registering WARP…": {
+  "value": "正在注册 WARP..."
+ },
+ "Contacting Cloudflare and generating keys.": {
+  "value": "联系 Cloudflare 并生成密钥。"
+ },
+ "WARP registration failed": {
+  "value": "WARP 注册失败"
+ },
+ "WARP added": {
+  "value": "添加了扭曲"
+ },
+ "The WARP node was added to Sources. Click Add-list / rebuild to use it.": {
+  "value": "WARP 节点已添加到源中。单击“添加列表/重建”即可使用它。"
+ },
+ "WireGuard": {
+  "value": "WireGuard"
+ },
+ "MASQUE": {
+  "value": "面膜"
+ },
+ "AmneziaWG obfuscation (anti-DPI)": {
+  "value": "AmneziaWG 混淆（反 DPI）"
+ },
+ "Obfuscation preset": {
+  "value": "混淆预设"
+ },
+ "Advanced (all fields)": {
+  "value": "高级（所有领域）"
+ },
+ "Endpoint": {
+  "value": "端点"
+ },
+ "Bind to this device (reserved)": {
+  "value": "绑定到该设备（保留）"
+ },
+ "Masquerade": {
+  "value": "化装舞会"
+ },
+ "Protocol (ip)": {
+  "value": "协议（IP）"
+ },
+ "Domain (id)": {
+  "value": "域名（ID）"
+ },
+ "Browser (ib)": {
+  "value": "浏览器（ib）"
+ },
+ "jc/jmin/jmax add standalone junk packets (safe with WARP). Packet padding (s1–s4) and magic headers (h1–h4) are fixed to WARP-compatible values — a plain-WireGuard WARP server drops any other padding, breaking the handshake.": {
+  "value": "jc/jmin/jmax 添加独立的垃圾数据包（使用 WARP 安全）。数据包填充 (s1–s4) 和魔术标头 (h1–h4) 固定为 WARP 兼容值 — 普通 WireGuard WARP 服务器会丢弃任何其他填充，从而破坏握手。"
+ },
+ "MASQUE tunnels over HTTPS/QUIC and masks itself — AmneziaWG obfuscation does not apply. Requires core lx.3+.": {
+  "value": "MASQUE 通过 HTTPS/QUIC 建立隧道并屏蔽自身 — AmneziaWG 混淆不适用。需要核心 lx.3+。"
+ },
+ "SNI": {
+  "value": "SNI"
+ },
+ "Idle timeout (min)": {
+  "value": "空闲超时（分钟）"
+ },
+ "Keep-alive (sec)": {
+  "value": "保持活动状态（秒）"
+ },
+ "Create new keys (fresh Cloudflare registration)": {
+  "value": "创建新密钥（新的 Cloudflare 注册）"
+ },
+ "By default the node reuses the registration you already have, so H2 and H3 share one key. Tick this if you need a new account — the old one is replaced.": {
+  "value": "默认情况下，节点会重用您已有的注册，因此 H2 和 H3 共享一个密钥。如果您需要新帐户，请勾选此项 - 旧帐户将被替换。"
+ },
+ "Node info…": {
+  "value": "节点信息..."
+ },
+ "Node: %s": {
+  "value": "节点：%s"
+ },
+ "General": {
+  "value": "一般的"
+ },
+ "Group members (%d)": {
+  "value": "组成员（%d）"
+ },
+ "TLS": {
+  "value": "TLS"
+ },
+ "Outbound JSON": {
+  "value": "出站 JSON"
+ },
+ "Display name": {
+  "value": "显示名称"
+ },
+ "Last delay": {
+  "value": "最后一次延误"
+ },
+ "Detour": {
+  "value": "車輛改道"
+ },
+ "Test URL": {
+  "value": "测试网址"
+ },
+ "Test interval": {
+  "value": "测试间隔"
+ },
+ "Default": {
+  "value": "默认"
+ },
+ "Skip cert verify": {
+  "value": "跳过证书验证"
+ },
+ "uTLS fingerprint": {
+  "value": "uTLS 指纹"
+ },
+ "REALITY public key": {
+  "value": "现实公钥"
+ },
+ "REALITY short ID": {
+  "value": "现实短ID"
+ },
+ "Service name": {
+  "value": "服务名称"
+ },
+ "Max early data": {
+  "value": "最大早期数据"
+ },
+ "This node is not present in the current config.json.": {
+  "value": "当前 config.json 中不存在此节点。"
+ },
+ "Details": {
+  "value": "细节"
+ },
+ "Copy tag": {
+  "value": "复制标签"
+ },
+ "balanced": {
+  "value": "均衡"
+ },
+ "fastest": {
+  "value": "最快"
+ },
+ "Selection mode": {
+  "value": "选择方式"
+ },
+ "Tolerance": {
+  "value": "宽容"
+ },
+ "Idle timeout": {
+  "value": "空闲超时"
+ },
+ "Pool size": {
+  "value": "泳池尺寸"
+ },
+ "Pool tolerance": {
+  "value": "池容差"
+ },
+ "Sticky by": {
+  "value": "粘帖者"
+ },
+ "Sticky TTL": {
+  "value": "粘性TTL"
+ },
+ "off": {
+  "value": "离开"
+ },
+ "Node tag": {
+  "value": "节点标签"
+ },
+ "node tag (referenced by rules and filters)": {
+  "value": "节点标签（由规则和过滤器引用）"
+ },
+ "Run the VPN core inside a long-lived system daemon (sing-box lxd). Config changes swap the core in-process — no password prompts, and quitting the launcher can keep the VPN up. Managed over gRPC like the Android app.": {
+  "value": "在长期系统守护进程 (sing-box lxd) 内运行 VPN 核心。配置更改会在进程中交换核心 — 没有密码提示，退出启动器可以保持 VPN 运行。像 Android 应用程序一样通过 gRPC 进行管理。"
+ },
+ "Stop VPN when quitting the launcher": {
+  "value": "退出启动器时停止 VPN"
+ },
+ "❌ Installed core has no lxd support (a sing-box-lx build with the lxd command is required)": {
+  "value": "❌安装的核心没有lxd支持（需要使用lxd命令进行sing-box-lx构建）"
+ },
+ "Stop the VPN before switching the core engine.": {
+  "value": "在切换核心引擎之前停止 VPN。"
+ },
+ "Bearer secret (only for a daemon without TLS)": {
+  "value": "Bearer Secret（仅适用于没有 TLS 的守护进程）"
+ },
+ "Pair": {
+  "value": "一对"
+ },
+ "Paired with the daemon.": {
+  "value": "与守护进程配对。"
+ },
+ "Paste an invite first (address#fingerprint#code).": {
+  "value": "首先粘贴邀请（地址#指纹#代码）。"
+ },
+ "Unpair": {
+  "value": "取消配对"
+ },
+ "Forget pairing?": {
+  "value": "忘记配对？"
+ },
+ "Removes the launcher's client keys and daemon address. The daemon keeps its record of this client until removed there (sing-box lxd client remove).": {
+  "value": "删除启动器的客户端密钥和守护程序地址。守护进程会保留该客户端的记录，直到将其删除（sing-box lxd client remove）。"
+ },
+ "(daemon log buffer is empty — no core output yet)": {
+  "value": "（守护进程日志缓冲区为空 - 还没有核心输出）"
+ },
+ "✅ gRPC (daemon)": {
+  "value": "✅ gRPC（守护进程）"
+ },
+ "❌ gRPC unavailable": {
+  "value": "❌ gRPC 不可用"
+ },
+ "Live balancer pool (gRPC)": {
+  "value": "实时平衡器池 (gRPC)"
+ },
+ "Chain positions (%d)": {
+  "value": "连锁位置 (%d)"
+ },
+ "Probe by position": {
+  "value": "按位置探测"
+ },
+ "Probe again": {
+  "value": "再次探测"
+ },
+ "Measuring…": {
+  "value": "测量…"
+ },
+ "collapsed": {
+  "value": "崩溃了"
+ },
+ "This core cannot switch chain positions on the fly — update the core.": {
+  "value": "该核心无法动态切换链位置 - 更新核心。"
+ },
+ "—": {
+  "value": "—"
+ },
+ "error": {
+  "value": "错误"
+ },
+ "Connection settings": {
+  "value": "连接设置"
+ },
+ "Core engine": {
+  "value": "核心引擎"
+ },
+ "Process (classic)": {
+  "value": "流程（经典）"
+ },
+ "Daemon (lxd)": {
+  "value": "守护进程 (lxd)"
+ },
+ "The launcher spawns `sing-box run` itself and talks to it over the Clash API from config.json. There is nothing to configure here — the clash_api section is managed in the configurator.": {
+  "value": "启动器会生成“sing-box run”本身，并通过 config.json 中的 Clash API 与其进行对话。这里没有什么需要配置的——clash_api 部分是在配置器中管理的。"
+ },
+ "Copy the command": {
+  "value": "复制命令"
+ },
+ "Run in Terminal": {
+  "value": "在终端中运行"
+ },
+ "Core updated — update the daemon service": {
+  "value": "核心更新——更新守护进程服务"
+ },
+ "The daemon service still runs the previous core. Run this command in Terminal to install the new core into the service and restart it (it asks for your sudo password):": {
+  "value": "守护进程服务仍然运行之前的核心。在终端中运行此命令，将新核心安装到服务中并重新启动它（它要求您输入 sudo 密码）："
+ },
+ "Core copy for privileged start is missing": {
+  "value": "缺少特权启动的核心副本"
+ },
+ "Core copy for privileged start is outdated": {
+  "value": "特权启动的核心副本已过时"
+ },
+ "Core copy for privileged start is not protected": {
+  "value": "特权启动的核心副本不受保护"
+ },
+ "TUN mode starts the sing-box core as root. For safety the launcher runs only a root-owned copy of the core that your user account cannot modify, and there is no such copy yet.": {
+  "value": "TUN 模式以 root 身份启动 single-box 核心。为了安全起见，启动器仅运行 root 拥有的核心副本，您的用户帐户无法修改该副本，而且目前还没有这样的副本。"
+ },
+ "TUN mode starts the sing-box core as root from a root-owned copy, and the copy is not the launcher's current core (copy %s, launcher core %s) — for example after a core update.": {
+  "value": "TUN 模式以 root 身份从 root 拥有的副本启动单盒核心，并且该副本不是启动器的当前核心（副本 %s，启动器核心 %s）——例如在核心更新之后。"
+ },
+ "TUN mode starts the sing-box core as root only from a root-owned copy, and the copy's location failed the ownership check:\n%s\nIf the command below reports the same problem, fix the ownership of that path.": {
+  "value": "TUN 模式仅从根拥有的副本中以根身份启动单盒核心，并且该副本的位置未通过所有权检查：\n%s\n如果以下命令报告相同的问题，请修复该路径的所有权。"
+ },
+ "The daemon service is installed on this Mac, so the command is its Install or update command: it refreshes the same copy and restarts the service.": {
+  "value": "守护程序服务安装在这台 Mac 上，因此该命令是其安装或更新命令：它刷新相同的副本并重新启动服务。"
+ },
+ "Run this command in Terminal (it asks for your sudo password), then click Retry:": {
+  "value": "在终端中运行此命令（它要求您输入 sudo 密码），然后单击“重试”："
+ },
+ "Retry": {
+  "value": "重试"
+ },
+ "Uninstall": {
+  "value": "卸载"
+ },
+ "1. Forget the pairing on the launcher side:": {
+  "value": "1. 忘记启动器端的配对："
+ },
+ "2. Remove the service (run in Terminal, your sudo):": {
+  "value": "2. 删除服务（在终端中运行，您的 sudo）："
+ },
+ "Also wipe all daemon data — keys, clients, last-good (--purge)": {
+  "value": "同时擦除所有守护进程数据——密钥、客户端、最后的好数据（--purge）"
+ },
+ "The core runs inside a system daemon (sing-box lxd).": {
+  "value": "核心在系统守护程序 (sing-box lxd) 内运行。"
+ },
+ "Connecting to the daemon…": {
+  "value": "正在连接到守护进程..."
+ },
+ "The daemon answers; the core is running. Click for connection settings.": {
+  "value": "守护进程回答；核心正在运行。单击进行连接设置。"
+ },
+ "The daemon is paired and answers; the core is stopped. Press Start to bring the VPN up.": {
+  "value": "守护进程配对并应答；核心停止。按开始启动 VPN。"
+ },
+ "The daemon stopped answering — reconnecting. Click for connection settings.": {
+  "value": "守护进程停止应答——重新连接。单击进行连接设置。"
+ },
+ "The core inside the daemon failed: %s. Click for connection settings.": {
+  "value": "守护程序内的核心失败：%s。单击进行连接设置。"
+ },
+ "The daemon is not answering. Check that the service is running (⚙).": {
+  "value": "守护进程没有应答。检查服务是否正在运行 (⚙)。"
+ },
+ "✅ gRPC (daemon) · core stopped": {
+  "value": "✅ gRPC（守护进程）·核心已停止"
+ },
+ "The core is stopped — press Start to load the node list.": {
+  "value": "核心已停止 - 按“开始”加载节点列表。"
+ },
+ "The machine is not answering. Check that it is powered on and reachable on the network, then press Connect again.": {
+  "value": "机器没有应答。检查它是否已开机且可在网络上访问，然后再次按“连接”。"
+ },
+ "The Bearer secret is only needed for a daemon running WITHOUT TLS (plain mode): there it is the whole authentication, paste it and press Enter. A paired mTLS daemon ignores it — the client certificate is the credential. The daemon owns the secret (daemon.json in its state dir); view it with the command below.": {
+  "value": "仅在不使用 TLS（普通模式）运行的守护进程中才需要持有者密钥：这是整个身份验证，粘贴它并按 Enter 键。配对的 mTLS 守护进程会忽略它——客户端证书就是凭证。守护进程拥有秘密（其状态目录中的 daemon.json）；使用下面的命令查看它。"
+ },
+ "On Save the config is written to bin/remote-config.json for deployment under the lxd daemon — the local bin/config.json is never touched. State lives in bin/wizard_states/remote/state.json.": {
+  "value": "保存时，配置将写入 bin/remote-config.json 以便在 lxd 守护进程下部署 — 本地 bin/config.json 永远不会被触及。状态位于 bin/wizard_states/remote/state.json 中。"
+ },
+ "Target OS": {
+  "value": "目标操作系统"
+ },
+ "Target architecture": {
+  "value": "目标架构"
+ },
+ "Set the TUN interface name explicitly — the core default cannot be relied on, and on a router the name is needed for firewall rules and routes.": {
+  "value": "显式设置 TUN 接口名称 - 不能依赖核心默认值，并且在路由器上，防火墙规则和路由需要该名称。"
+ },
+ "Remote config exported": {
+  "value": "远程配置已导出"
+ },
+ "The config for the remote machine was written to a separate file. The local bin/config.json was not touched.": {
+  "value": "远程计算机的配置已写入单独的文件中。本地 bin/config.json 没有被触及。"
+ },
+ "Failed to build the machine's config": {
+  "value": "无法构建机器的配置"
+ },
+ "The core rejected this config. The file was written, but the machine will refuse it on Deploy. Fix the problem below and save again.": {
+  "value": "核心拒绝了这个配置。文件已写入，但机器将在部署时拒绝它。修复以下问题并再次保存。"
+ },
+ "Could not read the subscriptions for this target, so the config would contain no proxy nodes. Check the sources on the Sources tab and try again.": {
+  "value": "无法读取此目标的订阅，因此配置将不包含代理节点。检查“源”选项卡上的源，然后重试。"
+ },
+ "Parsing subscriptions...": {
+  "value": "正在解析订阅..."
+ },
+ "Connect to this machine first: its config points at the machine's own resource store, and that path comes from the daemon when you connect.": {
+  "value": "首先连接到这台机器：它的配置指向机器自己的资源存储，并且当您连接时该路径来自守护进程。"
+ },
+ "Core Status ⏳ Starting...": {
+  "value": "核心状态 ⏳ 正在启动..."
+ },
+ "Core Status ⏳ Stopping...": {
+  "value": "核心状态 ⏳ 停止..."
+ },
+ "Stop the core": {
+  "value": "停止核心"
+ },
+ "Stop the core on %s? Everyone routing through that machine loses VPN until it is started again.": {
+  "value": "停止 %s 上的核心吗？通过该计算机路由的每个人都会丢失 VPN，直到再次启动为止。"
+ },
+ "Restart the core": {
+  "value": "重启核心",
+  "special": {
+   "1": {
+    "value": "重启核心"
+   }
+  }
+ },
+ "Restart the core on %s? Everyone routing through that machine loses VPN for a moment; if the start fails, the machine is left without a core.": {
+  "value": "在 %s 上重新启动核心吗？通过该机器路由的每个人都会暂时失去 VPN；如果启动失败，机器就会失去核心。"
+ },
+ "Deploy": {
+  "value": "部署"
+ },
+ "The machine runs a different config than the one saved here. Press Deploy to send it.": {
+  "value": "该机器运行的配置与此处保存的配置不同。按部署发送它。"
+ },
+ "The machine runs the config saved here.": {
+  "value": "机器运行此处保存的配置。"
+ },
+ "The last deploy did not start: the core rolled back to the last-good config. Details under ⓘ.": {
+  "value": "最后一次部署没有开始：核心回滚到最后一次好的配置。详情见ⓘ。"
+ },
+ "Built config sha256 (local)": {
+  "value": "内置配置 sha256（本地）"
+ },
+ "Deploy config": {
+  "value": "部署配置",
+  "special": {
+   "1": {
+    "value": "部署配置"
+   }
+  }
+ },
+ "Send the config to %s (%d bytes)? The daemon validates it before swapping the instance and rolls back to last-good if the new one fails to start.": {
+  "value": "将配置发送到 %s（%d 字节）？守护进程在交换实例之前对其进行验证，如果新实例无法启动，则回滚到上一次正常状态。"
+ },
+ "Config applied on %s.": {
+  "value": "配置应用于 %s。"
+ },
+ "Connection settings: core engine and daemon pairing": {
+  "value": "连接设置：核心引擎和守护进程配对"
+ },
+ "RES": {
+  "value": "RES"
+ },
+ "%s — resources": {
+  "value": "%s — 资源"
+ },
+ "Reading the machine's resource store…": {
+  "value": "读取机器的资源存储..."
+ },
+ "No resources: nothing stored on the machine and no rule-set files in this machine's profile.": {
+  "value": "无资源：计算机上没有存储任何内容，并且该计算机的配置文件中没有规则集文件。"
+ },
+ "Could not read the resource store: %v": {
+  "value": "无法读取资源存储：%v"
+ },
+ "%d local · %d on server · %d orphan": {
+  "value": "%d 本地 · %d 在服务器上 · %d 孤立"
+ },
+ "Upload": {
+  "value": "上传"
+ },
+ "Upload all missing": {
+  "value": "上传所有缺失的内容"
+ },
+ "✓ match": {
+  "value": "✓ 匹配"
+ },
+ "✗ not on server": {
+  "value": "✗ 不在服务器上"
+ },
+ "≠ differs": {
+  "value": "≠ 不同"
+ },
+ "⚠ only on server": {
+  "value": "⚠ 仅在服务器上"
+ },
+ "Delete from the machine": {
+  "value": "从机器中删除"
+ },
+ "The running config references this file — deploy a config without it first": {
+  "value": "正在运行的配置引用此文件 - 首先部署一个没有它的配置"
+ },
+ "Delete resource": {
+  "value": "删除资源"
+ },
+ "Delete %s from the machine? The local copy stays.": {
+  "value": "从机器中删除 %s 吗？本地副本保留。"
+ },
+ "Downloads to: %s": {
+  "value": "下载至：%s"
+ },
+ "Reading the machine's selector groups…": {
+  "value": "读取机器的选择器组..."
+ },
+ "Traffic profiler": {
+  "value": "流量分析器"
+ },
+ "Connect to the machine first: the profiler reads its live connection stream.": {
+  "value": "首先连接到机器：分析器读取其实时连接流。"
+ },
+ "Connections": {
+  "value": "连接"
+ },
+ "Traffic": {
+  "value": "交通"
+ },
+ "Core runtime": {
+  "value": "核心运行时"
+ },
+ "%d in / %d out": {
+  "value": "%d 输入/%d 输出"
+ },
+ "↑%s/s  ↓%s/s   (total ↑%s ↓%s)": {
+  "value": "↑%s/s ↓%s/s（合计↑%s ↓%s）"
+ },
+ "%s, goroutines %d": {
+  "value": "%s，协程 %d"
+ },
+ "Host telemetry": {
+  "value": "主机遥测"
+ },
+ "%s — host": {
+  "value": "%s — 主机"
+ },
+ "Connect to the machine first: host telemetry is read over its control channel.": {
+  "value": "首先连接到机器：通过其控制通道读取主机遥测数据。"
+ },
+ "Reading host telemetry…": {
+  "value": "读取主机遥测数据..."
+ },
+ "This daemon has no host telemetry: the machine is reachable, but its sing-box build predates /admin/host. Update the daemon on the machine.": {
+  "value": "该守护进程没有主机遥测：机器可以访问，但其单机版本早于 /admin/host。更新机器上的守护程序。"
+ },
+ "Could not read host telemetry: %v": {
+  "value": "无法读取主机遥测数据：%v"
+ },
+ "CPU  %s": {
+  "value": "中央处理器%s"
+ },
+ "Memory  %s": {
+  "value": "内存 %s"
+ },
+ "Temperature": {
+  "value": "温度"
+ },
+ "no sensors on this machine": {
+  "value": "这台机器上没有传感器"
+ },
+ "File descriptors": {
+  "value": "文件描述符"
+ },
+ "daemon  %s": {
+  "value": "守护程序 %s"
+ },
+ "system  %s": {
+  "value": "系统%s"
+ },
+ "Disks  (max %s)": {
+  "value": "磁盘（最多 %s）"
+ },
+ "Read-only filesystems are excluded from the maximum: a squashfs root sits at a permanent 100%.": {
+  "value": "只读文件系统不包括在最大值中：squashfs 根永久处于 100%。"
+ },
+ "State dir: %s": {
+  "value": "状态目录：%s"
+ },
+ "Interfaces": {
+  "value": "接口"
+ },
+ "Interfaces (%d)": {
+  "value": "接口（%d）"
+ },
+ "Interfaces (%d of %d)": {
+  "value": "接口（%d 个，共 %d 个）"
+ },
+ "All": {
+  "value": "全部"
+ },
+ "Up only": {
+  "value": "仅向上"
+ },
+ "With traffic": {
+  "value": "有交通"
+ },
+ "Could not read interfaces: %v": {
+  "value": "无法读取接口：%v"
+ },
+ "Graph the counter, read the rate: a counter survives restarts and gaps, a rate lies across them.": {
+  "value": "绘制计数器图表，读取速率：计数器在重启和间隙中幸存下来，速率位于它们之间。"
+ },
+ "waiting for a second sample…": {
+  "value": "等待第二个样品..."
+ },
+ "sampled over %.1f s": {
+  "value": "采样超过 %.1f 秒"
+ },
+ "load  %.2f  %.2f  %.2f": {
+  "value": "负载 %.2f %.2f %.2f"
+ },
+ "%s used of %s": {
+  "value": "%s 使用了 %s"
+ },
+ "%s available": {
+  "value": "%s 可用"
+ },
+ "cache %s": {
+  "value": "缓存 %s"
+ },
+ "swap disabled": {
+  "value": "禁用交换"
+ },
+ "swap %s of %s": {
+  "value": "交换 %s 的 %s"
+ },
+ "⚠ This machine is recorded as %s, but the daemon runs on %s. config.json is built for the recorded platform — fix it in the machine settings.": {
+  "value": "⚠ 该机器记录为 %s，但守护进程在 %s 上运行。 config.json 是为记录的平台构建的 - 在机器设置中修复它。"
+ },
+ "⚠ This machine is recorded as %s, but the daemon reports %s. config.json is built for the recorded architecture — fix it in the machine settings.": {
+  "value": "⚠ 该机器记录为 %s，但守护程序报告 %s。 config.json 是为记录的架构构建的 - 在机器设置中修复它。"
+ },
+ "by design": {
+  "value": "按设计"
+ },
+ "🔒 ro": {
+  "value": "🔒罗"
+ },
+ "★ state": {
+  "value": "★ 状态"
+ },
+ "🔒 ro · ★ state": {
+  "value": "🔒 ro·★ 状态"
+ },
+ "%dd %s": {
+  "value": "%dd %s"
+ },
+ "up %s": {
+  "value": "UPS"
+ },
+ "Mount": {
+  "value": "山"
+ },
+ "FS": {
+  "value": "FS"
+ },
+ "Free": {
+  "value": "自由的"
+ },
+ "Flags": {
+  "value": "旗帜"
+ },
+ "— down —": {
+  "value": "- 向下 -"
+ },
+ "(no address)": {
+  "value": "（无地址）"
+ },
+ "MAC %s": {
+  "value": "MAC %s"
+ },
+ "MTU %d": {
+  "value": "MTU %d"
+ },
+ "pkt %s/%s": {
+  "value": "包裹 %s/%s"
+ },
+ "err %d/%d": {
+  "value": "错误 %d/%d"
+ },
+ "drop %d/%d": {
+  "value": "掉落 %d/%d"
+ },
+ "— all —": {
+  "value": "- 全部 -"
+ },
+ "Client": {
+  "value": "客户"
+ },
+ "Outbound": {
+  "value": "出境"
+ },
+ "Rule": {
+  "value": "规则"
+ },
+ "Search": {
+  "value": "搜索"
+ },
+ "domain, IP or port": {
+  "value": "域名、IP 或端口"
+ },
+ "⚠ mixed outbounds": {
+  "value": "⚠ 混合出境"
+ },
+ "Close connections": {
+  "value": "紧密联系"
+ },
+ "No active client connections.": {
+  "value": "没有活动的客户端连接。"
+ },
+ "No connections match the filter.": {
+  "value": "没有与过滤器匹配的连接。"
+ },
+ "DESTINATION": {
+  "value": "目的地"
+ },
+ "OUTBOUND": {
+  "value": "出境"
+ },
+ "RULE": {
+  "value": "规则"
+ },
+ "EVENT": {
+  "value": "事件"
+ },
+ "SENT": {
+  "value": "发送"
+ },
+ "RECV": {
+  "value": "雷克夫"
+ },
+ "Close all": {
+  "value": "全部关闭"
+ },
+ "Close all connections (%d)? Devices will reconnect on their own.": {
+  "value": "关闭所有连接（%d）？设备将自行重新连接。"
+ },
+ "conns: %d": {
+  "value": "康恩斯：%d"
+ },
+ "conns: …": {
+  "value": "缺点：……"
+ },
+ "open": {
+  "value": "打开"
+ },
+ "closed": {
+  "value": "关闭"
+ },
+ "This config is for another machine and differs from a local one: no Clash API (the lxd daemon manages the core there) and no system proxy. Gateway-specific behavior — LAN interfaces, wide proxy listen, process matching off — is controlled by Gateway mode on the Settings tab.": {
+  "value": "此配置适用于另一台计算机，与本地计算机不同：没有 Clash API（lxd 守护进程管理那里的核心）并且没有系统代理。网关特定的行为 - LAN 接口、广泛代理侦听、进程匹配关闭 - 由“设置”选项卡上的网关模式控制。"
+ },
+ "Backup": {
+  "value": "备份"
+ },
+ "Export settings to a file to move them between this launcher and LxBox on your phone. Subscriptions, servers, rules, DNS and portable variables are carried over.": {
+  "value": "将设置导出到文件，以便在此启动器和手机上的 LxBox 之间移动它们。订阅、服务器、规则、DNS 和可移植变量都会被继承。"
+ },
+ "Export…": {
+  "value": "出口…"
+ },
+ "Import…": {
+  "value": "进口…"
+ },
+ "Save LX Backup": {
+  "value": "保存 LX 备份"
+ },
+ "Open LX Backup": {
+  "value": "打开 LX 备份"
+ },
+ "Native file dialog is unavailable. Install zenity or kdialog and try again.": {
+  "value": "本机文件对话框不可用。安装 zenity 或 kdialog，然后重试。"
+ },
+ "Cannot read the current state": {
+  "value": "无法读取当前状态"
+ },
+ "Export failed": {
+  "value": "导出失败"
+ },
+ "Import failed": {
+  "value": "导入失败"
+ },
+ "Backup saved": {
+  "value": "备份已保存"
+ },
+ "Import backup": {
+  "value": "导入备份"
+ },
+ "Import": {
+  "value": "进口"
+ },
+ "Backup imported": {
+  "value": "备份导入"
+ },
+ "From %s %s, exported %s": {
+  "value": "从 %s %s，导出 %s"
+ },
+ "Subscriptions: %d\nServers: %d\nRules: %d\nVariables: %d": {
+  "value": "订阅数：%d\n服务器：%d\n规则：%d\n变量：%d"
+ },
+ "Sources: %d\nRules: %d\nVariables: %d": {
+  "value": "来源：%d\n规则：%d\n变量：%d"
+ },
+ "Applied: %d source(s), %d rule(s).": {
+  "value": "已应用：%d 个源、%d 个规则。"
+ },
+ "Not applied as-is:": {
+  "value": "未按原样应用："
+ },
+ "Import report": {
+  "value": "进口报告"
+ },
+ "Export report": {
+  "value": "出口报告"
+ },
+ "Did not make it into the file:": {
+  "value": "没有将其放入文件中："
+ },
+ "folder \"%s\" and its %d node(s) did not make it into the file: this backup format cannot carry folders yet": {
+  "value": "文件夹“%s”及其 %d 节点未放入文件中：此备份格式尚不能携带文件夹"
+ },
+ "folder \"%s\" did not make it into the file: this backup format cannot carry folders yet": {
+  "value": "文件夹“%s”未进入文件：此备份格式尚不能携带文件夹"
+ },
+ "group \"%s\" did not make it into the file: this backup format cannot carry provider groups yet": {
+  "value": "组“%s”未进入文件：此备份格式尚不能携带提供程序组"
+ },
+ "%s — this backup format cannot carry it, the record did not make it into the file": {
+  "value": "%s — 此备份格式无法携带它，该记录未放入文件中"
+ },
+ "%s — target does not exist here, the rule is imported turned off": {
+  "value": "%s — 此处不存在目标，规则导入已关闭"
+ },
+ "%s — this DNS server's channel does not exist here, the server is imported turned off": {
+  "value": "%s — 此 DNS 服务器的通道不存在，服务器导入已关闭"
+ },
+ "%s — default route target does not exist here, left unchanged": {
+  "value": "%s — 默认路由目标不存在，保持不变"
+ },
+ "%s routing rule(s) of this machine were replaced by the rules from the file": {
+  "value": "该计算机的 %s 条路由规则已被文件中的规则替换"
+ },
+ "%s — unknown preset, the rule is imported turned off": {
+  "value": "%s — 未知预设，规则导入已关闭"
+ },
+ "%s — this setting means something else on this machine, skipped": {
+  "value": "%s — 此设置意味着本机上的其他内容，已跳过"
+ },
+ "%s: parameter \"%s\" is not declared by this template's DNS server, skipped": {
+  "value": "%s：参数“%s”不是由该模板的 DNS 服务器声明的，已跳过"
+ },
+ "%s: parameter \"%s\" is not declared by this template's preset, skipped": {
+  "value": "%s：参数“%s”不是由该模板的预设声明的，已跳过"
+ },
+ "%s — the file also sets this DNS server's parameters in its entry; the entry wins, this older form is skipped": {
+  "value": "%s — 该文件还在其条目中设置此 DNS 服务器的参数；该条目获胜，此旧形式将被跳过"
+ },
+ "%s — the file has no entry for this DNS server, the value is skipped": {
+  "value": "%s — 文件没有此 DNS 服务器的条目，该值被跳过"
+ },
+ "%s — this template has no such DNS server, the entry is not imported": {
+  "value": "%s — 该模板没有这样的 DNS 服务器，条目未导入"
+ },
+ "%s — not supported here, skipped": {
+  "value": "%s — 此处不支持，已跳过"
+ },
+ "%s — this field means something different here, its value is skipped": {
+  "value": "%s — 该字段在这里的含义有所不同，它的值被跳过"
+ },
+ "this backup was made by an older version and carries an \"extensions\" section (%s); the shared fields were imported, the rest is dropped": {
+  "value": "该备份是由旧版本创建的，并带有“扩展”部分（%s）；共享字段被导入，其余字段被删除"
+ },
+ "%s — a chain with this name already exists here, the incoming one is skipped": {
+  "value": "%s — 此处已存在具有此名称的链，将跳过传入的链"
+ },
+ "Config validation failed": {
+  "value": "配置验证失败"
+ },
+ "Daemon": {
+  "value": "守护进程"
+ },
+ "Search domain / IP / process…": {
+  "value": "搜索域名/IP/进程..."
+ },
+ "⏸ Pause": {
+  "value": "⏸ 暂停"
+ },
+ "▶ Resume": {
+  "value": "▶ 简历"
+ },
+ "🗑 Clear": {
+  "value": "🗑 清除"
+ },
+ "Target: (none)": {
+  "value": "目标：（无）"
+ },
+ "Pick process…": {
+  "value": "挑选过程..."
+ },
+ "Live": {
+  "value": "居住"
+ },
+ "Domains": {
+  "value": "域名"
+ },
+ "IPs": {
+  "value": "知识产权"
+ },
+ "Saved sessions (last 5)": {
+  "value": "已保存的会话（最后 5 个）"
+ },
+ "STOP": {
+  "value": "停止"
+ },
+ "Pick process & START": {
+  "value": "选择流程并开始"
+ },
+ "Idle — pick a process and START to begin recording.": {
+  "value": "空闲 — 选择一个进程并开始开始录制。"
+ },
+ "Read-only view of saved session — click START to record a new one.": {
+  "value": "已保存会话的只读视图 — 单击“开始”以记录新会话。"
+ },
+ "Filter by name or path…": {
+  "value": "按名称或路径过滤..."
+ },
+ "Verbose logs (debug)": {
+  "value": "详细日志（调试）"
+ },
+ "Verbose logs active — battery/CPU impact.": {
+  "value": "详细日志处于活动状态 — 电池/CPU 影响。"
+ },
+ "Delete all completed recording sessions? Active session is preserved.": {
+  "value": "删除所有已完成的录音会话？活动会话被保留。"
+ },
+ "Export live buffer": {
+  "value": "导出实时缓冲区"
+ },
+ "A filter is active. Export what's on screen, or every event in the buffer?": {
+  "value": "过滤器处于活动状态。导出屏幕上的内容或缓冲区中的每个事件？"
+ },
+ "Visible rows only": {
+  "value": "仅可见行"
+ },
+ "Whole buffer": {
+  "value": "整个缓冲区"
+ },
+ "By client": {
+  "value": "按客户"
+ },
+ "Per-process": {
+  "value": "每个进程"
+ },
+ "Sticky hash": {
+  "value": "粘性哈希"
+ },
+ "Reset — clear your changes, revert to defaults": {
+  "value": "重置 — 清除您的更改，恢复为默认值"
+ },
+ "Restore template-defined outbounds that were deleted (e.g. auto-proxy-out, vpn ①, vpn ②). Existing entries unchanged.": {
+  "value": "恢复已删除的模板定义的出站（例如自动代理出站、VPN ①、VPN ②）。现有条目不变。"
+ },
+ "Read-only preset DNS server. Toggle on/off via checkbox.": {
+  "value": "只读预设 DNS 服务器。通过复选框打开/关闭。"
+ },
+ "Read-only. Edit via preset variables (Rules tab → Edit). For custom DNS rules use the Extra rules editor below.": {
+  "value": "只读。通过预设变量进行编辑（“规则”选项卡→“编辑”）。对于自定义 DNS 规则，请使用下面的额外规则编辑器。"
+ },
+ "+ Add Rule": {
+  "value": "+ 添加规则"
+ },
+ "View All DNS Rules": {
+  "value": "查看所有 DNS 规则"
+ },
+ "Delete this DNS rule?": {
+  "value": "删除这条 DNS 规则吗？"
+ },
+ "Rule set tag:": {
+  "value": "规则集标签："
+ },
+ "one suffix per line (e.g. example.com)": {
+  "value": "每行一个后缀（例如 example.com）"
+ },
+ "one exact domain per line": {
+  "value": "每行一个精确域"
+ },
+ "one keyword per line": {
+  "value": "每行一个关键字"
+ },
+ "one CIDR per line (e.g. 10.0.0.0/8)": {
+  "value": "每行一个 CIDR（例如 10.0.0.0/8）"
+ },
+ "Domain suffix:": {
+  "value": "域名后缀："
+ },
+ "Domain (exact):": {
+  "value": "域（精确）："
+ },
+ "Domain keyword:": {
+  "value": "域关键字："
+ },
+ "IP CIDR:": {
+  "value": "IP网段："
+ },
+ "Type:": {
+  "value": "类型："
+ },
+ "Server:": {
+  "value": "服务器："
+ },
+ "Read-only preview of final config.json::dns.rules in user order (preset and user rules interleaved per DNSRuleOrder).": {
+  "value": "按用户顺序的最终 config.json::dns.rules 的只读预览（根据 DNSRuleOrder 交错预设和用户规则）。"
+ },
+ "GitHub limits anonymous requests per IP address, and this limit has been reached — often because the current VPN node's address is shared with other users. Wait about an hour, switch to another node, or download the file manually.": {
+  "value": "GitHub 限制每个 IP 地址的匿名请求，并且已经达到此限制 - 通常是因为当前 VPN 节点的地址与其他用户共享。等待大约一个小时，切换到另一个节点，或者手动下载文件。"
+ },
+ "Add server": {
+  "value": "添加服务器"
+ },
+ "Protocol": {
+  "value": "协议"
+ },
+ "Host": {
+  "value": "主持人"
+ },
+ "Username": {
+  "value": "用户名"
+ },
+ "Password": {
+  "value": "密码"
+ },
+ "optional": {
+  "value": "选修的"
+ },
+ "SOCKS5": {
+  "value": "SOCKS5"
+ },
+ "HTTP": {
+  "value": "HTTP"
+ },
+ "Source": {
+  "value": "来源"
+ },
+ "Rebuild from fields": {
+  "value": "从字段重建"
+ },
+ "JSON is empty": {
+  "value": "JSON 为空"
+ },
+ "Input is empty": {
+  "value": "输入为空"
+ },
+ "Nothing recognized yet.": {
+  "value": "尚未识别任何内容。"
+ },
+ "Shown as the server title in the Sources list. If empty, the host or the link fragment is used.": {
+  "value": "在源列表中显示为服务器标题。如果为空，则使用主机或链接片段。"
+ },
+ "Paste anything: share-URI (one per line), a sing-box outbound or config JSON, or [Interface]/[Peer] WireGuard conf.": {
+  "value": "粘贴任何内容：共享 URI（每行一个）、单个出站或配置 JSON，或 [Interface]/[Peer] WireGuard conf。"
+ },
+ "Preview of what this source unpacks into. Edit it and your version wins — the fields above stop overwriting it.": {
+  "value": "预览此源代码解压后的内容。编辑它，您的版本获胜 - 上面的字段将停止覆盖它。"
+ },
+ "Edited by hand — the fields no longer overwrite this JSON.": {
+  "value": "手动编辑 — 字段不再覆盖此 JSON。"
+ },
+ "Server type": {
+  "value": "服务器类型"
+ },
+ "Private key": {
+  "value": "私钥"
+ },
+ "Peer public key": {
+  "value": "对等公钥"
+ },
+ "Pre-shared key": {
+  "value": "预共享密钥"
+ },
+ "Allowed IPs": {
+  "value": "允许的 IP"
+ },
+ "Keepalive": {
+  "value": "保活"
+ },
+ "Tailscale": {
+  "value": "Tailscale"
+ },
+ "Auth key": {
+  "value": "授权密钥"
+ },
+ "One-off keys are consumed at first login; the node identity then lives in the state directory. Deleting the profile registers a new device — use a reusable key for that.": {
+  "value": "一次性密钥在第一次登录时消耗；然后，节点身份位于状态目录中。删除配置文件会注册一个新设备 - 为此使用可重复使用的密钥。"
+ },
+ "Control URL": {
+  "value": "控制网址"
+ },
+ "optional — the official coordination server by default": {
+  "value": "可选 — 默认为官方协调服务器"
+ },
+ "Hostname": {
+  "value": "主机名"
+ },
+ "optional — this machine's name by default": {
+  "value": "可选 — 默认情况下该机器的名称"
+ },
+ "Ephemeral node (removed from the tailnet when it goes offline)": {
+  "value": "临时节点（离线时从尾网移除）"
+ },
+ "Accept routes advertised by other nodes": {
+  "value": "接受其他节点通告的路由"
+ },
+ "Exit node": {
+  "value": "退出节点"
+ },
+ "Auth key is required": {
+  "value": "需要验证密钥"
+ },
+ "macOS is blocking the launcher's access to the local network: the system rejects the connection instantly, before it even leaves this Mac. Enable the launcher in System Settings → Privacy & Security → Local Network. If it is already enabled there, the app bundle's code signature is broken (typical after swapping a dev binary into the installed app) — reinstall the launcher.": {
+  "value": "macOS 阻止启动器访问本地网络：系统甚至在离开这台 Mac 之前就立即拒绝连接。在系统设置 → 隐私和安全 → 本地网络中启用启动器。如果它已在那里启用，则应用程序包的代码签名已损坏（通常在将开发二进制文件交换到已安装的应用程序后） - 重新安装启动器。"
+ },
+ "The machine is answering again — the failure was transient (macOS re-checked its local-network policy or the network blinked). Press Connect again.": {
+  "value": "机器再次应答 - 故障是暂时的（macOS 重新检查其本地网络策略或网络闪烁）。再次按连接。"
+ },
+ "Links to the deleted node": {
+  "value": "指向已删除节点的链接"
+ },
+ "Node %q was deleted. Links through it were removed, and anything that chose it as a target needs a new one. Affected: %s": {
+  "value": "节点 %q 已删除。通过它的链接已被删除，任何选择它作为目标的东西都需要一个新的链接。受影响：%s"
+ },
+ "tag %q is already taken — directions, nodes and service outbounds share one namespace": {
+  "value": "标签 %q 已被占用 — 方向、节点和服务出站共享一个命名空间"
+ },
+ "node %q cannot be added to a Direction directly — use a filter": {
+  "value": "节点 %q 无法直接添加到方向 — 使用过滤器"
+ },
+ "option %q not found": {
+  "value": "未找到选项 %q"
+ },
+ "Clone from…": {
+  "value": "克隆自..."
+ },
+ "Clone from": {
+  "value": "克隆自"
+ },
+ "Clone": {
+  "value": "克隆"
+ },
+ "Pick the machine whose settings you want to copy here.": {
+  "value": "在此处选择您要复制其设置的机器。"
+ },
+ "not configured yet": {
+  "value": "尚未配置"
+ },
+ "There are no other machines to clone from. Add a machine on the Remote tab, or configure the local one first.": {
+  "value": "没有其他机器可供克隆。在“远程”选项卡上添加计算机，或先配置本地计算机。"
+ },
+ "%s has no saved configuration yet — there is nothing to clone from it.": {
+  "value": "%s 尚未保存配置 — 没有任何内容可从中克隆。"
+ },
+ "Copying settings from %s.": {
+  "value": "正在从 %s 复制设置。"
+ },
+ "Will be copied:": {
+  "value": "将被复制："
+ },
+ "  Subscriptions: %d": {
+  "value": "订阅数：%d"
+ },
+ "  Servers: %d": {
+  "value": "服务器：%d"
+ },
+ "  Chains: %d": {
+  "value": "链：%d"
+ },
+ "  Directions: %d": {
+  "value": "路线：%d"
+ },
+ "  Rules: %d": {
+  "value": "规则：%d"
+ },
+ "  Variables: %d": {
+  "value": "变量：%d"
+ },
+ "Stays machine-specific (not copied):": {
+  "value": "保持机器特定（不复制）："
+ },
+ "This replaces the current settings of this machine. The current state is saved as a snapshot first — you can get it back with Read.": {
+  "value": "这将替换本机的当前设置。当前状态首先保存为快照 - 您可以通过“读取”将其恢复。"
+ },
+ "before cloning from %s": {
+  "value": "从 %s 克隆之前"
+ },
+ "Could not save a snapshot of the current settings, so nothing was changed": {
+  "value": "无法保存当前设置的快照，因此未进行任何更改"
+ },
+ "Settings copied from %s. Press Save to apply them to this machine; the previous state is saved as %s.": {
+  "value": "从 %s 复制的设置。按“保存”将它们应用到本机；先前的状态保存为 %s。"
+ },
+ "Traffic follows the system default route.": {
+  "value": "流量遵循系统默认路由。"
+ },
+ "Cannot verify: the machine's interfaces are unavailable.": {
+  "value": "无法验证：机器的接口不可用。"
+ },
+ "Reading the machine's interfaces…": {
+  "value": "读取机器的接口..."
+ },
+ "Add an interface from the machine's list.": {
+  "value": "从机器列表中添加接口。"
+ },
+ "No interfaces to add — type the name manually.": {
+  "value": "无需添加接口 — 手动输入名称。"
+ },
+ "no IP address — no traffic will go through it": {
+  "value": "没有 IP 地址 — 没有流量通过它"
+ },
+ "this is a tunnel — the core cannot use it as an uplink": {
+  "value": "这是一条隧道 - 核心不能将其用作上行链路"
+ },
+ "Tunnel — traffic will go out through it.": {
+  "value": "隧道——交通将通过它出去。"
+ },
+ "tunnel: traffic will go out through it": {
+  "value": "隧道：交通将通过它出去"
+ },
+ "loopback — no traffic will leave the machine through it": {
+  "value": "环回——没有流量会通过它离开机器"
+ },
+ "Traffic will go through this interface.": {
+  "value": "流量将通过此接口。"
+ },
+ "Auto-detect is on — the core picks the interface itself.": {
+  "value": "自动检测已开启 - 核心自行选择接口。"
+ },
+ "not found on this machine": {
+  "value": "在这台机器上找不到"
+ },
+ "empty — follow system default route": {
+  "value": "空 — 遵循系统默认路线"
+ },
+ "The machine answers. Click to see the exchange log.": {
+  "value": "机器回答。点击查看交换日志。"
+ },
+ "No answer to the last poll — retrying. Click to see the exchange log.": {
+  "value": "上次民意调查没有答案 - 重试。点击查看交换日志。"
+ },
+ "The machine is not answering. Click to see the exchange log.": {
+  "value": "机器没有应答。点击查看交换日志。"
+ },
+ "Not connected. Click to see the exchange log.": {
+  "value": "未连接。点击查看交换日志。"
+ },
+ "%s — exchange log": {
+  "value": "%s — 交换日志"
+ },
+ "No exchange with this machine yet — press Connect.": {
+  "value": "尚未与该机器进行交换 — 按“连接”。"
+ },
+ "\nAnswering.": {
+  "value": "正在回答。"
+ },
+ "\nNo answer to the last %d poll(s) — retrying.": {
+  "value": "最后 %d 次民意调查没有答复 — 正在重试。"
+ },
+ "\nNot answering.": {
+  "value": "没有回答。"
+ },
+ "\nNot connected.": {
+  "value": "未连接。"
+ },
+ "  Last answer at %s.": {
+  "value": "最后回复于 %s。"
+ },
+ "Provider message": {
+  "value": "提供者消息"
+ },
+ "Announcement": {
+  "value": "公告"
+ },
+ "Announcement URL": {
+  "value": "公告网址"
+ },
+ "Why nodes were rejected:": {
+  "value": "节点被拒绝的原因："
+ },
+ "Default update interval:": {
+  "value": "默认更新间隔："
+ },
+ "Default max nodes:": {
+  "value": "默认最大节点数："
+ },
+ "Used when a subscription has neither its own schedule nor a profile-update-interval header. Go-duration form: 4h, 30m. Empty — built-in default (%s).": {
+  "value": "当订阅既没有自己的计划也没有配置文件更新间隔标头时使用。持续时间形式：4h，30m。空 — 内置默认值 (%s)。"
+ },
+ "Used when a subscription has no max_nodes of its own — providers do not send this one in headers. It is a real parse limit, not a badge: nodes past it are not read at all. Empty — the hard ceiling (%d).": {
+  "value": "当订阅没有自己的 max_nodes 时使用 - 提供者不会在标头中发送此节点。这是一个真正的解析限制，而不是一个徽章：超过它的节点根本不会被读取。空——硬天花板（%d）。"
+ },
+ "Update interval %q is not a duration — use forms like 4h or 30m.": {
+  "value": "更新间隔 %q 不是持续时间 — 使用 4h 或 30m 等形式。"
+ },
+ "Max nodes %q is not a positive number.": {
+  "value": "最大节点 %q 不是正数。"
+ },
+ "Selector choices will reset": {
+  "value": "选择器选项将重置"
+ },
+ "Tag prefix/postfix changed — every node of this source is renamed in the config.": {
+  "value": "标签前缀/后缀已更改 - 该源的每个节点在配置中都被重命名。"
+ },
+ "Group tags changed: %s.": {
+  "value": "组标签已更改：%s。"
+ },
+ "A manual pick in a selector is remembered by the running core (cache.db) by tag, and the launcher cannot rewrite it: the affected selectors fall back to their default until you pick again. On a remote machine this applies to its own core.": {
+  "value": "运行的核心 (cache.db) 通过标记记住选择器中的手动选择，并且启动器无法重写它：受影响的选择器会回退到默认值，直到您再次选择。在远程计算机上，这适用于其自己的核心。"
+ },
+ "Add folder": {
+  "value": "添加文件夹"
+ },
+ "Delete folder": {
+  "value": "删除文件夹"
+ },
+ "Folder %q holds %d node(s). Delete them together with the folder, or move them to the root of the sources list?": {
+  "value": "文件夹 %q 包含 %d 个节点。将它们与文件夹一起删除，还是将它们移动到源列表的根目录？"
+ },
+ "Delete with nodes": {
+  "value": "带节点删除"
+ },
+ "Move nodes to root": {
+  "value": "将节点移至根"
+ },
+ "Folder — %s": {
+  "value": "文件夹 — %s"
+ },
+ "Folder name": {
+  "value": "文件夹名称"
+ },
+ "folder name": {
+  "value": "文件夹名称"
+ },
+ "Fold this folder into a group": {
+  "value": "将此文件夹折叠成一组"
+ },
+ "This folder has no nodes yet.": {
+  "value": "该文件夹还没有节点。"
+ },
+ "Read-only: the sing-box outbounds this folder is built from. Edit a node through its own entry on the Preview tab.": {
+  "value": "只读：构建此文件夹的单一框。通过“预览”选项卡上节点自己的条目来编辑节点。"
+ },
+ "Copy to…": {
+  "value": "复制到..."
+ },
+ "Move to…": {
+  "value": "移至…"
+ },
+ "Copy node": {
+  "value": "复制节点"
+ },
+ "Move node": {
+  "value": "移动节点"
+ },
+ "Node %q — pick the destination:": {
+  "value": "节点 %q — 选择目的地："
+ },
+ "Top level": {
+  "value": "顶级"
+ },
+ "No folders yet": {
+  "value": "还没有文件夹"
+ },
+ "Create a folder first: Sources → ⋮ → Add folder.": {
+  "value": "首先创建一个文件夹：Sources → ⋮ → 添加文件夹。"
+ },
+ "Tag %q is already taken in this container.": {
+  "value": "标签 %q 已被占用在此容器中。"
+ },
+ "Delete node": {
+  "value": "删除节点"
+ },
+ "Delete node %q from this folder?": {
+  "value": "从此文件夹中删除节点 %q 吗？"
+ },
+ "Node unlinked from its subscription": {
+  "value": "节点与其订阅取消链接"
+ },
+ "Node %q was edited, so it no longer follows the subscription: the next fill will neither overwrite nor remove it.": {
+  "value": "节点 %q 已被编辑，因此它不再遵循订阅：下一次填充既不会覆盖也不会删除它。"
+ },
+ "Add nodes…": {
+  "value": "添加节点..."
+ },
+ "Folder": {
+  "value": "文件夹"
+ },
+ "Folder is empty — paste links above to add nodes.": {
+  "value": "文件夹为空 - 粘贴上面的链接以添加节点。"
+ },
+ "Enable all nodes": {
+  "value": "启用所有节点"
+ },
+ "Disable all nodes": {
+  "value": "禁用所有节点"
+ },
+ "Paste links or JSON…": {
+  "value": "粘贴链接或 JSON..."
+ },
+ "Add nodes to folder": {
+  "value": "将节点添加到文件夹"
+ },
+ "Subscription URLs, direct links (vless://, wireguard://, …), [Interface]/[Peer] config text or a sing-box outbound JSON. One per line.": {
+  "value": "订阅 URL、直接链接（vless://、wireguard://、...）、[Interface]/[Peer] 配置文本或单框出站 JSON。每行一个。"
+ },
+ "Select config files (.conf / .vpn / .txt / .json)": {
+  "value": "选择配置文件（.conf / .vpn / .txt / .json）"
+ },
+ "a subscription URL cannot be added to a folder — add it in Sources, then fill the folder from it": {
+  "value": "订阅 URL 无法添加到文件夹 - 将其添加到源中，然后从中填充文件夹"
+ },
+ "Some files were not added": {
+  "value": "部分文件未添加"
+ },
+ "Nodes added": {
+  "value": "添加节点"
+ },
+ "%d node(s) added to the folder.": {
+  "value": "%d 个节点已添加到该文件夹​​。"
+ },
+ "Fill from subscription…": {
+  "value": "从订阅中填写..."
+ },
+ "Fill folder from subscription": {
+  "value": "填写订阅中的文件夹"
+ },
+ "Fill": {
+  "value": "充满"
+ },
+ "Nodes of the chosen subscription are merged into this folder by raw tag: your enabled flags, detours and order survive, and a node that disappeared at the provider stays in the folder.": {
+  "value": "所选订阅的节点通过原始标签合并到此文件夹中：您启用的标志、绕行和订单将保留，并且在提供商处消失的节点仍保留在该文件夹中。"
+ },
+ "No subscriptions yet": {
+  "value": "还没有订阅"
+ },
+ "Add a subscription in Sources first, then fill the folder from it.": {
+  "value": "首先在源中添加订阅，然后从中填充文件夹。"
+ },
+ "not fetched yet": {
+  "value": "尚未获取"
+ },
+ "%d node(s)": {
+  "value": "%d 个节点"
+ },
+ "Subscription %q has no nodes yet — it has never been fetched. Refresh it now?": {
+  "value": "订阅 %q 还没有节点——它从未被获取。现在刷新一下？"
+ },
+ "Filled with warnings": {
+  "value": "充满了警告"
+ },
+ "Folder filled": {
+  "value": "文件夹已满"
+ },
+ "The folder is already up to date with this subscription.": {
+  "value": "该文件夹已随此订阅更新。"
+ },
+ "Folder filled from %q.": {
+  "value": "文件夹已由 %q 填充。"
+ },
+ "Copy nodes as JSON": {
+  "value": "将节点复制为 JSON"
+ },
+ "Nothing to copy": {
+  "value": "没有什么可复制的"
+ },
+ "None of the folder nodes could be built into an outbound.": {
+  "value": "任何文件夹节点都不能构建到出站中。"
+ },
+ "All nodes of this folder are disabled — they do not reach the config either.": {
+  "value": "该文件夹的所有节点都被禁用 - 它们也无法访问配置。"
+ },
+ "%d node(s) copied as JSON.": {
+  "value": "%d 个节点复制为 JSON。"
+ },
+ "%d node(s) could not be built and were left out.": {
+  "value": "%d 个节点无法构建并被排除。"
+ },
+ "Nodes: %d": {
+  "value": "节点：%d"
+ },
+ " + %d unsupported": {
+  "value": "+ %d 不受支持"
+ },
+ "could not be parsed": {
+  "value": "无法解析"
+ },
+ "Origin": {
+  "value": "起源"
+ },
+ "Copy source line": {
+  "value": "复制源行"
+ },
+ "Raw response": {
+  "value": "原始响应"
+ },
+ "Reload": {
+  "value": "重新加载"
+ },
+ "Not fetched — press Reload to download the body as it is now.": {
+  "value": "未获取 — 按“重新加载”按现在的样子下载正文。"
+ },
+ "Fetch failed: %s": {
+  "value": "获取失败：%s"
+ },
+ "HTTP %d · %s": {
+  "value": "HTTP %d·%s"
+ },
+ "base64": {
+  "value": "64位基数"
+ },
+ "urldecode": {
+  "value": "网址解码"
+ },
+ "pretty-print": {
+  "value": "漂亮的印刷品"
+ },
+ "A backup of the original file was saved next to it:": {
+  "value": "原始文件的备份保存在它旁边："
+ },
+ "Configuration migration report": {
+  "value": "配置迁移报告"
+ },
+ "The saved configuration was migrated to the new storage format. Some settings could not be carried over unchanged:": {
+  "value": "保存的配置已迁移到新的存储格式。某些设置无法原样保留："
+ },
+ "Disabled subscriptions are not auto-fetched, so this one has no nodes yet. Click below to fetch it once without enabling it.": {
+  "value": "禁用的订阅不会自动获取，因此该订阅还没有节点。单击下面即可获取一次而不启用它。"
+ },
+ "Group tag": {
+  "value": "组标签"
+ },
+ "MTU": {
+  "value": "MTU"
+ },
+ "Read-only: the sing-box outbounds this subscription is built from. Nodes of a subscription are not free-form — they are refreshed from the provider.": {
+  "value": "只读：此订阅所基于的单框出站。订阅的节点不是自由形式的——它们是从提供者处刷新的。"
+ },
+ "Rebuild the outbound from the original URI/JSON, discarding manual edits?": {
+  "value": "从原始 URI/JSON 重建出站，放弃手动编辑？"
+ },
+ "Regen from raw": {
+  "value": "从原始再生"
+ },
+ "The outbound as it will reach the config.": {
+  "value": "出站将到达配置。"
+ },
+ "The sing-box outbound this node is built from — exactly what the build writes to config.json. Edit and press Apply to store it; Regen from raw rebuilds it from the original URI/JSON. Tag and detour are restamped by the launcher at build time.": {
+  "value": "该节点的单盒出站是根据构建写入 config.json 的内容构建的。编辑后按应用保存； Regen from raw 从原始 URI/JSON 重建它。标记和绕行由启动器在构建时重新标记。"
+ },
+ "The source arrives as one entry instead of every node. Its nodes stay in the config as that group's members.": {
+  "value": "源作为一个条目而不是每个节点到达。它的节点作为该组的成员保留在配置中。"
+ },
+ "Variables (work in both fields): {$tag} original node tag · {$server} address · {$port} port · {$scheme} protocol (also {$protocol}) · {$label} name from the link's #fragment · {$comment} comment · {$num} node number from 1": {
+  "value": "变量（在两个字段中都有效）： {$tag} 原始节点标签 · {$server} 地址 · {$port} 端口 · {$scheme} 协议（也为 {$protocol}） · {$label} 链接 #fragment 中的名称 · {$comment} 注释 · {$num} 从 1 开始的节点编号"
+ },
+ "node has no body — set a URI or JSON": {
+  "value": "节点没有主体 — 设置 URI 或 JSON"
+ },
+ "No nodes yet — refresh this subscription in the sources list.": {
+  "value": "尚无节点 — 在源列表中刷新此订阅。"
+ },
+ "no working members": {
+  "value": "没有工作成员"
+ },
+ "node error(s)": {
+  "value": "节点错误"
+ },
+ "Regen": {
+  "value": "雷根"
+ },
+ "Origin is empty.": {
+  "value": "原点是空的。"
+ },
+ "Subscription URL, Direct Links, JSON, WG/AWG INI, OpenVPN ...": {
+  "value": "订阅 URL、直接链接、JSON、WG/AWG INI、OpenVPN ..."
+ },
+ "subscription has never been updated — no nodes yet; press Update": {
+  "value": "订阅从未更新过——还没有节点；按更新"
+ },
+ "reason was not stored": {
+  "value": "原因未存储"
+ },
+ "last update failed: %s": {
+  "value": "上次更新失败：%s"
+ },
+ "; config built from nodes fetched at %s": {
+  "value": ";从 %s 获取的节点构建的配置"
+ },
+ "User-Agent": {
+  "value": "用户代理"
+ },
+ "as in system": {
+  "value": "如系统中一样"
+ },
+ "client User-Agent": {
+  "value": "客户端用户代理"
+ },
+ "device ID for this subscription": {
+  "value": "此订阅的设备 ID"
+ },
+ "Some providers return a different node list depending on the client that asks, and bind the subscription to a device by its ID. Leave “as in system” to use the global settings.": {
+  "value": "一些提供程序根据请求的客户端返回不同的节点列表，并通过设备 ID 将订阅绑定到设备。保留“与系统中一样”以使用全局设置。"
+ },
+ "Offer provider relays in Directions": {
+  "value": "提供方向中的提供商中继"
+ },
+ "Some providers route a node through an intermediate relay. The relay is always part of the route — it shows in the node list with a gear and can be picked as a chain hop. Turn this on to also offer it in Directions, alongside regular nodes.": {
+  "value": "一些提供商通过中间中继路由节点。中继始终是路线的一部分 - 它在节点列表中显示为带有齿轮，并且可以被选为链跳。打开此选项，还可在方向中与常规节点一起提供它。"
+ },
+ "%d node(s) dial through %d provider relay(s)": {
+  "value": "%d 个节点通过 %d 个提供商中继拨号"
+ },
+ "The machine did not return its groups — press ↻ to retry": {
+  "value": "机器未返回其组 — 按 ↻ 重试"
+ },
+ "The input was recognized, but nothing was added.": {
+  "value": "输入已被识别，但未添加任何内容。"
+ },
+ "Nothing added": {
+  "value": "没有添加任何内容"
+ },
+ "Sources added": {
+  "value": "添加来源"
+ },
+ "%d subscription(s)": {
+  "value": "%d 个订阅"
+ },
+ "%d folder(s)": {
+  "value": "%d 个文件夹"
+ },
+ "%d item(s) are already in the list.": {
+  "value": "%d 个项目已在列表中。"
+ },
+ "Added: %s.": {
+  "value": "添加：%s。"
+ },
+ "%d item(s) skipped — already in the list.": {
+  "value": "%d 项已跳过 — 已在列表中。"
+ },
+ "Re-test now": {
+  "value": "立即重新测试"
+ },
+ "Device ID (HWID)": {
+  "value": "设备 ID (HWID)"
+ },
+ "Origin (wg-quick config)": {
+  "value": "起源（wg-快速配置）"
+ },
+ "Nodes moved, so their tags changed. Links to them were updated in: %s": {
+  "value": "节点移动了，因此它们的标签也发生了变化。它们的链接已更新于：%s"
+ },
+ "Links updated": {
+  "value": "链接已更新"
+ },
+ "Max nodes clamped to %d — that is the hard ceiling.": {
+  "value": "最大节点数限制为 %d — 这是硬性上限。"
+ },
+ "%s — a Direction with this tag already exists here, the incoming one is skipped": {
+  "value": "%s — 此处已存在带有此标记的方向，将跳过传入的方向"
+ },
+ "%s — the tag mask is gone, only prefix and postfix apply now": {
+  "value": "%s — 标签掩码已消失，现在仅适用前缀和后缀"
+ },
+ "%s — per-source Directions are gone, this one is not imported (create a global Direction with a filter instead)": {
+  "value": "%s — 每个源的方向已消失，该方向未导入（而是使用过滤器创建全局方向）"
+ },
+ "%s — these subscription settings are not part of the shared format and did not go into the file; the provider may return a different set of nodes on the other machine": {
+  "value": "%s — 这些订阅设置不是共享格式的一部分，并且未进入文件；提供者可能会在另一台机器上返回一组不同的节点"
+ },
+ "%s — the \"exclude from the global list\" flag is gone; its nodes stay in the candidate pool (fold the source into a group for the previous behaviour)": {
+  "value": "%s — “从全局列表中排除”标志消失了；它的节点留在候选池中（将源折叠到先前行为的组中）"
+ },
+ "%s — label dropped, a node is named by its tag": {
+  "value": "%s — 标签被删除，节点由其标签命名"
+ },
+ "%s — these Direction options are settings of this machine (folder replacements, service tags, nodes) and did not go into the file; a node joins a Direction through its filter": {
+  "value": "%s — 这些方向选项是本机的设置（文件夹替换、服务标签、节点），未进入文件；节点通过其过滤器加入方向"
+ },
+ "%s — these Direction options are not Directions or known names here, they were left out; a node joins a Direction through its filter": {
+  "value": "%s — 这些方向选项不是方向或此处的已知名称，它们被遗漏了；节点通过其过滤器加入方向"
+ },
+ "%s — this group picks its members by a rule, which the launcher does not support; it was not imported, and links to it will not resolve": {
+  "value": "%s — 该组按照启动器不支持的规则选择其成员；它尚未导入，并且指向它的链接将无法解析"
+ },
+ "Settings are merged, not replaced: subscriptions match by address, servers by what they connect to, and anything of yours that is not in the file stays. Routing rules are the exception — they are replaced by the file.": {
+  "value": "设置被合并，而不是被替换：订阅按地址匹配，服务器按连接的内容匹配，文件中没有的任何内容都会保留。路由规则是例外——它们被文件替换。"
+ },
+ "Added: %d": {
+  "value": "添加：%d"
+ },
+ "Updated subscriptions: %d": {
+  "value": "更新的订阅：%d"
+ },
+ "Already here, skipped: %d server(s)": {
+  "value": "已经在这里，跳过：%d 服务器"
+ },
+ "AmneziaWG obfuscation": {
+  "value": "AmneziaWG 混淆"
+ },
+ "domain to masquerade as, e.g. example.com": {
+  "value": "伪装成的域名，例如example.com"
+ },
+ "Node has no body to edit": {
+  "value": "节点没有要编辑的主体"
+ },
+ "%s is required": {
+  "value": "%s 为必填项"
+ },
+ "%s is invalid": {
+  "value": "%s 无效"
+ },
+ "Junk datagrams go out before the handshake, and the first one is disguised as traffic to the domain above. Packet padding (s1-s4) and magic headers (h1-h4) stay at the WireGuard defaults — any other value there and the server stops recognising the handshake. Not available with a detour: a node dialled through another outbound does not raise its own transport.": {
+  "value": "垃圾数据报在握手之前就出去了，第一个数据报伪装成上面域的流量。数据包填充 (s1-s4) 和魔术标头 (h1-h4) 保留在 WireGuard 默认值 - 任何其他值，服务器将停止识别握手。绕道不可用：通过另一个出站拨号的节点不会提高自己的传输。"
+ },
+ "This node carries AmneziaWG obfuscation fields, but it dials through a detour — the transport is raised by the detour's outbound, so the fields do nothing here and still travel into the config. Clear the detour to edit or remove them.": {
+  "value": "该节点携带 AmneziaWG 混淆字段，但它通过绕行进行拨号 - 传输由绕行的出站引发，因此这些字段在这里不执行任何操作，仍然进入配置。清除绕行以编辑或删除它们。"
+ },
+ "Interrupt existing connections on position toggle": {
+  "value": "在位置切换时中断现有连接"
+ },
+ "Otherwise live connections finish on the old route; only new ones take the new path.": {
+  "value": "否则，实时连接将在旧路由上完成；只有新人走新路。"
+ },
+ "starting": {
+  "value": "开始"
+ },
+ "active": {
+  "value": "积极的"
+ },
+ "idle": {
+  "value": "闲置的"
+ },
+ "Advertise this node as an exit node": {
+  "value": "将此节点通告为退出节点"
+ },
+ "Advertise routes": {
+  "value": "发布路线广告"
+ },
+ "ACL tags": {
+  "value": "ACL标签"
+ },
+ "optional — CIDR list, comma-separated": {
+  "value": "可选 — CIDR 列表，以逗号分隔"
+ },
+ "optional — tag:name list, comma-separated": {
+  "value": "可选 — 标签：名称列表，以逗号分隔"
+ },
+ "Advertised routes and exit nodes stay pending until they are approved in the tailnet admin console.": {
+  "value": "公布的路由和退出节点将保持待定状态，直到在 tailnet 管理控制台中获得批准。"
+ },
+ "Origin (raw JSON)": {
+  "value": "来源（原始 JSON）"
+ },
+ "A manual config_json is set — the origin above is ignored at build time (see the JSON tab). Regen from raw rebuilds the node from it.": {
+  "value": "设置手动 config_json — 上面的原点在构建时被忽略（请参阅 JSON 选项卡）。 Regen from raw 会从中重建节点。"
+ },
+ "Endpoints": {
+  "value": "端点"
+ },
+ "Skip Tailscale presets": {
+  "value": "跳过 Tailscale 预设"
+ },
+ "Tailscale presets will not add routing or DNS rules for this node.": {
+  "value": "Tailscale 预设不会为此节点添加路由或 DNS 规则。"
+ },
+ "Incoming connections from this tunnel": {
+  "value": "来自该隧道的传入连接"
+ },
+ "Peers on the other side of this tunnel can open connections to this device. Without the switches below they are rejected.": {
+  "value": "该隧道另一侧的对等方可以打开与该设备的连接。如果没有下面的开关，它们将被拒绝。"
+ },
+ "Allow access to this device": {
+  "value": "允许访问该设备"
+ },
+ "Peers reach services on this device's tunnel address. The service sees them as 127.0.0.1, so everything that trusts localhost becomes reachable.": {
+  "value": "对等方可访问该设备隧道地址上的服务。该服务将它们视为 127.0.0.1，因此信任 localhost 的所有内容都可以访问。"
+ },
+ "Expose local network": {
+  "value": "暴露本地网络"
+ },
+ "Peers reach private networks behind this device.": {
+  "value": "对等方可以访问此设备后面的专用网络。"
+ },
+ "Allow as gateway": {
+  "value": "允许作为网关"
+ },
+ "Peers route any traffic through this device; it leaves through the outbound chosen in the Tunnel ingress preset.": {
+  "value": "对等点通过此设备路由任何流量；它通过在隧道入口预设中选择的出站离开。"
+ },
+ "No matching nodes": {
+  "value": "没有匹配的节点"
+ },
+ "No matching nodes.": {
+  "value": "没有匹配的节点。"
+ },
+ "Loading…": {
+  "value": "加载中…"
+ },
+ "No selector groups in the config.": {
+  "value": "配置中没有选择器组。"
+ },
+ "No endpoints in the config.": {
+  "value": "配置中没有端点。"
+ },
+ "error: %v": {
+  "value": "错误：%v"
+ },
+ "(no active outbound)": {
+  "value": "（无主动出站）"
+ },
+ "running": {
+  "value": "跑步"
+ },
+ "needs login": {
+  "value": "需要登录"
+ },
+ "stopped": {
+  "value": "停止了"
+ },
+ "no state": {
+  "value": "无状态"
+ },
+ "Network": {
+  "value": "网络"
+ },
+ "exit node": {
+  "value": "退出节点"
+ },
+ "last seen %s ago": {
+  "value": "上次出现是在 %s 之前"
+ },
+ "no traffic yet": {
+  "value": "还没有流量"
+ },
+ "Direct: packets go straight between the devices over UDP, to the address:port shown. The fastest path.": {
+  "value": "直接：数据包通过 UDP 在设备之间直接传送到所示的地址：端口。最快的路径。"
+ },
+ "Peer relay: no direct path, so packets go through another device of your tailnet that relays them. Usually faster than a Tailscale relay server.": {
+  "value": "对等中继：没有直接路径，因此数据包会通过尾网的另一个设备来中继它们。通常比 Tailscale 中继服务器更快。"
+ },
+ "Relay (DERP): no direct path, so packets go through a Tailscale relay server; the code is its region (ams = Amsterdam). Works through any NAT or firewall, but adds latency and limits speed. Tailscale keeps trying to switch to direct.": {
+  "value": "中继（DERP）：没有直接路径，因此数据包通过 Tailscale 中继服务器；代码是其区域（ams = 阿姆斯特丹）。可通过任何 NAT 或防火墙，但会增加延迟并限制速度。 Tailscale 不断尝试切换到直接。"
+ },
+ "Nothing has been sent to this device yet: Tailscale opens the tunnel on the first packet. Ping it from the ⋯ menu to see the path.": {
+  "value": "尚未向该设备发送任何内容：Tailscale 在第一个数据包上打开隧道。从 ⋯ 菜单中对其进行 ping 操作以查看路径。"
+ },
+ "%ds": {
+  "value": "%ds"
+ },
+ "%dm": {
+  "value": "%dm"
+ },
+ "%dh": {
+  "value": "%dh"
+ },
+ "%dd": {
+  "value": "%dd"
+ },
+ "Notifications": {
+  "value": "通知"
+ },
+ "Errors": {
+  "value": "错误"
+ },
+ "Warnings": {
+  "value": "警告"
+ },
+ "What happened:": {
+  "value": "发生了什么："
+ },
+ "+%d": {
+  "value": "+%d"
+ },
+ "⚠ %d field(s) stripped on %d node(s)": {
+  "value": "⚠ %d 个节点上的 %d 个字段被剥离"
+ },
+ "⚠ %d warning(s) on %d node(s)": {
+  "value": "⚠ %d 个节点上有 %d 个警告"
+ },
+ "⚠ %d node(s) with warnings": {
+  "value": "⚠ %d 个节点有警告"
+ },
+ " · %d with warnings": {
+  "value": "· %d 有警告"
+ },
+ "Why it happens:": {
+  "value": "为什么会发生："
+ },
+ "What you can do:": {
+  "value": "你可以做什么："
+ },
+ "For your information: %d node(s)": {
+  "value": "供您参考：%d 个节点"
+ },
+ "Filters…": {
+  "value": "过滤器…"
+ },
+ "Filters": {
+  "value": "过滤器"
+ },
+ "Filters — %d / %d shown": {
+  "value": "过滤器 — 显示 %d / %d"
+ },
+ "Filter: %d of %d shown": {
+  "value": "筛选器：已显示 %d 个，共 %d 个"
+ },
+ "Emoji": {
+  "value": "表情符号"
+ },
+ "Test": {
+  "value": "测试"
+ },
+ "any": {
+  "value": "任何"
+ },
+ "untested": {
+  "value": "未经测试的"
+ },
+ "ms": {
+  "value": "ms"
+ },
+ "ping ≤": {
+  "value": "平≤"
+ },
+ "Invert all": {
+  "value": "全部反转"
+ },
+ "Clear the pattern": {
+  "value": "清除图案"
+ },
+ "Invalid regex: %s": {
+  "value": "无效的正则表达式：%s"
+ },
+ "Copy the pattern body (no wrapper) — paste it into a Direction's filter field.": {
+  "value": "复制模式主体（无包装器）- 将其粘贴到方向的过滤字段中。"
+ },
+ "Pattern body copied. Its invert flag is NOT part of the body: tick Invert in the Direction's filter.": {
+  "value": "复制了图案主体。它的反转标志不是主体的一部分：在方向过滤器中勾选反转。"
+ },
+ "Pattern body copied.": {
+  "value": "复制了图案主体。"
+ },
+ "Invert this category: keep the nodes it does NOT select.": {
+  "value": "反转此类别：保留未选择的节点。"
+ },
+ "Invert the whole filter: show exactly the rows it hides now.": {
+  "value": "反转整个过滤器：准确显示它现在隐藏的行。"
+ },
+ "Toggle this emoji in the Regex field (OR pattern).": {
+  "value": "在正则表达式字段（OR 模式）中切换此表情符号。"
+ },
+ "No emoji in the names of the nodes in this list.": {
+  "value": "此列表中的节点名称中没有表情符号。"
+ },
+ "Selected rows, direct-out and the active proxy are never hidden.": {
+  "value": "选定的行、直接输出和活动代理永远不会隐藏。"
+ },
+ "Show nodes at or below this latency. Untested nodes pass the threshold — it answers «show me the fast ones», not «drop the unmeasured»; nodes whose test failed do not pass.": {
+  "value": "显示处于或低于此延迟的节点。未经测试的节点通过了阈值——它回答“显示速度最快的节点”，而不是“丢弃未测量的节点”；测试失败的节点不会通过。"
+ },
+ "regex, e.g. NL|DE|Proton": {
+  "value": "正则表达式，例如荷兰|德国|质子"
+ },
+ "1 server disabled": {
+  "value": "1 个服务器已禁用"
+ },
+ "%d servers disabled": {
+  "value": "%d 个服务器已禁用"
+ },
+ "The core rejected it, so it was turned off to let the VPN start: %s": {
+  "value": "核心拒绝了它，因此它被关闭以让 VPN 启动：%s"
+ },
+ "The core rejected them, so they were turned off to let the VPN start: %s": {
+  "value": "核心拒绝了它们，因此它们被关闭以让 VPN 启动：%s"
+ },
+ "+%d more": {
+  "value": "+%d 更多"
+ },
+ "Show": {
+  "value": "展示"
+ },
+ "%d servers disabled — there may be more": {
+  "value": "%d 台服务器已禁用 — 可能还有更多"
+ },
+ "The core has rejected %d servers so far, and each was turned off. Keep checking the rest? On a large subscription this can take a while.": {
+  "value": "到目前为止，核心已拒绝 %d 个服务器，并且每个服务器都已关闭。继续检查剩下的吗？对于大量订阅，这可能需要一段时间。"
+ },
+ "If you stop, the VPN will not start. The servers already turned off will stay off.": {
+  "value": "如果停止，VPN 将不会启动。已关闭的服务器将保持关闭状态。"
+ },
+ "Keep checking": {
+  "value": "继续检查"
+ },
+ "Checking servers… (%d disabled)": {
+  "value": "正在检查服务器...（%d 已禁用）"
+ },
+ "Servers turned off by the core": {
+  "value": "服务器被核心关闭"
+ },
+ "(unnamed)": {
+  "value": "（未命名）"
+ },
+ "%d files, %s": {
+  "value": "%d 个文件，%s"
+ },
+ "Copy paths": {
+  "value": "复制路径"
+ },
+ "Data from before the migration, inside the app bundle": {
+  "value": "迁移前应用程序包内的数据"
+ },
+ "Data from before the migration, next to the program": {
+  "value": "迁移前的数据，位于程序旁边"
+ },
+ "Data": {
+  "value": "数据"
+ },
+ "Data, logs, core and template paths copied. Paste them into the bug report.": {
+  "value": "复制的数据、日志、核心和模板路径。将它们粘贴到错误报告中。"
+ },
+ "Environment": {
+  "value": "环境"
+ },
+ "Left over from a data move": {
+  "value": "数据移动留下的内容"
+ },
+ "Legacy": {
+  "value": "遗产"
+ },
+ "Move launcher data": {
+  "value": "移动启动器数据"
+ },
+ "Moving data…": {
+  "value": "移动数据..."
+ },
+ "Network cleanup: ghost wintun adapters and orphan firewall rules": {
+  "value": "网络清理：ghost wintun 适配器和孤立防火墙规则"
+ },
+ "Settings and subscriptions are kept in the data folder below. If you used an earlier version of the launcher and your subscriptions are missing, restore them from an LX Backup (Settings → Backup). Data folder:": {
+  "value": "设置和订阅保存在下面的数据文件夹中。如果您使用早期版本的启动器并且您的订阅丢失，请从 LX 备份中恢复它们（设置 → 备份）。数据文件夹："
+ },
+ "Welcome": {
+  "value": "欢迎"
+ },
+ "Not found: the core will be downloaded to this path": {
+  "value": "未找到：核心将被下载到此路径"
+ },
+ "Not found: the template will be downloaded to this path": {
+  "value": "未找到：模板将下载到此路径"
+ },
+ "Nothing to remove.": {
+  "value": "没有什么可删除的。"
+ },
+ "Old logs next to the program": {
+  "value": "程序旁边的旧日志"
+ },
+ "Paths are set by environment variables": {
+  "value": "路径由环境变量设置"
+ },
+ "Paths copied": {
+  "value": "复制的路径"
+ },
+ "Portable mode (keep data next to the program)": {
+  "value": "便携式模式（将数据放在程序旁边）"
+ },
+ "Portable": {
+  "value": "便携的"
+ },
+ "Program": {
+  "value": "程序"
+ },
+ "The service is installed but not running.": {
+  "value": "该服务已安装但未运行。"
+ },
+ "launchd reports: %s": {
+  "value": "launchd 报告：%s"
+ },
+ "Run as administrator": {
+  "value": "以管理员身份运行"
+ },
+ "Start the service": {
+  "value": "启动服务"
+ },
+ "Service Control Manager reports: %s": {
+  "value": "服务控制管理器报告：%s"
+ },
+ "The service copy differs from the launcher core in %s. Install or update the service to refresh it.": {
+  "value": "服务副本与启动器核心的不同之处在于 %s。安装或更新服务以刷新它。"
+ },
+ "The service runs a binary your user can modify. Install or update the service to move it to a protected copy.": {
+  "value": "该服务运行您的用户可以修改的二进制文件。安装或更新服务以将其移动到受保护的副本。"
+ },
+ "2. Remove the service (Windows asks for administrator rights):": {
+  "value": "2.删除服务（Windows要求管理员权限）："
+ },
+ "Remove the service": {
+  "value": "删除服务"
+ },
+ "Keep the protected core copy? The classic engine starts from it when the launcher runs as administrator. Remove all also deletes the copy and all daemon data.": {
+  "value": "保留受保护的核心副本吗？当启动器以管理员身份运行时，经典引擎将从它启动。全部删除还会删除副本和所有守护程序数据。"
+ },
+ "Keep the core copy": {
+  "value": "保留核心副本"
+ },
+ "Remove all": {
+  "value": "全部删除"
+ },
+ "The daemon service is installed and is not removed with the data: it runs from its own protected copy of the core. To remove the service as well, run this command as administrator:": {
+  "value": "守护程序服务已安装，并且不会随数据一起删除：它从其自己的受保护核心副本运行。要同时删除该服务，请以管理员身份运行以下命令："
+ },
+ "The daemon service is installed. Remove it first with this command as administrator, otherwise the launcher will not be able to do it after the data is gone:": {
+  "value": "守护程序服务已安装。首先以管理员身份使用此命令将其删除，否则数据消失后启动器将无法执行此操作："
+ },
+ "Remove all data…": {
+  "value": "删除所有数据..."
+ },
+ "Remove all launcher data": {
+  "value": "删除所有启动器数据"
+ },
+ "Shadows: %s": {
+  "value": "阴影：%s"
+ },
+ "Source: %s": {
+  "value": "来源：%s"
+ },
+ "Stop the VPN first": {
+  "value": "首先停止VPN"
+ },
+ "Storage": {
+  "value": "贮存"
+ },
+ "Switching moves the data to: %s": {
+  "value": "切换将数据移至：%s"
+ },
+ "System": {
+  "value": "系统"
+ },
+ "Template": {
+  "value": "模板"
+ },
+ "The core folder is read-only; download the core into the data folder first": {
+  "value": "core文件夹是只读的；首先将核心下载到data文件夹中"
+ },
+ "The daemon service is installed. Remove it first with this command, otherwise the launcher will not be able to do it after the data is gone:": {
+  "value": "守护程序服务已安装。首先使用此命令将其删除，否则数据消失后启动器将无法执行此操作："
+ },
+ "The daemon service is installed and is not removed with the data: it runs from its own root-owned copy of the core. To remove the service as well, run this command:": {
+  "value": "守护程序服务已安装，并且不会随数据一起删除：它从其自己的根拥有的核心副本运行。要同时删除该服务，请运行以下命令："
+ },
+ "The following will be deleted. The program folder itself is not touched — delete it yourself afterwards.": {
+  "value": "以下内容将被删除。程序文件夹本身并没有被触及——之后您可以自行删除它。"
+ },
+ "The program folder is read-only": {
+  "value": "程序文件夹是只读的"
+ },
+ "The service runs a binary your user can modify. Install or update the service to move it to a root-owned copy.": {
+  "value": "该服务运行您的用户可以修改的二进制文件。安装或更新服务以将其移动到 root 拥有的副本。"
+ },
+ "Service binary: %s": {
+  "value": "服务二进制文件：%s"
+ },
+ "The service runs a different core (%s) than the launcher (%s). Install or update the service to switch it to the launcher core.": {
+  "value": "该服务运行与启动程序 (%s) 不同的核心 (%s)。安装或更新服务以将其切换到启动器核心。"
+ },
+ "The launcher core (%s) is older than %s and cannot install a root-owned service. Update the core first: Local tab → Download/Reinstall v%s, then install or update the service.": {
+  "value": "启动器核心 (%s) 早于 %s，无法安装 root 拥有的服务。首先更新核心：本地选项卡 → 下载/重新安装 v%s，然后安装或更新服务。"
+ },
+ "The launcher core (%s) is not a numbered sing-box-lx release, so the launcher cannot confirm it installs a root-owned service. Update the core first: Local tab → Download/Reinstall v%s, then install or update the service.": {
+  "value": "启动器核心 (%s) 不是编号的 sing-box-lx 版本，因此启动器无法确认它安装了 root 拥有的服务。首先更新核心：本地选项卡 → 下载/重新安装 v%s，然后安装或更新服务。"
+ },
+ "The service has no core binary to run. Install or update the service to restore it.": {
+  "value": "该服务没有可运行的核心二进制文件。安装或更新服务以将其恢复。"
+ },
+ "The daemon service is not protected": {
+  "value": "守护进程服务不受保护"
+ },
+ "The daemon service runs as root from a file your user account can modify:\n%s\n\nAny program running as you could replace it and gain root access. Run this command in Terminal to move the service to a root-owned copy of the core (it asks for your sudo password). The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.": {
+  "value": "守护程序服务以 root 身份从您的用户帐户可以修改的文件运行：\n%s\n\n任何正在运行的程序都可以替换它并获得 root 访问权限。在终端中运行此命令，将服务移动到 root 拥有的核心副本（它要求您输入 sudo 密码）。同时VPN继续工作；连接设置的“本地”选项卡会显示此问题，直到修复为止。"
+ },
+ "The daemon service runs as root from a file your user account can modify:\n%s\n\nAny program running as you could replace it and gain root access. %s The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.": {
+  "value": "守护程序服务以 root 身份从您的用户帐户可以修改的文件运行：\n%s\n\n任何正在运行的程序都可以替换它并获得 root 访问权限。 %s VPN 同时继续工作；连接设置的“本地”选项卡会显示此问题，直到修复为止。"
+ },
+ "Unused data": {
+  "value": "未使用的数据"
+ },
+ "Unused system data folder": {
+  "value": "未使用的系统数据文件夹"
+ },
+ "Version: %s, source: %s": {
+  "value": "版本：%s，来源：%s"
+ },
+ "Where the launcher keeps its files. Attach “Copy paths” to bug reports.": {
+  "value": "启动器保存其文件的位置。将“复制路径”附加到错误报告中。"
+ },
+ "found": {
+  "value": "成立"
+ },
+ "unknown": {
+  "value": "未知"
+ },
+ "Existing data found": {
+  "value": "现有数据找到"
+ },
+ "Your settings and subscriptions were found in:\n%s\n\nThe launcher is running in portable mode because portable.txt lies next to the program. Switch to the found data? The launcher will restart.": {
+  "value": "您的设置和订阅位于：\n%s\n\n启动器正在便携式模式下运行，因为 portable.txt 位于程序旁边。切换到找到的数据？启动器将重新启动。"
+ },
+ "Data move in progress": {
+  "value": "数据移动正在进行中"
+ },
+ "The launcher will restart immediately after the move.": {
+  "value": "移动后启动器将立即重新启动。"
+ },
+ "Data will be moved from:\n%s\nto:\n%s": {
+  "value": "数据将从：\n%s\n至：\n%s"
+ },
+ "Left over from the move: %s": {
+  "value": "移动剩余：%s"
+ },
+ "System data folder with settings — kept by default": {
+  "value": "包含设置的系统数据文件夹 - 默认保留"
+ },
+ "Only: %s": {
+  "value": "仅：%s"
+ },
+ "TUN needs administrator rights": {
+  "value": "TUN需要管理员权限"
+ },
+ "TUN mode creates a network adapter and changes routes, which Windows allows only to administrators. The launcher is running without administrator rights.": {
+  "value": "TUN 模式创建网络适配器并更改路由，Windows 仅允许管理员执行此操作。启动器在没有管理员权限的情况下运行。"
+ },
+ "Proxy mode needs no rights: programs that use the system proxy (browsers and most apps) go through the local proxy on port %s, the rest connect directly.": {
+  "value": "代理模式不需要权限：使用系统代理的程序（浏览器和大多数应用程序）通过端口 %s 上的本地代理，其余的直接连接。"
+ },
+ "Windows will ask for an administrator account, and the launcher will run under that account.": {
+  "value": "Windows 将要求提供管理员帐户，启动器将在该帐户下运行。"
+ },
+ "Restart as administrator": {
+  "value": "以管理员身份重新启动"
+ },
+ "Switch to proxy mode": {
+  "value": "切换到代理模式"
+ },
+ "Close the configurator first": {
+  "value": "首先关闭配置器"
+ },
+ "The administrator prompt was cancelled.": {
+  "value": "管理员提示已取消。"
+ },
+ "Waiting for the administrator command…": {
+  "value": "等待管理员命令..."
+ },
+ "Could not run the command as administrator: %s": {
+  "value": "无法以管理员身份运行命令：%s"
+ },
+ "The command failed (exit code %d). Run it in an elevated terminal to see its output:": {
+  "value": "命令失败（退出代码 %d）。在提升的终端中运行它以查看其输出："
+ },
+ "The administrator command is still running. Check the status again in a minute.": {
+  "value": "管理员命令仍在运行。一分钟后再次检查状态。"
+ },
+ "The service is installed, but no invite was received. Pair it as a separate step:": {
+  "value": "服务已安装，但未收到邀请。将其作为单独的步骤进行配对："
+ },
+ "The command succeeded, but pairing failed: %s": {
+  "value": "命令成功，但配对失败：%s"
+ },
+ "The service data folder was readable by another account before this install. Rotate the admin secret in daemon.json and pair again if this computer is shared.": {
+  "value": "在此安装之前，另一个帐户可以读取服务数据文件夹。如果此计算机是共享的，请轮换 daemon.json 中的管理员密码并再次配对。"
+ },
+ "The service was started.": {
+  "value": "服务已启动。"
+ },
+ "The service was removed.": {
+  "value": "该服务已被删除。"
+ },
+ "The core copy was created or updated.": {
+  "value": "核心副本已创建或更新。"
+ },
+ "Could not restart as administrator: %s": {
+  "value": "无法以管理员身份重新启动：%s"
+ },
+ "sing-box was started with administrator rights, and this launcher cannot stop it without them. Restart the launcher as administrator to stop it.": {
+  "value": "sing-box 是使用管理员权限启动的，如果没有管理员权限，此启动器无法停止它。以管理员身份重新启动启动器以停止它。"
+ },
+ "Administrator": {
+  "value": "行政人员"
+ },
+ "Start with Windows": {
+  "value": "从 Windows 开始"
+ },
+ "Connect VPN at sign-in": {
+  "value": "登录时连接 VPN"
+ },
+ "Windows starts another copy: %s": {
+  "value": "Windows 启动另一个副本：%s"
+ },
+ "Change this in a normal start, not as administrator": {
+  "value": "在正常启动时更改此设置，而不是以管理员身份"
+ },
+ "Requires administrator rights": {
+  "value": "需要管理员权限"
+ },
+ "Autostart entry (Start with Windows)": {
+  "value": "自动启动条目（从 Windows 启动）"
+ },
+ "Ask for administrator rights at start when TUN is enabled": {
+  "value": "启用 TUN 时在启动时请求管理员权限"
+ },
+ "Off: the launcher starts without rights and asks when you press Start": {
+  "value": "关闭：启动器在没有权限的情况下启动，并在您按下“开始”时询问"
+ },
+ "portable.txt ignored": {
+  "value": "portable.txt 被忽略"
+ },
+ "Without administrator rights the old copy in the program folder stays, and on the next start the launcher copies the data from it into the data folder again. To remove it, run the cleanup as administrator.": {
+  "value": "如果没有管理员权限，程序文件夹中的旧副本将保留，并且在下次启动时，启动程序会再次将其中的数据复制到数据文件夹中。要删除它，请以管理员身份运行清理。"
+ },
+ "Install service": {
+  "value": "安装服务"
+ },
+ "With administrator rights the launcher starts the sing-box core from a protected copy in Program Files that your user account cannot modify, and there is no such copy yet.": {
+  "value": "凭借管理员权限，启动器会从 Program Files 中受保护的副本启动 single-box 核心，您的用户帐户无法修改该副本，而且目前还没有这样的副本。"
+ },
+ "With administrator rights the launcher starts the sing-box core from a protected copy in Program Files, and the copy does not match the launcher's current core (%s) — for example after a core update.": {
+  "value": "使用管理员权限，启动器从 Program Files 中受保护的副本启动单盒核心，但该副本与启动器的当前核心 (%s) 不匹配 — 例如在核心更新后。"
+ },
+ "With administrator rights the launcher starts the sing-box core from a protected copy, and the copy's location failed the protection check:\n%s": {
+  "value": "使用管理员权限，启动器从受保护的副本启动单盒核心，并且该副本的位置未通过保护检查：\n%s"
+ },
+ "The daemon service is installed on this computer, so the command is its Install or update command: it refreshes the same copy and restarts the service.": {
+  "value": "守护程序服务安装在此计算机上，因此该命令是其安装或更新命令：它刷新相同的副本并重新启动服务。"
+ },
+ "Click Run as administrator (or run this command in PowerShell as administrator), then click Retry:": {
+  "value": "单击以管理员身份运行（或以管理员身份在 PowerShell 中运行此命令），然后单击重试："
+ },
+ "If the command below reports the same problem, fix the permissions of that path.": {
+  "value": "如果以下命令报告相同的问题，请修复该路径的权限。"
+ },
+ "Run this command in PowerShell as administrator, then click Retry:": {
+  "value": "以管理员身份在 PowerShell 中运行此命令，然后单击“重试”："
+ },
+ "Run anyway starts the launcher's own core with administrator rights: any program running under your account could replace that file and get administrator rights on the next start. The choice lasts until the launcher is closed.": {
+  "value": "无论如何运行都会以管理员权限启动启动器自己的核心：在您的帐户下运行的任何程序都可以替换该文件并在下次启动时获得管理员权限。该选择将持续到启动器关闭为止。"
+ },
+ "With administrator rights the core writes its log to a protected folder, and the folder is missing:\n%s": {
+  "value": "使用管理员权限，核心将其日志写入受保护的文件夹，并且该文件夹丢失：\n%s"
+ },
+ "With administrator rights the core writes its log to a protected folder, and the folder failed the protection check:\n%s": {
+  "value": "使用管理员权限，核心将其日志写入受保护的文件夹，并且该文件夹未通过保护检查：\n%s"
+ },
+ "Any program running under your account could replace the log folder and get administrator rights on the next start. Run anyway writes the core output to the launcher's own log instead; the choice lasts until the launcher is closed.": {
+  "value": "在您的帐户下运行的任何程序都可以替换日志文件夹并在下次启动时获得管理员权限。无论如何运行会将核心输出写入启动器自己的日志中；该选择将持续到启动器关闭为止。"
+ },
+ "Core log folder is missing": {
+  "value": "核心日志文件夹丢失"
+ },
+ "Core log folder is not protected": {
+  "value": "核心日志文件夹不受保护"
+ },
+ "Run anyway": {
+  "value": "无论如何都要跑"
+ },
+ "The daemon service still runs the previous core. Install the new core into the service and restart it (Run as administrator):": {
+  "value": "守护进程服务仍然运行之前的核心。将新核心安装到服务中并重新启动它（以管理员身份运行）："
+ },
+ "The daemon service runs with SYSTEM rights from a file that is not protected:\n%s\n\nAny program running as you could replace it and take over this computer. Install or update the service to move it to a protected copy of the core (Run as administrator). The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.": {
+  "value": "守护程序服务以 SYSTEM 权限从不受保护的文件运行：\n%s\n\n任何正在运行的程序都可以替换它并接管这台计算机。安装或更新服务以将其移动到核心的受保护副本（以管理员身份运行）。同时VPN继续工作；连接设置的“本地”选项卡会显示此问题，直到修复为止。"
+ },
+ "The daemon service runs with SYSTEM rights from a file that is not protected:\n%s\n\nAny program running as you could replace it and take over this computer. %s The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.": {
+  "value": "守护程序服务以 SYSTEM 权限从不受保护的文件运行：\n%s\n\n任何正在运行的程序都可以替换它并接管这台计算机。 %s VPN 同时继续工作；连接设置的“本地”选项卡会显示此问题，直到修复为止。"
+ },
+ "Open file…": {
+  "value": "打开文件..."
+ },
+ "Import from file…": {
+  "value": "从文件导入..."
+ },
+ "Load state.json from another folder": {
+  "value": "从另一个文件夹加载 state.json"
+ },
+ "Load remote-daemons.json from another folder": {
+  "value": "从另一个文件夹加载remote-daemons.json"
+ },
+ "Imported %d remote servers": {
+  "value": "已导入 %d 个远程服务器"
+ },
+ "up": {
+  "value": "向上"
+ },
+ "asleep": {
+  "value": "睡着了"
+ },
+ "released": {
+  "value": "释放"
+ },
+ "not started yet": {
+  "value": "尚未开始"
+ },
+ "disabled": {
+  "value": "残疾人"
+ },
+ "idle %s": {
+  "value": "空闲 %s"
+ },
+ "Until the core restarts or the config is applied.": {
+  "value": "直到核心重新启动或应用配置。"
+ },
+ "Disable": {
+  "value": "禁用"
+ },
+ "sleep": {
+  "value": "睡觉"
+ },
+ "freed": {
+  "value": "释放了"
+ },
+ "Enable WireGuard": {
+  "value": "启用 WireGuard"
+ },
+ "Disable WireGuard": {
+  "value": "禁用 WireGuard"
+ },
+ "WireGuard switch error: %s": {
+  "value": "WireGuard 交换机错误：%s"
+ },
+ "Tag %q is already used by a node: the node will get a numeric suffix in the config.": {
+  "value": "标签 %q 已被节点使用：该节点将在配置中获得数字后缀。"
+ },
+ "Tag %q is already used by another source's swap: the swap lower in the list will not be built until the tag is free.": {
+  "value": "标记 %q 已被另一个源的交换区使用：在该标记空闲之前，不会构建列表中较低的交换区。"
+ },
+ "Tag %q is a template tag: the swap group will not be built until the tag is free.": {
+  "value": "标签 %q 是模板标签：在标签空闲之前不会构建交换组。"
+ },
+ "Tag %q is already used by a Direction: the swap group will not be built until the tag is free.": {
+  "value": "标签 %q 已被方向使用：在标签空闲之前不会构建交换组。"
+ },
+ "Only the node is saved. The rest of the input is not kept.": {
+  "value": "仅保存节点。其余输入不保留。"
+ },
+ "Replace the source with JSON?": {
+  "value": "将源替换为 JSON？"
+ },
+ "This node was added from a share link or a WireGuard config. Saving the JSON replaces that source with the JSON: the link or config is no longer kept, and the app stops fixing the node's settings. It will only report problems. Continue?": {
+  "value": "该节点是从共享链接或 WireGuard 配置添加的。保存 JSON 会用 JSON 替换该源：不再保留链接或配置，并且应用程序停止修复节点的设置。它只会报告问题。继续？"
+ },
+ "Node saved": {
+  "value": "节点已保存"
+ },
+ "%s — the file carries routing or DNS entries attached to this record; they are not imported, because a node no longer carries its own entries": {
+  "value": "%s — 文件包含附加到该记录的路由或 DNS 条目；它们不会被导入，因为节点不再携带自己的条目"
+ },
+ "DNS cache size": {
+  "value": "DNS 缓存大小"
+ },
+ "Number of cached answers.": {
+  "value": "缓存答案的数量。"
+ },
+ "Serve stale answers": {
+  "value": "提供陈旧的答案"
+ },
+ "Answer from cache at once and refresh in the background.": {
+  "value": "立即从缓存中应答并在后台刷新。"
+ },
+ "Keep DNS cache after restart": {
+  "value": "重启后保留DNS缓存"
+ },
+ "Never serve stale answers for node hostnames": {
+  "value": "永远不要为节点主机名提供过时的答案"
+ },
+ "Resolve a node's hostname again once its TTL expires instead of dialing a cached address. Keeps nodes alive with providers that rotate addresses.": {
+  "value": "一旦节点的 TTL 过期，就再次解析节点的主机名，而不是拨打缓存的地址。通过轮换地址的提供商使节点保持活动状态。"
+ },
+ "From %d to %d": {
+  "value": "从 %d 到 %d"
+ },
+ "Clear DNS cache": {
+  "value": "清除 DNS 缓存"
+ },
+ "Clear DNS cache?": {
+  "value": "清除 DNS 缓存吗？"
+ },
+ "Drops cached answers of the running core, including those kept after restart.": {
+  "value": "删除正在运行的核心的缓存答案，包括重新启动后保留的答案。"
+ },
+ "Cached DNS answers are dropped, including those kept in cache.db. The connection stays up.": {
+  "value": "缓存的 DNS 答案将被删除，包括保存在 cache.db 中的答案。连接保持正常。"
+ },
+ "DNS cache can be cleared only while the core is running.": {
+  "value": "DNS 缓存只能在核心运行时清除。"
+ },
+ "Clearing the DNS cache needs the Clash API, which is off in this config.": {
+  "value": "清除 DNS 缓存需要 Clash API，该配置在此配置中关闭。"
+ },
+ "Could not clear DNS cache: %s": {
+  "value": "无法清除 DNS 缓存：%s"
+ },
+ "DNS cache cleared.": {
+  "value": "DNS 缓存已清除。"
+ },
+ "Copy address": {
+  "value": "复制地址"
+ },
+ "Copy name": {
+  "value": "复制姓名"
+ },
+ "Done.": {
+  "value": "完毕。"
+ },
+ "Key expiry": {
+  "value": "密钥过期"
+ },
+ "Log out": {
+  "value": "退出"
+ },
+ "MagicDNS name": {
+  "value": "MagicDNS 名称"
+ },
+ "NETWORKS: %d nodes": {
+  "value": "网络：%d 个节点"
+ },
+ "No devices in this network.": {
+  "value": "该网络中没有设备。"
+ },
+ "None": {
+  "value": "没有任何"
+ },
+ "Not saved. The choice is lost after restart.": {
+  "value": "没有保存。重新启动后该选择将丢失。"
+ },
+ "Not saved. The node stays in the lists, but has no exit until you save the choice.": {
+  "value": "没有保存。该节点保留在列表中，但在保存选择之前不会退出。"
+ },
+ "Not saved. Traffic is not routed through this node until you save the choice.": {
+  "value": "没有保存。在您保存选择之前，流量不会通过此节点路由。"
+ },
+ "Ping %s": {
+  "value": "平 %s"
+ },
+ "Save choice": {
+  "value": "保存选择"
+ },
+ "Sign in": {
+  "value": "登入"
+ },
+ "Start VPN to see the network.": {
+  "value": "启动 VPN 以查看网络。"
+ },
+ "The node is not in the running config.": {
+  "value": "该节点不在运行配置中。"
+ },
+ "The node leaves the network. If the node has an auth key, it signs in again on the next start.": {
+  "value": "节点离开网络。如果节点有身份验证密钥，它将在下次启动时再次登录。"
+ },
+ "This device": {
+  "value": "这个装置"
+ },
+ "This node has no exit. Check devices on the Network tab.": {
+  "value": "该节点没有出口。检查“网络”选项卡上的设备。"
+ },
+ "direct": {
+  "value": "直接的"
+ },
+ "key expired": {
+  "value": "密钥已过期"
+ },
+ "never": {
+  "value": "绝不"
+ },
+ "no exit": {
+  "value": "没有出口"
+ },
+ "relay": {
+  "value": "中继"
+ },
+ "shared": {
+  "value": "共享"
+ },
+ "sign-in needed": {
+  "value": "需要登录"
+ },
+ "signed in with a key": {
+  "value": "使用密钥登录"
+ },
+ "machine name or tailnet IP of the exit node — empty: no exit node": {
+  "value": "出口节点的机器名或tailnet IP — 空：无出口节点"
+ },
+ "Using an exit node sends this node's traffic through another machine of the tailnet; advertising makes this node the exit for others. The two roles exclude each other. Advertising stays pending until it is approved in the tailnet admin console. The Network tab of the node window lists the exit nodes that are online now.": {
+  "value": "使用出口节点将该节点的流量通过尾网的另一台机器发送；广告使该节点成为其他节点的出口。这两个角色相互排斥。广告将保持待处理状态，直到在 tailnet 管理控制台中获得批准。节点窗口的网络选项卡列出了当前在线的出口节点。"
+ },
+ "Peers": {
+  "value": "同行"
+ },
+ "no handshake yet": {
+  "value": "还没有握手"
+ },
+ "%s ago": {
+  "value": "%s 前"
+ },
+ "Copy public key": {
+  "value": "复制公钥"
+ },
+ "Diagnostics": {
+  "value": "诊断"
+ },
+ "Diagnostics needs the daemon mode or a remote machine.": {
+  "value": "诊断需要守护程序模式或远程计算机。"
+ },
+ "This is a group — it has no connection of its own. Check its members.": {
+  "value": "这是一个团体——它自己没有任何联系。检查其成员。"
+ },
+ "Check": {
+  "value": "查看"
+ },
+ "Request is sent through this node": {
+  "value": "请求通过该节点发送"
+ },
+ "Run": {
+  "value": "跑步"
+ },
+ "Running…": {
+  "value": "跑步…"
+ },
+ "Response": {
+  "value": "回复"
+ },
+ "through this node in the running core": {
+  "value": "通过运行核心中的这个节点"
+ },
+ "(empty response)": {
+  "value": "（空响应）"
+ },
+ "Response was longer and got cut off.": {
+  "value": "回复较长并被打断。"
+ },
+ "Connected to %s from inside the tunnel": {
+  "value": "从隧道内部连接到 %s"
+ },
+ "Devices": {
+  "value": "设备"
+ },
+ "%d online / %d": {
+  "value": "%d 在线/%d"
+ },
+ "Copy MagicDNS name": {
+  "value": "复制 MagicDNS 名称"
+ },
+ "Errors (%d)": {
+  "value": "错误（%d）"
+ },
+ "since %s": {
+  "value": "自%s以来"
+ },
+ "No errors recorded.": {
+  "value": "没有记录错误。"
+ },
+ "Copy all": {
+  "value": "全部复制"
+ },
+ "Clear": {
+  "value": "清除"
+ },
+ "Clash API only": {
+  "value": "仅限冲突 API"
+ },
+ "gRPC and daemon only": {
+  "value": "仅 gRPC 和守护进程"
+ },
+ "Show these errors": {
+  "value": "显示这些错误"
+ },
+ "%s: no connection": {
+  "value": "%s：无连接"
+ },
+ "Tailnet": {
+  "value": "尾网"
+ },
+ "live status, refreshed every %d s": {
+  "value": "实时状态，每 %d 秒刷新一次"
+ },
+ "peer relay": {
+  "value": "对等中继"
+ },
+ "no handshake": {
+  "value": "没有握手"
+ },
+ "handshake %s ago": {
+  "value": "%s 前握手"
+ },
+ "%d devices without traffic": {
+  "value": "%d 个设备没有流量"
+ },
+ "This core does not report peer paths (needs sing-box-lx 1.14.2-lx.12).": {
+  "value": "该核心不报告对等路径（需要 sing-box-lx 1.14.2-lx.12）。"
+ },
+ "The node is not running in the core.": {
+  "value": "该节点未在核心中运行。"
+ },
+ "hold until it fails": {
+  "value": "坚持到失败为止"
+ },
+ "held": {
+  "value": "握住"
+ },
+ "How the paired auto group picks a node: the single fastest one, a rotating pool of the fastest, or the fastest at the moment of choice held until it fails (only that node is probed, others sleep; a manual group test re-probes everyone and re-picks the fastest).": {
+  "value": "配对的自动组如何选择一个节点：单个最快的节点、最快的循环池或在选择时保持最快直到失败的节点（仅探测该节点，其他节点休眠；手动组测试重新探测每个节点并重新选择最快的节点）。"
+ },
+ "Settings changed outside the Configurator": {
+  "value": "在配置器外部更改设置"
+ },
+ "The settings of this configuration were just changed through the debug API while this window is open.\n\nReload settings — read the saved settings into this window (unsaved edits made here are lost).\nKeep mine — leave this window as it is; the next Save will overwrite the external change.": {
+  "value": "此配置的设置只是在该窗口打开时通过调试 API 更改的。\n\n重新加载设置 - 将保存的设置读入此窗口（此处未保存的编辑将丢失）。\n保留我的——让这个窗口保持原样；下一次保存将覆盖外部更改。"
+ },
+ "Reload settings": {
+  "value": "重新加载设置"
+ },
+ "Keep mine": {
+  "value": "保留我的"
+ },
+ "%s  ✓ sha256 matches SHA256SUMS": {
+  "value": "%s ✓ sha256 与 SHA256SUMS 匹配"
+ },
+ "%s · %s/%s · service %s (%s)": {
+  "value": "%s · %s/%s · 服务 %s (%s)"
+ },
+ "%s — core log": {
+  "value": "%s — 核心日志"
+ },
+ "%s — sha256 %s. SHA256SUMS is unavailable: compare this sum with the one step 3 prints on the machine.": {
+  "value": "%s — sha256 %s。 SHA256SUMS 不可用：将此总和与机器上打印的步骤 3 进行比较。"
+ },
+ "(%d failed checks in a row)": {
+  "value": "（%d 次检查连续失败）"
+ },
+ "Add %s to /etc/sysupgrade.conf, or a firmware upgrade will drop it.": {
+  "value": "将 %s 添加到 /etc/sysupgrade.conf，否则固件升级将删除它。"
+ },
+ "Also wipe the state — keys, clients and last-good are lost, and every client has to pair again:": {
+  "value": "同时擦除状态——密钥、客户端和最后的好数据都会丢失，每个客户端都必须重新配对："
+ },
+ "Back up, swap, restart": {
+  "value": "备份、交换、重启"
+ },
+ "Bearer for tls:false": {
+  "value": "tls 的承载者：false"
+ },
+ "Bearer secret": {
+  "value": "承载秘密"
+ },
+ "Check before swapping: build tags and the current config": {
+  "value": "交换之前检查：构建标签和当前配置"
+ },
+ "Checking the daemon…": {
+  "value": "检查守护进程..."
+ },
+ "Connect first: the log streams over the machine's channel.": {
+  "value": "首先连接：日志通过机器的通道传输。"
+ },
+ "Connect to %s first: the log streams over its channel.": {
+  "value": "首先连接到 %s：日志通过其通道传输。"
+ },
+ "Copy the path": {
+  "value": "复制路径"
+ },
+ "Core %s (required %s — cannot compare)": {
+  "value": "核心 %s（必需 %s — 无法比较）"
+ },
+ "Core %s (required %s ⚠)": {
+  "value": "核心 %s（必需 %s ⚠）"
+ },
+ "Core %s (required %s)": {
+  "value": "核心 %s（必需 %s）"
+ },
+ "Core %s cannot be compared with the required %s.": {
+  "value": "核心 %s 无法与所需的 %s 进行比较。"
+ },
+ "Core binary": {
+  "value": "核心二进制文件"
+ },
+ "Core is older than required — open Service": {
+  "value": "核心比所需的旧 - 开放服务"
+ },
+ "Core version unknown (required %s)": {
+  "value": "核心版本未知（需要 %s）"
+ },
+ "Daemon address": {
+  "value": "守护进程地址"
+ },
+ "Daemon does not answer — open Service": {
+  "value": "守护进程不应答 — 打开服务"
+ },
+ "Deploy anyway": {
+  "value": "无论如何部署"
+ },
+ "Deploy to %s?": {
+  "value": "部署到%s？"
+ },
+ "Don't ask again for %s on this machine": {
+  "value": "请勿在此机器上再次询问 %s"
+ },
+ "Download %s": {
+  "value": "下载%s"
+ },
+ "Download failed: %s": {
+  "value": "下载失败：%s"
+ },
+ "Enable and start it": {
+  "value": "启用并启动它"
+ },
+ "Expect with_lxd among the build tags, the same sha256 as in step 1 and no error from check.": {
+  "value": "构建标签中预计有 with_lxd，与步骤 1 中的 sha256 相同，并且检查没有错误。"
+ },
+ "Follow the log": {
+  "value": "遵循日志"
+ },
+ "Get the core for %s/%s": {
+  "value": "获取%s/%s的核心"
+ },
+ "Guide:": {
+  "value": "指导："
+ },
+ "Guides:": {
+  "value": "指南："
+ },
+ "How to update": {
+  "value": "如何更新"
+ },
+ "If the header turns green, you are done.": {
+  "value": "如果标题变为绿色，则表示已完成。"
+ },
+ "Init system:": {
+  "value": "初始化系统："
+ },
+ "Install from scratch (no service yet)": {
+  "value": "从头开始安装（还没有服务）"
+ },
+ "Install or update the service": {
+  "value": "安装或更新服务"
+ },
+ "Install record": {
+  "value": "安装记录"
+ },
+ "Is it running?": {
+  "value": "正在运行吗？"
+ },
+ "Last-good": {
+  "value": "最后好"
+ },
+ "Launcher core %s (required %s). The service runs its own copy of it; download a newer core on the Core tab of the dashboard, then install or update the service.": {
+  "value": "启动器核心 %s（必需 %s）。该服务运行自己的副本；在仪表板的“核心”选项卡上下载较新的核心，然后安装或更新服务。"
+ },
+ "Likely: a pairing problem, not the service — the daemon answers but refuses this launcher.": {
+  "value": "可能：配对问题，而不是服务 - 守护进程回答但拒绝此启动器。"
+ },
+ "Likely: the service is stopped or crash-looping.": {
+  "value": "可能：服务已停止或崩溃循环。"
+ },
+ "Live log window": {
+  "value": "实时日志窗口"
+ },
+ "Live log": {
+  "value": "直播日志"
+ },
+ "Load the service": {
+  "value": "加载服务"
+ },
+ "Log": {
+  "value": "日志"
+ },
+ "Mint an invite on the machine": {
+  "value": "在机器上创建邀请"
+ },
+ "Mint an invite": {
+  "value": "发出邀请"
+ },
+ "Not connected — press Connect on the machine's row to check the daemon. The commands below use the last known paths.": {
+  "value": "未连接 — 按计算机所在行上的“连接”以检查守护程序。以下命令使用最后已知的路径。"
+ },
+ "Not running": {
+  "value": "未运行"
+ },
+ "On %s the service is installed on the machine itself: run the core's `lxd --service=install` there as administrator — it installs or updates the service in place.": {
+  "value": "在 %s 上，服务安装在计算机本身上：以管理员身份运行核心的 `lxd --service=install` — 它会就地安装或更新服务。"
+ },
+ "Only for a daemon with tls:false in daemon.json: the Bearer secret is the whole authentication.": {
+  "value": "仅适用于 daemon.json 中带有 tls:false 的守护进程：承载密钥是整个身份验证。"
+ },
+ "Paired — connect to check the certificate.": {
+  "value": "已配对 — 连接以检查证书。"
+ },
+ "Paired — the daemon does not answer, so the certificate cannot be checked now.": {
+  "value": "已配对 — 守护程序不应答，因此现在无法检查证书。"
+ },
+ "Paired. A new client key was issued; connect again.": {
+  "value": "配对。颁发了新的客户端密钥；再次连接。"
+ },
+ "Pairing": {
+  "value": "配对"
+ },
+ "Paste what it printed": {
+  "value": "粘贴打印的内容"
+ },
+ "Paths — defaults: the daemon has not reported its paths yet": {
+  "value": "路径 — 默认值：守护进程尚未报告其路径"
+ },
+ "Paths — reported by the daemon %s ago": {
+  "value": "路径 — 由守护程序 %s 前报告"
+ },
+ "Paths — reported by the daemon just now": {
+  "value": "路径 — 刚才由守护进程报告"
+ },
+ "Plain mode (tls:false): Bearer secret": {
+  "value": "普通模式 (tls:false)：承载秘密"
+ },
+ "Puts the backed-up core back and restarts the service.": {
+  "value": "将备份的核心放回去并重新启动服务。"
+ },
+ "Re-pair when the error says \"certificate changed\" or \"not paired\", the service was reinstalled or its state dir was wiped.": {
+  "value": "当错误显示“证书已更改”或“未配对”、服务已重新安装或其状态目录已擦除时，请重新配对。"
+ },
+ "Read the log": {
+  "value": "阅读日志"
+ },
+ "Reference": {
+  "value": "参考"
+ },
+ "Reinstall the same version": {
+  "value": "重新安装相同版本"
+ },
+ "Replace the <…> part before running it.": {
+  "value": "在运行之前替换 <...> 部分。"
+ },
+ "Restart it": {
+  "value": "重新启动它"
+ },
+ "Revoke a client": {
+  "value": "撤销客户"
+ },
+ "Roll back if the new core misbehaves": {
+  "value": "如果新核心行为异常则回滚"
+ },
+ "Run in Terminal over ssh": {
+  "value": "通过 ssh 在终端中运行"
+ },
+ "Run it in an elevated PowerShell on the machine.": {
+  "value": "在计算机上提升的 PowerShell 中运行它。"
+ },
+ "Run the command": {
+  "value": "运行命令"
+ },
+ "Running %s, required %s": {
+  "value": "正在运行 %s，需要 %s"
+ },
+ "Runs in Terminal with your sudo and prints a one-time invite — paste it below:": {
+  "value": "使用您的 sudo 在终端中运行并打印一次性邀请 - 将其粘贴到下面："
+ },
+ "Runs in Terminal with your sudo:": {
+  "value": "使用您的 sudo 在终端中运行："
+ },
+ "Runs in Terminal with your sudo; a first install prints a pairing invite at the end:": {
+  "value": "使用您的 sudo 在终端中运行；首次安装会在最后打印配对邀请："
+ },
+ "Runs in the foreground: stop it with Ctrl-C, then start the service again.": {
+  "value": "在前台运行：使用 Ctrl-C 停止它，然后再次启动该服务。"
+ },
+ "SSH": {
+  "value": "SSH"
+ },
+ "Save this as %s on the machine, then enable and start it:": {
+  "value": "在计算机上将其保存为 %s，然后启用并启动它："
+ },
+ "Saved. It is used on the next connect.": {
+  "value": "已保存。它在下一次连接时使用。"
+ },
+ "Service binary": {
+  "value": "服务二进制文件"
+ },
+ "Service — %s": {
+  "value": "服务 — %s"
+ },
+ "Service": {
+  "value": "服务"
+ },
+ "Service: restart, update the core, pairing, paths and logs": {
+  "value": "服务：重启、更新核心、配对、路径和日志"
+ },
+ "Show it": {
+  "value": "显示它"
+ },
+ "Still down? Read why": {
+  "value": "还低落吗？阅读原因"
+ },
+ "Stops the daemon and removes its service definition. The state (keys, clients, last-good) stays.": {
+  "value": "停止守护程序并删除其服务定义。状态（密钥、客户端、最后的好）保持不变。"
+ },
+ "The client loses access at once. Replace <name> with a name from the list above.": {
+  "value": "客户端立即失去访问权限。将 <name> 替换为上面列表中的名称。"
+ },
+ "The core release has no build for %s/%s — build the core for this machine yourself.": {
+  "value": "核心版本没有针对 %s/%s 的构建 - 请自行构建此机器的核心。"
+ },
+ "The machine runs a UPX-packed core, but this release has no packed copy for it: this is the plain binary, 4–5 times larger. Check free space on the machine before uploading.": {
+  "value": "该机器运行 UPX 打包核心，但此版本没有其打包副本：这是纯二进制文件，大 4-5 倍。上传前检查机器上的可用空间。"
+ },
+ "The core's log, live, while the daemon answers": {
+  "value": "核心的日志是实时的，而守护进程则应答"
+ },
+ "The current core is kept as %s.": {
+  "value": "当前核心保留为 %s。"
+ },
+ "The daemon has not been checked yet: connect to the machine to see whether it answers. The steps below use the last known paths.": {
+  "value": "守护进程尚未检查：连接到机器以查看其是否响应。以下步骤使用最后已知的路径。"
+ },
+ "The daemon has not reported its core version yet (required %s).": {
+  "value": "守护程序尚未报告其核心版本（必需 %s）。"
+ },
+ "The header should now say %s · started.": {
+  "value": "标头现在应该显示 %s · 已开始。"
+ },
+ "The last config broke it? Boot the last working one once": {
+  "value": "最后的配置破坏了它吗？启动最后一个工作的一次"
+ },
+ "The last deploy did not start: the core rolled back to the last-good config.": {
+  "value": "最后一次部署没有开始：核心回滚到最后一次好的配置。"
+ },
+ "The service was restarted.": {
+  "value": "服务已重新启动。"
+ },
+ "This changes the service on %s. Run it?": {
+  "value": "这会更改 %s 上的服务。运行它吗？"
+ },
+ "This computer": {
+  "value": "这台电脑"
+ },
+ "Upload it (streamed over ssh — scp does not work on OpenWrt)": {
+  "value": "上传（通过 ssh 传输 - scp 不适用于 OpenWrt）"
+ },
+ "Upload it (streamed over ssh)": {
+  "value": "上传（通过 ssh 传输）"
+ },
+ "Waiting for log lines…": {
+  "value": "等待日志行..."
+ },
+ "Who holds the port": {
+  "value": "谁拥有港口"
+ },
+ "Who is trusted": {
+  "value": "谁值得信赖"
+ },
+ "Windows asks for administrator rights:": {
+  "value": "Windows 要求管理员权限："
+ },
+ "Windows asks for administrator rights; the launcher pairs with the new invite automatically:": {
+  "value": "Windows 要求管理员权限；启动器会自动与新邀请配对："
+ },
+ "Windows asks for administrator rights; the launcher pairs with the service automatically:": {
+  "value": "Windows 要求管理员权限；启动器自动与服务配对："
+ },
+ "core %s": {
+  "value": "核心%s"
+ },
+ "daemon.json — edit it, then restart the service (never reinstall)": {
+  "value": "daemon.json — 编辑它，然后重新启动服务（切勿重新安装）"
+ },
+ "default path — the daemon has not reported it yet": {
+  "value": "默认路径 - 守护进程尚未报告它"
+ },
+ "default": {
+  "value": "默认"
+ },
+ "log path": {
+  "value": "日志路径"
+ },
+ "mTLS on/off": {
+  "value": "mTLS 开/关"
+ },
+ "not reported": {
+  "value": "没有报道"
+ },
+ "rotation: size MB / backups / age h": {
+  "value": "循环：大小 MB / 备份 / 年龄 h"
+ },
+ "shown on the machine only": {
+  "value": "仅在机器上显示"
+ },
+ "the daemon does not answer": {
+  "value": "守护进程没有应答"
+ },
+ "unreachable": {
+  "value": "无法到达的"
+ },
+ "uptime %s": {
+  "value": "正常运行时间 %s"
+ },
+ "where it answers": {
+  "value": "它在哪里回答"
+ },
+ "— the core restarted —": {
+  "value": "— 核心重启 —"
+ },
+ "⚠ %s runs core %s; this launcher builds configs for %s. The old core may reject them — it will then roll back to the last working config.": {
+  "value": "⚠ %s 运行核心 %s；该启动器为 %s 构建配置。旧的核心可能会拒绝它们——然后它将回滚到最后一个工作配置。"
+ },
+ "⚠ Core %s is older than required (%s)": {
+  "value": "⚠ 核心 %s 早于所需 (%s)"
+ },
+ "✅ Answers": {
+  "value": "✅ 答案"
+ },
+ "✅ Core %s is current": {
+  "value": "✅ 核心 %s 是当前的"
+ },
+ "✅ Core %s is newer than required (%s)": {
+  "value": "✅ 核心 %s 比所需的新 (%s)"
+ },
+ "✅ Paired · certificate ok": {
+  "value": "✅ 已配对·证书ok"
+ },
+ "✅ The daemon answers — nothing to fix here.": {
+  "value": "✅ 守护进程回答——这里没有什么需要修复的。"
+ },
+ "✅ The daemon answers, uptime %s — nothing to fix here.": {
+  "value": "✅ 守护进程回答，正常运行时间 %s — 这里没有什么需要修复的。"
+ },
+ "✖ Not answering for %s: %s": {
+  "value": "✖ 未接听 %s：%s"
+ },
+ "✖ Not answering: %s": {
+  "value": "✖ 未应答：%s"
+ },
+ "✖ Not paired yet": {
+  "value": "✖ 尚未配对"
+ },
+ "✖ The TLS mode does not match the daemon's: %s": {
+  "value": "✖ TLS 模式与守护程序的不匹配：%s"
+ },
+ "✖ The daemon does not trust this launcher: %s": {
+  "value": "✖ 守护进程不信任此启动器：%s"
+ },
+ "✖ The daemon refuses this launcher: %s": {
+  "value": "✖ 守护程序拒绝此启动器：%s"
+ },
+ "✖ The daemon's certificate changed: %s": {
+  "value": "✖ 守护程序的证书已更改：%s"
+ },
+ "The daemon engine is not active yet: it switches on by itself once the service answers and the launcher is paired (stop the VPN first if it is running).": {
+  "value": "守护进程引擎尚未激活：一旦服务应答并且启动器配对（如果正在运行，请先停止 VPN），它会自行打开。"
+ },
+ "%s is older than required %s": {
+  "value": "%s 早于所需的 %s"
+ },
+ "%s · %s/%s · service %s (%s, not installed as a service)": {
+  "value": "%s · %s/%s · 服务 %s（%s，未作为服务安装）"
+ },
+ "Daemon command:": {
+  "value": "守护进程命令："
+ },
+ "Edit daemon.json": {
+  "value": "编辑 daemon.json"
+ },
+ "Install the service": {
+  "value": "安装服务"
+ },
+ "Named commands let this window run them on the daemon (the Daemon command row above). Add this to daemon.json:": {
+  "value": "命名命令让该窗口在守护进程（上面的守护进程命令行）上运行它们。将其添加到 daemon.json："
+ },
+ "No recipes for openrc yet — see the lxd guide": {
+  "value": "还没有 openrc 的食谱 - 请参阅 lxd 指南"
+ },
+ "Nothing changed": {
+  "value": "一切都没有改变"
+ },
+ "Nothing helps? Reinstall the core (Core section).": {
+  "value": "没有什么帮助吗？重新安装核心（核心部分）。"
+ },
+ "Open Core": {
+  "value": "开放核心"
+ },
+ "Open Pairing": {
+  "value": "打开配对"
+ },
+ "Open Uninstall": {
+  "value": "打开卸载"
+ },
+ "Paste into the top level of daemon.json next to \"listen\". The daemon validates names on start: a bad name keeps it from starting.": {
+  "value": "粘贴到 daemon.json 的顶层“listen”旁边。守护进程在启动时验证名称：错误的名称会使其无法启动。"
+ },
+ "Restart the service": {
+  "value": "重新启动服务"
+ },
+ "Restarting the daemon — reconnecting… %d s": {
+  "value": "正在重新启动守护程序 — 正在重新连接...%d s"
+ },
+ "Suggested commands": {
+  "value": "建议的命令"
+ },
+ "TLS mode mismatch": {
+  "value": "TLS 模式不匹配"
+ },
+ "The core binary path is the default — the daemon has not reported it yet.": {
+  "value": "核心二进制路径是默认的——守护进程尚未报告它。"
+ },
+ "The daemon can update itself: choose update above and press Run. The steps below are the manual way.": {
+  "value": "守护进程可以自行更新：选择上面的更新并按运行。以下步骤为手动方式。"
+ },
+ "The daemon is back — checking the update…": {
+  "value": "守护进程回来了——检查更新……"
+ },
+ "The daemon runs, but not as a service: install the service first.": {
+  "value": "守护进程运行，但不作为服务：首先安装服务。"
+ },
+ "The daemon will download the latest core (~60 MB) and restart itself. Connections through it will drop for a few seconds. Continue?": {
+  "value": "该守护进程将下载最新的核心（~60 MB）并自行重新启动。通过它的连接将会中断几秒钟。继续？"
+ },
+ "The system service is not installed yet — install it in the Core section, then pair in the Pairing section.": {
+  "value": "系统服务尚未安装 - 将其安装在“核心”部分，然后在“配对”部分进行配对。"
+ },
+ "Troubleshooting · commands run on this computer": {
+  "value": "故障排除·命令在此计算机上运行"
+ },
+ "Troubleshooting · commands run via ssh %s": {
+  "value": "故障排除·命令通过 ssh %s 运行"
+ },
+ "Update the core": {
+  "value": "更新核心"
+ },
+ "\"refusing to run\" → Core · \"bind: address in use\" → Reference": {
+  "value": "《拒绝运行》→核心·《绑定：地址正在使用》→参考"
+ },
+ "add \"commands\" to daemon.json → Troubleshooting → Suggested commands": {
+  "value": "将“命令”添加到 daemon.json → 故障排除 → 建议命令"
+ },
+ "certificate changed": {
+  "value": "证书已更改"
+ },
+ "done · exit %d · %s ago": {
+  "value": "已完成·退出 %d·%s 前"
+ },
+ "done · exit %d": {
+  "value": "完成 · 退出 %d"
+ },
+ "install or update the service": {
+  "value": "安装或更新服务"
+ },
+ "lost": {
+  "value": "丢失的"
+ },
+ "no recipe for this init": {
+  "value": "没有这个初始化的配方"
+ },
+ "not available": {
+  "value": "无法使用"
+ },
+ "not paired yet": {
+  "value": "尚未配对"
+ },
+ "reported by the daemon": {
+  "value": "由守护进程报告"
+ },
+ "running…": {
+  "value": "跑步…"
+ },
+ "started by %s": {
+  "value": "由 %s 开始"
+ },
+ "starting…": {
+  "value": "开始…"
+ },
+ "the daemon does not trust this launcher": {
+  "value": "守护进程不信任此启动器"
+ },
+ "the launcher core is too old": {
+  "value": "启动器核心太旧"
+ },
+ "the new core": {
+  "value": "新核心"
+ },
+ "the service is not loaded": {
+  "value": "服务未加载"
+ },
+ "updating…": {
+  "value": "正在更新…"
+ },
+ "✔ Already up to date (%s)": {
+  "value": "✔ 已经是最新的 (%s)"
+ },
+ "✔ Updated %s → %s": {
+  "value": "✔ 已更新 %s → %s"
+ },
+ "✔ Updated to %s. Commands are not available in this core version": {
+  "value": "✔ 已更新至 %s。命令在此核心版本中不可用"
+ },
+ "✖ %s did not come up, rolled back to %s": {
+  "value": "✖ %s 未出现，已回滚至 %s"
+ },
+ "✖ The command is no longer in daemon.json": {
+  "value": "✖ 该命令不再位于 daemon.json 中"
+ },
+ "✖ The daemon did not come back": {
+  "value": "✖ 守护进程没有回来"
+ },
+ "Paste the invite printed by the daemon and click Pair. Installing or updating the service pairs the launcher automatically, so an invite is only needed when that did not happen:\n\n- \"Mint an invite\" in the Pairing section issues a new invite and pairs with it (Windows asks for administrator rights).\n- Or run the command below in a terminal opened as administrator, then paste the printed invite into the pairing field.\n\nThe code is one-time: it burns after a successful pairing. The secret field is only for daemons running without TLS.": {
+  "value": "粘贴守护程序打印的邀请，然后单击“配对”。安装或更新服务会自动与启动器配对，因此仅当未发生这种情况时才需要邀请：\n\n- 配对部分中的“创建邀请”会发出新邀请并与其配对（Windows 要求管理员权限）。\n- 或者在以管理员身份打开的终端中运行以下命令，然后将打印的邀请粘贴到配对字段中。\n\n该代码是一次性的：配对成功后就会被销毁。秘密字段仅适用于没有 TLS 运行的守护进程。"
+ },
+ "Paste the invite printed by the daemon and click Pair. Where to get one:\n\n- Installing the service prints an invite at the end of its Terminal output (Core section).\n- For a fresh invite run the command below (copy or open in Terminal), then paste the printed invite into the pairing field.\n\nThe code is one-time: it burns after a successful pairing. The secret field is only for daemons running without TLS.": {
+  "value": "粘贴守护程序打印的邀请，然后单击“配对”。哪里可以获得：\n\n- 安装服务会在其终端输出（核心部分）末尾打印邀请。\n- 对于新邀请，请运行以下命令（复制或在终端中打开），然后将打印的邀请粘贴到配对字段中。\n\n该代码是一次性的：配对成功后就会被销毁。秘密字段仅适用于没有 TLS 运行的守护进程。"
+ },
+ "Open Not running": {
+  "value": "打开未运行"
+ },
+ "⚠ Updated to %s, but the core did not start: %s — restart the service": {
+  "value": "⚠ 已更新至 %s，但核心未启动：%s — 重新启动服务"
+ },
+ "Auto-deploy subscription updates": {
+  "value": "自动部署订阅更新"
+ },
+ "Refresh this machine's subscriptions hourly and deploy when only the nodes changed. The launcher must be running; a deploy restarts the machine's core for a moment.": {
+  "value": "每小时刷新此计算机的订阅，并在仅节点发生更改时进行部署。启动器必须正在运行；部署会暂时重新启动机器的核心。"
+ },
+ "Auto-deploy": {
+  "value": "自动部署"
+ },
+ "Last auto-deploy": {
+  "value": "上次自动部署"
+ },
+ "on": {
+  "value": "在"
+ },
+ "Auto-deploy: %s": {
+  "value": "自动部署：%s"
+ },
+ "Config updated from subscriptions and applied.": {
+  "value": "配置从订阅更新并应用。"
+ },
+ "Machine unreachable: %s": {
+  "value": "机器无法访问：%s"
+ },
+ "Failed: %s": {
+  "value": "失败：%s"
+ },
+ "just now": {
+  "value": "现在"
+ },
+ "%dm ago": {
+  "value": "%dm 前"
+ },
+ "%dh ago": {
+  "value": "%dh 前"
+ },
+ "%dd ago": {
+  "value": "%dd 前"
+ },
+ "Each wrong code triggers a new sign-in on the gateway": {
+  "value": "每个错误代码都会触发网关上的新登录"
+ },
+ "If the password for %s has changed, update it in the node settings so the next sign-in does not ask again.": {
+  "value": "如果 %s 的密码已更改，请在节点设置中更新它，以便下次登录时不会再次询问。"
+ },
+ "Submit": {
+  "value": "提交"
+ },
+ "Request a new code": {
+  "value": "请求新代码"
+ },
+ "The gateway will send a new code": {
+  "value": "网关将发送一个新代码"
+ },
+ "Sign in: %s": {
+  "value": "登录：%s"
+ },
+ "Not now": {
+  "value": "现在不要"
+ },
+ "SSO for this gateway type is not supported yet": {
+  "value": "尚不支持此网关类型的 SSO"
+ },
+ "Cannot listen on 127.0.0.1:%d: the port is busy or blocked. Close the program that uses it and try again.": {
+  "value": "无法侦听 127.0.0.1:%d：端口正忙或被阻止。关闭使用它的程序并重试。"
+ },
+ "Sign in in your browser": {
+  "value": "在您的浏览器中登录"
+ },
+ "The sign-in link is not a web address, so it is not opened automatically.": {
+  "value": "登录链接不是网址，因此不会自动打开。"
+ },
+ "Waiting for the browser to come back…": {
+  "value": "等待浏览器返回..."
+ },
+ "Signing in…": {
+  "value": "正在登录..."
+ },
+ "Waiting for sign-in": {
+  "value": "等待登录"
+ },
+ "sign in": {
+  "value": "登入"
+ },
+ "%s must be a whole number": {
+  "value": "%s 必须是整数"
+ },
+ "%s must be within %s…%s": {
+  "value": "%s 必须在 %s…%s 之内"
+ },
+ "Allow legacy crypto ⚠": {
+  "value": "允许遗留加密货币 ⚠"
+ },
+ "DPD interval": {
+  "value": "DPD间隔"
+ },
+ "Disable IPv6": {
+  "value": "禁用 IPv6"
+ },
+ "Disable SSO (external auth)": {
+  "value": "禁用 SSO（外部身份验证）"
+ },
+ "Do not verify ⚠": {
+  "value": "请勿验证⚠"
+ },
+ "Empty = core default (FortiGate: Mozilla/5.0 SV1)": {
+  "value": "空 = 核心默认值（FortiGate：Mozilla/5.0 SV1）"
+ },
+ "Empty = from gateway; lower it if HTTPS stalls (576…1500)": {
+  "value": "空=来自网关；如果 HTTPS 停止，则降低该值 (576…1500)"
+ },
+ "FortiGate only": {
+  "value": "仅 FortiGate"
+ },
+ "Gateway": {
+  "value": "网关"
+ },
+ "Group / Realm": {
+  "value": "团体/领域"
+ },
+ "Hostcheck": {
+  "value": "主机检查"
+ },
+ "How long to retry a dropped tunnel, e.g. 5m. Empty = core default (5m)": {
+  "value": "重试已删除的隧道需要多长时间，例如5m。空=核心默认（5m）"
+ },
+ "If the gateway asks for a code, you will be prompted on connect (daemon mode only)": {
+  "value": "如果网关要求输入代码，则会在连接时提示您（仅限守护进程模式）"
+ },
+ "Keep-alive probe period, e.g. 30s. Empty = from gateway": {
+  "value": "保持活动探测周期，例如30多岁。空=来自网关"
+ },
+ "Only for old gateways (TLS 1.0)": {
+  "value": "仅适用于旧网关 (TLS 1.0)"
+ },
+ "Only if it differs from the server host": {
+  "value": "仅当它与服务器主机不同时"
+ },
+ "Pinned fingerprint": {
+  "value": "固定指纹"
+ },
+ "Reconnect timeout": {
+  "value": "重新连接超时"
+ },
+ "Required: %s": {
+  "value": "必需：%s"
+ },
+ "Security": {
+  "value": "安全"
+ },
+ "Server certificate": {
+  "value": "服务器证书"
+ },
+ "Several fingerprints: comma-separated": {
+  "value": "多个指纹：以逗号分隔"
+ },
+ "System CA": {
+  "value": "系统CA"
+ },
+ "TCP only (no DTLS)": {
+  "value": "仅 TCP（无 DTLS）"
+ },
+ "This launcher runs the core in classic mode: second-factor prompts are unavailable here": {
+  "value": "此启动器以经典模式运行核心：此处不提供第二因素提示"
+ },
+ "Use when UDP is blocked and the tunnel keeps dropping": {
+  "value": "当 UDP 被阻止并且隧道不断丢失时使用"
+ },
+ "host:port or full URL; port 443 if omitted": {
+  "value": "主机：端口或完整 URL；端口 443（如果省略）"
+ },
+ "Nodes": {
+  "value": "节点"
+ },
+ "(missing)": {
+  "value": "（丢失的）"
+ },
+ "VLESS": {
+  "value": "VLESS"
+ },
+ "Hysteria2": {
+  "value": "歇斯底里2"
+ },
+ "Trojan": {
+  "value": "木马"
+ },
+ "WireGuard (AWG)": {
+  "value": "线卫 (AWG)"
+ },
+ "Naive": {
+  "value": "幼稚的"
+ },
+ "OpenConnect (SSL VPN)": {
+  "value": "OpenConnect（SSL VPN）"
+ },
+ "UUID": {
+  "value": "UUID"
+ },
+ "Flow": {
+  "value": "流动"
+ },
+ "Encryption": {
+  "value": "加密"
+ },
+ "Packet encoding": {
+  "value": "数据包编码"
+ },
+ "Version": {
+  "value": "版本"
+ },
+ "Profile": {
+  "value": "轮廓"
+ },
+ "Public key": {
+  "value": "公钥"
+ },
+ "IPv4 address": {
+  "value": "IPv4地址"
+ },
+ "IPv6 address": {
+  "value": "IPv6地址"
+ },
+ "URI": {
+  "value": "URI"
+ },
+ "HTTP version": {
+  "value": "HTTP版本"
+ },
+ "QUIC": {
+  "value": "QUIC"
+ },
+ "Congestion control": {
+  "value": "拥塞控制"
+ },
+ "Port hopping": {
+  "value": "端口跳跃"
+ },
+ "Ranges, comma-separated: 20000:30000": {
+  "value": "范围，以逗号分隔：20000:30000"
+ },
+ "Hop interval": {
+  "value": "跳跃间隔"
+ },
+ "e.g. 30s": {
+  "value": "例如30秒"
+ },
+ "Upload, Mbps": {
+  "value": "上传，Mbps"
+ },
+ "Download, Mbps": {
+  "value": "下载，Mbps"
+ },
+ "Obfuscation": {
+  "value": "混淆"
+ },
+ "Off": {
+  "value": "离开"
+ },
+ "Obfuscation password": {
+  "value": "混淆密码"
+ },
+ "UDP over TCP": {
+  "value": "基于 TCP 的 UDP"
+ },
+ "Allow insecure ⚠": {
+  "value": "允许不安全⚠"
+ },
+ "ALPN": {
+  "value": "ALPN"
+ },
+ "REALITY": {
+  "value": "REALITY"
+ },
+ "Host header": {
+  "value": "主机头"
+ },
+ "Seconds": {
+  "value": "秒数"
+ },
+ "AmneziaWG": {
+  "value": "AmneziaWG"
+ },
+ "Default (%s)": {
+  "value": "默认（%s）"
+ },
+ "The form for this server type is unavailable": {
+  "value": "此服务器类型的表单不可用"
+ },
+ "Send DNS to a dedicated server": {
+  "value": "将 DNS 发送到专用服务器"
+ },
+ "Force IPv4 (drop AAAA)": {
+  "value": "强制 IPv4（丢弃 AAAA）"
+ },
+ "Works only if the rule set contains domains.": {
+  "value": "仅当规则集包含域时才有效。"
+ },
+ "Unavailable for rules with ports, protocols or network, and for rules that match only IP addresses.": {
+  "value": "不适用于具有端口、协议或网络的规则，以及仅匹配 IP 地址的规则。"
+ },
+ "DNS: %s": {
+  "value": "DNS：%s"
+ },
+ "IPv4 only": {
+  "value": "仅限 IPv4"
+ },
+ "From the rule's DNS options. Edit the rule on the Rules tab.": {
+  "value": "来自规则的 DNS 选项。在“规则”选项卡上编辑规则。"
+ },
+ "Used by rule %s: kept in the config while the rule needs it.": {
+  "value": "由规则 %s 使用：在规则需要时保留在配置中。"
+ },
+ "Fill in the rule to see what it adds to the config.": {
+  "value": "填写规则以查看它添加到配置中的内容。"
+ },
+ "Rule set not downloaded yet: the rule stays out of the config until it is.": {
+  "value": "规则集尚未下载：规则将保留在配置之外，直到下载为止。"
+ },
+ "DNS options do not apply to this rule: it has ports, protocols or network, or matches only IP addresses.": {
+  "value": "DNS 选项不适用于此规则：它具有端口、协议或网络，或仅匹配 IP 地址。"
+ },
+ "DNS server %s not found: its DNS rule stays out of the config.": {
+  "value": "未找到 DNS 服务器 %s：其 DNS 规则不在配置中。"
+ },
+ "DNS server %s is turned off: it is kept in the config because this rule uses it.": {
+  "value": "DNS 服务器 %s 已关闭：它保留在配置中，因为此规则使用它。"
+ }
+}

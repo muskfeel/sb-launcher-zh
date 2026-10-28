@@ -1,0 +1,608 @@
+[
+ {
+  "key": "Local",
+  "en": "Local",
+  "special": []
+ },
+ {
+  "key": "🌐 Remote",
+  "en": "🌐 Remote",
+  "special": []
+ },
+ {
+  "key": "🖥️ Servers",
+  "en": "🖥️ Servers",
+  "special": []
+ },
+ {
+  "key": "MACHINES",
+  "en": "MACHINES",
+  "special": []
+ },
+ {
+  "key": "+ Add",
+  "en": "+ Add",
+  "special": []
+ },
+ {
+  "key": "Add remote machine",
+  "en": "Add remote machine",
+  "special": []
+ },
+ {
+  "key": "Run `sudo sing-box lxd client add` on the machine you want to manage — it prints a one-time invite. Paste it below. The code burns after the first attempt; mint a fresh one if pairing fails.",
+  "en": "Run `sudo sing-box lxd client add` on the machine you want to manage — it prints a one-time invite. Paste it below. The code burns after the first attempt; mint a fresh one if pairing fails.",
+  "special": []
+ },
+ {
+  "key": "Run this on the machine to get an invite:",
+  "en": "Run this on the machine to get an invite:",
+  "special": []
+ },
+ {
+  "key": "How to install the daemon on a machine",
+  "en": "How to install the daemon on a machine",
+  "special": []
+ },
+ {
+  "key": "Advanced (address, secret)",
+  "en": "Advanced (address, secret)",
+  "special": []
+ },
+ {
+  "key": "Invite",
+  "en": "Invite",
+  "special": []
+ },
+ {
+  "key": "address#fingerprint#code",
+  "en": "address#fingerprint#code",
+  "special": []
+ },
+ {
+  "key": "Name",
+  "en": "Name",
+  "special": []
+ },
+ {
+  "key": "Router, home VPS, … (defaults to the address)",
+  "en": "Router, home VPS, … (defaults to the address)",
+  "special": []
+ },
+ {
+  "key": "Address",
+  "en": "Address",
+  "special": []
+ },
+ {
+  "key": "host:port — leave empty to use the invite's address",
+  "en": "host:port — leave empty to use the invite's address",
+  "special": []
+ },
+ {
+  "key": "Secret",
+  "en": "Secret",
+  "special": []
+ },
+ {
+  "key": "only for a plain-h2c daemon; leave empty for mTLS",
+  "en": "only for a plain-h2c daemon; leave empty for mTLS",
+  "special": []
+ },
+ {
+  "key": "Add",
+  "en": "Add",
+  "special": []
+ },
+ {
+  "key": "Pairing…",
+  "en": "Pairing…",
+  "special": []
+ },
+ {
+  "key": "Paste the invite printed by the daemon.",
+  "en": "Paste the invite printed by the daemon.",
+  "special": []
+ },
+ {
+  "key": "Pairing failed: %v",
+  "en": "Pairing failed: %v",
+  "special": []
+ },
+ {
+  "key": "No remote machines yet. Press “+ Add” and paste the invite printed by `sing-box lxd` on the machine you want to manage.",
+  "en": "No remote machines yet. Press “+ Add” and paste the invite printed by `sing-box lxd` on the machine you want to manage.",
+  "special": []
+ },
+ {
+  "key": "Configure",
+  "en": "Configure",
+  "special": []
+ },
+ {
+  "key": "Connect",
+  "en": "Connect",
+  "special": []
+ },
+ {
+  "key": "Connecting… %d/%d",
+  "en": "Connecting… %d/%d",
+  "special": []
+ },
+ {
+  "key": "Disconnect",
+  "en": "Disconnect",
+  "special": []
+ },
+ {
+  "key": "No machine connected. Pick one on the right and press Connect.",
+  "en": "No machine connected. Pick one on the right and press Connect.",
+  "special": []
+ },
+ {
+  "key": "The core on this machine is not running. Press Start in its row.",
+  "en": "The core on this machine is not running. Press Start in its row.",
+  "special": []
+ },
+ {
+  "key": "reachable",
+  "en": "reachable",
+  "special": []
+ },
+ {
+  "key": "Edit name, address and platform",
+  "en": "Edit name, address and platform",
+  "special": []
+ },
+ {
+  "key": "Remove this machine",
+  "en": "Remove this machine",
+  "special": []
+ },
+ {
+  "key": "What the daemon reports about itself",
+  "en": "What the daemon reports about itself",
+  "special": []
+ },
+ {
+  "key": "%s — daemon status",
+  "en": "%s — daemon status",
+  "special": []
+ },
+ {
+  "key": "Machine",
+  "en": "Machine",
+  "special": []
+ },
+ {
+  "key": "Platform",
+  "en": "Platform",
+  "special": []
+ },
+ {
+  "key": "Daemon version",
+  "en": "Daemon version",
+  "special": []
+ },
+ {
+  "key": "Core status",
+  "en": "Core status",
+  "special": []
+ },
+ {
+  "key": "State dir",
+  "en": "State dir",
+  "special": []
+ },
+ {
+  "key": "Active config sha256",
+  "en": "Active config sha256",
+  "special": []
+ },
+ {
+  "key": "Last-good config sha256",
+  "en": "Last-good config sha256",
+  "special": []
+ },
+ {
+  "key": "Interrupted apply",
+  "en": "Interrupted apply",
+  "special": []
+ },
+ {
+  "key": "yes — the core runs the last-good config",
+  "en": "yes — the core runs the last-good config",
+  "special": []
+ },
+ {
+  "key": "Last error",
+  "en": "Last error",
+  "special": []
+ },
+ {
+  "key": "Unreachable",
+  "en": "Unreachable",
+  "special": []
+ },
+ {
+  "key": "Connection failures this session (%d)",
+  "en": "Connection failures this session (%d)",
+  "special": []
+ },
+ {
+  "key": "Machine — %s",
+  "en": "Machine — %s",
+  "special": []
+ },
+ {
+  "key": "Re-pair — reconnect this machine with a fresh invite",
+  "en": "Re-pair — reconnect this machine with a fresh invite",
+  "special": []
+ },
+ {
+  "key": "Use this when the channel broke on the machine's side: the daemon was reinstalled, its state directory was wiped, this client was revoked, or its server certificate changed and the pin no longer matches. Name, address, platform and every setting of this machine are kept — only the pin and the client key are replaced.",
+  "en": "Use this when the channel broke on the machine's side: the daemon was reinstalled, its state directory was wiped, this client was revoked, or its server certificate changed and the pin no longer matches. Name, address, platform and every setting of this machine are kept — only the pin and the client key are replaced.",
+  "special": []
+ },
+ {
+  "key": "host:port — leave empty to keep the current address",
+  "en": "host:port — leave empty to keep the current address",
+  "special": []
+ },
+ {
+  "key": "Re-pair",
+  "en": "Re-pair",
+  "special": []
+ },
+ {
+  "key": "Re-pairing…",
+  "en": "Re-pairing…",
+  "special": []
+ },
+ {
+  "key": "Re-paired at %s. A new client key was issued; connect again.",
+  "en": "Re-paired at %s. A new client key was issued; connect again.",
+  "special": []
+ },
+ {
+  "key": "Re-pair machine",
+  "en": "Re-pair machine",
+  "special": []
+ },
+ {
+  "key": "Issue a new client key for %s?\n\nThe current key stops being this launcher's credential and stays on the machine as a leftover — remove it there with `sing-box lxd client remove`. Settings of this machine are not touched.",
+  "en": "Issue a new client key for %s?\n\nThe current key stops being this launcher's credential and stays on the machine as a leftover — remove it there with `sing-box lxd client remove`. Settings of this machine are not touched.",
+  "special": []
+ },
+ {
+  "key": "Copy settings from another machine",
+  "en": "Copy settings from another machine",
+  "special": []
+ },
+ {
+  "key": "Copies the wizard setup — sources, rules, DNS and variables — from another machine onto this one, so you don't build the same thing twice. Pairing is NOT copied: each machine keeps its own client key, because one shared key would mean revoking access on one machine revokes it on both. The built config and rule-set files are rebuilt for this machine on the next Save and Deploy.",
+  "en": "Copies the wizard setup — sources, rules, DNS and variables — from another machine onto this one, so you don't build the same thing twice. Pairing is NOT copied: each machine keeps its own client key, because one shared key would mean revoking access on one machine revokes it on both. The built config and rule-set files are rebuilt for this machine on the next Save and Deploy.",
+  "special": []
+ },
+ {
+  "key": "Take settings from…",
+  "en": "Take settings from…",
+  "special": []
+ },
+ {
+  "key": "Copy",
+  "en": "Copy",
+  "special": [
+   "1"
+  ]
+ },
+ {
+  "key": "Settings copied from %s. Open Configure to review them and press Save.",
+  "en": "Settings copied from %s. Open Configure to review them and press Save.",
+  "special": []
+ },
+ {
+  "key": "Copy failed: %v",
+  "en": "Copy failed: %v",
+  "special": []
+ },
+ {
+  "key": "Pick the machine to copy settings from.",
+  "en": "Pick the machine to copy settings from.",
+  "special": []
+ },
+ {
+  "key": "No other configured machine to copy from yet.",
+  "en": "No other configured machine to copy from yet.",
+  "special": []
+ },
+ {
+  "key": "Overwrite settings",
+  "en": "Overwrite settings",
+  "special": []
+ },
+ {
+  "key": "%s already has its own setup. Copying replaces it, and there is no way back.",
+  "en": "%s already has its own setup. Copying replaces it, and there is no way back.",
+  "special": []
+ },
+ {
+  "key": "Architecture",
+  "en": "Architecture",
+  "special": []
+ },
+ {
+  "key": "Remove machine",
+  "en": "Remove machine",
+  "special": []
+ },
+ {
+  "key": "Remove %s? Its config, wizard states and client keys are deleted from this launcher.\n\nAccess on the machine itself stays registered — revoke it there with `sing-box lxd client remove`.",
+  "en": "Remove %s? Its config, wizard states and client keys are deleted from this launcher.\n\nAccess on the machine itself stays registered — revoke it there with `sing-box lxd client remove`.",
+  "special": []
+ },
+ {
+  "key": "No config built for %s yet. Press Configure on its row, set it up and press Save — that writes the config this button sends.",
+  "en": "No config built for %s yet. Press Configure on its row, set it up and press Save — that writes the config this button sends.",
+  "special": []
+ },
+ {
+  "key": "🔍 Diagnostics",
+  "en": "🔍 Diagnostics",
+  "special": []
+ },
+ {
+  "key": "❓ Help",
+  "en": "❓ Help",
+  "special": []
+ },
+ {
+  "key": "⚙️ Settings",
+  "en": "⚙️ Settings",
+  "special": []
+ },
+ {
+  "key": "Settings",
+  "en": "Settings",
+  "special": []
+ },
+ {
+  "key": "Subscriptions",
+  "en": "Subscriptions",
+  "special": []
+ },
+ {
+  "key": "User-Agent:",
+  "en": "User-Agent:",
+  "special": []
+ },
+ {
+  "key": "Custom User-Agent sent on subscription fetches. Leave empty to use the default: %s",
+  "en": "Custom User-Agent sent on subscription fetches. Leave empty to use the default: %s",
+  "special": []
+ },
+ {
+  "key": "Reset to default",
+  "en": "Reset to default",
+  "special": []
+ },
+ {
+  "key": "Subscription identification",
+  "en": "Subscription identification",
+  "special": []
+ },
+ {
+  "key": "Send device ID",
+  "en": "Send device ID",
+  "special": []
+ },
+ {
+  "key": "Sends a UUIDv4 device ID + OS family/version + device model with every subscription fetch. Required by Marzban / Remnawave / NashVPN-style panels for device counting. Unchecking returns a less-fingerprinted request — HWID-binding panels will then return empty subscriptions.",
+  "en": "Sends a UUIDv4 device ID + OS family/version + device model with every subscription fetch. Required by Marzban / Remnawave / NashVPN-style panels for device counting. Unchecking returns a less-fingerprinted request — HWID-binding panels will then return empty subscriptions.",
+  "special": []
+ },
+ {
+  "key": "Hash device model (privacy)",
+  "en": "Hash device model (privacy)",
+  "special": []
+ },
+ {
+  "key": "When enabled, X-Device-Model is sent as sha256(model)[:16] instead of the raw value (e.g. MacBookPro18,1). The provider still counts you as one device but does not see the hardware family.",
+  "en": "When enabled, X-Device-Model is sent as sha256(model)[:16] instead of the raw value (e.g. MacBookPro18,1). The provider still counts you as one device but does not see the hardware family.",
+  "special": []
+ },
+ {
+  "key": "Device ID (HWID):",
+  "en": "Device ID (HWID):",
+  "special": []
+ },
+ {
+  "key": "Regenerate",
+  "en": "Regenerate",
+  "special": []
+ },
+ {
+  "key": "Regenerate device ID?",
+  "en": "Regenerate device ID?",
+  "special": []
+ },
+ {
+  "key": "This will generate a new UUID and the next subscription fetch will register a new device with HWID-binding providers — consuming one of your allowed device slots. The previous ID stays counted until you remove it via the provider's management bot. Continue?",
+  "en": "This will generate a new UUID and the next subscription fetch will register a new device with HWID-binding providers — consuming one of your allowed device slots. The previous ID stays counted until you remove it via the provider's management bot. Continue?",
+  "special": []
+ },
+ {
+  "key": "Language",
+  "en": "Language",
+  "special": []
+ },
+ {
+  "key": "Connection",
+  "en": "Connection",
+  "special": []
+ },
+ {
+  "key": "Core Status Checking...",
+  "en": "Core Status Checking...",
+  "special": []
+ },
+ {
+  "key": "Core Status ❌ Error: sing-box not found",
+  "en": "Core Status ❌ Error: sing-box not found",
+  "special": []
+ },
+ {
+  "key": "Core Status 🔄 Restarting...",
+  "en": "Core Status 🔄 Restarting...",
+  "special": []
+ },
+ {
+  "key": "Core Status ✅ Running",
+  "en": "Core Status ✅ Running",
+  "special": []
+ },
+ {
+  "key": "Core Status ⏸️ Stopped",
+  "en": "Core Status ⏸️ Stopped",
+  "special": []
+ },
+ {
+  "key": "Start",
+  "en": "Start",
+  "special": [
+   "1"
+  ]
+ },
+ {
+  "key": "Stop",
+  "en": "Stop",
+  "special": [
+   "1"
+  ]
+ },
+ {
+  "key": "Exit",
+  "en": "Exit",
+  "special": []
+ },
+ {
+  "key": "Config",
+  "en": "Config",
+  "special": []
+ },
+ {
+  "key": "Checking config...",
+  "en": "Checking config...",
+  "special": []
+ },
+ {
+  "key": "%s ✅ %s",
+  "en": "%s ✅ %s",
+  "special": []
+ },
+ {
+  "key": "%s ❌ not found",
+  "en": "%s ❌ not found",
+  "special": []
+ },
+ {
+  "key": "Config error: %v",
+  "en": "Config error: %v",
+  "special": []
+ },
+ {
+  "key": "Starting...",
+  "en": "Starting...",
+  "special": []
+ },
+ {
+  "key": "Refreshing subscriptions",
+  "en": "Refreshing subscriptions",
+  "special": []
+ },
+ {
+  "key": "Update subscriptions (%s+U)",
+  "en": "Update subscriptions (%s+U)",
+  "special": []
+ },
+ {
+  "key": "Restart sing-box (%s+R)",
+  "en": "Restart sing-box (%s+R)",
+  "special": []
+ },
+ {
+  "key": "State edited — restart sing-box to apply",
+  "en": "State edited — restart sing-box to apply",
+  "special": []
+ },
+ {
+  "key": "Auto-update subscriptions",
+  "en": "Auto-update subscriptions",
+  "special": []
+ },
+ {
+  "key": "Auto-ping on connect",
+  "en": "Auto-ping on connect",
+  "special": []
+ },
+ {
+  "key": "(subs: just now)",
+  "en": "(subs: just now)",
+  "special": []
+ },
+ {
+  "key": "(subs: %dm ago)",
+  "en": "(subs: %dm ago)",
+  "special": []
+ },
+ {
+  "key": "(subs: %dh ago)",
+  "en": "(subs: %dh ago)",
+  "special": []
+ },
+ {
+  "key": "(subs: %dd ago)",
+  "en": "(subs: %dd ago)",
+  "special": []
+ },
+ {
+  "key": "Debug API (localhost)",
+  "en": "Debug API (localhost)",
+  "special": []
+ },
+ {
+  "key": "Local read-only HTTP API for scripts and automation. Off by default. Bound to 127.0.0.1 only.",
+  "en": "Local read-only HTTP API for scripts and automation. Off by default. Bound to 127.0.0.1 only.",
+  "special": []
+ },
+ {
+  "key": "Enable",
+  "en": "Enable",
+  "special": []
+ },
+ {
+  "key": "Copy token",
+  "en": "Copy token",
+  "special": []
+ },
+ {
+  "key": "Status: Off",
+  "en": "Status: Off",
+  "special": []
+ },
+ {
+  "key": "Status: Listening on %s",
+  "en": "Status: Listening on %s",
+  "special": []
+ },
+ {
+  "key": "Token copied",
+  "en": "Token copied",
+  "special": []
+ },
+ {
+  "key": "Debug API bearer token copied to clipboard. Pass as: Authorization: Bearer …",
+  "en": "Debug API bearer token copied to clipboard. Pass as: Authorization: Bearer …",
+  "special": []
+ }
+]

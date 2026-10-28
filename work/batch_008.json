@@ -1,0 +1,602 @@
+[
+ {
+  "key": "err %d/%d",
+  "en": "err %d/%d",
+  "special": []
+ },
+ {
+  "key": "drop %d/%d",
+  "en": "drop %d/%d",
+  "special": []
+ },
+ {
+  "key": "— all —",
+  "en": "— all —",
+  "special": []
+ },
+ {
+  "key": "Client",
+  "en": "Client",
+  "special": []
+ },
+ {
+  "key": "Outbound",
+  "en": "Outbound",
+  "special": []
+ },
+ {
+  "key": "Rule",
+  "en": "Rule",
+  "special": []
+ },
+ {
+  "key": "Search",
+  "en": "Search",
+  "special": []
+ },
+ {
+  "key": "domain, IP or port",
+  "en": "domain, IP or port",
+  "special": []
+ },
+ {
+  "key": "⚠ mixed outbounds",
+  "en": "⚠ mixed outbounds",
+  "special": []
+ },
+ {
+  "key": "Close connections",
+  "en": "Close connections",
+  "special": []
+ },
+ {
+  "key": "No active client connections.",
+  "en": "No active client connections.",
+  "special": []
+ },
+ {
+  "key": "No connections match the filter.",
+  "en": "No connections match the filter.",
+  "special": []
+ },
+ {
+  "key": "DESTINATION",
+  "en": "DESTINATION",
+  "special": []
+ },
+ {
+  "key": "OUTBOUND",
+  "en": "OUTBOUND",
+  "special": []
+ },
+ {
+  "key": "RULE",
+  "en": "RULE",
+  "special": []
+ },
+ {
+  "key": "EVENT",
+  "en": "EVENT",
+  "special": []
+ },
+ {
+  "key": "SENT",
+  "en": "SENT",
+  "special": []
+ },
+ {
+  "key": "RECV",
+  "en": "RECV",
+  "special": []
+ },
+ {
+  "key": "Close all",
+  "en": "Close all",
+  "special": []
+ },
+ {
+  "key": "Close all connections (%d)? Devices will reconnect on their own.",
+  "en": "Close all connections (%d)? Devices will reconnect on their own.",
+  "special": []
+ },
+ {
+  "key": "conns: %d",
+  "en": "conns: %d",
+  "special": []
+ },
+ {
+  "key": "conns: …",
+  "en": "conns: …",
+  "special": []
+ },
+ {
+  "key": "open",
+  "en": "open",
+  "special": []
+ },
+ {
+  "key": "closed",
+  "en": "closed",
+  "special": []
+ },
+ {
+  "key": "This config is for another machine and differs from a local one: no Clash API (the lxd daemon manages the core there) and no system proxy. Gateway-specific behavior — LAN interfaces, wide proxy listen, process matching off — is controlled by Gateway mode on the Settings tab.",
+  "en": "This config is for another machine and differs from a local one: no Clash API (the lxd daemon manages the core there) and no system proxy. Gateway-specific behavior — LAN interfaces, wide proxy listen, process matching off — is controlled by Gateway mode on the Settings tab.",
+  "special": []
+ },
+ {
+  "key": "Backup",
+  "en": "Backup",
+  "special": []
+ },
+ {
+  "key": "Export settings to a file to move them between this launcher and LxBox on your phone. Subscriptions, servers, rules, DNS and portable variables are carried over.",
+  "en": "Export settings to a file to move them between this launcher and LxBox on your phone. Subscriptions, servers, rules, DNS and portable variables are carried over.",
+  "special": []
+ },
+ {
+  "key": "Export…",
+  "en": "Export…",
+  "special": []
+ },
+ {
+  "key": "Import…",
+  "en": "Import…",
+  "special": []
+ },
+ {
+  "key": "Save LX Backup",
+  "en": "Save LX Backup",
+  "special": []
+ },
+ {
+  "key": "Open LX Backup",
+  "en": "Open LX Backup",
+  "special": []
+ },
+ {
+  "key": "Native file dialog is unavailable. Install zenity or kdialog and try again.",
+  "en": "Native file dialog is unavailable. Install zenity or kdialog and try again.",
+  "special": []
+ },
+ {
+  "key": "Cannot read the current state",
+  "en": "Cannot read the current state",
+  "special": []
+ },
+ {
+  "key": "Export failed",
+  "en": "Export failed",
+  "special": []
+ },
+ {
+  "key": "Import failed",
+  "en": "Import failed",
+  "special": []
+ },
+ {
+  "key": "Backup saved",
+  "en": "Backup saved",
+  "special": []
+ },
+ {
+  "key": "Import backup",
+  "en": "Import backup",
+  "special": []
+ },
+ {
+  "key": "Import",
+  "en": "Import",
+  "special": []
+ },
+ {
+  "key": "Backup imported",
+  "en": "Backup imported",
+  "special": []
+ },
+ {
+  "key": "From %s %s, exported %s",
+  "en": "From %s %s, exported %s",
+  "special": []
+ },
+ {
+  "key": "Subscriptions: %d\nServers: %d\nRules: %d\nVariables: %d",
+  "en": "Subscriptions: %d\nServers: %d\nRules: %d\nVariables: %d",
+  "special": []
+ },
+ {
+  "key": "Sources: %d\nRules: %d\nVariables: %d",
+  "en": "Sources: %d\nRules: %d\nVariables: %d",
+  "special": []
+ },
+ {
+  "key": "Applied: %d source(s), %d rule(s).",
+  "en": "Applied: %d source(s), %d rule(s).",
+  "special": []
+ },
+ {
+  "key": "Not applied as-is:",
+  "en": "Not applied as-is:",
+  "special": []
+ },
+ {
+  "key": "Import report",
+  "en": "Import report",
+  "special": []
+ },
+ {
+  "key": "Export report",
+  "en": "Export report",
+  "special": []
+ },
+ {
+  "key": "Did not make it into the file:",
+  "en": "Did not make it into the file:",
+  "special": []
+ },
+ {
+  "key": "folder \"%s\" and its %d node(s) did not make it into the file: this backup format cannot carry folders yet",
+  "en": "folder \"%s\" and its %d node(s) did not make it into the file: this backup format cannot carry folders yet",
+  "special": []
+ },
+ {
+  "key": "folder \"%s\" did not make it into the file: this backup format cannot carry folders yet",
+  "en": "folder \"%s\" did not make it into the file: this backup format cannot carry folders yet",
+  "special": []
+ },
+ {
+  "key": "group \"%s\" did not make it into the file: this backup format cannot carry provider groups yet",
+  "en": "group \"%s\" did not make it into the file: this backup format cannot carry provider groups yet",
+  "special": []
+ },
+ {
+  "key": "%s — this backup format cannot carry it, the record did not make it into the file",
+  "en": "%s — this backup format cannot carry it, the record did not make it into the file",
+  "special": []
+ },
+ {
+  "key": "%s — target does not exist here, the rule is imported turned off",
+  "en": "%s — target does not exist here, the rule is imported turned off",
+  "special": []
+ },
+ {
+  "key": "%s — this DNS server's channel does not exist here, the server is imported turned off",
+  "en": "%s — this DNS server's channel does not exist here, the server is imported turned off",
+  "special": []
+ },
+ {
+  "key": "%s — default route target does not exist here, left unchanged",
+  "en": "%s — default route target does not exist here, left unchanged",
+  "special": []
+ },
+ {
+  "key": "%s routing rule(s) of this machine were replaced by the rules from the file",
+  "en": "%s routing rule(s) of this machine were replaced by the rules from the file",
+  "special": []
+ },
+ {
+  "key": "%s — unknown preset, the rule is imported turned off",
+  "en": "%s — unknown preset, the rule is imported turned off",
+  "special": []
+ },
+ {
+  "key": "%s — this setting means something else on this machine, skipped",
+  "en": "%s — this setting means something else on this machine, skipped",
+  "special": []
+ },
+ {
+  "key": "%s: parameter \"%s\" is not declared by this template's DNS server, skipped",
+  "en": "%s: parameter \"%s\" is not declared by this template's DNS server, skipped",
+  "special": []
+ },
+ {
+  "key": "%s: parameter \"%s\" is not declared by this template's preset, skipped",
+  "en": "%s: parameter \"%s\" is not declared by this template's preset, skipped",
+  "special": []
+ },
+ {
+  "key": "%s — the file also sets this DNS server's parameters in its entry; the entry wins, this older form is skipped",
+  "en": "%s — the file also sets this DNS server's parameters in its entry; the entry wins, this older form is skipped",
+  "special": []
+ },
+ {
+  "key": "%s — the file has no entry for this DNS server, the value is skipped",
+  "en": "%s — the file has no entry for this DNS server, the value is skipped",
+  "special": []
+ },
+ {
+  "key": "%s — this template has no such DNS server, the entry is not imported",
+  "en": "%s — this template has no such DNS server, the entry is not imported",
+  "special": []
+ },
+ {
+  "key": "%s — not supported here, skipped",
+  "en": "%s — not supported here, skipped",
+  "special": []
+ },
+ {
+  "key": "%s — this field means something different here, its value is skipped",
+  "en": "%s — this field means something different here, its value is skipped",
+  "special": []
+ },
+ {
+  "key": "this backup was made by an older version and carries an \"extensions\" section (%s); the shared fields were imported, the rest is dropped",
+  "en": "this backup was made by an older version and carries an \"extensions\" section (%s); the shared fields were imported, the rest is dropped",
+  "special": []
+ },
+ {
+  "key": "%s — a chain with this name already exists here, the incoming one is skipped",
+  "en": "%s — a chain with this name already exists here, the incoming one is skipped",
+  "special": []
+ },
+ {
+  "key": "Config validation failed",
+  "en": "Config validation failed",
+  "special": []
+ },
+ {
+  "key": "Daemon",
+  "en": "Daemon",
+  "special": []
+ },
+ {
+  "key": "Search domain / IP / process…",
+  "en": "Search domain / IP / process…",
+  "special": []
+ },
+ {
+  "key": "⏸ Pause",
+  "en": "⏸ Pause",
+  "special": []
+ },
+ {
+  "key": "▶ Resume",
+  "en": "▶ Resume",
+  "special": []
+ },
+ {
+  "key": "🗑 Clear",
+  "en": "🗑 Clear",
+  "special": []
+ },
+ {
+  "key": "Target: (none)",
+  "en": "Target: (none)",
+  "special": []
+ },
+ {
+  "key": "Pick process…",
+  "en": "Pick process…",
+  "special": []
+ },
+ {
+  "key": "Live",
+  "en": "Live",
+  "special": []
+ },
+ {
+  "key": "Domains",
+  "en": "Domains",
+  "special": []
+ },
+ {
+  "key": "IPs",
+  "en": "IPs",
+  "special": []
+ },
+ {
+  "key": "Saved sessions (last 5)",
+  "en": "Saved sessions (last 5)",
+  "special": []
+ },
+ {
+  "key": "STOP",
+  "en": "STOP",
+  "special": []
+ },
+ {
+  "key": "Pick process & START",
+  "en": "Pick process & START",
+  "special": []
+ },
+ {
+  "key": "Idle — pick a process and START to begin recording.",
+  "en": "Idle — pick a process and START to begin recording.",
+  "special": []
+ },
+ {
+  "key": "Read-only view of saved session — click START to record a new one.",
+  "en": "Read-only view of saved session — click START to record a new one.",
+  "special": []
+ },
+ {
+  "key": "Filter by name or path…",
+  "en": "Filter by name or path…",
+  "special": []
+ },
+ {
+  "key": "Verbose logs (debug)",
+  "en": "Verbose logs (debug)",
+  "special": []
+ },
+ {
+  "key": "Verbose logs active — battery/CPU impact.",
+  "en": "Verbose logs active — battery/CPU impact.",
+  "special": []
+ },
+ {
+  "key": "Delete all completed recording sessions? Active session is preserved.",
+  "en": "Delete all completed recording sessions? Active session is preserved.",
+  "special": []
+ },
+ {
+  "key": "Export live buffer",
+  "en": "Export live buffer",
+  "special": []
+ },
+ {
+  "key": "A filter is active. Export what's on screen, or every event in the buffer?",
+  "en": "A filter is active. Export what's on screen, or every event in the buffer?",
+  "special": []
+ },
+ {
+  "key": "Visible rows only",
+  "en": "Visible rows only",
+  "special": []
+ },
+ {
+  "key": "Whole buffer",
+  "en": "Whole buffer",
+  "special": []
+ },
+ {
+  "key": "By client",
+  "en": "By client",
+  "special": []
+ },
+ {
+  "key": "Per-process",
+  "en": "Per-process",
+  "special": []
+ },
+ {
+  "key": "Sticky hash",
+  "en": "Sticky hash",
+  "special": []
+ },
+ {
+  "key": "Reset — clear your changes, revert to defaults",
+  "en": "Reset — clear your changes, revert to defaults",
+  "special": []
+ },
+ {
+  "key": "Restore template-defined outbounds that were deleted (e.g. auto-proxy-out, vpn ①, vpn ②). Existing entries unchanged.",
+  "en": "Restore template-defined outbounds that were deleted (e.g. auto-proxy-out, vpn ①, vpn ②). Existing entries unchanged.",
+  "special": []
+ },
+ {
+  "key": "Read-only preset DNS server. Toggle on/off via checkbox.",
+  "en": "Read-only preset DNS server. Toggle on/off via checkbox.",
+  "special": []
+ },
+ {
+  "key": "Read-only. Edit via preset variables (Rules tab → Edit). For custom DNS rules use the Extra rules editor below.",
+  "en": "Read-only. Edit via preset variables (Rules tab → Edit). For custom DNS rules use the Extra rules editor below.",
+  "special": []
+ },
+ {
+  "key": "+ Add Rule",
+  "en": "+ Add Rule",
+  "special": []
+ },
+ {
+  "key": "View All DNS Rules",
+  "en": "View All DNS Rules",
+  "special": []
+ },
+ {
+  "key": "Delete this DNS rule?",
+  "en": "Delete this DNS rule?",
+  "special": []
+ },
+ {
+  "key": "Rule set tag:",
+  "en": "Rule set tag:",
+  "special": []
+ },
+ {
+  "key": "one suffix per line (e.g. example.com)",
+  "en": "one suffix per line (e.g. example.com)",
+  "special": []
+ },
+ {
+  "key": "one exact domain per line",
+  "en": "one exact domain per line",
+  "special": []
+ },
+ {
+  "key": "one keyword per line",
+  "en": "one keyword per line",
+  "special": []
+ },
+ {
+  "key": "one CIDR per line (e.g. 10.0.0.0/8)",
+  "en": "one CIDR per line (e.g. 10.0.0.0/8)",
+  "special": []
+ },
+ {
+  "key": "Domain suffix:",
+  "en": "Domain suffix:",
+  "special": []
+ },
+ {
+  "key": "Domain (exact):",
+  "en": "Domain (exact):",
+  "special": []
+ },
+ {
+  "key": "Domain keyword:",
+  "en": "Domain keyword:",
+  "special": []
+ },
+ {
+  "key": "IP CIDR:",
+  "en": "IP CIDR:",
+  "special": []
+ },
+ {
+  "key": "Type:",
+  "en": "Type:",
+  "special": []
+ },
+ {
+  "key": "Server:",
+  "en": "Server:",
+  "special": []
+ },
+ {
+  "key": "Read-only preview of final config.json::dns.rules in user order (preset and user rules interleaved per DNSRuleOrder).",
+  "en": "Read-only preview of final config.json::dns.rules in user order (preset and user rules interleaved per DNSRuleOrder).",
+  "special": []
+ },
+ {
+  "key": "GitHub limits anonymous requests per IP address, and this limit has been reached — often because the current VPN node's address is shared with other users. Wait about an hour, switch to another node, or download the file manually.",
+  "en": "GitHub limits anonymous requests per IP address, and this limit has been reached — often because the current VPN node's address is shared with other users. Wait about an hour, switch to another node, or download the file manually.",
+  "special": []
+ },
+ {
+  "key": "Add server",
+  "en": "Add server",
+  "special": []
+ },
+ {
+  "key": "Protocol",
+  "en": "Protocol",
+  "special": []
+ },
+ {
+  "key": "Host",
+  "en": "Host",
+  "special": []
+ },
+ {
+  "key": "Username",
+  "en": "Username",
+  "special": []
+ },
+ {
+  "key": "Password",
+  "en": "Password",
+  "special": []
+ },
+ {
+  "key": "optional",
+  "en": "optional",
+  "special": []
+ },
+ {
+  "key": "SOCKS5",
+  "en": "SOCKS5",
+  "special": []
+ }
+]

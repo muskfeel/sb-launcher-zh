@@ -1,0 +1,482 @@
+[
+ {
+  "key": "Origin (raw JSON)",
+  "value": "来源（原始 JSON）"
+ },
+ {
+  "key": "A manual config_json is set — the origin above is ignored at build time (see the JSON tab). Regen from raw rebuilds the node from it.",
+  "value": "设置手动 config_json — 上面的原点在构建时被忽略（请参阅 JSON 选项卡）。 Regen from raw 会从中重建节点。"
+ },
+ {
+  "key": "Endpoints",
+  "value": "端点"
+ },
+ {
+  "key": "Skip Tailscale presets",
+  "value": "跳过 Tailscale 预设"
+ },
+ {
+  "key": "Tailscale presets will not add routing or DNS rules for this node.",
+  "value": "Tailscale 预设不会为此节点添加路由或 DNS 规则。"
+ },
+ {
+  "key": "Incoming connections from this tunnel",
+  "value": "来自该隧道的传入连接"
+ },
+ {
+  "key": "Peers on the other side of this tunnel can open connections to this device. Without the switches below they are rejected.",
+  "value": "该隧道另一侧的对等方可以打开与该设备的连接。如果没有下面的开关，它们将被拒绝。"
+ },
+ {
+  "key": "Allow access to this device",
+  "value": "允许访问该设备"
+ },
+ {
+  "key": "Peers reach services on this device's tunnel address. The service sees them as 127.0.0.1, so everything that trusts localhost becomes reachable.",
+  "value": "对等方可访问该设备隧道地址上的服务。该服务将它们视为 127.0.0.1，因此信任 localhost 的所有内容都可以访问。"
+ },
+ {
+  "key": "Expose local network",
+  "value": "暴露本地网络"
+ },
+ {
+  "key": "Peers reach private networks behind this device.",
+  "value": "对等方可以访问此设备后面的专用网络。"
+ },
+ {
+  "key": "Allow as gateway",
+  "value": "允许作为网关"
+ },
+ {
+  "key": "Peers route any traffic through this device; it leaves through the outbound chosen in the Tunnel ingress preset.",
+  "value": "对等点通过此设备路由任何流量；它通过在隧道入口预设中选择的出站离开。"
+ },
+ {
+  "key": "No matching nodes",
+  "value": "没有匹配的节点"
+ },
+ {
+  "key": "No matching nodes.",
+  "value": "没有匹配的节点。"
+ },
+ {
+  "key": "Loading…",
+  "value": "加载中…"
+ },
+ {
+  "key": "No selector groups in the config.",
+  "value": "配置中没有选择器组。"
+ },
+ {
+  "key": "No endpoints in the config.",
+  "value": "配置中没有端点。"
+ },
+ {
+  "key": "error: %v",
+  "value": "错误：%v"
+ },
+ {
+  "key": "(no active outbound)",
+  "value": "（无主动出站）"
+ },
+ {
+  "key": "running",
+  "value": "跑步"
+ },
+ {
+  "key": "needs login",
+  "value": "需要登录"
+ },
+ {
+  "key": "stopped",
+  "value": "停止了"
+ },
+ {
+  "key": "no state",
+  "value": "无状态"
+ },
+ {
+  "key": "Network",
+  "value": "网络"
+ },
+ {
+  "key": "exit node",
+  "value": "退出节点"
+ },
+ {
+  "key": "last seen %s ago",
+  "value": "上次出现是在 %s 之前"
+ },
+ {
+  "key": "no traffic yet",
+  "value": "还没有流量"
+ },
+ {
+  "key": "Direct: packets go straight between the devices over UDP, to the address:port shown. The fastest path.",
+  "value": "直接：数据包通过 UDP 在设备之间直接传送到所示的地址：端口。最快的路径。"
+ },
+ {
+  "key": "Peer relay: no direct path, so packets go through another device of your tailnet that relays them. Usually faster than a Tailscale relay server.",
+  "value": "对等中继：没有直接路径，因此数据包会通过尾网的另一个设备来中继它们。通常比 Tailscale 中继服务器更快。"
+ },
+ {
+  "key": "Relay (DERP): no direct path, so packets go through a Tailscale relay server; the code is its region (ams = Amsterdam). Works through any NAT or firewall, but adds latency and limits speed. Tailscale keeps trying to switch to direct.",
+  "value": "中继（DERP）：没有直接路径，因此数据包通过 Tailscale 中继服务器；代码是其区域（ams = 阿姆斯特丹）。可通过任何 NAT 或防火墙，但会增加延迟并限制速度。 Tailscale 不断尝试切换到直接。"
+ },
+ {
+  "key": "Nothing has been sent to this device yet: Tailscale opens the tunnel on the first packet. Ping it from the ⋯ menu to see the path.",
+  "value": "尚未向该设备发送任何内容：Tailscale 在第一个数据包上打开隧道。从 ⋯ 菜单中对其进行 ping 操作以查看路径。"
+ },
+ {
+  "key": "%ds",
+  "value": "%ds"
+ },
+ {
+  "key": "%dm",
+  "value": "%dm"
+ },
+ {
+  "key": "%dh",
+  "value": "%dh"
+ },
+ {
+  "key": "%dd",
+  "value": "%dd"
+ },
+ {
+  "key": "Notifications",
+  "value": "通知"
+ },
+ {
+  "key": "Errors",
+  "value": "错误"
+ },
+ {
+  "key": "Warnings",
+  "value": "警告"
+ },
+ {
+  "key": "What happened:",
+  "value": "发生了什么："
+ },
+ {
+  "key": "+%d",
+  "value": "+%d"
+ },
+ {
+  "key": "⚠ %d field(s) stripped on %d node(s)",
+  "value": "⚠ %d 个节点上的 %d 个字段被剥离"
+ },
+ {
+  "key": "⚠ %d warning(s) on %d node(s)",
+  "value": "⚠ %d 个节点上有 %d 个警告"
+ },
+ {
+  "key": "⚠ %d node(s) with warnings",
+  "value": "⚠ %d 个节点有警告"
+ },
+ {
+  "key": " · %d with warnings",
+  "value": "· %d 有警告"
+ },
+ {
+  "key": "Why it happens:",
+  "value": "为什么会发生："
+ },
+ {
+  "key": "What you can do:",
+  "value": "你可以做什么："
+ },
+ {
+  "key": "For your information: %d node(s)",
+  "value": "供您参考：%d 个节点"
+ },
+ {
+  "key": "Filters…",
+  "value": "过滤器…"
+ },
+ {
+  "key": "Filters",
+  "value": "过滤器"
+ },
+ {
+  "key": "Filters — %d / %d shown",
+  "value": "过滤器 — 显示 %d / %d"
+ },
+ {
+  "key": "Filter: %d of %d shown",
+  "value": "筛选器：已显示 %d 个，共 %d 个"
+ },
+ {
+  "key": "Emoji",
+  "value": "表情符号"
+ },
+ {
+  "key": "Test",
+  "value": "测试"
+ },
+ {
+  "key": "any",
+  "value": "任何"
+ },
+ {
+  "key": "untested",
+  "value": "未经测试的"
+ },
+ {
+  "key": "ms",
+  "value": "ms"
+ },
+ {
+  "key": "ping ≤",
+  "value": "平≤"
+ },
+ {
+  "key": "Invert all",
+  "value": "全部反转"
+ },
+ {
+  "key": "Clear the pattern",
+  "value": "清除图案"
+ },
+ {
+  "key": "Invalid regex: %s",
+  "value": "无效的正则表达式：%s"
+ },
+ {
+  "key": "Copy the pattern body (no wrapper) — paste it into a Direction's filter field.",
+  "value": "复制模式主体（无包装器）- 将其粘贴到方向的过滤字段中。"
+ },
+ {
+  "key": "Pattern body copied. Its invert flag is NOT part of the body: tick Invert in the Direction's filter.",
+  "value": "复制了图案主体。它的反转标志不是主体的一部分：在方向过滤器中勾选反转。"
+ },
+ {
+  "key": "Pattern body copied.",
+  "value": "复制了图案主体。"
+ },
+ {
+  "key": "Invert this category: keep the nodes it does NOT select.",
+  "value": "反转此类别：保留未选择的节点。"
+ },
+ {
+  "key": "Invert the whole filter: show exactly the rows it hides now.",
+  "value": "反转整个过滤器：准确显示它现在隐藏的行。"
+ },
+ {
+  "key": "Toggle this emoji in the Regex field (OR pattern).",
+  "value": "在正则表达式字段（OR 模式）中切换此表情符号。"
+ },
+ {
+  "key": "No emoji in the names of the nodes in this list.",
+  "value": "此列表中的节点名称中没有表情符号。"
+ },
+ {
+  "key": "Selected rows, direct-out and the active proxy are never hidden.",
+  "value": "选定的行、直接输出和活动代理永远不会隐藏。"
+ },
+ {
+  "key": "Show nodes at or below this latency. Untested nodes pass the threshold — it answers «show me the fast ones», not «drop the unmeasured»; nodes whose test failed do not pass.",
+  "value": "显示处于或低于此延迟的节点。未经测试的节点通过了阈值——它回答“显示速度最快的节点”，而不是“丢弃未测量的节点”；测试失败的节点不会通过。"
+ },
+ {
+  "key": "regex, e.g. NL|DE|Proton",
+  "value": "正则表达式，例如荷兰|德国|质子"
+ },
+ {
+  "key": "1 server disabled",
+  "value": "1 个服务器已禁用"
+ },
+ {
+  "key": "%d servers disabled",
+  "value": "%d 个服务器已禁用"
+ },
+ {
+  "key": "The core rejected it, so it was turned off to let the VPN start: %s",
+  "value": "核心拒绝了它，因此它被关闭以让 VPN 启动：%s"
+ },
+ {
+  "key": "The core rejected them, so they were turned off to let the VPN start: %s",
+  "value": "核心拒绝了它们，因此它们被关闭以让 VPN 启动：%s"
+ },
+ {
+  "key": "+%d more",
+  "value": "+%d 更多"
+ },
+ {
+  "key": "Show",
+  "value": "展示"
+ },
+ {
+  "key": "%d servers disabled — there may be more",
+  "value": "%d 台服务器已禁用 — 可能还有更多"
+ },
+ {
+  "key": "The core has rejected %d servers so far, and each was turned off. Keep checking the rest? On a large subscription this can take a while.",
+  "value": "到目前为止，核心已拒绝 %d 个服务器，并且每个服务器都已关闭。继续检查剩下的吗？对于大量订阅，这可能需要一段时间。"
+ },
+ {
+  "key": "If you stop, the VPN will not start. The servers already turned off will stay off.",
+  "value": "如果停止，VPN 将不会启动。已关闭的服务器将保持关闭状态。"
+ },
+ {
+  "key": "Keep checking",
+  "value": "继续检查"
+ },
+ {
+  "key": "Checking servers… (%d disabled)",
+  "value": "正在检查服务器...（%d 已禁用）"
+ },
+ {
+  "key": "Servers turned off by the core",
+  "value": "服务器被核心关闭"
+ },
+ {
+  "key": "(unnamed)",
+  "value": "（未命名）"
+ },
+ {
+  "key": "%d files, %s",
+  "value": "%d 个文件，%s"
+ },
+ {
+  "key": "Copy paths",
+  "value": "复制路径"
+ },
+ {
+  "key": "Data from before the migration, inside the app bundle",
+  "value": "迁移前应用程序包内的数据"
+ },
+ {
+  "key": "Data from before the migration, next to the program",
+  "value": "迁移前的数据，位于程序旁边"
+ },
+ {
+  "key": "Data",
+  "value": "数据"
+ },
+ {
+  "key": "Data, logs, core and template paths copied. Paste them into the bug report.",
+  "value": "复制的数据、日志、核心和模板路径。将它们粘贴到错误报告中。"
+ },
+ {
+  "key": "Environment",
+  "value": "环境"
+ },
+ {
+  "key": "Left over from a data move",
+  "value": "数据移动留下的内容"
+ },
+ {
+  "key": "Legacy",
+  "value": "遗产"
+ },
+ {
+  "key": "Move launcher data",
+  "value": "移动启动器数据"
+ },
+ {
+  "key": "Moving data…",
+  "value": "移动数据..."
+ },
+ {
+  "key": "Network cleanup: ghost wintun adapters and orphan firewall rules",
+  "value": "网络清理：ghost wintun 适配器和孤立防火墙规则"
+ },
+ {
+  "key": "Settings and subscriptions are kept in the data folder below. If you used an earlier version of the launcher and your subscriptions are missing, restore them from an LX Backup (Settings → Backup). Data folder:",
+  "value": "设置和订阅保存在下面的数据文件夹中。如果您使用早期版本的启动器并且您的订阅丢失，请从 LX 备份中恢复它们（设置 → 备份）。数据文件夹："
+ },
+ {
+  "key": "Welcome",
+  "value": "欢迎"
+ },
+ {
+  "key": "Not found: the core will be downloaded to this path",
+  "value": "未找到：核心将被下载到此路径"
+ },
+ {
+  "key": "Not found: the template will be downloaded to this path",
+  "value": "未找到：模板将下载到此路径"
+ },
+ {
+  "key": "Nothing to remove.",
+  "value": "没有什么可删除的。"
+ },
+ {
+  "key": "Old logs next to the program",
+  "value": "程序旁边的旧日志"
+ },
+ {
+  "key": "Paths are set by environment variables",
+  "value": "路径由环境变量设置"
+ },
+ {
+  "key": "Paths copied",
+  "value": "复制的路径"
+ },
+ {
+  "key": "Portable mode (keep data next to the program)",
+  "value": "便携式模式（将数据放在程序旁边）"
+ },
+ {
+  "key": "Portable",
+  "value": "便携的"
+ },
+ {
+  "key": "Program",
+  "value": "程序"
+ },
+ {
+  "key": "The service is installed but not running.",
+  "value": "该服务已安装但未运行。"
+ },
+ {
+  "key": "launchd reports: %s",
+  "value": "launchd 报告：%s"
+ },
+ {
+  "key": "Run as administrator",
+  "value": "以管理员身份运行"
+ },
+ {
+  "key": "Start the service",
+  "value": "启动服务"
+ },
+ {
+  "key": "Service Control Manager reports: %s",
+  "value": "服务控制管理器报告：%s"
+ },
+ {
+  "key": "The service copy differs from the launcher core in %s. Install or update the service to refresh it.",
+  "value": "服务副本与启动器核心的不同之处在于 %s。安装或更新服务以刷新它。"
+ },
+ {
+  "key": "The service runs a binary your user can modify. Install or update the service to move it to a protected copy.",
+  "value": "该服务运行您的用户可以修改的二进制文件。安装或更新服务以将其移动到受保护的副本。"
+ },
+ {
+  "key": "2. Remove the service (Windows asks for administrator rights):",
+  "value": "2.删除服务（Windows要求管理员权限）："
+ },
+ {
+  "key": "Remove the service",
+  "value": "删除服务"
+ },
+ {
+  "key": "Keep the protected core copy? The classic engine starts from it when the launcher runs as administrator. Remove all also deletes the copy and all daemon data.",
+  "value": "保留受保护的核心副本吗？当启动器以管理员身份运行时，经典引擎将从它启动。全部删除还会删除副本和所有守护程序数据。"
+ },
+ {
+  "key": "Keep the core copy",
+  "value": "保留核心副本"
+ },
+ {
+  "key": "Remove all",
+  "value": "全部删除"
+ },
+ {
+  "key": "The daemon service is installed and is not removed with the data: it runs from its own protected copy of the core. To remove the service as well, run this command as administrator:",
+  "value": "守护程序服务已安装，并且不会随数据一起删除：它从其自己的受保护核心副本运行。要同时删除该服务，请以管理员身份运行以下命令："
+ }
+]

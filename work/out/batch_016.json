@@ -1,0 +1,122 @@
+[
+ {
+  "key": "Ranges, comma-separated: 20000:30000",
+  "value": "范围，以逗号分隔：20000:30000"
+ },
+ {
+  "key": "Hop interval",
+  "value": "跳跃间隔"
+ },
+ {
+  "key": "e.g. 30s",
+  "value": "例如30秒"
+ },
+ {
+  "key": "Upload, Mbps",
+  "value": "上传，Mbps"
+ },
+ {
+  "key": "Download, Mbps",
+  "value": "下载，Mbps"
+ },
+ {
+  "key": "Obfuscation",
+  "value": "混淆"
+ },
+ {
+  "key": "Off",
+  "value": "离开"
+ },
+ {
+  "key": "Obfuscation password",
+  "value": "混淆密码"
+ },
+ {
+  "key": "UDP over TCP",
+  "value": "基于 TCP 的 UDP"
+ },
+ {
+  "key": "Allow insecure ⚠",
+  "value": "允许不安全⚠"
+ },
+ {
+  "key": "ALPN",
+  "value": "ALPN"
+ },
+ {
+  "key": "REALITY",
+  "value": "REALITY"
+ },
+ {
+  "key": "Host header",
+  "value": "主机头"
+ },
+ {
+  "key": "Seconds",
+  "value": "秒数"
+ },
+ {
+  "key": "AmneziaWG",
+  "value": "AmneziaWG"
+ },
+ {
+  "key": "Default (%s)",
+  "value": "默认（%s）"
+ },
+ {
+  "key": "The form for this server type is unavailable",
+  "value": "此服务器类型的表单不可用"
+ },
+ {
+  "key": "Send DNS to a dedicated server",
+  "value": "将 DNS 发送到专用服务器"
+ },
+ {
+  "key": "Force IPv4 (drop AAAA)",
+  "value": "强制 IPv4（丢弃 AAAA）"
+ },
+ {
+  "key": "Works only if the rule set contains domains.",
+  "value": "仅当规则集包含域时才有效。"
+ },
+ {
+  "key": "Unavailable for rules with ports, protocols or network, and for rules that match only IP addresses.",
+  "value": "不适用于具有端口、协议或网络的规则，以及仅匹配 IP 地址的规则。"
+ },
+ {
+  "key": "DNS: %s",
+  "value": "DNS：%s"
+ },
+ {
+  "key": "IPv4 only",
+  "value": "仅限 IPv4"
+ },
+ {
+  "key": "From the rule's DNS options. Edit the rule on the Rules tab.",
+  "value": "来自规则的 DNS 选项。在“规则”选项卡上编辑规则。"
+ },
+ {
+  "key": "Used by rule %s: kept in the config while the rule needs it.",
+  "value": "由规则 %s 使用：在规则需要时保留在配置中。"
+ },
+ {
+  "key": "Fill in the rule to see what it adds to the config.",
+  "value": "填写规则以查看它添加到配置中的内容。"
+ },
+ {
+  "key": "Rule set not downloaded yet: the rule stays out of the config until it is.",
+  "value": "规则集尚未下载：规则将保留在配置之外，直到下载为止。"
+ },
+ {
+  "key": "DNS options do not apply to this rule: it has ports, protocols or network, or matches only IP addresses.",
+  "value": "DNS 选项不适用于此规则：它具有端口、协议或网络，或仅匹配 IP 地址。"
+ },
+ {
+  "key": "DNS server %s not found: its DNS rule stays out of the config.",
+  "value": "未找到 DNS 服务器 %s：其 DNS 规则不在配置中。"
+ },
+ {
+  "key": "DNS server %s is turned off: it is kept in the config because this rule uses it.",
+  "value": "DNS 服务器 %s 已关闭：它保留在配置中，因为此规则使用它。"
+ }
+]

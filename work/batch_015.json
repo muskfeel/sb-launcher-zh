@@ -1,0 +1,602 @@
+[
+ {
+  "key": "Restarting the daemon — reconnecting… %d s",
+  "en": "Restarting the daemon — reconnecting… %d s",
+  "special": []
+ },
+ {
+  "key": "Suggested commands",
+  "en": "Suggested commands",
+  "special": []
+ },
+ {
+  "key": "TLS mode mismatch",
+  "en": "TLS mode mismatch",
+  "special": []
+ },
+ {
+  "key": "The core binary path is the default — the daemon has not reported it yet.",
+  "en": "The core binary path is the default — the daemon has not reported it yet.",
+  "special": []
+ },
+ {
+  "key": "The daemon can update itself: choose update above and press Run. The steps below are the manual way.",
+  "en": "The daemon can update itself: choose update above and press Run. The steps below are the manual way.",
+  "special": []
+ },
+ {
+  "key": "The daemon is back — checking the update…",
+  "en": "The daemon is back — checking the update…",
+  "special": []
+ },
+ {
+  "key": "The daemon runs, but not as a service: install the service first.",
+  "en": "The daemon runs, but not as a service: install the service first.",
+  "special": []
+ },
+ {
+  "key": "The daemon will download the latest core (~60 MB) and restart itself. Connections through it will drop for a few seconds. Continue?",
+  "en": "The daemon will download the latest core (~60 MB) and restart itself. Connections through it will drop for a few seconds. Continue?",
+  "special": []
+ },
+ {
+  "key": "The system service is not installed yet — install it in the Core section, then pair in the Pairing section.",
+  "en": "The system service is not installed yet — install it in the Core section, then pair in the Pairing section.",
+  "special": []
+ },
+ {
+  "key": "Troubleshooting · commands run on this computer",
+  "en": "Troubleshooting · commands run on this computer",
+  "special": []
+ },
+ {
+  "key": "Troubleshooting · commands run via ssh %s",
+  "en": "Troubleshooting · commands run via ssh %s",
+  "special": []
+ },
+ {
+  "key": "Update the core",
+  "en": "Update the core",
+  "special": []
+ },
+ {
+  "key": "\"refusing to run\" → Core · \"bind: address in use\" → Reference",
+  "en": "\"refusing to run\" → Core · \"bind: address in use\" → Reference",
+  "special": []
+ },
+ {
+  "key": "add \"commands\" to daemon.json → Troubleshooting → Suggested commands",
+  "en": "add \"commands\" to daemon.json → Troubleshooting → Suggested commands",
+  "special": []
+ },
+ {
+  "key": "certificate changed",
+  "en": "certificate changed",
+  "special": []
+ },
+ {
+  "key": "done · exit %d · %s ago",
+  "en": "done · exit %d · %s ago",
+  "special": []
+ },
+ {
+  "key": "done · exit %d",
+  "en": "done · exit %d",
+  "special": []
+ },
+ {
+  "key": "install or update the service",
+  "en": "install or update the service",
+  "special": []
+ },
+ {
+  "key": "lost",
+  "en": "lost",
+  "special": []
+ },
+ {
+  "key": "no recipe for this init",
+  "en": "no recipe for this init",
+  "special": []
+ },
+ {
+  "key": "not available",
+  "en": "not available",
+  "special": []
+ },
+ {
+  "key": "not paired yet",
+  "en": "not paired yet",
+  "special": []
+ },
+ {
+  "key": "reported by the daemon",
+  "en": "reported by the daemon",
+  "special": []
+ },
+ {
+  "key": "running…",
+  "en": "running…",
+  "special": []
+ },
+ {
+  "key": "started by %s",
+  "en": "started by %s",
+  "special": []
+ },
+ {
+  "key": "starting…",
+  "en": "starting…",
+  "special": []
+ },
+ {
+  "key": "the daemon does not trust this launcher",
+  "en": "the daemon does not trust this launcher",
+  "special": []
+ },
+ {
+  "key": "the launcher core is too old",
+  "en": "the launcher core is too old",
+  "special": []
+ },
+ {
+  "key": "the new core",
+  "en": "the new core",
+  "special": []
+ },
+ {
+  "key": "the service is not loaded",
+  "en": "the service is not loaded",
+  "special": []
+ },
+ {
+  "key": "updating…",
+  "en": "updating…",
+  "special": []
+ },
+ {
+  "key": "✔ Already up to date (%s)",
+  "en": "✔ Already up to date (%s)",
+  "special": []
+ },
+ {
+  "key": "✔ Updated %s → %s",
+  "en": "✔ Updated %s → %s",
+  "special": []
+ },
+ {
+  "key": "✔ Updated to %s. Commands are not available in this core version",
+  "en": "✔ Updated to %s. Commands are not available in this core version",
+  "special": []
+ },
+ {
+  "key": "✖ %s did not come up, rolled back to %s",
+  "en": "✖ %s did not come up, rolled back to %s",
+  "special": []
+ },
+ {
+  "key": "✖ The command is no longer in daemon.json",
+  "en": "✖ The command is no longer in daemon.json",
+  "special": []
+ },
+ {
+  "key": "✖ The daemon did not come back",
+  "en": "✖ The daemon did not come back",
+  "special": []
+ },
+ {
+  "key": "Paste the invite printed by the daemon and click Pair. Installing or updating the service pairs the launcher automatically, so an invite is only needed when that did not happen:\n\n- \"Mint an invite\" in the Pairing section issues a new invite and pairs with it (Windows asks for administrator rights).\n- Or run the command below in a terminal opened as administrator, then paste the printed invite into the pairing field.\n\nThe code is one-time: it burns after a successful pairing. The secret field is only for daemons running without TLS.",
+  "en": "Paste the invite printed by the daemon and click Pair. Installing or updating the service pairs the launcher automatically, so an invite is only needed when that did not happen:\n\n- \"Mint an invite\" in the Pairing section issues a new invite and pairs with it (Windows asks for administrator rights).\n- Or run the command below in a terminal opened as administrator, then paste the printed invite into the pairing field.\n\nThe code is one-time: it burns after a successful pairing. The secret field is only for daemons running without TLS.",
+  "special": []
+ },
+ {
+  "key": "Paste the invite printed by the daemon and click Pair. Where to get one:\n\n- Installing the service prints an invite at the end of its Terminal output (Core section).\n- For a fresh invite run the command below (copy or open in Terminal), then paste the printed invite into the pairing field.\n\nThe code is one-time: it burns after a successful pairing. The secret field is only for daemons running without TLS.",
+  "en": "Paste the invite printed by the daemon and click Pair. Where to get one:\n\n- Installing the service prints an invite at the end of its Terminal output (Core section).\n- For a fresh invite run the command below (copy or open in Terminal), then paste the printed invite into the pairing field.\n\nThe code is one-time: it burns after a successful pairing. The secret field is only for daemons running without TLS.",
+  "special": []
+ },
+ {
+  "key": "Open Not running",
+  "en": "Open Not running",
+  "special": []
+ },
+ {
+  "key": "⚠ Updated to %s, but the core did not start: %s — restart the service",
+  "en": "⚠ Updated to %s, but the core did not start: %s — restart the service",
+  "special": []
+ },
+ {
+  "key": "Auto-deploy subscription updates",
+  "en": "Auto-deploy subscription updates",
+  "special": []
+ },
+ {
+  "key": "Refresh this machine's subscriptions hourly and deploy when only the nodes changed. The launcher must be running; a deploy restarts the machine's core for a moment.",
+  "en": "Refresh this machine's subscriptions hourly and deploy when only the nodes changed. The launcher must be running; a deploy restarts the machine's core for a moment.",
+  "special": []
+ },
+ {
+  "key": "Auto-deploy",
+  "en": "Auto-deploy",
+  "special": []
+ },
+ {
+  "key": "Last auto-deploy",
+  "en": "Last auto-deploy",
+  "special": []
+ },
+ {
+  "key": "on",
+  "en": "on",
+  "special": []
+ },
+ {
+  "key": "Auto-deploy: %s",
+  "en": "Auto-deploy: %s",
+  "special": []
+ },
+ {
+  "key": "Config updated from subscriptions and applied.",
+  "en": "Config updated from subscriptions and applied.",
+  "special": []
+ },
+ {
+  "key": "Machine unreachable: %s",
+  "en": "Machine unreachable: %s",
+  "special": []
+ },
+ {
+  "key": "Failed: %s",
+  "en": "Failed: %s",
+  "special": []
+ },
+ {
+  "key": "just now",
+  "en": "just now",
+  "special": []
+ },
+ {
+  "key": "%dm ago",
+  "en": "%dm ago",
+  "special": []
+ },
+ {
+  "key": "%dh ago",
+  "en": "%dh ago",
+  "special": []
+ },
+ {
+  "key": "%dd ago",
+  "en": "%dd ago",
+  "special": []
+ },
+ {
+  "key": "Each wrong code triggers a new sign-in on the gateway",
+  "en": "Each wrong code triggers a new sign-in on the gateway",
+  "special": []
+ },
+ {
+  "key": "If the password for %s has changed, update it in the node settings so the next sign-in does not ask again.",
+  "en": "If the password for %s has changed, update it in the node settings so the next sign-in does not ask again.",
+  "special": []
+ },
+ {
+  "key": "Submit",
+  "en": "Submit",
+  "special": []
+ },
+ {
+  "key": "Request a new code",
+  "en": "Request a new code",
+  "special": []
+ },
+ {
+  "key": "The gateway will send a new code",
+  "en": "The gateway will send a new code",
+  "special": []
+ },
+ {
+  "key": "Sign in: %s",
+  "en": "Sign in: %s",
+  "special": []
+ },
+ {
+  "key": "Not now",
+  "en": "Not now",
+  "special": []
+ },
+ {
+  "key": "SSO for this gateway type is not supported yet",
+  "en": "SSO for this gateway type is not supported yet",
+  "special": []
+ },
+ {
+  "key": "Cannot listen on 127.0.0.1:%d: the port is busy or blocked. Close the program that uses it and try again.",
+  "en": "Cannot listen on 127.0.0.1:%d: the port is busy or blocked. Close the program that uses it and try again.",
+  "special": []
+ },
+ {
+  "key": "Sign in in your browser",
+  "en": "Sign in in your browser",
+  "special": []
+ },
+ {
+  "key": "The sign-in link is not a web address, so it is not opened automatically.",
+  "en": "The sign-in link is not a web address, so it is not opened automatically.",
+  "special": []
+ },
+ {
+  "key": "Waiting for the browser to come back…",
+  "en": "Waiting for the browser to come back…",
+  "special": []
+ },
+ {
+  "key": "Signing in…",
+  "en": "Signing in…",
+  "special": []
+ },
+ {
+  "key": "Waiting for sign-in",
+  "en": "Waiting for sign-in",
+  "special": []
+ },
+ {
+  "key": "sign in",
+  "en": "sign in",
+  "special": []
+ },
+ {
+  "key": "%s must be a whole number",
+  "en": "%s must be a whole number",
+  "special": []
+ },
+ {
+  "key": "%s must be within %s…%s",
+  "en": "%s must be within %s…%s",
+  "special": []
+ },
+ {
+  "key": "Allow legacy crypto ⚠",
+  "en": "Allow legacy crypto ⚠",
+  "special": []
+ },
+ {
+  "key": "DPD interval",
+  "en": "DPD interval",
+  "special": []
+ },
+ {
+  "key": "Disable IPv6",
+  "en": "Disable IPv6",
+  "special": []
+ },
+ {
+  "key": "Disable SSO (external auth)",
+  "en": "Disable SSO (external auth)",
+  "special": []
+ },
+ {
+  "key": "Do not verify ⚠",
+  "en": "Do not verify ⚠",
+  "special": []
+ },
+ {
+  "key": "Empty = core default (FortiGate: Mozilla/5.0 SV1)",
+  "en": "Empty = core default (FortiGate: Mozilla/5.0 SV1)",
+  "special": []
+ },
+ {
+  "key": "Empty = from gateway; lower it if HTTPS stalls (576…1500)",
+  "en": "Empty = from gateway; lower it if HTTPS stalls (576…1500)",
+  "special": []
+ },
+ {
+  "key": "FortiGate only",
+  "en": "FortiGate only",
+  "special": []
+ },
+ {
+  "key": "Gateway",
+  "en": "Gateway",
+  "special": []
+ },
+ {
+  "key": "Group / Realm",
+  "en": "Group / Realm",
+  "special": []
+ },
+ {
+  "key": "Hostcheck",
+  "en": "Hostcheck",
+  "special": []
+ },
+ {
+  "key": "How long to retry a dropped tunnel, e.g. 5m. Empty = core default (5m)",
+  "en": "How long to retry a dropped tunnel, e.g. 5m. Empty = core default (5m)",
+  "special": []
+ },
+ {
+  "key": "If the gateway asks for a code, you will be prompted on connect (daemon mode only)",
+  "en": "If the gateway asks for a code, you will be prompted on connect (daemon mode only)",
+  "special": []
+ },
+ {
+  "key": "Keep-alive probe period, e.g. 30s. Empty = from gateway",
+  "en": "Keep-alive probe period, e.g. 30s. Empty = from gateway",
+  "special": []
+ },
+ {
+  "key": "Only for old gateways (TLS 1.0)",
+  "en": "Only for old gateways (TLS 1.0)",
+  "special": []
+ },
+ {
+  "key": "Only if it differs from the server host",
+  "en": "Only if it differs from the server host",
+  "special": []
+ },
+ {
+  "key": "Pinned fingerprint",
+  "en": "Pinned fingerprint",
+  "special": []
+ },
+ {
+  "key": "Reconnect timeout",
+  "en": "Reconnect timeout",
+  "special": []
+ },
+ {
+  "key": "Required: %s",
+  "en": "Required: %s",
+  "special": []
+ },
+ {
+  "key": "Security",
+  "en": "Security",
+  "special": []
+ },
+ {
+  "key": "Server certificate",
+  "en": "Server certificate",
+  "special": []
+ },
+ {
+  "key": "Several fingerprints: comma-separated",
+  "en": "Several fingerprints: comma-separated",
+  "special": []
+ },
+ {
+  "key": "System CA",
+  "en": "System CA",
+  "special": []
+ },
+ {
+  "key": "TCP only (no DTLS)",
+  "en": "TCP only (no DTLS)",
+  "special": []
+ },
+ {
+  "key": "This launcher runs the core in classic mode: second-factor prompts are unavailable here",
+  "en": "This launcher runs the core in classic mode: second-factor prompts are unavailable here",
+  "special": []
+ },
+ {
+  "key": "Use when UDP is blocked and the tunnel keeps dropping",
+  "en": "Use when UDP is blocked and the tunnel keeps dropping",
+  "special": []
+ },
+ {
+  "key": "host:port or full URL; port 443 if omitted",
+  "en": "host:port or full URL; port 443 if omitted",
+  "special": []
+ },
+ {
+  "key": "Nodes",
+  "en": "Nodes",
+  "special": []
+ },
+ {
+  "key": "(missing)",
+  "en": "(missing)",
+  "special": []
+ },
+ {
+  "key": "VLESS",
+  "en": "VLESS",
+  "special": []
+ },
+ {
+  "key": "Hysteria2",
+  "en": "Hysteria2",
+  "special": []
+ },
+ {
+  "key": "Trojan",
+  "en": "Trojan",
+  "special": []
+ },
+ {
+  "key": "WireGuard (AWG)",
+  "en": "WireGuard (AWG)",
+  "special": []
+ },
+ {
+  "key": "Naive",
+  "en": "Naive",
+  "special": []
+ },
+ {
+  "key": "OpenConnect (SSL VPN)",
+  "en": "OpenConnect (SSL VPN)",
+  "special": []
+ },
+ {
+  "key": "UUID",
+  "en": "UUID",
+  "special": []
+ },
+ {
+  "key": "Flow",
+  "en": "Flow",
+  "special": []
+ },
+ {
+  "key": "Encryption",
+  "en": "Encryption",
+  "special": []
+ },
+ {
+  "key": "Packet encoding",
+  "en": "Packet encoding",
+  "special": []
+ },
+ {
+  "key": "Version",
+  "en": "Version",
+  "special": []
+ },
+ {
+  "key": "Profile",
+  "en": "Profile",
+  "special": []
+ },
+ {
+  "key": "Public key",
+  "en": "Public key",
+  "special": []
+ },
+ {
+  "key": "IPv4 address",
+  "en": "IPv4 address",
+  "special": []
+ },
+ {
+  "key": "IPv6 address",
+  "en": "IPv6 address",
+  "special": []
+ },
+ {
+  "key": "URI",
+  "en": "URI",
+  "special": []
+ },
+ {
+  "key": "HTTP version",
+  "en": "HTTP version",
+  "special": []
+ },
+ {
+  "key": "QUIC",
+  "en": "QUIC",
+  "special": []
+ },
+ {
+  "key": "Congestion control",
+  "en": "Congestion control",
+  "special": []
+ },
+ {
+  "key": "Port hopping",
+  "en": "Port hopping",
+  "special": []
+ }
+]

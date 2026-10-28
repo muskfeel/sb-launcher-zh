@@ -1,0 +1,604 @@
+[
+ {
+  "key": "DNS servers",
+  "en": "DNS servers",
+  "special": []
+ },
+ {
+  "key": "No DNS servers.",
+  "en": "No DNS servers.",
+  "special": []
+ },
+ {
+  "key": "(invalid server JSON)",
+  "en": "(invalid server JSON)",
+  "special": []
+ },
+ {
+  "key": "(no tag)",
+  "en": "(no tag)",
+  "special": []
+ },
+ {
+  "key": "Final DNS:",
+  "en": "Final DNS:",
+  "special": []
+ },
+ {
+  "key": "Default domain resolver:",
+  "en": "Default domain resolver:",
+  "special": []
+ },
+ {
+  "key": "Rules (JSON object with \"rules\" array)",
+  "en": "Rules (JSON object with \"rules\" array)",
+  "special": []
+ },
+ {
+  "key": "{\n  \"rules\": [\n    {\"rule_set\":\"example\",\"server\":\"tag\"}\n  ]\n}",
+  "en": "{\n  \"rules\": [\n    {\"rule_set\":\"example\",\"server\":\"tag\"}\n  ]\n}",
+  "special": []
+ },
+ {
+  "key": "Strategy:",
+  "en": "Strategy:",
+  "special": []
+ },
+ {
+  "key": "Edit DNS server",
+  "en": "Edit DNS server",
+  "special": []
+ },
+ {
+  "key": "Add DNS server",
+  "en": "Add DNS server",
+  "special": []
+ },
+ {
+  "key": "Edit the DNS server. Its tag is what rules and the DNS default refer to.",
+  "en": "Edit the DNS server. Its tag is what rules and the DNS default refer to.",
+  "special": []
+ },
+ {
+  "key": "A new DNS server. The tag must be unique — rules and the DNS default refer to it.",
+  "en": "A new DNS server. The tag must be unique — rules and the DNS default refer to it.",
+  "special": []
+ },
+ {
+  "key": "DNS server (from template)",
+  "en": "DNS server (from template)",
+  "special": []
+ },
+ {
+  "key": "This server is declared by the template: its body is fixed. Toggle it on or off with the checkbox in the list.",
+  "en": "This server is declared by the template: its body is fixed. Toggle it on or off with the checkbox in the list.",
+  "special": []
+ },
+ {
+  "key": "This server is declared by the template: its body is fixed. Toggle it on or off with the checkbox in the list; Params below changes what it does let you set.",
+  "en": "This server is declared by the template: its body is fixed. Toggle it on or off with the checkbox in the list; Params below changes what it does let you set.",
+  "special": []
+ },
+ {
+  "key": "Copy JSON",
+  "en": "Copy JSON",
+  "special": []
+ },
+ {
+  "key": "Add member",
+  "en": "Add member",
+  "special": []
+ },
+ {
+  "key": "No members yet",
+  "en": "No members yet",
+  "special": []
+ },
+ {
+  "key": "(off — will be skipped)",
+  "en": "(off — will be skipped)",
+  "special": []
+ },
+ {
+  "key": "No other DNS servers to add. Create one first — a group queries existing servers.",
+  "en": "No other DNS servers to add. Create one first — a group queries existing servers.",
+  "special": []
+ },
+ {
+  "key": "The same entry as raw JSON, in sing-box dns.servers form. Types without a form are edited here.",
+  "en": "The same entry as raw JSON, in sing-box dns.servers form. Types without a form are edited here.",
+  "special": []
+ },
+ {
+  "key": "Parameters",
+  "en": "Parameters",
+  "special": []
+ },
+ {
+  "key": "Tag",
+  "en": "Tag",
+  "special": []
+ },
+ {
+  "key": "Port",
+  "en": "Port",
+  "special": []
+ },
+ {
+  "key": "Path",
+  "en": "Path",
+  "special": []
+ },
+ {
+  "key": "TLS server name (SNI)",
+  "en": "TLS server name (SNI)",
+  "special": []
+ },
+ {
+  "key": "Direction",
+  "en": "Direction",
+  "special": []
+ },
+ {
+  "key": "Resolve name via",
+  "en": "Resolve name via",
+  "special": []
+ },
+ {
+  "key": "(none)",
+  "en": "(none)",
+  "special": []
+ },
+ {
+  "key": "Members",
+  "en": "Members",
+  "special": []
+ },
+ {
+  "key": "Tailnet node",
+  "en": "Tailnet node",
+  "special": []
+ },
+ {
+  "key": "Also use the system resolvers",
+  "en": "Also use the system resolvers",
+  "special": []
+ },
+ {
+  "key": "Mode",
+  "en": "Mode",
+  "special": []
+ },
+ {
+  "key": "Error TTL",
+  "en": "Error TTL",
+  "special": []
+ },
+ {
+  "key": "Win TTL",
+  "en": "Win TTL",
+  "special": []
+ },
+ {
+  "key": "This server type has no form yet — edit it as JSON. The form covers udp, tcp, tls (DoT), https (DoH) and group.",
+  "en": "This server type has no form yet — edit it as JSON. The form covers udp, tcp, tls (DoT), https (DoH) and group.",
+  "special": []
+ },
+ {
+  "key": "JSON must not be empty.",
+  "en": "JSON must not be empty.",
+  "special": []
+ },
+ {
+  "key": "Invalid JSON",
+  "en": "Invalid JSON",
+  "special": []
+ },
+ {
+  "key": "Add DNS Rule",
+  "en": "Add DNS Rule",
+  "special": []
+ },
+ {
+  "key": "Edit DNS Rule",
+  "en": "Edit DNS Rule",
+  "special": []
+ },
+ {
+  "key": "Rule is empty",
+  "en": "Rule is empty",
+  "special": []
+ },
+ {
+  "key": "Server must have a non-empty \"tag\".",
+  "en": "Server must have a non-empty \"tag\".",
+  "special": []
+ },
+ {
+  "key": "Duplicate tag",
+  "en": "Duplicate tag",
+  "special": []
+ },
+ {
+  "key": "DNS settings are invalid",
+  "en": "DNS settings are invalid",
+  "special": []
+ },
+ {
+  "key": "Include this server in the generated sing-box DNS config. Disabled servers stay in the list and in state; rules and Final must use enabled tags only.",
+  "en": "Include this server in the generated sing-box DNS config. Disabled servers stay in the list and in state; rules and Final must use enabled tags only.",
+  "special": []
+ },
+ {
+  "key": "This row comes from template config.dns: it cannot be edited, removed, or toggled here. The checkbox shows inclusion in the generated DNS config (from saved state / template); when included, dns_options for the same tag can override the skeleton body.",
+  "en": "This row comes from template config.dns: it cannot be edited, removed, or toggled here. The checkbox shows inclusion in the generated DNS config (from saved state / template); when included, dns_options for the same tag can override the skeleton body.",
+  "special": []
+ },
+ {
+  "key": "This DNS server cannot be edited (template config.dns).",
+  "en": "This DNS server cannot be edited (template config.dns).",
+  "special": []
+ },
+ {
+  "key": "No DNS rules.",
+  "en": "No DNS rules.",
+  "special": []
+ },
+ {
+  "key": "Toggle between unified list view and raw JSON editor (user rules only).",
+  "en": "Toggle between unified list view and raw JSON editor (user rules only).",
+  "special": []
+ },
+ {
+  "key": "⬇ srs",
+  "en": "⬇ srs",
+  "special": []
+ },
+ {
+  "key": "🔄 srs",
+  "en": "🔄 srs",
+  "special": []
+ },
+ {
+  "key": "✔️ srs",
+  "en": "✔️ srs",
+  "special": []
+ },
+ {
+  "key": "Template file bin/%s not found.",
+  "en": "Template file bin/%s not found.",
+  "special": []
+ },
+ {
+  "key": "Create the template file to enable this tab.",
+  "en": "Create the template file to enable this tab.",
+  "special": []
+ },
+ {
+  "key": "Direction:",
+  "en": "Direction:",
+  "special": []
+ },
+ {
+  "key": "Delete rule",
+  "en": "Delete rule",
+  "special": []
+ },
+ {
+  "key": "(unnamed rule)",
+  "en": "(unnamed rule)",
+  "special": []
+ },
+ {
+  "key": "Delete custom rule \"%s\"?",
+  "en": "Delete custom rule \"%s\"?",
+  "special": []
+ },
+ {
+  "key": "➕ Add Rule",
+  "en": "➕ Add Rule",
+  "special": []
+ },
+ {
+  "key": "📚 Add from library",
+  "en": "📚 Add from library",
+  "special": []
+ },
+ {
+  "key": "Append copies of template presets to your rules list.",
+  "en": "Append copies of template presets to your rules list.",
+  "special": []
+ },
+ {
+  "key": "Rule library",
+  "en": "Rule library",
+  "special": []
+ },
+ {
+  "key": "Check presets to append copies to the end of the list. You can add the same preset multiple times.",
+  "en": "Check presets to append copies to the end of the list. You can add the same preset multiple times.",
+  "special": []
+ },
+ {
+  "key": "Add selected",
+  "en": "Add selected",
+  "special": []
+ },
+ {
+  "key": "No route rules yet. Open the library or add a custom rule.",
+  "en": "No route rules yet. Open the library or add a custom rule.",
+  "special": []
+ },
+ {
+  "key": "Include this rule in the generated route when enabled",
+  "en": "Include this rule in the generated route when enabled",
+  "special": []
+ },
+ {
+  "key": "Drag to reorder",
+  "en": "Drag to reorder",
+  "special": []
+ },
+ {
+  "key": "Rule-set file not downloaded — this rule won't work until the SRS is fetched. The launcher is downloading it in the background; you can also click ⬇ srs to retry.",
+  "en": "Rule-set file not downloaded — this rule won't work until the SRS is fetched. The launcher is downloading it in the background; you can also click ⬇ srs to retry.",
+  "special": []
+ },
+ {
+  "key": "Default direction:",
+  "en": "Default direction:",
+  "special": []
+ },
+ {
+  "key": "Rule-set (SRS) download failed",
+  "en": "Rule-set (SRS) download failed",
+  "special": []
+ },
+ {
+  "key": "Add at least one source: use the Sources tab (Add) or add proxies in ParserConfig on the Outbounds tab.",
+  "en": "Add at least one source: use the Sources tab (Add) or add proxies in ParserConfig on the Outbounds tab.",
+  "special": []
+ },
+ {
+  "key": "Saving",
+  "en": "Saving",
+  "special": []
+ },
+ {
+  "key": "Save operation already in progress... Please wait.",
+  "en": "Save operation already in progress... Please wait.",
+  "special": []
+ },
+ {
+  "key": "Saving state...",
+  "en": "Saving state...",
+  "special": []
+ },
+ {
+  "key": "Done",
+  "en": "Done",
+  "special": []
+ },
+ {
+  "key": "State saved to %s\n\nConfiguration will be rebuilt on next Update or Restart.",
+  "en": "State saved to %s\n\nConfiguration will be rebuilt on next Update or Restart.",
+  "special": []
+ },
+ {
+  "key": "State Saved",
+  "en": "State Saved",
+  "special": []
+ },
+ {
+  "key": "controller not available",
+  "en": "controller not available",
+  "special": []
+ },
+ {
+  "key": "Add Rule",
+  "en": "Add Rule",
+  "special": []
+ },
+ {
+  "key": "Edit Rule",
+  "en": "Edit Rule",
+  "special": []
+ },
+ {
+  "key": "Rule name",
+  "en": "Rule name",
+  "special": []
+ },
+ {
+  "key": "Enter IP addresses (CIDR format)\ne.g., 192.168.1.0/24",
+  "en": "Enter IP addresses (CIDR format)\ne.g., 192.168.1.0/24",
+  "special": []
+ },
+ {
+  "key": "Enter domains or URLs (one per line)\ne.g., example.com",
+  "en": "Enter domains or URLs (one per line)\ne.g., example.com",
+  "special": []
+ },
+ {
+  "key": "Processes (select one or more via popup):",
+  "en": "Processes (select one or more via popup):",
+  "special": []
+ },
+ {
+  "key": "Select Processes...",
+  "en": "Select Processes...",
+  "special": []
+ },
+ {
+  "key": "Match by path",
+  "en": "Match by path",
+  "special": []
+ },
+ {
+  "key": "Simple",
+  "en": "Simple",
+  "special": []
+ },
+ {
+  "key": "Regex",
+  "en": "Regex",
+  "special": [
+   "1"
+  ]
+ },
+ {
+  "key": "One per line. Use * as wildcard (e.g. */steam/* or *\\Steam\\*).",
+  "en": "One per line. Use * as wildcard (e.g. */steam/* or *\\Steam\\*).",
+  "special": []
+ },
+ {
+  "key": "One per line. Full regex as-is (no /regex/i wrapping). E.g. ^C:\\\\Games\\\\.* or .*steam.*",
+  "en": "One per line. Full regex as-is (no /regex/i wrapping). E.g. ^C:\\\\Games\\\\.* or .*steam.*",
+  "special": []
+ },
+ {
+  "key": "Path patterns (one per line):",
+  "en": "Path patterns (one per line):",
+  "special": []
+ },
+ {
+  "key": "Custom JSON:",
+  "en": "Custom JSON:",
+  "special": []
+ },
+ {
+  "key": "SRS URLs (one per line)\ne.g. https://raw.githubusercontent.com/.../file.srs",
+  "en": "SRS URLs (one per line)\ne.g. https://raw.githubusercontent.com/.../file.srs",
+  "special": []
+ },
+ {
+  "key": "SRS URLs (one per line):",
+  "en": "SRS URLs (one per line):",
+  "special": []
+ },
+ {
+  "key": "IP Addresses (CIDR)",
+  "en": "IP Addresses (CIDR)",
+  "special": []
+ },
+ {
+  "key": "Domains/URLs",
+  "en": "Domains/URLs",
+  "special": []
+ },
+ {
+  "key": "Processes",
+  "en": "Processes",
+  "special": []
+ },
+ {
+  "key": "SRS",
+  "en": "SRS",
+  "special": []
+ },
+ {
+  "key": "Custom JSON",
+  "en": "Custom JSON",
+  "special": []
+ },
+ {
+  "key": "Domain mode:",
+  "en": "Domain mode:",
+  "special": []
+ },
+ {
+  "key": "Exact domains",
+  "en": "Exact domains",
+  "special": []
+ },
+ {
+  "key": "Suffix",
+  "en": "Suffix",
+  "special": []
+ },
+ {
+  "key": "Keyword",
+  "en": "Keyword",
+  "special": []
+ },
+ {
+  "key": "IP Addresses (one per line, CIDR format):",
+  "en": "IP Addresses (one per line, CIDR format):",
+  "special": []
+ },
+ {
+  "key": "Domains (one per line):",
+  "en": "Domains (one per line):",
+  "special": []
+ },
+ {
+  "key": "Domain suffixes (one per line):",
+  "en": "Domain suffixes (one per line):",
+  "special": []
+ },
+ {
+  "key": "Domain keywords (one per line):",
+  "en": "Domain keywords (one per line):",
+  "special": []
+ },
+ {
+  "key": "Domain regex:",
+  "en": "Domain regex:",
+  "special": []
+ },
+ {
+  "key": "E.g. ^.*\\.google\\.com$ or .*\\.(google|youtube)\\.com$ (full regex, no /wrapping/)",
+  "en": "E.g. ^.*\\.google\\.com$ or .*\\.(google|youtube)\\.com$ (full regex, no /wrapping/)",
+  "special": []
+ },
+ {
+  "key": "−",
+  "en": "−",
+  "special": []
+ },
+ {
+  "key": "Select Processes",
+  "en": "Select Processes",
+  "special": []
+ },
+ {
+  "key": "Rule Name:",
+  "en": "Rule Name:",
+  "special": []
+ },
+ {
+  "key": "Rule Type:",
+  "en": "Rule Type:",
+  "special": []
+ },
+ {
+  "key": "Form",
+  "en": "Form",
+  "special": []
+ },
+ {
+  "key": "Preset",
+  "en": "Preset",
+  "special": []
+ },
+ {
+  "key": "Preset definition from the wizard template, read-only.",
+  "en": "Preset definition from the wizard template, read-only.",
+  "special": []
+ },
+ {
+  "key": "Rule name is required",
+  "en": "Rule name is required",
+  "special": []
+ },
+ {
+  "key": "Raw JSON is empty",
+  "en": "Raw JSON is empty",
+  "special": []
+ },
+ {
+  "key": "rule must be a JSON object",
+  "en": "rule must be a JSON object",
+  "special": []
+ }
+]

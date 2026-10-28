@@ -1,0 +1,482 @@
+[
+ {
+  "key": "The daemon service is installed. Remove it first with this command as administrator, otherwise the launcher will not be able to do it after the data is gone:",
+  "value": "守护程序服务已安装。首先以管理员身份使用此命令将其删除，否则数据消失后启动器将无法执行此操作："
+ },
+ {
+  "key": "Remove all data…",
+  "value": "删除所有数据..."
+ },
+ {
+  "key": "Remove all launcher data",
+  "value": "删除所有启动器数据"
+ },
+ {
+  "key": "Shadows: %s",
+  "value": "阴影：%s"
+ },
+ {
+  "key": "Source: %s",
+  "value": "来源：%s"
+ },
+ {
+  "key": "Stop the VPN first",
+  "value": "首先停止VPN"
+ },
+ {
+  "key": "Storage",
+  "value": "贮存"
+ },
+ {
+  "key": "Switching moves the data to: %s",
+  "value": "切换将数据移至：%s"
+ },
+ {
+  "key": "System",
+  "value": "系统"
+ },
+ {
+  "key": "Template",
+  "value": "模板"
+ },
+ {
+  "key": "The core folder is read-only; download the core into the data folder first",
+  "value": "core文件夹是只读的；首先将核心下载到data文件夹中"
+ },
+ {
+  "key": "The daemon service is installed. Remove it first with this command, otherwise the launcher will not be able to do it after the data is gone:",
+  "value": "守护程序服务已安装。首先使用此命令将其删除，否则数据消失后启动器将无法执行此操作："
+ },
+ {
+  "key": "The daemon service is installed and is not removed with the data: it runs from its own root-owned copy of the core. To remove the service as well, run this command:",
+  "value": "守护程序服务已安装，并且不会随数据一起删除：它从其自己的根拥有的核心副本运行。要同时删除该服务，请运行以下命令："
+ },
+ {
+  "key": "The following will be deleted. The program folder itself is not touched — delete it yourself afterwards.",
+  "value": "以下内容将被删除。程序文件夹本身并没有被触及——之后您可以自行删除它。"
+ },
+ {
+  "key": "The program folder is read-only",
+  "value": "程序文件夹是只读的"
+ },
+ {
+  "key": "The service runs a binary your user can modify. Install or update the service to move it to a root-owned copy.",
+  "value": "该服务运行您的用户可以修改的二进制文件。安装或更新服务以将其移动到 root 拥有的副本。"
+ },
+ {
+  "key": "Service binary: %s",
+  "value": "服务二进制文件：%s"
+ },
+ {
+  "key": "The service runs a different core (%s) than the launcher (%s). Install or update the service to switch it to the launcher core.",
+  "value": "该服务运行与启动程序 (%s) 不同的核心 (%s)。安装或更新服务以将其切换到启动器核心。"
+ },
+ {
+  "key": "The launcher core (%s) is older than %s and cannot install a root-owned service. Update the core first: Local tab → Download/Reinstall v%s, then install or update the service.",
+  "value": "启动器核心 (%s) 早于 %s，无法安装 root 拥有的服务。首先更新核心：本地选项卡 → 下载/重新安装 v%s，然后安装或更新服务。"
+ },
+ {
+  "key": "The launcher core (%s) is not a numbered sing-box-lx release, so the launcher cannot confirm it installs a root-owned service. Update the core first: Local tab → Download/Reinstall v%s, then install or update the service.",
+  "value": "启动器核心 (%s) 不是编号的 sing-box-lx 版本，因此启动器无法确认它安装了 root 拥有的服务。首先更新核心：本地选项卡 → 下载/重新安装 v%s，然后安装或更新服务。"
+ },
+ {
+  "key": "The service has no core binary to run. Install or update the service to restore it.",
+  "value": "该服务没有可运行的核心二进制文件。安装或更新服务以将其恢复。"
+ },
+ {
+  "key": "The daemon service is not protected",
+  "value": "守护进程服务不受保护"
+ },
+ {
+  "key": "The daemon service runs as root from a file your user account can modify:\n%s\n\nAny program running as you could replace it and gain root access. Run this command in Terminal to move the service to a root-owned copy of the core (it asks for your sudo password). The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.",
+  "value": "守护程序服务以 root 身份从您的用户帐户可以修改的文件运行：\n%s\n\n任何正在运行的程序都可以替换它并获得 root 访问权限。在终端中运行此命令，将服务移动到 root 拥有的核心副本（它要求您输入 sudo 密码）。同时VPN继续工作；连接设置的“本地”选项卡会显示此问题，直到修复为止。"
+ },
+ {
+  "key": "The daemon service runs as root from a file your user account can modify:\n%s\n\nAny program running as you could replace it and gain root access. %s The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.",
+  "value": "守护程序服务以 root 身份从您的用户帐户可以修改的文件运行：\n%s\n\n任何正在运行的程序都可以替换它并获得 root 访问权限。 %s VPN 同时继续工作；连接设置的“本地”选项卡会显示此问题，直到修复为止。"
+ },
+ {
+  "key": "Unused data",
+  "value": "未使用的数据"
+ },
+ {
+  "key": "Unused system data folder",
+  "value": "未使用的系统数据文件夹"
+ },
+ {
+  "key": "Version: %s, source: %s",
+  "value": "版本：%s，来源：%s"
+ },
+ {
+  "key": "Where the launcher keeps its files. Attach “Copy paths” to bug reports.",
+  "value": "启动器保存其文件的位置。将“复制路径”附加到错误报告中。"
+ },
+ {
+  "key": "found",
+  "value": "成立"
+ },
+ {
+  "key": "unknown",
+  "value": "未知"
+ },
+ {
+  "key": "Existing data found",
+  "value": "现有数据找到"
+ },
+ {
+  "key": "Your settings and subscriptions were found in:\n%s\n\nThe launcher is running in portable mode because portable.txt lies next to the program. Switch to the found data? The launcher will restart.",
+  "value": "您的设置和订阅位于：\n%s\n\n启动器正在便携式模式下运行，因为 portable.txt 位于程序旁边。切换到找到的数据？启动器将重新启动。"
+ },
+ {
+  "key": "Data move in progress",
+  "value": "数据移动正在进行中"
+ },
+ {
+  "key": "The launcher will restart immediately after the move.",
+  "value": "移动后启动器将立即重新启动。"
+ },
+ {
+  "key": "Data will be moved from:\n%s\nto:\n%s",
+  "value": "数据将从：\n%s\n至：\n%s"
+ },
+ {
+  "key": "Left over from the move: %s",
+  "value": "移动剩余：%s"
+ },
+ {
+  "key": "System data folder with settings — kept by default",
+  "value": "包含设置的系统数据文件夹 - 默认保留"
+ },
+ {
+  "key": "Only: %s",
+  "value": "仅：%s"
+ },
+ {
+  "key": "TUN needs administrator rights",
+  "value": "TUN需要管理员权限"
+ },
+ {
+  "key": "TUN mode creates a network adapter and changes routes, which Windows allows only to administrators. The launcher is running without administrator rights.",
+  "value": "TUN 模式创建网络适配器并更改路由，Windows 仅允许管理员执行此操作。启动器在没有管理员权限的情况下运行。"
+ },
+ {
+  "key": "Proxy mode needs no rights: programs that use the system proxy (browsers and most apps) go through the local proxy on port %s, the rest connect directly.",
+  "value": "代理模式不需要权限：使用系统代理的程序（浏览器和大多数应用程序）通过端口 %s 上的本地代理，其余的直接连接。"
+ },
+ {
+  "key": "Windows will ask for an administrator account, and the launcher will run under that account.",
+  "value": "Windows 将要求提供管理员帐户，启动器将在该帐户下运行。"
+ },
+ {
+  "key": "Restart as administrator",
+  "value": "以管理员身份重新启动"
+ },
+ {
+  "key": "Switch to proxy mode",
+  "value": "切换到代理模式"
+ },
+ {
+  "key": "Close the configurator first",
+  "value": "首先关闭配置器"
+ },
+ {
+  "key": "The administrator prompt was cancelled.",
+  "value": "管理员提示已取消。"
+ },
+ {
+  "key": "Waiting for the administrator command…",
+  "value": "等待管理员命令..."
+ },
+ {
+  "key": "Could not run the command as administrator: %s",
+  "value": "无法以管理员身份运行命令：%s"
+ },
+ {
+  "key": "The command failed (exit code %d). Run it in an elevated terminal to see its output:",
+  "value": "命令失败（退出代码 %d）。在提升的终端中运行它以查看其输出："
+ },
+ {
+  "key": "The administrator command is still running. Check the status again in a minute.",
+  "value": "管理员命令仍在运行。一分钟后再次检查状态。"
+ },
+ {
+  "key": "The service is installed, but no invite was received. Pair it as a separate step:",
+  "value": "服务已安装，但未收到邀请。将其作为单独的步骤进行配对："
+ },
+ {
+  "key": "The command succeeded, but pairing failed: %s",
+  "value": "命令成功，但配对失败：%s"
+ },
+ {
+  "key": "The service data folder was readable by another account before this install. Rotate the admin secret in daemon.json and pair again if this computer is shared.",
+  "value": "在此安装之前，另一个帐户可以读取服务数据文件夹。如果此计算机是共享的，请轮换 daemon.json 中的管理员密码并再次配对。"
+ },
+ {
+  "key": "The service was started.",
+  "value": "服务已启动。"
+ },
+ {
+  "key": "The service was removed.",
+  "value": "该服务已被删除。"
+ },
+ {
+  "key": "The core copy was created or updated.",
+  "value": "核心副本已创建或更新。"
+ },
+ {
+  "key": "Could not restart as administrator: %s",
+  "value": "无法以管理员身份重新启动：%s"
+ },
+ {
+  "key": "sing-box was started with administrator rights, and this launcher cannot stop it without them. Restart the launcher as administrator to stop it.",
+  "value": "sing-box 是使用管理员权限启动的，如果没有管理员权限，此启动器无法停止它。以管理员身份重新启动启动器以停止它。"
+ },
+ {
+  "key": "Administrator",
+  "value": "行政人员"
+ },
+ {
+  "key": "Start with Windows",
+  "value": "从 Windows 开始"
+ },
+ {
+  "key": "Connect VPN at sign-in",
+  "value": "登录时连接 VPN"
+ },
+ {
+  "key": "Windows starts another copy: %s",
+  "value": "Windows 启动另一个副本：%s"
+ },
+ {
+  "key": "Change this in a normal start, not as administrator",
+  "value": "在正常启动时更改此设置，而不是以管理员身份"
+ },
+ {
+  "key": "Requires administrator rights",
+  "value": "需要管理员权限"
+ },
+ {
+  "key": "Autostart entry (Start with Windows)",
+  "value": "自动启动条目（从 Windows 启动）"
+ },
+ {
+  "key": "Ask for administrator rights at start when TUN is enabled",
+  "value": "启用 TUN 时在启动时请求管理员权限"
+ },
+ {
+  "key": "Off: the launcher starts without rights and asks when you press Start",
+  "value": "关闭：启动器在没有权限的情况下启动，并在您按下“开始”时询问"
+ },
+ {
+  "key": "portable.txt ignored",
+  "value": "portable.txt 被忽略"
+ },
+ {
+  "key": "Without administrator rights the old copy in the program folder stays, and on the next start the launcher copies the data from it into the data folder again. To remove it, run the cleanup as administrator.",
+  "value": "如果没有管理员权限，程序文件夹中的旧副本将保留，并且在下次启动时，启动程序会再次将其中的数据复制到数据文件夹中。要删除它，请以管理员身份运行清理。"
+ },
+ {
+  "key": "Install service",
+  "value": "安装服务"
+ },
+ {
+  "key": "With administrator rights the launcher starts the sing-box core from a protected copy in Program Files that your user account cannot modify, and there is no such copy yet.",
+  "value": "凭借管理员权限，启动器会从 Program Files 中受保护的副本启动 single-box 核心，您的用户帐户无法修改该副本，而且目前还没有这样的副本。"
+ },
+ {
+  "key": "With administrator rights the launcher starts the sing-box core from a protected copy in Program Files, and the copy does not match the launcher's current core (%s) — for example after a core update.",
+  "value": "使用管理员权限，启动器从 Program Files 中受保护的副本启动单盒核心，但该副本与启动器的当前核心 (%s) 不匹配 — 例如在核心更新后。"
+ },
+ {
+  "key": "With administrator rights the launcher starts the sing-box core from a protected copy, and the copy's location failed the protection check:\n%s",
+  "value": "使用管理员权限，启动器从受保护的副本启动单盒核心，并且该副本的位置未通过保护检查：\n%s"
+ },
+ {
+  "key": "The daemon service is installed on this computer, so the command is its Install or update command: it refreshes the same copy and restarts the service.",
+  "value": "守护程序服务安装在此计算机上，因此该命令是其安装或更新命令：它刷新相同的副本并重新启动服务。"
+ },
+ {
+  "key": "Click Run as administrator (or run this command in PowerShell as administrator), then click Retry:",
+  "value": "单击以管理员身份运行（或以管理员身份在 PowerShell 中运行此命令），然后单击重试："
+ },
+ {
+  "key": "If the command below reports the same problem, fix the permissions of that path.",
+  "value": "如果以下命令报告相同的问题，请修复该路径的权限。"
+ },
+ {
+  "key": "Run this command in PowerShell as administrator, then click Retry:",
+  "value": "以管理员身份在 PowerShell 中运行此命令，然后单击“重试”："
+ },
+ {
+  "key": "Run anyway starts the launcher's own core with administrator rights: any program running under your account could replace that file and get administrator rights on the next start. The choice lasts until the launcher is closed.",
+  "value": "无论如何运行都会以管理员权限启动启动器自己的核心：在您的帐户下运行的任何程序都可以替换该文件并在下次启动时获得管理员权限。该选择将持续到启动器关闭为止。"
+ },
+ {
+  "key": "With administrator rights the core writes its log to a protected folder, and the folder is missing:\n%s",
+  "value": "使用管理员权限，核心将其日志写入受保护的文件夹，并且该文件夹丢失：\n%s"
+ },
+ {
+  "key": "With administrator rights the core writes its log to a protected folder, and the folder failed the protection check:\n%s",
+  "value": "使用管理员权限，核心将其日志写入受保护的文件夹，并且该文件夹未通过保护检查：\n%s"
+ },
+ {
+  "key": "Any program running under your account could replace the log folder and get administrator rights on the next start. Run anyway writes the core output to the launcher's own log instead; the choice lasts until the launcher is closed.",
+  "value": "在您的帐户下运行的任何程序都可以替换日志文件夹并在下次启动时获得管理员权限。无论如何运行会将核心输出写入启动器自己的日志中；该选择将持续到启动器关闭为止。"
+ },
+ {
+  "key": "Core log folder is missing",
+  "value": "核心日志文件夹丢失"
+ },
+ {
+  "key": "Core log folder is not protected",
+  "value": "核心日志文件夹不受保护"
+ },
+ {
+  "key": "Run anyway",
+  "value": "无论如何都要跑"
+ },
+ {
+  "key": "The daemon service still runs the previous core. Install the new core into the service and restart it (Run as administrator):",
+  "value": "守护进程服务仍然运行之前的核心。将新核心安装到服务中并重新启动它（以管理员身份运行）："
+ },
+ {
+  "key": "The daemon service runs with SYSTEM rights from a file that is not protected:\n%s\n\nAny program running as you could replace it and take over this computer. Install or update the service to move it to a protected copy of the core (Run as administrator). The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.",
+  "value": "守护程序服务以 SYSTEM 权限从不受保护的文件运行：\n%s\n\n任何正在运行的程序都可以替换它并接管这台计算机。安装或更新服务以将其移动到核心的受保护副本（以管理员身份运行）。同时VPN继续工作；连接设置的“本地”选项卡会显示此问题，直到修复为止。"
+ },
+ {
+  "key": "The daemon service runs with SYSTEM rights from a file that is not protected:\n%s\n\nAny program running as you could replace it and take over this computer. %s The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.",
+  "value": "守护程序服务以 SYSTEM 权限从不受保护的文件运行：\n%s\n\n任何正在运行的程序都可以替换它并接管这台计算机。 %s VPN 同时继续工作；连接设置的“本地”选项卡会显示此问题，直到修复为止。"
+ },
+ {
+  "key": "Open file…",
+  "value": "打开文件..."
+ },
+ {
+  "key": "Import from file…",
+  "value": "从文件导入..."
+ },
+ {
+  "key": "Load state.json from another folder",
+  "value": "从另一个文件夹加载 state.json"
+ },
+ {
+  "key": "Load remote-daemons.json from another folder",
+  "value": "从另一个文件夹加载remote-daemons.json"
+ },
+ {
+  "key": "Imported %d remote servers",
+  "value": "已导入 %d 个远程服务器"
+ },
+ {
+  "key": "up",
+  "value": "向上"
+ },
+ {
+  "key": "asleep",
+  "value": "睡着了"
+ },
+ {
+  "key": "released",
+  "value": "释放"
+ },
+ {
+  "key": "not started yet",
+  "value": "尚未开始"
+ },
+ {
+  "key": "disabled",
+  "value": "残疾人"
+ },
+ {
+  "key": "idle %s",
+  "value": "空闲 %s"
+ },
+ {
+  "key": "Until the core restarts or the config is applied.",
+  "value": "直到核心重新启动或应用配置。"
+ },
+ {
+  "key": "Disable",
+  "value": "禁用"
+ },
+ {
+  "key": "sleep",
+  "value": "睡觉"
+ },
+ {
+  "key": "freed",
+  "value": "释放了"
+ },
+ {
+  "key": "Enable WireGuard",
+  "value": "启用 WireGuard"
+ },
+ {
+  "key": "Disable WireGuard",
+  "value": "禁用 WireGuard"
+ },
+ {
+  "key": "WireGuard switch error: %s",
+  "value": "WireGuard 交换机错误：%s"
+ },
+ {
+  "key": "Tag %q is already used by a node: the node will get a numeric suffix in the config.",
+  "value": "标签 %q 已被节点使用：该节点将在配置中获得数字后缀。"
+ },
+ {
+  "key": "Tag %q is already used by another source's swap: the swap lower in the list will not be built until the tag is free.",
+  "value": "标记 %q 已被另一个源的交换区使用：在该标记空闲之前，不会构建列表中较低的交换区。"
+ },
+ {
+  "key": "Tag %q is a template tag: the swap group will not be built until the tag is free.",
+  "value": "标签 %q 是模板标签：在标签空闲之前不会构建交换组。"
+ },
+ {
+  "key": "Tag %q is already used by a Direction: the swap group will not be built until the tag is free.",
+  "value": "标签 %q 已被方向使用：在标签空闲之前不会构建交换组。"
+ },
+ {
+  "key": "Only the node is saved. The rest of the input is not kept.",
+  "value": "仅保存节点。其余输入不保留。"
+ },
+ {
+  "key": "Replace the source with JSON?",
+  "value": "将源替换为 JSON？"
+ },
+ {
+  "key": "This node was added from a share link or a WireGuard config. Saving the JSON replaces that source with the JSON: the link or config is no longer kept, and the app stops fixing the node's settings. It will only report problems. Continue?",
+  "value": "该节点是从共享链接或 WireGuard 配置添加的。保存 JSON 会用 JSON 替换该源：不再保留链接或配置，并且应用程序停止修复节点的设置。它只会报告问题。继续？"
+ },
+ {
+  "key": "Node saved",
+  "value": "节点已保存"
+ },
+ {
+  "key": "%s — the file carries routing or DNS entries attached to this record; they are not imported, because a node no longer carries its own entries",
+  "value": "%s — 文件包含附加到该记录的路由或 DNS 条目；它们不会被导入，因为节点不再携带自己的条目"
+ },
+ {
+  "key": "DNS cache size",
+  "value": "DNS 缓存大小"
+ },
+ {
+  "key": "Number of cached answers.",
+  "value": "缓存答案的数量。"
+ },
+ {
+  "key": "Serve stale answers",
+  "value": "提供陈旧的答案"
+ },
+ {
+  "key": "Answer from cache at once and refresh in the background.",
+  "value": "立即从缓存中应答并在后台刷新。"
+ },
+ {
+  "key": "Keep DNS cache after restart",
+  "value": "重启后保留DNS缓存"
+ },
+ {
+  "key": "Never serve stale answers for node hostnames",
+  "value": "永远不要为节点主机名提供过时的答案"
+ }
+]

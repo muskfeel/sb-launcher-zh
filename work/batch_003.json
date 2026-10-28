@@ -1,0 +1,610 @@
+[
+ {
+  "key": "Prev",
+  "en": "Prev",
+  "special": []
+ },
+ {
+  "key": "Next",
+  "en": "Next",
+  "special": []
+ },
+ {
+  "key": "Confirmation",
+  "en": "Confirmation",
+  "special": []
+ },
+ {
+  "key": "Current changes will be lost. Save current state?",
+  "en": "Current changes will be lost. Save current state?",
+  "special": []
+ },
+ {
+  "key": "Save changes before closing?",
+  "en": "Save changes before closing?",
+  "special": []
+ },
+ {
+  "key": "Discard",
+  "en": "Discard",
+  "special": [
+   "1"
+  ]
+ },
+ {
+  "key": "Convert to user rule(s)",
+  "en": "Convert to user rule(s)",
+  "special": []
+ },
+ {
+  "key": "Edit",
+  "en": "Edit",
+  "special": [
+   "1"
+  ]
+ },
+ {
+  "key": "Del",
+  "en": "Del",
+  "special": []
+ },
+ {
+  "key": "Failed to load existing config",
+  "en": "Failed to load existing config",
+  "special": []
+ },
+ {
+  "key": "Failed to save state",
+  "en": "Failed to save state",
+  "special": []
+ },
+ {
+  "key": "Failed to load state",
+  "en": "Failed to load state",
+  "special": []
+ },
+ {
+  "key": "Failed to restore state",
+  "en": "Failed to restore state",
+  "special": []
+ },
+ {
+  "key": "Config template failed to load",
+  "en": "Config template failed to load",
+  "special": []
+ },
+ {
+  "key": "Config template missing",
+  "en": "Config template missing",
+  "special": []
+ },
+ {
+  "key": "Supports subscription URLs (http/https) or direct links (vless://, vmess://, trojan://, ss://, hysteria://, hysteria2://, ssh://, wireguard://). For multiple links, use a new line for each.",
+  "en": "Supports subscription URLs (http/https) or direct links (vless://, vmess://, trojan://, ss://, hysteria://, hysteria2://, ssh://, wireguard://). For multiple links, use a new line for each.",
+  "special": []
+ },
+ {
+  "key": "Add from file",
+  "en": "Add from file",
+  "special": []
+ },
+ {
+  "key": "Select a config file (.conf / .vpn / .txt)",
+  "en": "Select a config file (.conf / .vpn / .txt)",
+  "special": []
+ },
+ {
+  "key": "Preview all servers…",
+  "en": "Preview all servers…",
+  "special": []
+ },
+ {
+  "key": "Servers from all sources",
+  "en": "Servers from all sources",
+  "special": []
+ },
+ {
+  "key": "No sources defined in ParserConfig.",
+  "en": "No sources defined in ParserConfig.",
+  "special": []
+ },
+ {
+  "key": "Source %d",
+  "en": "Source %d",
+  "special": []
+ },
+ {
+  "key": "prefix",
+  "en": "prefix",
+  "special": []
+ },
+ {
+  "key": "View",
+  "en": "View",
+  "special": []
+ },
+ {
+  "key": "Delete \"%s\"? The source and its nodes are removed from the configuration.",
+  "en": "Delete \"%s\"? The source and its nodes are removed from the configuration.",
+  "special": []
+ },
+ {
+  "key": "Click Refresh to load servers from all sources.",
+  "en": "Click Refresh to load servers from all sources.",
+  "special": []
+ },
+ {
+  "key": "No sources. Add URLs and click Refresh.",
+  "en": "No sources. Add URLs and click Refresh.",
+  "special": []
+ },
+ {
+  "key": "Loading...",
+  "en": "Loading...",
+  "special": []
+ },
+ {
+  "key": "Subscription has not been fetched yet",
+  "en": "Subscription has not been fetched yet",
+  "special": []
+ },
+ {
+  "key": "Fetch now",
+  "en": "Fetch now",
+  "special": []
+ },
+ {
+  "key": "Error: %s",
+  "en": "Error: %s",
+  "special": []
+ },
+ {
+  "key": "%d server(s) from %d source(s)",
+  "en": "%d server(s) from %d source(s)",
+  "special": []
+ },
+ {
+  "key": "  ⚠️ %d error(s)",
+  "en": "  ⚠️ %d error(s)",
+  "special": []
+ },
+ {
+  "key": "🔄 Refresh from sources",
+  "en": "🔄 Refresh from sources",
+  "special": []
+ },
+ {
+  "key": "Fetch this subscription now",
+  "en": "Fetch this subscription now",
+  "special": []
+ },
+ {
+  "key": "Subscription update failed — click for details",
+  "en": "Subscription update failed — click for details",
+  "special": []
+ },
+ {
+  "key": "Provider sent a notice — click to read",
+  "en": "Provider sent a notice — click to read",
+  "special": []
+ },
+ {
+  "key": "Subscription",
+  "en": "Subscription",
+  "special": []
+ },
+ {
+  "key": "Server",
+  "en": "Server",
+  "special": []
+ },
+ {
+  "key": "● ok",
+  "en": "● ok",
+  "special": []
+ },
+ {
+  "key": "● err",
+  "en": "● err",
+  "special": []
+ },
+ {
+  "key": "● never",
+  "en": "● never",
+  "special": []
+ },
+ {
+  "key": "%s / %s used",
+  "en": "%s / %s used",
+  "special": []
+ },
+ {
+  "key": "expires in %s",
+  "en": "expires in %s",
+  "special": []
+ },
+ {
+  "key": "expired",
+  "en": "expired",
+  "special": []
+ },
+ {
+  "key": "fetched %s ago",
+  "en": "fetched %s ago",
+  "special": []
+ },
+ {
+  "key": "just fetched",
+  "en": "just fetched",
+  "special": []
+ },
+ {
+  "key": "never fetched",
+  "en": "never fetched",
+  "special": []
+ },
+ {
+  "key": "%d nodes",
+  "en": "%d nodes",
+  "special": []
+ },
+ {
+  "key": "%d nodes (truncated, max %d)",
+  "en": "%d nodes (truncated, max %d)",
+  "special": []
+ },
+ {
+  "key": "Refresh failed: %s",
+  "en": "Refresh failed: %s",
+  "special": []
+ },
+ {
+  "key": "Refreshed successfully",
+  "en": "Refreshed successfully",
+  "special": []
+ },
+ {
+  "key": "Overview",
+  "en": "Overview",
+  "special": []
+ },
+ {
+  "key": "JSON",
+  "en": "JSON",
+  "special": []
+ },
+ {
+  "key": "Subscription URL",
+  "en": "Subscription URL",
+  "special": []
+ },
+ {
+  "key": "Server URI",
+  "en": "Server URI",
+  "special": []
+ },
+ {
+  "key": "Label",
+  "en": "Label",
+  "special": []
+ },
+ {
+  "key": "Detour server (chain)",
+  "en": "Detour server (chain)",
+  "special": []
+ },
+ {
+  "key": "(none — direct)",
+  "en": "(none — direct)",
+  "special": []
+ },
+ {
+  "key": "Dial this source's nodes through another outbound to build a proxy chain. Directions chain through a selector; Nodes chain through one concrete server, tracked by that server and its node tag — editing the server's settings or tag prefix keeps the link, renaming its node tag clears it.",
+  "en": "Dial this source's nodes through another outbound to build a proxy chain. Directions chain through a selector; Nodes chain through one concrete server, tracked by that server and its node tag — editing the server's settings or tag prefix keeps the link, renaming its node tag clears it.",
+  "special": []
+ },
+ {
+  "key": "Tag postfix",
+  "en": "Tag postfix",
+  "special": []
+ },
+ {
+  "key": "postfix",
+  "en": "postfix",
+  "special": []
+ },
+ {
+  "key": "Status",
+  "en": "Status",
+  "special": []
+ },
+ {
+  "key": "Subscription metadata (HTTP headers)",
+  "en": "Subscription metadata (HTTP headers)",
+  "special": []
+ },
+ {
+  "key": "Traffic quota",
+  "en": "Traffic quota",
+  "special": []
+ },
+ {
+  "key": "Type",
+  "en": "Type",
+  "special": []
+ },
+ {
+  "key": "ID",
+  "en": "ID",
+  "special": []
+ },
+ {
+  "key": "URL",
+  "en": "URL",
+  "special": []
+ },
+ {
+  "key": "Enabled",
+  "en": "Enabled",
+  "special": []
+ },
+ {
+  "key": "Last status",
+  "en": "Last status",
+  "special": []
+ },
+ {
+  "key": "Last fetched",
+  "en": "Last fetched",
+  "special": []
+ },
+ {
+  "key": "HTTP status",
+  "en": "HTTP status",
+  "special": []
+ },
+ {
+  "key": "Body size",
+  "en": "Body size",
+  "special": []
+ },
+ {
+  "key": "Error count",
+  "en": "Error count",
+  "special": []
+ },
+ {
+  "key": "Profile title",
+  "en": "Profile title",
+  "special": []
+ },
+ {
+  "key": "Update interval",
+  "en": "Update interval",
+  "special": []
+ },
+ {
+  "key": "Support URL",
+  "en": "Support URL",
+  "special": []
+ },
+ {
+  "key": "Web page",
+  "en": "Web page",
+  "special": []
+ },
+ {
+  "key": "Content-Disposition filename",
+  "en": "Content-Disposition filename",
+  "special": []
+ },
+ {
+  "key": "Used",
+  "en": "Used",
+  "special": [
+   "1"
+  ]
+ },
+ {
+  "key": "Total",
+  "en": "Total",
+  "special": []
+ },
+ {
+  "key": "Remaining",
+  "en": "Remaining",
+  "special": []
+ },
+ {
+  "key": "Expires",
+  "en": "Expires",
+  "special": []
+ },
+ {
+  "key": "Nodes fetched",
+  "en": "Nodes fetched",
+  "special": []
+ },
+ {
+  "key": "No meta yet — press Refresh to fetch this subscription.",
+  "en": "No meta yet — press Refresh to fetch this subscription.",
+  "special": []
+ },
+ {
+  "key": "Server source — meta is not collected (only fetched per subscription).",
+  "en": "Server source — meta is not collected (only fetched per subscription).",
+  "special": []
+ },
+ {
+  "key": "No servers found.",
+  "en": "No servers found.",
+  "special": []
+ },
+ {
+  "key": "Source — %s",
+  "en": "Source — %s",
+  "special": []
+ },
+ {
+  "key": "Preview",
+  "en": "Preview",
+  "special": [
+   "1"
+  ]
+ },
+ {
+  "key": "The chain object exactly as it will reach the config. This is also where rewrite is edited — per-protocol overrides of node options; everything else is easier to change on the Chain tab.",
+  "en": "The chain object exactly as it will reach the config. This is also where rewrite is edited — per-protocol overrides of node options; everything else is easier to change on the Chain tab.",
+  "special": []
+ },
+ {
+  "key": "Chain is ready to build",
+  "en": "Chain is ready to build",
+  "special": []
+ },
+ {
+  "key": "No URI set. Paste a sing-box outbound object below and press Apply.",
+  "en": "No URI set. Paste a sing-box outbound object below and press Apply.",
+  "special": []
+ },
+ {
+  "key": "URI does not unpack: %s. You can write the outbound JSON by hand and press Apply.",
+  "en": "URI does not unpack: %s. You can write the outbound JSON by hand and press Apply.",
+  "special": []
+ },
+ {
+  "key": "Origin does not unpack: %s. You can write the outbound JSON by hand and press Apply.",
+  "en": "Origin does not unpack: %s. You can write the outbound JSON by hand and press Apply.",
+  "special": []
+ },
+ {
+  "key": "Unpacked nodes: %d",
+  "en": "Unpacked nodes: %d",
+  "special": []
+ },
+ {
+  "key": "(showing first %d)",
+  "en": "(showing first %d)",
+  "special": []
+ },
+ {
+  "key": "Apply JSON",
+  "en": "Apply JSON",
+  "special": []
+ },
+ {
+  "key": "JSON is empty.",
+  "en": "JSON is empty.",
+  "special": []
+ },
+ {
+  "key": "Invalid JSON: %s",
+  "en": "Invalid JSON: %s",
+  "special": []
+ },
+ {
+  "key": "Node document rejected: %s",
+  "en": "Node document rejected: %s",
+  "special": []
+ },
+ {
+  "key": "The outbound object must have a non-empty \"type\" field.",
+  "en": "The outbound object must have a non-empty \"type\" field.",
+  "special": []
+ },
+ {
+  "key": "Storage record (state.json)",
+  "en": "Storage record (state.json)",
+  "special": []
+ },
+ {
+  "key": "Local outbounds: %d · Servers: load failed — %s",
+  "en": "Local outbounds: %d · Servers: load failed — %s",
+  "special": []
+ },
+ {
+  "key": "Tag prefix",
+  "en": "Tag prefix",
+  "special": []
+ },
+ {
+  "key": "Fold this subscription into a group",
+  "en": "Fold this subscription into a group",
+  "special": []
+ },
+ {
+  "key": "Its nodes are replaced by a single entry in the directions list. Pick what to fold into on the Group tab.",
+  "en": "Its nodes are replaced by a single entry in the directions list. Pick what to fold into on the Group tab.",
+  "special": []
+ },
+ {
+  "key": "Group",
+  "en": "Group",
+  "special": []
+ },
+ {
+  "key": "Add hop chain",
+  "en": "Add hop chain",
+  "special": []
+ },
+ {
+  "key": "Chain",
+  "en": "Chain",
+  "special": []
+ },
+ {
+  "key": "[chain: %d]",
+  "en": "[chain: %d]",
+  "special": []
+ },
+ {
+  "key": "· %d nodes",
+  "en": "· %d nodes",
+  "special": []
+ },
+ {
+  "key": "· %d of %d nodes",
+  "en": "· %d of %d nodes",
+  "special": []
+ },
+ {
+  "key": "[chain] ⚠️ core has no chain support",
+  "en": "[chain] ⚠️ core has no chain support",
+  "special": []
+ },
+ {
+  "key": "⚠ No nodes from this source: %s",
+  "en": "⚠ No nodes from this source: %s",
+  "special": []
+ },
+ {
+  "key": "⚠ Excluded from the config: %s",
+  "en": "⚠ Excluded from the config: %s",
+  "special": []
+ },
+ {
+  "key": "Fold into",
+  "en": "Fold into",
+  "special": []
+ },
+ {
+  "key": "Selector (manual pick)",
+  "en": "Selector (manual pick)",
+  "special": []
+ },
+ {
+  "key": "Auto-select group (urltest)",
+  "en": "Auto-select group (urltest)",
+  "special": []
+ },
+ {
+  "key": "Selector with an auto-select group",
+  "en": "Selector with an auto-select group",
+  "special": []
+ },
+ {
+  "key": "Tags: %s",
+  "en": "Tags: %s",
+  "special": []
+ }
+]

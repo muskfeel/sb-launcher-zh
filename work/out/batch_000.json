@@ -1,0 +1,497 @@
+[
+ {
+  "key": "Local",
+  "value": "当地的"
+ },
+ {
+  "key": "🌐 Remote",
+  "value": "🌐 远程"
+ },
+ {
+  "key": "🖥️ Servers",
+  "value": "🖥️服务器"
+ },
+ {
+  "key": "MACHINES",
+  "value": "机器"
+ },
+ {
+  "key": "+ Add",
+  "value": "+ 添加"
+ },
+ {
+  "key": "Add remote machine",
+  "value": "添加远程机器"
+ },
+ {
+  "key": "Run `sudo sing-box lxd client add` on the machine you want to manage — it prints a one-time invite. Paste it below. The code burns after the first attempt; mint a fresh one if pairing fails.",
+  "value": "在您要管理的计算机上运行“sudo sing-box lxd client add”——它会打印一次性邀请。粘贴在下面。代码在第一次尝试后就会被烧毁；如果配对失败，请更换新的。"
+ },
+ {
+  "key": "Run this on the machine to get an invite:",
+  "value": "在计算机上运行此命令以获得邀请："
+ },
+ {
+  "key": "How to install the daemon on a machine",
+  "value": "如何在机器上安装守护进程"
+ },
+ {
+  "key": "Advanced (address, secret)",
+  "value": "高级（地址、秘密）"
+ },
+ {
+  "key": "Invite",
+  "value": "邀请"
+ },
+ {
+  "key": "address#fingerprint#code",
+  "value": "地址#指纹#代码"
+ },
+ {
+  "key": "Name",
+  "value": "姓名"
+ },
+ {
+  "key": "Router, home VPS, … (defaults to the address)",
+  "value": "路由器、家庭 VPS……（默认为地址）"
+ },
+ {
+  "key": "Address",
+  "value": "地址"
+ },
+ {
+  "key": "host:port — leave empty to use the invite's address",
+  "value": "主机：端口 — 留空以使用邀请地址"
+ },
+ {
+  "key": "Secret",
+  "value": "秘密"
+ },
+ {
+  "key": "only for a plain-h2c daemon; leave empty for mTLS",
+  "value": "仅适用于普通 h2c 守护进程；对于 mTLS 留空"
+ },
+ {
+  "key": "Add",
+  "value": "添加"
+ },
+ {
+  "key": "Pairing…",
+  "value": "配对…"
+ },
+ {
+  "key": "Paste the invite printed by the daemon.",
+  "value": "粘贴守护程序打印的邀请。"
+ },
+ {
+  "key": "Pairing failed: %v",
+  "value": "配对失败：%v"
+ },
+ {
+  "key": "No remote machines yet. Press “+ Add” and paste the invite printed by `sing-box lxd` on the machine you want to manage.",
+  "value": "还没有远程机器。按“+添加”并将“sing-box lxd”打印的邀请粘贴到您要管理的计算机上。"
+ },
+ {
+  "key": "Configure",
+  "value": "配置"
+ },
+ {
+  "key": "Connect",
+  "value": "连接"
+ },
+ {
+  "key": "Connecting… %d/%d",
+  "value": "正在连接…%d/%d"
+ },
+ {
+  "key": "Disconnect",
+  "value": "断开"
+ },
+ {
+  "key": "No machine connected. Pick one on the right and press Connect.",
+  "value": "没有连接机器。选择右侧的一个并按“连接”。"
+ },
+ {
+  "key": "The core on this machine is not running. Press Start in its row.",
+  "value": "这台机器上的核心没有运行。按其行中的“开始”。"
+ },
+ {
+  "key": "reachable",
+  "value": "可达的"
+ },
+ {
+  "key": "Edit name, address and platform",
+  "value": "编辑姓名、地址和平台"
+ },
+ {
+  "key": "Remove this machine",
+  "value": "删除这台机器"
+ },
+ {
+  "key": "What the daemon reports about itself",
+  "value": "守护进程报告其自身的内容"
+ },
+ {
+  "key": "%s — daemon status",
+  "value": "%s — 守护进程状态"
+ },
+ {
+  "key": "Machine",
+  "value": "机器"
+ },
+ {
+  "key": "Platform",
+  "value": "平台"
+ },
+ {
+  "key": "Daemon version",
+  "value": "守护进程版本"
+ },
+ {
+  "key": "Core status",
+  "value": "核心地位"
+ },
+ {
+  "key": "State dir",
+  "value": "状态目录"
+ },
+ {
+  "key": "Active config sha256",
+  "value": "活动配置 sha256"
+ },
+ {
+  "key": "Last-good config sha256",
+  "value": "最后的好配置 sha256"
+ },
+ {
+  "key": "Interrupted apply",
+  "value": "中断申请"
+ },
+ {
+  "key": "yes — the core runs the last-good config",
+  "value": "是的 - 核心运行最后的好配置"
+ },
+ {
+  "key": "Last error",
+  "value": "最后一个错误"
+ },
+ {
+  "key": "Unreachable",
+  "value": "无法到达"
+ },
+ {
+  "key": "Connection failures this session (%d)",
+  "value": "此会话连接失败（%d）"
+ },
+ {
+  "key": "Machine — %s",
+  "value": "机器 — %s"
+ },
+ {
+  "key": "Re-pair — reconnect this machine with a fresh invite",
+  "value": "重新配对 — 使用新邀请重新连接这台机器"
+ },
+ {
+  "key": "Use this when the channel broke on the machine's side: the daemon was reinstalled, its state directory was wiped, this client was revoked, or its server certificate changed and the pin no longer matches. Name, address, platform and every setting of this machine are kept — only the pin and the client key are replaced.",
+  "value": "当机器端的通道中断时使用此选项：重新安装守护程序、擦除其状态目录、吊销此客户端或其服务器证书更改且 pin 不再匹配。名称、地址、平台和这台机器的每一项设置都会被保留——只有密码和客户端密钥被替换。"
+ },
+ {
+  "key": "host:port — leave empty to keep the current address",
+  "value": "主机：端口 — 留空以保留当前地址"
+ },
+ {
+  "key": "Re-pair",
+  "value": "维修"
+ },
+ {
+  "key": "Re-pairing…",
+  "value": "重新配对..."
+ },
+ {
+  "key": "Re-paired at %s. A new client key was issued; connect again.",
+  "value": "在 %s 重新配对。颁发了新的客户端密钥；再次连接。"
+ },
+ {
+  "key": "Re-pair machine",
+  "value": "修机"
+ },
+ {
+  "key": "Issue a new client key for %s?\n\nThe current key stops being this launcher's credential and stays on the machine as a leftover — remove it there with `sing-box lxd client remove`. Settings of this machine are not touched.",
+  "value": "为 %s 颁发新的客户端密钥吗？\n\n当前密钥不再是此启动器的凭据，而是作为剩余物保留在计算机上 - 使用“sing-box lxd client remove”将其删除。不会触及本机的设置。"
+ },
+ {
+  "key": "Copy settings from another machine",
+  "value": "从另一台机器复制设置"
+ },
+ {
+  "key": "Copies the wizard setup — sources, rules, DNS and variables — from another machine onto this one, so you don't build the same thing twice. Pairing is NOT copied: each machine keeps its own client key, because one shared key would mean revoking access on one machine revokes it on both. The built config and rule-set files are rebuilt for this machine on the next Save and Deploy.",
+  "value": "将向导设置（源、规则、DNS 和变量）从另一台计算机复制到这台计算机上，这样您就不会两次构建相同的东西。配对不会被复制：每台机器都保留自己的客户端密钥，因为一个共享密钥意味着撤销一台机器上的访问权限会同时撤销两台机器上的访问权限。构建的配置和规则集文件将在下次保存和部署时为此计算机重新构建。"
+ },
+ {
+  "key": "Take settings from…",
+  "value": "从...获取设置"
+ },
+ {
+  "key": "Copy",
+  "value": "复制",
+  "special": {
+   "1": {
+    "value": "复制"
+   }
+  }
+ },
+ {
+  "key": "Settings copied from %s. Open Configure to review them and press Save.",
+  "value": "从 %s 复制的设置。打开“配置”以查看它们，然后按“保存”。"
+ },
+ {
+  "key": "Copy failed: %v",
+  "value": "复制失败：%v"
+ },
+ {
+  "key": "Pick the machine to copy settings from.",
+  "value": "选择要从中复制设置的计算机。"
+ },
+ {
+  "key": "No other configured machine to copy from yet.",
+  "value": "尚无其他已配置的计算机可供复制。"
+ },
+ {
+  "key": "Overwrite settings",
+  "value": "覆盖设置"
+ },
+ {
+  "key": "%s already has its own setup. Copying replaces it, and there is no way back.",
+  "value": "%s 已经有了自己的设置。复制取代了它，并且没有回头路。"
+ },
+ {
+  "key": "Architecture",
+  "value": "建筑学"
+ },
+ {
+  "key": "Remove machine",
+  "value": "拆机"
+ },
+ {
+  "key": "Remove %s? Its config, wizard states and client keys are deleted from this launcher.\n\nAccess on the machine itself stays registered — revoke it there with `sing-box lxd client remove`.",
+  "value": "删除%s？其配置、向导状态和客户端密钥将从该启动器中删除。\n\n机器本身的访问权限保持注册状态 - 使用“sing-box lxd client remove”撤销它。"
+ },
+ {
+  "key": "No config built for %s yet. Press Configure on its row, set it up and press Save — that writes the config this button sends.",
+  "value": "尚未为 %s 构建配置。按其行上的“配置”，进行设置并按“保存”——写入此按钮发送的配置。"
+ },
+ {
+  "key": "🔍 Diagnostics",
+  "value": "🔍诊断"
+ },
+ {
+  "key": "❓ Help",
+  "value": "❓ 帮助"
+ },
+ {
+  "key": "⚙️ Settings",
+  "value": "⚙️ 设置"
+ },
+ {
+  "key": "Settings",
+  "value": "设置"
+ },
+ {
+  "key": "Subscriptions",
+  "value": "订阅"
+ },
+ {
+  "key": "User-Agent:",
+  "value": "用户代理："
+ },
+ {
+  "key": "Custom User-Agent sent on subscription fetches. Leave empty to use the default: %s",
+  "value": "在订阅获取时发送的自定义用户代理。留空以使用默认值：%s"
+ },
+ {
+  "key": "Reset to default",
+  "value": "重置为默认值"
+ },
+ {
+  "key": "Subscription identification",
+  "value": "订阅标识"
+ },
+ {
+  "key": "Send device ID",
+  "value": "发送设备ID"
+ },
+ {
+  "key": "Sends a UUIDv4 device ID + OS family/version + device model with every subscription fetch. Required by Marzban / Remnawave / NashVPN-style panels for device counting. Unchecking returns a less-fingerprinted request — HWID-binding panels will then return empty subscriptions.",
+  "value": "每次获取订阅时发送 UUIDv4 设备 ID + 操作系统系列/版本 + 设备型号。 Marzban / Remnawave / NashVPN 式面板需要进行设备计数。取消选中会返回较少指纹的请求 - HWID 绑定面板将返回空订阅。"
+ },
+ {
+  "key": "Hash device model (privacy)",
+  "value": "哈希设备模型（隐私）"
+ },
+ {
+  "key": "When enabled, X-Device-Model is sent as sha256(model)[:16] instead of the raw value (e.g. MacBookPro18,1). The provider still counts you as one device but does not see the hardware family.",
+  "value": "启用后，X-Device-Model 将作为 sha256(model)[:16] 而不是原始值发送（例如 MacBookPro18,1）。提供商仍将您视为一台设备，但看不到硬件系列。"
+ },
+ {
+  "key": "Device ID (HWID):",
+  "value": "设备 ID (HWID)："
+ },
+ {
+  "key": "Regenerate",
+  "value": "再生"
+ },
+ {
+  "key": "Regenerate device ID?",
+  "value": "重新生成设备 ID？"
+ },
+ {
+  "key": "This will generate a new UUID and the next subscription fetch will register a new device with HWID-binding providers — consuming one of your allowed device slots. The previous ID stays counted until you remove it via the provider's management bot. Continue?",
+  "value": "这将生成一个新的 UUID，并且下一次订阅获取将向 HWID 绑定提供程序注册一个新设备 - 消耗您允许的设备插槽之一。之前的 ID 会一直保留，直到您通过提供商的管理机器人将其删除为止。继续？"
+ },
+ {
+  "key": "Language",
+  "value": "语言"
+ },
+ {
+  "key": "Connection",
+  "value": "联系"
+ },
+ {
+  "key": "Core Status Checking...",
+  "value": "核心状态检查..."
+ },
+ {
+  "key": "Core Status ❌ Error: sing-box not found",
+  "value": "核心状态❌错误：找不到单盒"
+ },
+ {
+  "key": "Core Status 🔄 Restarting...",
+  "value": "核心状态🔄正在重新启动..."
+ },
+ {
+  "key": "Core Status ✅ Running",
+  "value": "核心状态 ✅ 运行"
+ },
+ {
+  "key": "Core Status ⏸️ Stopped",
+  "value": "核心状态⏸️已停止"
+ },
+ {
+  "key": "Start",
+  "value": "开始",
+  "special": {
+   "1": {
+    "value": "开始"
+   }
+  }
+ },
+ {
+  "key": "Stop",
+  "value": "停止",
+  "special": {
+   "1": {
+    "value": "停止"
+   }
+  }
+ },
+ {
+  "key": "Exit",
+  "value": "出口"
+ },
+ {
+  "key": "Config",
+  "value": "配置"
+ },
+ {
+  "key": "Checking config...",
+  "value": "正在检查配置..."
+ },
+ {
+  "key": "%s ✅ %s",
+  "value": "%s ✅ %s"
+ },
+ {
+  "key": "%s ❌ not found",
+  "value": "%s ❌ 未找到"
+ },
+ {
+  "key": "Config error: %v",
+  "value": "配置错误：%v"
+ },
+ {
+  "key": "Starting...",
+  "value": "开始..."
+ },
+ {
+  "key": "Refreshing subscriptions",
+  "value": "刷新订阅"
+ },
+ {
+  "key": "Update subscriptions (%s+U)",
+  "value": "更新订阅 (%s+U)"
+ },
+ {
+  "key": "Restart sing-box (%s+R)",
+  "value": "重新启动歌唱盒（%s+R）"
+ },
+ {
+  "key": "State edited — restart sing-box to apply",
+  "value": "状态已编辑-重启sing-box以应用"
+ },
+ {
+  "key": "Auto-update subscriptions",
+  "value": "自动更新订阅"
+ },
+ {
+  "key": "Auto-ping on connect",
+  "value": "连接时自动 ping"
+ },
+ {
+  "key": "(subs: just now)",
+  "value": "（替补：刚才）"
+ },
+ {
+  "key": "(subs: %dm ago)",
+  "value": "（订阅者：%dm 前）"
+ },
+ {
+  "key": "(subs: %dh ago)",
+  "value": "（订阅者：%dh 前）"
+ },
+ {
+  "key": "(subs: %dd ago)",
+  "value": "（订阅者：%dd 前）"
+ },
+ {
+  "key": "Debug API (localhost)",
+  "value": "调试 API（本地主机）"
+ },
+ {
+  "key": "Local read-only HTTP API for scripts and automation. Off by default. Bound to 127.0.0.1 only.",
+  "value": "用于脚本和自动化的本地只读 HTTP API。默认关闭。仅绑定到 127.0.0.1。"
+ },
+ {
+  "key": "Enable",
+  "value": "使能够"
+ },
+ {
+  "key": "Copy token",
+  "value": "复制令牌"
+ },
+ {
+  "key": "Status: Off",
+  "value": "状态：关闭"
+ },
+ {
+  "key": "Status: Listening on %s",
+  "value": "状态：正在收听 %s"
+ },
+ {
+  "key": "Token copied",
+  "value": "令牌已复制"
+ },
+ {
+  "key": "Debug API bearer token copied to clipboard. Pass as: Authorization: Bearer …",
+  "value": "调试 API 持有者令牌已复制到剪贴板。传递为：授权：持有者……"
+ }
+]

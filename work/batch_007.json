@@ -1,0 +1,606 @@
+[
+ {
+  "key": "TUN mode starts the sing-box core as root only from a root-owned copy, and the copy's location failed the ownership check:\n%s\nIf the command below reports the same problem, fix the ownership of that path.",
+  "en": "TUN mode starts the sing-box core as root only from a root-owned copy, and the copy's location failed the ownership check:\n%s\nIf the command below reports the same problem, fix the ownership of that path.",
+  "special": []
+ },
+ {
+  "key": "The daemon service is installed on this Mac, so the command is its Install or update command: it refreshes the same copy and restarts the service.",
+  "en": "The daemon service is installed on this Mac, so the command is its Install or update command: it refreshes the same copy and restarts the service.",
+  "special": []
+ },
+ {
+  "key": "Run this command in Terminal (it asks for your sudo password), then click Retry:",
+  "en": "Run this command in Terminal (it asks for your sudo password), then click Retry:",
+  "special": []
+ },
+ {
+  "key": "Retry",
+  "en": "Retry",
+  "special": []
+ },
+ {
+  "key": "Uninstall",
+  "en": "Uninstall",
+  "special": []
+ },
+ {
+  "key": "1. Forget the pairing on the launcher side:",
+  "en": "1. Forget the pairing on the launcher side:",
+  "special": []
+ },
+ {
+  "key": "2. Remove the service (run in Terminal, your sudo):",
+  "en": "2. Remove the service (run in Terminal, your sudo):",
+  "special": []
+ },
+ {
+  "key": "Also wipe all daemon data — keys, clients, last-good (--purge)",
+  "en": "Also wipe all daemon data — keys, clients, last-good (--purge)",
+  "special": []
+ },
+ {
+  "key": "The core runs inside a system daemon (sing-box lxd).",
+  "en": "The core runs inside a system daemon (sing-box lxd).",
+  "special": []
+ },
+ {
+  "key": "Connecting to the daemon…",
+  "en": "Connecting to the daemon…",
+  "special": []
+ },
+ {
+  "key": "The daemon answers; the core is running. Click for connection settings.",
+  "en": "The daemon answers; the core is running. Click for connection settings.",
+  "special": []
+ },
+ {
+  "key": "The daemon is paired and answers; the core is stopped. Press Start to bring the VPN up.",
+  "en": "The daemon is paired and answers; the core is stopped. Press Start to bring the VPN up.",
+  "special": []
+ },
+ {
+  "key": "The daemon stopped answering — reconnecting. Click for connection settings.",
+  "en": "The daemon stopped answering — reconnecting. Click for connection settings.",
+  "special": []
+ },
+ {
+  "key": "The core inside the daemon failed: %s. Click for connection settings.",
+  "en": "The core inside the daemon failed: %s. Click for connection settings.",
+  "special": []
+ },
+ {
+  "key": "The daemon is not answering. Check that the service is running (⚙).",
+  "en": "The daemon is not answering. Check that the service is running (⚙).",
+  "special": []
+ },
+ {
+  "key": "✅ gRPC (daemon) · core stopped",
+  "en": "✅ gRPC (daemon) · core stopped",
+  "special": []
+ },
+ {
+  "key": "The core is stopped — press Start to load the node list.",
+  "en": "The core is stopped — press Start to load the node list.",
+  "special": []
+ },
+ {
+  "key": "The machine is not answering. Check that it is powered on and reachable on the network, then press Connect again.",
+  "en": "The machine is not answering. Check that it is powered on and reachable on the network, then press Connect again.",
+  "special": []
+ },
+ {
+  "key": "The Bearer secret is only needed for a daemon running WITHOUT TLS (plain mode): there it is the whole authentication, paste it and press Enter. A paired mTLS daemon ignores it — the client certificate is the credential. The daemon owns the secret (daemon.json in its state dir); view it with the command below.",
+  "en": "The Bearer secret is only needed for a daemon running WITHOUT TLS (plain mode): there it is the whole authentication, paste it and press Enter. A paired mTLS daemon ignores it — the client certificate is the credential. The daemon owns the secret (daemon.json in its state dir); view it with the command below.",
+  "special": []
+ },
+ {
+  "key": "On Save the config is written to bin/remote-config.json for deployment under the lxd daemon — the local bin/config.json is never touched. State lives in bin/wizard_states/remote/state.json.",
+  "en": "On Save the config is written to bin/remote-config.json for deployment under the lxd daemon — the local bin/config.json is never touched. State lives in bin/wizard_states/remote/state.json.",
+  "special": []
+ },
+ {
+  "key": "Target OS",
+  "en": "Target OS",
+  "special": []
+ },
+ {
+  "key": "Target architecture",
+  "en": "Target architecture",
+  "special": []
+ },
+ {
+  "key": "Set the TUN interface name explicitly — the core default cannot be relied on, and on a router the name is needed for firewall rules and routes.",
+  "en": "Set the TUN interface name explicitly — the core default cannot be relied on, and on a router the name is needed for firewall rules and routes.",
+  "special": []
+ },
+ {
+  "key": "Remote config exported",
+  "en": "Remote config exported",
+  "special": []
+ },
+ {
+  "key": "The config for the remote machine was written to a separate file. The local bin/config.json was not touched.",
+  "en": "The config for the remote machine was written to a separate file. The local bin/config.json was not touched.",
+  "special": []
+ },
+ {
+  "key": "Failed to build the machine's config",
+  "en": "Failed to build the machine's config",
+  "special": []
+ },
+ {
+  "key": "The core rejected this config. The file was written, but the machine will refuse it on Deploy. Fix the problem below and save again.",
+  "en": "The core rejected this config. The file was written, but the machine will refuse it on Deploy. Fix the problem below and save again.",
+  "special": []
+ },
+ {
+  "key": "Could not read the subscriptions for this target, so the config would contain no proxy nodes. Check the sources on the Sources tab and try again.",
+  "en": "Could not read the subscriptions for this target, so the config would contain no proxy nodes. Check the sources on the Sources tab and try again.",
+  "special": []
+ },
+ {
+  "key": "Parsing subscriptions...",
+  "en": "Parsing subscriptions...",
+  "special": []
+ },
+ {
+  "key": "Connect to this machine first: its config points at the machine's own resource store, and that path comes from the daemon when you connect.",
+  "en": "Connect to this machine first: its config points at the machine's own resource store, and that path comes from the daemon when you connect.",
+  "special": []
+ },
+ {
+  "key": "Core Status ⏳ Starting...",
+  "en": "Core Status ⏳ Starting...",
+  "special": []
+ },
+ {
+  "key": "Core Status ⏳ Stopping...",
+  "en": "Core Status ⏳ Stopping...",
+  "special": []
+ },
+ {
+  "key": "Stop the core",
+  "en": "Stop the core",
+  "special": []
+ },
+ {
+  "key": "Stop the core on %s? Everyone routing through that machine loses VPN until it is started again.",
+  "en": "Stop the core on %s? Everyone routing through that machine loses VPN until it is started again.",
+  "special": []
+ },
+ {
+  "key": "Restart the core",
+  "en": "Restart the core",
+  "special": [
+   "1"
+  ]
+ },
+ {
+  "key": "Restart the core on %s? Everyone routing through that machine loses VPN for a moment; if the start fails, the machine is left without a core.",
+  "en": "Restart the core on %s? Everyone routing through that machine loses VPN for a moment; if the start fails, the machine is left without a core.",
+  "special": []
+ },
+ {
+  "key": "Deploy",
+  "en": "Deploy",
+  "special": []
+ },
+ {
+  "key": "The machine runs a different config than the one saved here. Press Deploy to send it.",
+  "en": "The machine runs a different config than the one saved here. Press Deploy to send it.",
+  "special": []
+ },
+ {
+  "key": "The machine runs the config saved here.",
+  "en": "The machine runs the config saved here.",
+  "special": []
+ },
+ {
+  "key": "The last deploy did not start: the core rolled back to the last-good config. Details under ⓘ.",
+  "en": "The last deploy did not start: the core rolled back to the last-good config. Details under ⓘ.",
+  "special": []
+ },
+ {
+  "key": "Built config sha256 (local)",
+  "en": "Built config sha256 (local)",
+  "special": []
+ },
+ {
+  "key": "Deploy config",
+  "en": "Deploy config",
+  "special": [
+   "1"
+  ]
+ },
+ {
+  "key": "Send the config to %s (%d bytes)? The daemon validates it before swapping the instance and rolls back to last-good if the new one fails to start.",
+  "en": "Send the config to %s (%d bytes)? The daemon validates it before swapping the instance and rolls back to last-good if the new one fails to start.",
+  "special": []
+ },
+ {
+  "key": "Config applied on %s.",
+  "en": "Config applied on %s.",
+  "special": []
+ },
+ {
+  "key": "Connection settings: core engine and daemon pairing",
+  "en": "Connection settings: core engine and daemon pairing",
+  "special": []
+ },
+ {
+  "key": "RES",
+  "en": "RES",
+  "special": []
+ },
+ {
+  "key": "%s — resources",
+  "en": "%s — resources",
+  "special": []
+ },
+ {
+  "key": "Reading the machine's resource store…",
+  "en": "Reading the machine's resource store…",
+  "special": []
+ },
+ {
+  "key": "No resources: nothing stored on the machine and no rule-set files in this machine's profile.",
+  "en": "No resources: nothing stored on the machine and no rule-set files in this machine's profile.",
+  "special": []
+ },
+ {
+  "key": "Could not read the resource store: %v",
+  "en": "Could not read the resource store: %v",
+  "special": []
+ },
+ {
+  "key": "%d local · %d on server · %d orphan",
+  "en": "%d local · %d on server · %d orphan",
+  "special": []
+ },
+ {
+  "key": "Upload",
+  "en": "Upload",
+  "special": []
+ },
+ {
+  "key": "Upload all missing",
+  "en": "Upload all missing",
+  "special": []
+ },
+ {
+  "key": "✓ match",
+  "en": "✓ match",
+  "special": []
+ },
+ {
+  "key": "✗ not on server",
+  "en": "✗ not on server",
+  "special": []
+ },
+ {
+  "key": "≠ differs",
+  "en": "≠ differs",
+  "special": []
+ },
+ {
+  "key": "⚠ only on server",
+  "en": "⚠ only on server",
+  "special": []
+ },
+ {
+  "key": "Delete from the machine",
+  "en": "Delete from the machine",
+  "special": []
+ },
+ {
+  "key": "The running config references this file — deploy a config without it first",
+  "en": "The running config references this file — deploy a config without it first",
+  "special": []
+ },
+ {
+  "key": "Delete resource",
+  "en": "Delete resource",
+  "special": []
+ },
+ {
+  "key": "Delete %s from the machine? The local copy stays.",
+  "en": "Delete %s from the machine? The local copy stays.",
+  "special": []
+ },
+ {
+  "key": "Downloads to: %s",
+  "en": "Downloads to: %s",
+  "special": []
+ },
+ {
+  "key": "Reading the machine's selector groups…",
+  "en": "Reading the machine's selector groups…",
+  "special": []
+ },
+ {
+  "key": "Traffic profiler",
+  "en": "Traffic profiler",
+  "special": []
+ },
+ {
+  "key": "Connect to the machine first: the profiler reads its live connection stream.",
+  "en": "Connect to the machine first: the profiler reads its live connection stream.",
+  "special": []
+ },
+ {
+  "key": "Connections",
+  "en": "Connections",
+  "special": []
+ },
+ {
+  "key": "Traffic",
+  "en": "Traffic",
+  "special": []
+ },
+ {
+  "key": "Core runtime",
+  "en": "Core runtime",
+  "special": []
+ },
+ {
+  "key": "%d in / %d out",
+  "en": "%d in / %d out",
+  "special": []
+ },
+ {
+  "key": "↑%s/s  ↓%s/s   (total ↑%s ↓%s)",
+  "en": "↑%s/s  ↓%s/s   (total ↑%s ↓%s)",
+  "special": []
+ },
+ {
+  "key": "%s, goroutines %d",
+  "en": "%s, goroutines %d",
+  "special": []
+ },
+ {
+  "key": "Host telemetry",
+  "en": "Host telemetry",
+  "special": []
+ },
+ {
+  "key": "%s — host",
+  "en": "%s — host",
+  "special": []
+ },
+ {
+  "key": "Connect to the machine first: host telemetry is read over its control channel.",
+  "en": "Connect to the machine first: host telemetry is read over its control channel.",
+  "special": []
+ },
+ {
+  "key": "Reading host telemetry…",
+  "en": "Reading host telemetry…",
+  "special": []
+ },
+ {
+  "key": "This daemon has no host telemetry: the machine is reachable, but its sing-box build predates /admin/host. Update the daemon on the machine.",
+  "en": "This daemon has no host telemetry: the machine is reachable, but its sing-box build predates /admin/host. Update the daemon on the machine.",
+  "special": []
+ },
+ {
+  "key": "Could not read host telemetry: %v",
+  "en": "Could not read host telemetry: %v",
+  "special": []
+ },
+ {
+  "key": "CPU  %s",
+  "en": "CPU  %s",
+  "special": []
+ },
+ {
+  "key": "Memory  %s",
+  "en": "Memory  %s",
+  "special": []
+ },
+ {
+  "key": "Temperature",
+  "en": "Temperature",
+  "special": []
+ },
+ {
+  "key": "no sensors on this machine",
+  "en": "no sensors on this machine",
+  "special": []
+ },
+ {
+  "key": "File descriptors",
+  "en": "File descriptors",
+  "special": []
+ },
+ {
+  "key": "daemon  %s",
+  "en": "daemon  %s",
+  "special": []
+ },
+ {
+  "key": "system  %s",
+  "en": "system  %s",
+  "special": []
+ },
+ {
+  "key": "Disks  (max %s)",
+  "en": "Disks  (max %s)",
+  "special": []
+ },
+ {
+  "key": "Read-only filesystems are excluded from the maximum: a squashfs root sits at a permanent 100%.",
+  "en": "Read-only filesystems are excluded from the maximum: a squashfs root sits at a permanent 100%.",
+  "special": []
+ },
+ {
+  "key": "State dir: %s",
+  "en": "State dir: %s",
+  "special": []
+ },
+ {
+  "key": "Interfaces",
+  "en": "Interfaces",
+  "special": []
+ },
+ {
+  "key": "Interfaces (%d)",
+  "en": "Interfaces (%d)",
+  "special": []
+ },
+ {
+  "key": "Interfaces (%d of %d)",
+  "en": "Interfaces (%d of %d)",
+  "special": []
+ },
+ {
+  "key": "All",
+  "en": "All",
+  "special": []
+ },
+ {
+  "key": "Up only",
+  "en": "Up only",
+  "special": []
+ },
+ {
+  "key": "With traffic",
+  "en": "With traffic",
+  "special": []
+ },
+ {
+  "key": "Could not read interfaces: %v",
+  "en": "Could not read interfaces: %v",
+  "special": []
+ },
+ {
+  "key": "Graph the counter, read the rate: a counter survives restarts and gaps, a rate lies across them.",
+  "en": "Graph the counter, read the rate: a counter survives restarts and gaps, a rate lies across them.",
+  "special": []
+ },
+ {
+  "key": "waiting for a second sample…",
+  "en": "waiting for a second sample…",
+  "special": []
+ },
+ {
+  "key": "sampled over %.1f s",
+  "en": "sampled over %.1f s",
+  "special": []
+ },
+ {
+  "key": "load  %.2f  %.2f  %.2f",
+  "en": "load  %.2f  %.2f  %.2f",
+  "special": []
+ },
+ {
+  "key": "%s used of %s",
+  "en": "%s used of %s",
+  "special": []
+ },
+ {
+  "key": "%s available",
+  "en": "%s available",
+  "special": []
+ },
+ {
+  "key": "cache %s",
+  "en": "cache %s",
+  "special": []
+ },
+ {
+  "key": "swap disabled",
+  "en": "swap disabled",
+  "special": []
+ },
+ {
+  "key": "swap %s of %s",
+  "en": "swap %s of %s",
+  "special": []
+ },
+ {
+  "key": "⚠ This machine is recorded as %s, but the daemon runs on %s. config.json is built for the recorded platform — fix it in the machine settings.",
+  "en": "⚠ This machine is recorded as %s, but the daemon runs on %s. config.json is built for the recorded platform — fix it in the machine settings.",
+  "special": []
+ },
+ {
+  "key": "⚠ This machine is recorded as %s, but the daemon reports %s. config.json is built for the recorded architecture — fix it in the machine settings.",
+  "en": "⚠ This machine is recorded as %s, but the daemon reports %s. config.json is built for the recorded architecture — fix it in the machine settings.",
+  "special": []
+ },
+ {
+  "key": "by design",
+  "en": "by design",
+  "special": []
+ },
+ {
+  "key": "🔒 ro",
+  "en": "🔒 ro",
+  "special": []
+ },
+ {
+  "key": "★ state",
+  "en": "★ state",
+  "special": []
+ },
+ {
+  "key": "🔒 ro · ★ state",
+  "en": "🔒 ro · ★ state",
+  "special": []
+ },
+ {
+  "key": "%dd %s",
+  "en": "%dd %s",
+  "special": []
+ },
+ {
+  "key": "up %s",
+  "en": "up %s",
+  "special": []
+ },
+ {
+  "key": "Mount",
+  "en": "Mount",
+  "special": []
+ },
+ {
+  "key": "FS",
+  "en": "FS",
+  "special": []
+ },
+ {
+  "key": "Free",
+  "en": "Free",
+  "special": []
+ },
+ {
+  "key": "Flags",
+  "en": "Flags",
+  "special": []
+ },
+ {
+  "key": "— down —",
+  "en": "— down —",
+  "special": []
+ },
+ {
+  "key": "(no address)",
+  "en": "(no address)",
+  "special": []
+ },
+ {
+  "key": "MAC %s",
+  "en": "MAC %s",
+  "special": []
+ },
+ {
+  "key": "MTU %d",
+  "en": "MTU %d",
+  "special": []
+ },
+ {
+  "key": "pkt %s/%s",
+  "en": "pkt %s/%s",
+  "special": []
+ }
+]

@@ -1,0 +1,602 @@
+[
+ {
+  "key": "Rebuild config only",
+  "en": "Rebuild config only",
+  "special": []
+ },
+ {
+  "key": "Rebuild & restart sing-box",
+  "en": "Rebuild & restart sing-box",
+  "special": []
+ },
+ {
+  "key": "Rebuild & start sing-box",
+  "en": "Rebuild & start sing-box",
+  "special": []
+ },
+ {
+  "key": "Switch state…",
+  "en": "Switch state…",
+  "special": []
+ },
+ {
+  "key": "● Current (active)",
+  "en": "● Current (active)",
+  "special": []
+ },
+ {
+  "key": "Saved states",
+  "en": "Saved states",
+  "special": []
+ },
+ {
+  "key": "Save current state?",
+  "en": "Save current state?",
+  "special": []
+ },
+ {
+  "key": "Switching will overwrite the current state.json with \"%s\". Save the current state under a new name first, or discard it?",
+  "en": "Switching will overwrite the current state.json with \"%s\". Save the current state under a new name first, or discard it?",
+  "special": []
+ },
+ {
+  "key": "Save current…",
+  "en": "Save current…",
+  "special": []
+ },
+ {
+  "key": "Save current state as…",
+  "en": "Save current state as…",
+  "special": []
+ },
+ {
+  "key": "Name (letters, digits, - and _ only):",
+  "en": "Name (letters, digits, - and _ only):",
+  "special": []
+ },
+ {
+  "key": "my-vpn-profile",
+  "en": "my-vpn-profile",
+  "special": []
+ },
+ {
+  "key": "Name cannot be empty",
+  "en": "Name cannot be empty",
+  "special": []
+ },
+ {
+  "key": "%s already exists — it will be overwritten",
+  "en": "%s already exists — it will be overwritten",
+  "special": []
+ },
+ {
+  "key": "Emoji picker",
+  "en": "Emoji picker",
+  "special": []
+ },
+ {
+  "key": "Emoji picker — %d / %d match",
+  "en": "Emoji picker — %d / %d match",
+  "special": []
+ },
+ {
+  "key": "No emoji in the names of these nodes.",
+  "en": "No emoji in the names of these nodes.",
+  "special": []
+ },
+ {
+  "key": "Filter body: a regex over node names, applied live. Emoji chips above toggle terms in it.",
+  "en": "Filter body: a regex over node names, applied live. Emoji chips above toggle terms in it.",
+  "special": []
+ },
+ {
+  "key": "Copy the pattern body.",
+  "en": "Copy the pattern body.",
+  "special": []
+ },
+ {
+  "key": "Apply",
+  "en": "Apply",
+  "special": []
+ },
+ {
+  "key": "Add WARP",
+  "en": "Add WARP",
+  "special": []
+ },
+ {
+  "key": "Generate Cloudflare WARP",
+  "en": "Generate Cloudflare WARP",
+  "special": []
+ },
+ {
+  "key": "Registers a new anonymous WARP account. The key is generated on this device — only the public key is sent to Cloudflare.",
+  "en": "Registers a new anonymous WARP account. The key is generated on this device — only the public key is sent to Cloudflare.",
+  "special": []
+ },
+ {
+  "key": "Transport",
+  "en": "Transport",
+  "special": []
+ },
+ {
+  "key": "WARP+ license",
+  "en": "WARP+ license",
+  "special": []
+ },
+ {
+  "key": "optional — leave empty for free WARP",
+  "en": "optional — leave empty for free WARP",
+  "special": []
+ },
+ {
+  "key": "Create",
+  "en": "Create",
+  "special": []
+ },
+ {
+  "key": "Registering WARP…",
+  "en": "Registering WARP…",
+  "special": []
+ },
+ {
+  "key": "Contacting Cloudflare and generating keys.",
+  "en": "Contacting Cloudflare and generating keys.",
+  "special": []
+ },
+ {
+  "key": "WARP registration failed",
+  "en": "WARP registration failed",
+  "special": []
+ },
+ {
+  "key": "WARP added",
+  "en": "WARP added",
+  "special": []
+ },
+ {
+  "key": "The WARP node was added to Sources. Click Add-list / rebuild to use it.",
+  "en": "The WARP node was added to Sources. Click Add-list / rebuild to use it.",
+  "special": []
+ },
+ {
+  "key": "WireGuard",
+  "en": "WireGuard",
+  "special": []
+ },
+ {
+  "key": "MASQUE",
+  "en": "MASQUE",
+  "special": []
+ },
+ {
+  "key": "AmneziaWG obfuscation (anti-DPI)",
+  "en": "AmneziaWG obfuscation (anti-DPI)",
+  "special": []
+ },
+ {
+  "key": "Obfuscation preset",
+  "en": "Obfuscation preset",
+  "special": []
+ },
+ {
+  "key": "Advanced (all fields)",
+  "en": "Advanced (all fields)",
+  "special": []
+ },
+ {
+  "key": "Endpoint",
+  "en": "Endpoint",
+  "special": []
+ },
+ {
+  "key": "Bind to this device (reserved)",
+  "en": "Bind to this device (reserved)",
+  "special": []
+ },
+ {
+  "key": "Masquerade",
+  "en": "Masquerade",
+  "special": []
+ },
+ {
+  "key": "Protocol (ip)",
+  "en": "Protocol (ip)",
+  "special": []
+ },
+ {
+  "key": "Domain (id)",
+  "en": "Domain (id)",
+  "special": []
+ },
+ {
+  "key": "Browser (ib)",
+  "en": "Browser (ib)",
+  "special": []
+ },
+ {
+  "key": "jc/jmin/jmax add standalone junk packets (safe with WARP). Packet padding (s1–s4) and magic headers (h1–h4) are fixed to WARP-compatible values — a plain-WireGuard WARP server drops any other padding, breaking the handshake.",
+  "en": "jc/jmin/jmax add standalone junk packets (safe with WARP). Packet padding (s1–s4) and magic headers (h1–h4) are fixed to WARP-compatible values — a plain-WireGuard WARP server drops any other padding, breaking the handshake.",
+  "special": []
+ },
+ {
+  "key": "MASQUE tunnels over HTTPS/QUIC and masks itself — AmneziaWG obfuscation does not apply. Requires core lx.3+.",
+  "en": "MASQUE tunnels over HTTPS/QUIC and masks itself — AmneziaWG obfuscation does not apply. Requires core lx.3+.",
+  "special": []
+ },
+ {
+  "key": "SNI",
+  "en": "SNI",
+  "special": []
+ },
+ {
+  "key": "Idle timeout (min)",
+  "en": "Idle timeout (min)",
+  "special": []
+ },
+ {
+  "key": "Keep-alive (sec)",
+  "en": "Keep-alive (sec)",
+  "special": []
+ },
+ {
+  "key": "Create new keys (fresh Cloudflare registration)",
+  "en": "Create new keys (fresh Cloudflare registration)",
+  "special": []
+ },
+ {
+  "key": "By default the node reuses the registration you already have, so H2 and H3 share one key. Tick this if you need a new account — the old one is replaced.",
+  "en": "By default the node reuses the registration you already have, so H2 and H3 share one key. Tick this if you need a new account — the old one is replaced.",
+  "special": []
+ },
+ {
+  "key": "Node info…",
+  "en": "Node info…",
+  "special": []
+ },
+ {
+  "key": "Node: %s",
+  "en": "Node: %s",
+  "special": []
+ },
+ {
+  "key": "General",
+  "en": "General",
+  "special": []
+ },
+ {
+  "key": "Group members (%d)",
+  "en": "Group members (%d)",
+  "special": []
+ },
+ {
+  "key": "TLS",
+  "en": "TLS",
+  "special": []
+ },
+ {
+  "key": "Outbound JSON",
+  "en": "Outbound JSON",
+  "special": []
+ },
+ {
+  "key": "Display name",
+  "en": "Display name",
+  "special": []
+ },
+ {
+  "key": "Last delay",
+  "en": "Last delay",
+  "special": []
+ },
+ {
+  "key": "Detour",
+  "en": "Detour",
+  "special": []
+ },
+ {
+  "key": "Test URL",
+  "en": "Test URL",
+  "special": []
+ },
+ {
+  "key": "Test interval",
+  "en": "Test interval",
+  "special": []
+ },
+ {
+  "key": "Default",
+  "en": "Default",
+  "special": []
+ },
+ {
+  "key": "Skip cert verify",
+  "en": "Skip cert verify",
+  "special": []
+ },
+ {
+  "key": "uTLS fingerprint",
+  "en": "uTLS fingerprint",
+  "special": []
+ },
+ {
+  "key": "REALITY public key",
+  "en": "REALITY public key",
+  "special": []
+ },
+ {
+  "key": "REALITY short ID",
+  "en": "REALITY short ID",
+  "special": []
+ },
+ {
+  "key": "Service name",
+  "en": "Service name",
+  "special": []
+ },
+ {
+  "key": "Max early data",
+  "en": "Max early data",
+  "special": []
+ },
+ {
+  "key": "This node is not present in the current config.json.",
+  "en": "This node is not present in the current config.json.",
+  "special": []
+ },
+ {
+  "key": "Details",
+  "en": "Details",
+  "special": []
+ },
+ {
+  "key": "Copy tag",
+  "en": "Copy tag",
+  "special": []
+ },
+ {
+  "key": "balanced",
+  "en": "balanced",
+  "special": []
+ },
+ {
+  "key": "fastest",
+  "en": "fastest",
+  "special": []
+ },
+ {
+  "key": "Selection mode",
+  "en": "Selection mode",
+  "special": []
+ },
+ {
+  "key": "Tolerance",
+  "en": "Tolerance",
+  "special": []
+ },
+ {
+  "key": "Idle timeout",
+  "en": "Idle timeout",
+  "special": []
+ },
+ {
+  "key": "Pool size",
+  "en": "Pool size",
+  "special": []
+ },
+ {
+  "key": "Pool tolerance",
+  "en": "Pool tolerance",
+  "special": []
+ },
+ {
+  "key": "Sticky by",
+  "en": "Sticky by",
+  "special": []
+ },
+ {
+  "key": "Sticky TTL",
+  "en": "Sticky TTL",
+  "special": []
+ },
+ {
+  "key": "off",
+  "en": "off",
+  "special": []
+ },
+ {
+  "key": "Node tag",
+  "en": "Node tag",
+  "special": []
+ },
+ {
+  "key": "node tag (referenced by rules and filters)",
+  "en": "node tag (referenced by rules and filters)",
+  "special": []
+ },
+ {
+  "key": "Run the VPN core inside a long-lived system daemon (sing-box lxd). Config changes swap the core in-process — no password prompts, and quitting the launcher can keep the VPN up. Managed over gRPC like the Android app.",
+  "en": "Run the VPN core inside a long-lived system daemon (sing-box lxd). Config changes swap the core in-process — no password prompts, and quitting the launcher can keep the VPN up. Managed over gRPC like the Android app.",
+  "special": []
+ },
+ {
+  "key": "Stop VPN when quitting the launcher",
+  "en": "Stop VPN when quitting the launcher",
+  "special": []
+ },
+ {
+  "key": "❌ Installed core has no lxd support (a sing-box-lx build with the lxd command is required)",
+  "en": "❌ Installed core has no lxd support (a sing-box-lx build with the lxd command is required)",
+  "special": []
+ },
+ {
+  "key": "Stop the VPN before switching the core engine.",
+  "en": "Stop the VPN before switching the core engine.",
+  "special": []
+ },
+ {
+  "key": "Bearer secret (only for a daemon without TLS)",
+  "en": "Bearer secret (only for a daemon without TLS)",
+  "special": []
+ },
+ {
+  "key": "Pair",
+  "en": "Pair",
+  "special": []
+ },
+ {
+  "key": "Paired with the daemon.",
+  "en": "Paired with the daemon.",
+  "special": []
+ },
+ {
+  "key": "Paste an invite first (address#fingerprint#code).",
+  "en": "Paste an invite first (address#fingerprint#code).",
+  "special": []
+ },
+ {
+  "key": "Unpair",
+  "en": "Unpair",
+  "special": []
+ },
+ {
+  "key": "Forget pairing?",
+  "en": "Forget pairing?",
+  "special": []
+ },
+ {
+  "key": "Removes the launcher's client keys and daemon address. The daemon keeps its record of this client until removed there (sing-box lxd client remove).",
+  "en": "Removes the launcher's client keys and daemon address. The daemon keeps its record of this client until removed there (sing-box lxd client remove).",
+  "special": []
+ },
+ {
+  "key": "(daemon log buffer is empty — no core output yet)",
+  "en": "(daemon log buffer is empty — no core output yet)",
+  "special": []
+ },
+ {
+  "key": "✅ gRPC (daemon)",
+  "en": "✅ gRPC (daemon)",
+  "special": []
+ },
+ {
+  "key": "❌ gRPC unavailable",
+  "en": "❌ gRPC unavailable",
+  "special": []
+ },
+ {
+  "key": "Live balancer pool (gRPC)",
+  "en": "Live balancer pool (gRPC)",
+  "special": []
+ },
+ {
+  "key": "Chain positions (%d)",
+  "en": "Chain positions (%d)",
+  "special": []
+ },
+ {
+  "key": "Probe by position",
+  "en": "Probe by position",
+  "special": []
+ },
+ {
+  "key": "Probe again",
+  "en": "Probe again",
+  "special": []
+ },
+ {
+  "key": "Measuring…",
+  "en": "Measuring…",
+  "special": []
+ },
+ {
+  "key": "collapsed",
+  "en": "collapsed",
+  "special": []
+ },
+ {
+  "key": "This core cannot switch chain positions on the fly — update the core.",
+  "en": "This core cannot switch chain positions on the fly — update the core.",
+  "special": []
+ },
+ {
+  "key": "—",
+  "en": "—",
+  "special": []
+ },
+ {
+  "key": "error",
+  "en": "error",
+  "special": []
+ },
+ {
+  "key": "Connection settings",
+  "en": "Connection settings",
+  "special": []
+ },
+ {
+  "key": "Core engine",
+  "en": "Core engine",
+  "special": []
+ },
+ {
+  "key": "Process (classic)",
+  "en": "Process (classic)",
+  "special": []
+ },
+ {
+  "key": "Daemon (lxd)",
+  "en": "Daemon (lxd)",
+  "special": []
+ },
+ {
+  "key": "The launcher spawns `sing-box run` itself and talks to it over the Clash API from config.json. There is nothing to configure here — the clash_api section is managed in the configurator.",
+  "en": "The launcher spawns `sing-box run` itself and talks to it over the Clash API from config.json. There is nothing to configure here — the clash_api section is managed in the configurator.",
+  "special": []
+ },
+ {
+  "key": "Copy the command",
+  "en": "Copy the command",
+  "special": []
+ },
+ {
+  "key": "Run in Terminal",
+  "en": "Run in Terminal",
+  "special": []
+ },
+ {
+  "key": "Core updated — update the daemon service",
+  "en": "Core updated — update the daemon service",
+  "special": []
+ },
+ {
+  "key": "The daemon service still runs the previous core. Run this command in Terminal to install the new core into the service and restart it (it asks for your sudo password):",
+  "en": "The daemon service still runs the previous core. Run this command in Terminal to install the new core into the service and restart it (it asks for your sudo password):",
+  "special": []
+ },
+ {
+  "key": "Core copy for privileged start is missing",
+  "en": "Core copy for privileged start is missing",
+  "special": []
+ },
+ {
+  "key": "Core copy for privileged start is outdated",
+  "en": "Core copy for privileged start is outdated",
+  "special": []
+ },
+ {
+  "key": "Core copy for privileged start is not protected",
+  "en": "Core copy for privileged start is not protected",
+  "special": []
+ },
+ {
+  "key": "TUN mode starts the sing-box core as root. For safety the launcher runs only a root-owned copy of the core that your user account cannot modify, and there is no such copy yet.",
+  "en": "TUN mode starts the sing-box core as root. For safety the launcher runs only a root-owned copy of the core that your user account cannot modify, and there is no such copy yet.",
+  "special": []
+ },
+ {
+  "key": "TUN mode starts the sing-box core as root from a root-owned copy, and the copy is not the launcher's current core (copy %s, launcher core %s) — for example after a core update.",
+  "en": "TUN mode starts the sing-box core as root from a root-owned copy, and the copy is not the launcher's current core (copy %s, launcher core %s) — for example after a core update.",
+  "special": []
+ }
+]

@@ -1,0 +1,602 @@
+[
+ {
+  "key": "Init system:",
+  "en": "Init system:",
+  "special": []
+ },
+ {
+  "key": "Install from scratch (no service yet)",
+  "en": "Install from scratch (no service yet)",
+  "special": []
+ },
+ {
+  "key": "Install or update the service",
+  "en": "Install or update the service",
+  "special": []
+ },
+ {
+  "key": "Install record",
+  "en": "Install record",
+  "special": []
+ },
+ {
+  "key": "Is it running?",
+  "en": "Is it running?",
+  "special": []
+ },
+ {
+  "key": "Last-good",
+  "en": "Last-good",
+  "special": []
+ },
+ {
+  "key": "Launcher core %s (required %s). The service runs its own copy of it; download a newer core on the Core tab of the dashboard, then install or update the service.",
+  "en": "Launcher core %s (required %s). The service runs its own copy of it; download a newer core on the Core tab of the dashboard, then install or update the service.",
+  "special": []
+ },
+ {
+  "key": "Likely: a pairing problem, not the service — the daemon answers but refuses this launcher.",
+  "en": "Likely: a pairing problem, not the service — the daemon answers but refuses this launcher.",
+  "special": []
+ },
+ {
+  "key": "Likely: the service is stopped or crash-looping.",
+  "en": "Likely: the service is stopped or crash-looping.",
+  "special": []
+ },
+ {
+  "key": "Live log window",
+  "en": "Live log window",
+  "special": []
+ },
+ {
+  "key": "Live log",
+  "en": "Live log",
+  "special": []
+ },
+ {
+  "key": "Load the service",
+  "en": "Load the service",
+  "special": []
+ },
+ {
+  "key": "Log",
+  "en": "Log",
+  "special": []
+ },
+ {
+  "key": "Mint an invite on the machine",
+  "en": "Mint an invite on the machine",
+  "special": []
+ },
+ {
+  "key": "Mint an invite",
+  "en": "Mint an invite",
+  "special": []
+ },
+ {
+  "key": "Not connected — press Connect on the machine's row to check the daemon. The commands below use the last known paths.",
+  "en": "Not connected — press Connect on the machine's row to check the daemon. The commands below use the last known paths.",
+  "special": []
+ },
+ {
+  "key": "Not running",
+  "en": "Not running",
+  "special": []
+ },
+ {
+  "key": "On %s the service is installed on the machine itself: run the core's `lxd --service=install` there as administrator — it installs or updates the service in place.",
+  "en": "On %s the service is installed on the machine itself: run the core's `lxd --service=install` there as administrator — it installs or updates the service in place.",
+  "special": []
+ },
+ {
+  "key": "Only for a daemon with tls:false in daemon.json: the Bearer secret is the whole authentication.",
+  "en": "Only for a daemon with tls:false in daemon.json: the Bearer secret is the whole authentication.",
+  "special": []
+ },
+ {
+  "key": "Paired — connect to check the certificate.",
+  "en": "Paired — connect to check the certificate.",
+  "special": []
+ },
+ {
+  "key": "Paired — the daemon does not answer, so the certificate cannot be checked now.",
+  "en": "Paired — the daemon does not answer, so the certificate cannot be checked now.",
+  "special": []
+ },
+ {
+  "key": "Paired. A new client key was issued; connect again.",
+  "en": "Paired. A new client key was issued; connect again.",
+  "special": []
+ },
+ {
+  "key": "Pairing",
+  "en": "Pairing",
+  "special": []
+ },
+ {
+  "key": "Paste what it printed",
+  "en": "Paste what it printed",
+  "special": []
+ },
+ {
+  "key": "Paths — defaults: the daemon has not reported its paths yet",
+  "en": "Paths — defaults: the daemon has not reported its paths yet",
+  "special": []
+ },
+ {
+  "key": "Paths — reported by the daemon %s ago",
+  "en": "Paths — reported by the daemon %s ago",
+  "special": []
+ },
+ {
+  "key": "Paths — reported by the daemon just now",
+  "en": "Paths — reported by the daemon just now",
+  "special": []
+ },
+ {
+  "key": "Plain mode (tls:false): Bearer secret",
+  "en": "Plain mode (tls:false): Bearer secret",
+  "special": []
+ },
+ {
+  "key": "Puts the backed-up core back and restarts the service.",
+  "en": "Puts the backed-up core back and restarts the service.",
+  "special": []
+ },
+ {
+  "key": "Re-pair when the error says \"certificate changed\" or \"not paired\", the service was reinstalled or its state dir was wiped.",
+  "en": "Re-pair when the error says \"certificate changed\" or \"not paired\", the service was reinstalled or its state dir was wiped.",
+  "special": []
+ },
+ {
+  "key": "Read the log",
+  "en": "Read the log",
+  "special": []
+ },
+ {
+  "key": "Reference",
+  "en": "Reference",
+  "special": []
+ },
+ {
+  "key": "Reinstall the same version",
+  "en": "Reinstall the same version",
+  "special": []
+ },
+ {
+  "key": "Replace the <…> part before running it.",
+  "en": "Replace the <…> part before running it.",
+  "special": []
+ },
+ {
+  "key": "Restart it",
+  "en": "Restart it",
+  "special": []
+ },
+ {
+  "key": "Revoke a client",
+  "en": "Revoke a client",
+  "special": []
+ },
+ {
+  "key": "Roll back if the new core misbehaves",
+  "en": "Roll back if the new core misbehaves",
+  "special": []
+ },
+ {
+  "key": "Run in Terminal over ssh",
+  "en": "Run in Terminal over ssh",
+  "special": []
+ },
+ {
+  "key": "Run it in an elevated PowerShell on the machine.",
+  "en": "Run it in an elevated PowerShell on the machine.",
+  "special": []
+ },
+ {
+  "key": "Run the command",
+  "en": "Run the command",
+  "special": []
+ },
+ {
+  "key": "Running %s, required %s",
+  "en": "Running %s, required %s",
+  "special": []
+ },
+ {
+  "key": "Runs in Terminal with your sudo and prints a one-time invite — paste it below:",
+  "en": "Runs in Terminal with your sudo and prints a one-time invite — paste it below:",
+  "special": []
+ },
+ {
+  "key": "Runs in Terminal with your sudo:",
+  "en": "Runs in Terminal with your sudo:",
+  "special": []
+ },
+ {
+  "key": "Runs in Terminal with your sudo; a first install prints a pairing invite at the end:",
+  "en": "Runs in Terminal with your sudo; a first install prints a pairing invite at the end:",
+  "special": []
+ },
+ {
+  "key": "Runs in the foreground: stop it with Ctrl-C, then start the service again.",
+  "en": "Runs in the foreground: stop it with Ctrl-C, then start the service again.",
+  "special": []
+ },
+ {
+  "key": "SSH",
+  "en": "SSH",
+  "special": []
+ },
+ {
+  "key": "Save this as %s on the machine, then enable and start it:",
+  "en": "Save this as %s on the machine, then enable and start it:",
+  "special": []
+ },
+ {
+  "key": "Saved. It is used on the next connect.",
+  "en": "Saved. It is used on the next connect.",
+  "special": []
+ },
+ {
+  "key": "Service binary",
+  "en": "Service binary",
+  "special": []
+ },
+ {
+  "key": "Service — %s",
+  "en": "Service — %s",
+  "special": []
+ },
+ {
+  "key": "Service",
+  "en": "Service",
+  "special": []
+ },
+ {
+  "key": "Service: restart, update the core, pairing, paths and logs",
+  "en": "Service: restart, update the core, pairing, paths and logs",
+  "special": []
+ },
+ {
+  "key": "Show it",
+  "en": "Show it",
+  "special": []
+ },
+ {
+  "key": "Still down? Read why",
+  "en": "Still down? Read why",
+  "special": []
+ },
+ {
+  "key": "Stops the daemon and removes its service definition. The state (keys, clients, last-good) stays.",
+  "en": "Stops the daemon and removes its service definition. The state (keys, clients, last-good) stays.",
+  "special": []
+ },
+ {
+  "key": "The client loses access at once. Replace <name> with a name from the list above.",
+  "en": "The client loses access at once. Replace <name> with a name from the list above.",
+  "special": []
+ },
+ {
+  "key": "The core release has no build for %s/%s — build the core for this machine yourself.",
+  "en": "The core release has no build for %s/%s — build the core for this machine yourself.",
+  "special": []
+ },
+ {
+  "key": "The machine runs a UPX-packed core, but this release has no packed copy for it: this is the plain binary, 4–5 times larger. Check free space on the machine before uploading.",
+  "en": "The machine runs a UPX-packed core, but this release has no packed copy for it: this is the plain binary, 4–5 times larger. Check free space on the machine before uploading.",
+  "special": []
+ },
+ {
+  "key": "The core's log, live, while the daemon answers",
+  "en": "The core's log, live, while the daemon answers",
+  "special": []
+ },
+ {
+  "key": "The current core is kept as %s.",
+  "en": "The current core is kept as %s.",
+  "special": []
+ },
+ {
+  "key": "The daemon has not been checked yet: connect to the machine to see whether it answers. The steps below use the last known paths.",
+  "en": "The daemon has not been checked yet: connect to the machine to see whether it answers. The steps below use the last known paths.",
+  "special": []
+ },
+ {
+  "key": "The daemon has not reported its core version yet (required %s).",
+  "en": "The daemon has not reported its core version yet (required %s).",
+  "special": []
+ },
+ {
+  "key": "The header should now say %s · started.",
+  "en": "The header should now say %s · started.",
+  "special": []
+ },
+ {
+  "key": "The last config broke it? Boot the last working one once",
+  "en": "The last config broke it? Boot the last working one once",
+  "special": []
+ },
+ {
+  "key": "The last deploy did not start: the core rolled back to the last-good config.",
+  "en": "The last deploy did not start: the core rolled back to the last-good config.",
+  "special": []
+ },
+ {
+  "key": "The service was restarted.",
+  "en": "The service was restarted.",
+  "special": []
+ },
+ {
+  "key": "This changes the service on %s. Run it?",
+  "en": "This changes the service on %s. Run it?",
+  "special": []
+ },
+ {
+  "key": "This computer",
+  "en": "This computer",
+  "special": []
+ },
+ {
+  "key": "Upload it (streamed over ssh — scp does not work on OpenWrt)",
+  "en": "Upload it (streamed over ssh — scp does not work on OpenWrt)",
+  "special": []
+ },
+ {
+  "key": "Upload it (streamed over ssh)",
+  "en": "Upload it (streamed over ssh)",
+  "special": []
+ },
+ {
+  "key": "Waiting for log lines…",
+  "en": "Waiting for log lines…",
+  "special": []
+ },
+ {
+  "key": "Who holds the port",
+  "en": "Who holds the port",
+  "special": []
+ },
+ {
+  "key": "Who is trusted",
+  "en": "Who is trusted",
+  "special": []
+ },
+ {
+  "key": "Windows asks for administrator rights:",
+  "en": "Windows asks for administrator rights:",
+  "special": []
+ },
+ {
+  "key": "Windows asks for administrator rights; the launcher pairs with the new invite automatically:",
+  "en": "Windows asks for administrator rights; the launcher pairs with the new invite automatically:",
+  "special": []
+ },
+ {
+  "key": "Windows asks for administrator rights; the launcher pairs with the service automatically:",
+  "en": "Windows asks for administrator rights; the launcher pairs with the service automatically:",
+  "special": []
+ },
+ {
+  "key": "core %s",
+  "en": "core %s",
+  "special": []
+ },
+ {
+  "key": "daemon.json — edit it, then restart the service (never reinstall)",
+  "en": "daemon.json — edit it, then restart the service (never reinstall)",
+  "special": []
+ },
+ {
+  "key": "default path — the daemon has not reported it yet",
+  "en": "default path — the daemon has not reported it yet",
+  "special": []
+ },
+ {
+  "key": "default",
+  "en": "default",
+  "special": []
+ },
+ {
+  "key": "log path",
+  "en": "log path",
+  "special": []
+ },
+ {
+  "key": "mTLS on/off",
+  "en": "mTLS on/off",
+  "special": []
+ },
+ {
+  "key": "not reported",
+  "en": "not reported",
+  "special": []
+ },
+ {
+  "key": "rotation: size MB / backups / age h",
+  "en": "rotation: size MB / backups / age h",
+  "special": []
+ },
+ {
+  "key": "shown on the machine only",
+  "en": "shown on the machine only",
+  "special": []
+ },
+ {
+  "key": "the daemon does not answer",
+  "en": "the daemon does not answer",
+  "special": []
+ },
+ {
+  "key": "unreachable",
+  "en": "unreachable",
+  "special": []
+ },
+ {
+  "key": "uptime %s",
+  "en": "uptime %s",
+  "special": []
+ },
+ {
+  "key": "where it answers",
+  "en": "where it answers",
+  "special": []
+ },
+ {
+  "key": "— the core restarted —",
+  "en": "— the core restarted —",
+  "special": []
+ },
+ {
+  "key": "⚠ %s runs core %s; this launcher builds configs for %s. The old core may reject them — it will then roll back to the last working config.",
+  "en": "⚠ %s runs core %s; this launcher builds configs for %s. The old core may reject them — it will then roll back to the last working config.",
+  "special": []
+ },
+ {
+  "key": "⚠ Core %s is older than required (%s)",
+  "en": "⚠ Core %s is older than required (%s)",
+  "special": []
+ },
+ {
+  "key": "✅ Answers",
+  "en": "✅ Answers",
+  "special": []
+ },
+ {
+  "key": "✅ Core %s is current",
+  "en": "✅ Core %s is current",
+  "special": []
+ },
+ {
+  "key": "✅ Core %s is newer than required (%s)",
+  "en": "✅ Core %s is newer than required (%s)",
+  "special": []
+ },
+ {
+  "key": "✅ Paired · certificate ok",
+  "en": "✅ Paired · certificate ok",
+  "special": []
+ },
+ {
+  "key": "✅ The daemon answers — nothing to fix here.",
+  "en": "✅ The daemon answers — nothing to fix here.",
+  "special": []
+ },
+ {
+  "key": "✅ The daemon answers, uptime %s — nothing to fix here.",
+  "en": "✅ The daemon answers, uptime %s — nothing to fix here.",
+  "special": []
+ },
+ {
+  "key": "✖ Not answering for %s: %s",
+  "en": "✖ Not answering for %s: %s",
+  "special": []
+ },
+ {
+  "key": "✖ Not answering: %s",
+  "en": "✖ Not answering: %s",
+  "special": []
+ },
+ {
+  "key": "✖ Not paired yet",
+  "en": "✖ Not paired yet",
+  "special": []
+ },
+ {
+  "key": "✖ The TLS mode does not match the daemon's: %s",
+  "en": "✖ The TLS mode does not match the daemon's: %s",
+  "special": []
+ },
+ {
+  "key": "✖ The daemon does not trust this launcher: %s",
+  "en": "✖ The daemon does not trust this launcher: %s",
+  "special": []
+ },
+ {
+  "key": "✖ The daemon refuses this launcher: %s",
+  "en": "✖ The daemon refuses this launcher: %s",
+  "special": []
+ },
+ {
+  "key": "✖ The daemon's certificate changed: %s",
+  "en": "✖ The daemon's certificate changed: %s",
+  "special": []
+ },
+ {
+  "key": "The daemon engine is not active yet: it switches on by itself once the service answers and the launcher is paired (stop the VPN first if it is running).",
+  "en": "The daemon engine is not active yet: it switches on by itself once the service answers and the launcher is paired (stop the VPN first if it is running).",
+  "special": []
+ },
+ {
+  "key": "%s is older than required %s",
+  "en": "%s is older than required %s",
+  "special": []
+ },
+ {
+  "key": "%s · %s/%s · service %s (%s, not installed as a service)",
+  "en": "%s · %s/%s · service %s (%s, not installed as a service)",
+  "special": []
+ },
+ {
+  "key": "Daemon command:",
+  "en": "Daemon command:",
+  "special": []
+ },
+ {
+  "key": "Edit daemon.json",
+  "en": "Edit daemon.json",
+  "special": []
+ },
+ {
+  "key": "Install the service",
+  "en": "Install the service",
+  "special": []
+ },
+ {
+  "key": "Named commands let this window run them on the daemon (the Daemon command row above). Add this to daemon.json:",
+  "en": "Named commands let this window run them on the daemon (the Daemon command row above). Add this to daemon.json:",
+  "special": []
+ },
+ {
+  "key": "No recipes for openrc yet — see the lxd guide",
+  "en": "No recipes for openrc yet — see the lxd guide",
+  "special": []
+ },
+ {
+  "key": "Nothing changed",
+  "en": "Nothing changed",
+  "special": []
+ },
+ {
+  "key": "Nothing helps? Reinstall the core (Core section).",
+  "en": "Nothing helps? Reinstall the core (Core section).",
+  "special": []
+ },
+ {
+  "key": "Open Core",
+  "en": "Open Core",
+  "special": []
+ },
+ {
+  "key": "Open Pairing",
+  "en": "Open Pairing",
+  "special": []
+ },
+ {
+  "key": "Open Uninstall",
+  "en": "Open Uninstall",
+  "special": []
+ },
+ {
+  "key": "Paste into the top level of daemon.json next to \"listen\". The daemon validates names on start: a bad name keeps it from starting.",
+  "en": "Paste into the top level of daemon.json next to \"listen\". The daemon validates names on start: a bad name keeps it from starting.",
+  "special": []
+ },
+ {
+  "key": "Restart the service",
+  "en": "Restart the service",
+  "special": []
+ }
+]

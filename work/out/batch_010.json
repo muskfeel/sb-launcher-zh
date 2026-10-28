@@ -1,0 +1,482 @@
+[
+ {
+  "key": "Enable all nodes",
+  "value": "启用所有节点"
+ },
+ {
+  "key": "Disable all nodes",
+  "value": "禁用所有节点"
+ },
+ {
+  "key": "Paste links or JSON…",
+  "value": "粘贴链接或 JSON..."
+ },
+ {
+  "key": "Add nodes to folder",
+  "value": "将节点添加到文件夹"
+ },
+ {
+  "key": "Subscription URLs, direct links (vless://, wireguard://, …), [Interface]/[Peer] config text or a sing-box outbound JSON. One per line.",
+  "value": "订阅 URL、直接链接（vless://、wireguard://、...）、[Interface]/[Peer] 配置文本或单框出站 JSON。每行一个。"
+ },
+ {
+  "key": "Select config files (.conf / .vpn / .txt / .json)",
+  "value": "选择配置文件（.conf / .vpn / .txt / .json）"
+ },
+ {
+  "key": "a subscription URL cannot be added to a folder — add it in Sources, then fill the folder from it",
+  "value": "订阅 URL 无法添加到文件夹 - 将其添加到源中，然后从中填充文件夹"
+ },
+ {
+  "key": "Some files were not added",
+  "value": "部分文件未添加"
+ },
+ {
+  "key": "Nodes added",
+  "value": "添加节点"
+ },
+ {
+  "key": "%d node(s) added to the folder.",
+  "value": "%d 个节点已添加到该文件夹​​。"
+ },
+ {
+  "key": "Fill from subscription…",
+  "value": "从订阅中填写..."
+ },
+ {
+  "key": "Fill folder from subscription",
+  "value": "填写订阅中的文件夹"
+ },
+ {
+  "key": "Fill",
+  "value": "充满"
+ },
+ {
+  "key": "Nodes of the chosen subscription are merged into this folder by raw tag: your enabled flags, detours and order survive, and a node that disappeared at the provider stays in the folder.",
+  "value": "所选订阅的节点通过原始标签合并到此文件夹中：您启用的标志、绕行和订单将保留，并且在提供商处消失的节点仍保留在该文件夹中。"
+ },
+ {
+  "key": "No subscriptions yet",
+  "value": "还没有订阅"
+ },
+ {
+  "key": "Add a subscription in Sources first, then fill the folder from it.",
+  "value": "首先在源中添加订阅，然后从中填充文件夹。"
+ },
+ {
+  "key": "not fetched yet",
+  "value": "尚未获取"
+ },
+ {
+  "key": "%d node(s)",
+  "value": "%d 个节点"
+ },
+ {
+  "key": "Subscription %q has no nodes yet — it has never been fetched. Refresh it now?",
+  "value": "订阅 %q 还没有节点——它从未被获取。现在刷新一下？"
+ },
+ {
+  "key": "Filled with warnings",
+  "value": "充满了警告"
+ },
+ {
+  "key": "Folder filled",
+  "value": "文件夹已满"
+ },
+ {
+  "key": "The folder is already up to date with this subscription.",
+  "value": "该文件夹已随此订阅更新。"
+ },
+ {
+  "key": "Folder filled from %q.",
+  "value": "文件夹已由 %q 填充。"
+ },
+ {
+  "key": "Copy nodes as JSON",
+  "value": "将节点复制为 JSON"
+ },
+ {
+  "key": "Nothing to copy",
+  "value": "没有什么可复制的"
+ },
+ {
+  "key": "None of the folder nodes could be built into an outbound.",
+  "value": "任何文件夹节点都不能构建到出站中。"
+ },
+ {
+  "key": "All nodes of this folder are disabled — they do not reach the config either.",
+  "value": "该文件夹的所有节点都被禁用 - 它们也无法访问配置。"
+ },
+ {
+  "key": "%d node(s) copied as JSON.",
+  "value": "%d 个节点复制为 JSON。"
+ },
+ {
+  "key": "%d node(s) could not be built and were left out.",
+  "value": "%d 个节点无法构建并被排除。"
+ },
+ {
+  "key": "Nodes: %d",
+  "value": "节点：%d"
+ },
+ {
+  "key": " + %d unsupported",
+  "value": "+ %d 不受支持"
+ },
+ {
+  "key": "could not be parsed",
+  "value": "无法解析"
+ },
+ {
+  "key": "Origin",
+  "value": "起源"
+ },
+ {
+  "key": "Copy source line",
+  "value": "复制源行"
+ },
+ {
+  "key": "Raw response",
+  "value": "原始响应"
+ },
+ {
+  "key": "Reload",
+  "value": "重新加载"
+ },
+ {
+  "key": "Not fetched — press Reload to download the body as it is now.",
+  "value": "未获取 — 按“重新加载”按现在的样子下载正文。"
+ },
+ {
+  "key": "Fetch failed: %s",
+  "value": "获取失败：%s"
+ },
+ {
+  "key": "HTTP %d · %s",
+  "value": "HTTP %d·%s"
+ },
+ {
+  "key": "base64",
+  "value": "64位基数"
+ },
+ {
+  "key": "urldecode",
+  "value": "网址解码"
+ },
+ {
+  "key": "pretty-print",
+  "value": "漂亮的印刷品"
+ },
+ {
+  "key": "A backup of the original file was saved next to it:",
+  "value": "原始文件的备份保存在它旁边："
+ },
+ {
+  "key": "Configuration migration report",
+  "value": "配置迁移报告"
+ },
+ {
+  "key": "The saved configuration was migrated to the new storage format. Some settings could not be carried over unchanged:",
+  "value": "保存的配置已迁移到新的存储格式。某些设置无法原样保留："
+ },
+ {
+  "key": "Disabled subscriptions are not auto-fetched, so this one has no nodes yet. Click below to fetch it once without enabling it.",
+  "value": "禁用的订阅不会自动获取，因此该订阅还没有节点。单击下面即可获取一次而不启用它。"
+ },
+ {
+  "key": "Group tag",
+  "value": "组标签"
+ },
+ {
+  "key": "MTU",
+  "value": "MTU"
+ },
+ {
+  "key": "Read-only: the sing-box outbounds this subscription is built from. Nodes of a subscription are not free-form — they are refreshed from the provider.",
+  "value": "只读：此订阅所基于的单框出站。订阅的节点不是自由形式的——它们是从提供者处刷新的。"
+ },
+ {
+  "key": "Rebuild the outbound from the original URI/JSON, discarding manual edits?",
+  "value": "从原始 URI/JSON 重建出站，放弃手动编辑？"
+ },
+ {
+  "key": "Regen from raw",
+  "value": "从原始再生"
+ },
+ {
+  "key": "The outbound as it will reach the config.",
+  "value": "出站将到达配置。"
+ },
+ {
+  "key": "The sing-box outbound this node is built from — exactly what the build writes to config.json. Edit and press Apply to store it; Regen from raw rebuilds it from the original URI/JSON. Tag and detour are restamped by the launcher at build time.",
+  "value": "该节点的单盒出站是根据构建写入 config.json 的内容构建的。编辑后按应用保存； Regen from raw 从原始 URI/JSON 重建它。标记和绕行由启动器在构建时重新标记。"
+ },
+ {
+  "key": "The source arrives as one entry instead of every node. Its nodes stay in the config as that group's members.",
+  "value": "源作为一个条目而不是每个节点到达。它的节点作为该组的成员保留在配置中。"
+ },
+ {
+  "key": "Variables (work in both fields): {$tag} original node tag · {$server} address · {$port} port · {$scheme} protocol (also {$protocol}) · {$label} name from the link's #fragment · {$comment} comment · {$num} node number from 1",
+  "value": "变量（在两个字段中都有效）： {$tag} 原始节点标签 · {$server} 地址 · {$port} 端口 · {$scheme} 协议（也为 {$protocol}） · {$label} 链接 #fragment 中的名称 · {$comment} 注释 · {$num} 从 1 开始的节点编号"
+ },
+ {
+  "key": "node has no body — set a URI or JSON",
+  "value": "节点没有主体 — 设置 URI 或 JSON"
+ },
+ {
+  "key": "No nodes yet — refresh this subscription in the sources list.",
+  "value": "尚无节点 — 在源列表中刷新此订阅。"
+ },
+ {
+  "key": "no working members",
+  "value": "没有工作成员"
+ },
+ {
+  "key": "node error(s)",
+  "value": "节点错误"
+ },
+ {
+  "key": "Regen",
+  "value": "雷根"
+ },
+ {
+  "key": "Origin is empty.",
+  "value": "原点是空的。"
+ },
+ {
+  "key": "Subscription URL, Direct Links, JSON, WG/AWG INI, OpenVPN ...",
+  "value": "订阅 URL、直接链接、JSON、WG/AWG INI、OpenVPN ..."
+ },
+ {
+  "key": "subscription has never been updated — no nodes yet; press Update",
+  "value": "订阅从未更新过——还没有节点；按更新"
+ },
+ {
+  "key": "reason was not stored",
+  "value": "原因未存储"
+ },
+ {
+  "key": "last update failed: %s",
+  "value": "上次更新失败：%s"
+ },
+ {
+  "key": "; config built from nodes fetched at %s",
+  "value": ";从 %s 获取的节点构建的配置"
+ },
+ {
+  "key": "User-Agent",
+  "value": "用户代理"
+ },
+ {
+  "key": "as in system",
+  "value": "如系统中一样"
+ },
+ {
+  "key": "client User-Agent",
+  "value": "客户端用户代理"
+ },
+ {
+  "key": "device ID for this subscription",
+  "value": "此订阅的设备 ID"
+ },
+ {
+  "key": "Some providers return a different node list depending on the client that asks, and bind the subscription to a device by its ID. Leave “as in system” to use the global settings.",
+  "value": "一些提供程序根据请求的客户端返回不同的节点列表，并通过设备 ID 将订阅绑定到设备。保留“与系统中一样”以使用全局设置。"
+ },
+ {
+  "key": "Offer provider relays in Directions",
+  "value": "提供方向中的提供商中继"
+ },
+ {
+  "key": "Some providers route a node through an intermediate relay. The relay is always part of the route — it shows in the node list with a gear and can be picked as a chain hop. Turn this on to also offer it in Directions, alongside regular nodes.",
+  "value": "一些提供商通过中间中继路由节点。中继始终是路线的一部分 - 它在节点列表中显示为带有齿轮，并且可以被选为链跳。打开此选项，还可在方向中与常规节点一起提供它。"
+ },
+ {
+  "key": "%d node(s) dial through %d provider relay(s)",
+  "value": "%d 个节点通过 %d 个提供商中继拨号"
+ },
+ {
+  "key": "The machine did not return its groups — press ↻ to retry",
+  "value": "机器未返回其组 — 按 ↻ 重试"
+ },
+ {
+  "key": "The input was recognized, but nothing was added.",
+  "value": "输入已被识别，但未添加任何内容。"
+ },
+ {
+  "key": "Nothing added",
+  "value": "没有添加任何内容"
+ },
+ {
+  "key": "Sources added",
+  "value": "添加来源"
+ },
+ {
+  "key": "%d subscription(s)",
+  "value": "%d 个订阅"
+ },
+ {
+  "key": "%d folder(s)",
+  "value": "%d 个文件夹"
+ },
+ {
+  "key": "%d item(s) are already in the list.",
+  "value": "%d 个项目已在列表中。"
+ },
+ {
+  "key": "Added: %s.",
+  "value": "添加：%s。"
+ },
+ {
+  "key": "%d item(s) skipped — already in the list.",
+  "value": "%d 项已跳过 — 已在列表中。"
+ },
+ {
+  "key": "Re-test now",
+  "value": "立即重新测试"
+ },
+ {
+  "key": "Device ID (HWID)",
+  "value": "设备 ID (HWID)"
+ },
+ {
+  "key": "Origin (wg-quick config)",
+  "value": "起源（wg-快速配置）"
+ },
+ {
+  "key": "Nodes moved, so their tags changed. Links to them were updated in: %s",
+  "value": "节点移动了，因此它们的标签也发生了变化。它们的链接已更新于：%s"
+ },
+ {
+  "key": "Links updated",
+  "value": "链接已更新"
+ },
+ {
+  "key": "Max nodes clamped to %d — that is the hard ceiling.",
+  "value": "最大节点数限制为 %d — 这是硬性上限。"
+ },
+ {
+  "key": "%s — a Direction with this tag already exists here, the incoming one is skipped",
+  "value": "%s — 此处已存在带有此标记的方向，将跳过传入的方向"
+ },
+ {
+  "key": "%s — the tag mask is gone, only prefix and postfix apply now",
+  "value": "%s — 标签掩码已消失，现在仅适用前缀和后缀"
+ },
+ {
+  "key": "%s — per-source Directions are gone, this one is not imported (create a global Direction with a filter instead)",
+  "value": "%s — 每个源的方向已消失，该方向未导入（而是使用过滤器创建全局方向）"
+ },
+ {
+  "key": "%s — these subscription settings are not part of the shared format and did not go into the file; the provider may return a different set of nodes on the other machine",
+  "value": "%s — 这些订阅设置不是共享格式的一部分，并且未进入文件；提供者可能会在另一台机器上返回一组不同的节点"
+ },
+ {
+  "key": "%s — the \"exclude from the global list\" flag is gone; its nodes stay in the candidate pool (fold the source into a group for the previous behaviour)",
+  "value": "%s — “从全局列表中排除”标志消失了；它的节点留在候选池中（将源折叠到先前行为的组中）"
+ },
+ {
+  "key": "%s — label dropped, a node is named by its tag",
+  "value": "%s — 标签被删除，节点由其标签命名"
+ },
+ {
+  "key": "%s — these Direction options are settings of this machine (folder replacements, service tags, nodes) and did not go into the file; a node joins a Direction through its filter",
+  "value": "%s — 这些方向选项是本机的设置（文件夹替换、服务标签、节点），未进入文件；节点通过其过滤器加入方向"
+ },
+ {
+  "key": "%s — these Direction options are not Directions or known names here, they were left out; a node joins a Direction through its filter",
+  "value": "%s — 这些方向选项不是方向或此处的已知名称，它们被遗漏了；节点通过其过滤器加入方向"
+ },
+ {
+  "key": "%s — this group picks its members by a rule, which the launcher does not support; it was not imported, and links to it will not resolve",
+  "value": "%s — 该组按照启动器不支持的规则选择其成员；它尚未导入，并且指向它的链接将无法解析"
+ },
+ {
+  "key": "Settings are merged, not replaced: subscriptions match by address, servers by what they connect to, and anything of yours that is not in the file stays. Routing rules are the exception — they are replaced by the file.",
+  "value": "设置被合并，而不是被替换：订阅按地址匹配，服务器按连接的内容匹配，文件中没有的任何内容都会保留。路由规则是例外——它们被文件替换。"
+ },
+ {
+  "key": "Added: %d",
+  "value": "添加：%d"
+ },
+ {
+  "key": "Updated subscriptions: %d",
+  "value": "更新的订阅：%d"
+ },
+ {
+  "key": "Already here, skipped: %d server(s)",
+  "value": "已经在这里，跳过：%d 服务器"
+ },
+ {
+  "key": "AmneziaWG obfuscation",
+  "value": "AmneziaWG 混淆"
+ },
+ {
+  "key": "domain to masquerade as, e.g. example.com",
+  "value": "伪装成的域名，例如example.com"
+ },
+ {
+  "key": "Node has no body to edit",
+  "value": "节点没有要编辑的主体"
+ },
+ {
+  "key": "%s is required",
+  "value": "%s 为必填项"
+ },
+ {
+  "key": "%s is invalid",
+  "value": "%s 无效"
+ },
+ {
+  "key": "Junk datagrams go out before the handshake, and the first one is disguised as traffic to the domain above. Packet padding (s1-s4) and magic headers (h1-h4) stay at the WireGuard defaults — any other value there and the server stops recognising the handshake. Not available with a detour: a node dialled through another outbound does not raise its own transport.",
+  "value": "垃圾数据报在握手之前就出去了，第一个数据报伪装成上面域的流量。数据包填充 (s1-s4) 和魔术标头 (h1-h4) 保留在 WireGuard 默认值 - 任何其他值，服务器将停止识别握手。绕道不可用：通过另一个出站拨号的节点不会提高自己的传输。"
+ },
+ {
+  "key": "This node carries AmneziaWG obfuscation fields, but it dials through a detour — the transport is raised by the detour's outbound, so the fields do nothing here and still travel into the config. Clear the detour to edit or remove them.",
+  "value": "该节点携带 AmneziaWG 混淆字段，但它通过绕行进行拨号 - 传输由绕行的出站引发，因此这些字段在这里不执行任何操作，仍然进入配置。清除绕行以编辑或删除它们。"
+ },
+ {
+  "key": "Interrupt existing connections on position toggle",
+  "value": "在位置切换时中断现有连接"
+ },
+ {
+  "key": "Otherwise live connections finish on the old route; only new ones take the new path.",
+  "value": "否则，实时连接将在旧路由上完成；只有新人走新路。"
+ },
+ {
+  "key": "starting",
+  "value": "开始"
+ },
+ {
+  "key": "active",
+  "value": "积极的"
+ },
+ {
+  "key": "idle",
+  "value": "闲置的"
+ },
+ {
+  "key": "Advertise this node as an exit node",
+  "value": "将此节点通告为退出节点"
+ },
+ {
+  "key": "Advertise routes",
+  "value": "发布路线广告"
+ },
+ {
+  "key": "ACL tags",
+  "value": "ACL标签"
+ },
+ {
+  "key": "optional — CIDR list, comma-separated",
+  "value": "可选 — CIDR 列表，以逗号分隔"
+ },
+ {
+  "key": "optional — tag:name list, comma-separated",
+  "value": "可选 — 标签：名称列表，以逗号分隔"
+ },
+ {
+  "key": "Advertised routes and exit nodes stay pending until they are approved in the tailnet admin console.",
+  "value": "公布的路由和退出节点将保持待定状态，直到在 tailnet 管理控制台中获得批准。"
+ }
+]

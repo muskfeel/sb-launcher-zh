@@ -1,0 +1,602 @@
+[
+ {
+  "key": "The daemon service is installed. Remove it first with this command as administrator, otherwise the launcher will not be able to do it after the data is gone:",
+  "en": "The daemon service is installed. Remove it first with this command as administrator, otherwise the launcher will not be able to do it after the data is gone:",
+  "special": []
+ },
+ {
+  "key": "Remove all data…",
+  "en": "Remove all data…",
+  "special": []
+ },
+ {
+  "key": "Remove all launcher data",
+  "en": "Remove all launcher data",
+  "special": []
+ },
+ {
+  "key": "Shadows: %s",
+  "en": "Shadows: %s",
+  "special": []
+ },
+ {
+  "key": "Source: %s",
+  "en": "Source: %s",
+  "special": []
+ },
+ {
+  "key": "Stop the VPN first",
+  "en": "Stop the VPN first",
+  "special": []
+ },
+ {
+  "key": "Storage",
+  "en": "Storage",
+  "special": []
+ },
+ {
+  "key": "Switching moves the data to: %s",
+  "en": "Switching moves the data to: %s",
+  "special": []
+ },
+ {
+  "key": "System",
+  "en": "System",
+  "special": []
+ },
+ {
+  "key": "Template",
+  "en": "Template",
+  "special": []
+ },
+ {
+  "key": "The core folder is read-only; download the core into the data folder first",
+  "en": "The core folder is read-only; download the core into the data folder first",
+  "special": []
+ },
+ {
+  "key": "The daemon service is installed. Remove it first with this command, otherwise the launcher will not be able to do it after the data is gone:",
+  "en": "The daemon service is installed. Remove it first with this command, otherwise the launcher will not be able to do it after the data is gone:",
+  "special": []
+ },
+ {
+  "key": "The daemon service is installed and is not removed with the data: it runs from its own root-owned copy of the core. To remove the service as well, run this command:",
+  "en": "The daemon service is installed and is not removed with the data: it runs from its own root-owned copy of the core. To remove the service as well, run this command:",
+  "special": []
+ },
+ {
+  "key": "The following will be deleted. The program folder itself is not touched — delete it yourself afterwards.",
+  "en": "The following will be deleted. The program folder itself is not touched — delete it yourself afterwards.",
+  "special": []
+ },
+ {
+  "key": "The program folder is read-only",
+  "en": "The program folder is read-only",
+  "special": []
+ },
+ {
+  "key": "The service runs a binary your user can modify. Install or update the service to move it to a root-owned copy.",
+  "en": "The service runs a binary your user can modify. Install or update the service to move it to a root-owned copy.",
+  "special": []
+ },
+ {
+  "key": "Service binary: %s",
+  "en": "Service binary: %s",
+  "special": []
+ },
+ {
+  "key": "The service runs a different core (%s) than the launcher (%s). Install or update the service to switch it to the launcher core.",
+  "en": "The service runs a different core (%s) than the launcher (%s). Install or update the service to switch it to the launcher core.",
+  "special": []
+ },
+ {
+  "key": "The launcher core (%s) is older than %s and cannot install a root-owned service. Update the core first: Local tab → Download/Reinstall v%s, then install or update the service.",
+  "en": "The launcher core (%s) is older than %s and cannot install a root-owned service. Update the core first: Local tab → Download/Reinstall v%s, then install or update the service.",
+  "special": []
+ },
+ {
+  "key": "The launcher core (%s) is not a numbered sing-box-lx release, so the launcher cannot confirm it installs a root-owned service. Update the core first: Local tab → Download/Reinstall v%s, then install or update the service.",
+  "en": "The launcher core (%s) is not a numbered sing-box-lx release, so the launcher cannot confirm it installs a root-owned service. Update the core first: Local tab → Download/Reinstall v%s, then install or update the service.",
+  "special": []
+ },
+ {
+  "key": "The service has no core binary to run. Install or update the service to restore it.",
+  "en": "The service has no core binary to run. Install or update the service to restore it.",
+  "special": []
+ },
+ {
+  "key": "The daemon service is not protected",
+  "en": "The daemon service is not protected",
+  "special": []
+ },
+ {
+  "key": "The daemon service runs as root from a file your user account can modify:\n%s\n\nAny program running as you could replace it and gain root access. Run this command in Terminal to move the service to a root-owned copy of the core (it asks for your sudo password). The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.",
+  "en": "The daemon service runs as root from a file your user account can modify:\n%s\n\nAny program running as you could replace it and gain root access. Run this command in Terminal to move the service to a root-owned copy of the core (it asks for your sudo password). The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.",
+  "special": []
+ },
+ {
+  "key": "The daemon service runs as root from a file your user account can modify:\n%s\n\nAny program running as you could replace it and gain root access. %s The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.",
+  "en": "The daemon service runs as root from a file your user account can modify:\n%s\n\nAny program running as you could replace it and gain root access. %s The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.",
+  "special": []
+ },
+ {
+  "key": "Unused data",
+  "en": "Unused data",
+  "special": []
+ },
+ {
+  "key": "Unused system data folder",
+  "en": "Unused system data folder",
+  "special": []
+ },
+ {
+  "key": "Version: %s, source: %s",
+  "en": "Version: %s, source: %s",
+  "special": []
+ },
+ {
+  "key": "Where the launcher keeps its files. Attach “Copy paths” to bug reports.",
+  "en": "Where the launcher keeps its files. Attach “Copy paths” to bug reports.",
+  "special": []
+ },
+ {
+  "key": "found",
+  "en": "found",
+  "special": []
+ },
+ {
+  "key": "unknown",
+  "en": "unknown",
+  "special": []
+ },
+ {
+  "key": "Existing data found",
+  "en": "Existing data found",
+  "special": []
+ },
+ {
+  "key": "Your settings and subscriptions were found in:\n%s\n\nThe launcher is running in portable mode because portable.txt lies next to the program. Switch to the found data? The launcher will restart.",
+  "en": "Your settings and subscriptions were found in:\n%s\n\nThe launcher is running in portable mode because portable.txt lies next to the program. Switch to the found data? The launcher will restart.",
+  "special": []
+ },
+ {
+  "key": "Data move in progress",
+  "en": "Data move in progress",
+  "special": []
+ },
+ {
+  "key": "The launcher will restart immediately after the move.",
+  "en": "The launcher will restart immediately after the move.",
+  "special": []
+ },
+ {
+  "key": "Data will be moved from:\n%s\nto:\n%s",
+  "en": "Data will be moved from:\n%s\nto:\n%s",
+  "special": []
+ },
+ {
+  "key": "Left over from the move: %s",
+  "en": "Left over from the move: %s",
+  "special": []
+ },
+ {
+  "key": "System data folder with settings — kept by default",
+  "en": "System data folder with settings — kept by default",
+  "special": []
+ },
+ {
+  "key": "Only: %s",
+  "en": "Only: %s",
+  "special": []
+ },
+ {
+  "key": "TUN needs administrator rights",
+  "en": "TUN needs administrator rights",
+  "special": []
+ },
+ {
+  "key": "TUN mode creates a network adapter and changes routes, which Windows allows only to administrators. The launcher is running without administrator rights.",
+  "en": "TUN mode creates a network adapter and changes routes, which Windows allows only to administrators. The launcher is running without administrator rights.",
+  "special": []
+ },
+ {
+  "key": "Proxy mode needs no rights: programs that use the system proxy (browsers and most apps) go through the local proxy on port %s, the rest connect directly.",
+  "en": "Proxy mode needs no rights: programs that use the system proxy (browsers and most apps) go through the local proxy on port %s, the rest connect directly.",
+  "special": []
+ },
+ {
+  "key": "Windows will ask for an administrator account, and the launcher will run under that account.",
+  "en": "Windows will ask for an administrator account, and the launcher will run under that account.",
+  "special": []
+ },
+ {
+  "key": "Restart as administrator",
+  "en": "Restart as administrator",
+  "special": []
+ },
+ {
+  "key": "Switch to proxy mode",
+  "en": "Switch to proxy mode",
+  "special": []
+ },
+ {
+  "key": "Close the configurator first",
+  "en": "Close the configurator first",
+  "special": []
+ },
+ {
+  "key": "The administrator prompt was cancelled.",
+  "en": "The administrator prompt was cancelled.",
+  "special": []
+ },
+ {
+  "key": "Waiting for the administrator command…",
+  "en": "Waiting for the administrator command…",
+  "special": []
+ },
+ {
+  "key": "Could not run the command as administrator: %s",
+  "en": "Could not run the command as administrator: %s",
+  "special": []
+ },
+ {
+  "key": "The command failed (exit code %d). Run it in an elevated terminal to see its output:",
+  "en": "The command failed (exit code %d). Run it in an elevated terminal to see its output:",
+  "special": []
+ },
+ {
+  "key": "The administrator command is still running. Check the status again in a minute.",
+  "en": "The administrator command is still running. Check the status again in a minute.",
+  "special": []
+ },
+ {
+  "key": "The service is installed, but no invite was received. Pair it as a separate step:",
+  "en": "The service is installed, but no invite was received. Pair it as a separate step:",
+  "special": []
+ },
+ {
+  "key": "The command succeeded, but pairing failed: %s",
+  "en": "The command succeeded, but pairing failed: %s",
+  "special": []
+ },
+ {
+  "key": "The service data folder was readable by another account before this install. Rotate the admin secret in daemon.json and pair again if this computer is shared.",
+  "en": "The service data folder was readable by another account before this install. Rotate the admin secret in daemon.json and pair again if this computer is shared.",
+  "special": []
+ },
+ {
+  "key": "The service was started.",
+  "en": "The service was started.",
+  "special": []
+ },
+ {
+  "key": "The service was removed.",
+  "en": "The service was removed.",
+  "special": []
+ },
+ {
+  "key": "The core copy was created or updated.",
+  "en": "The core copy was created or updated.",
+  "special": []
+ },
+ {
+  "key": "Could not restart as administrator: %s",
+  "en": "Could not restart as administrator: %s",
+  "special": []
+ },
+ {
+  "key": "sing-box was started with administrator rights, and this launcher cannot stop it without them. Restart the launcher as administrator to stop it.",
+  "en": "sing-box was started with administrator rights, and this launcher cannot stop it without them. Restart the launcher as administrator to stop it.",
+  "special": []
+ },
+ {
+  "key": "Administrator",
+  "en": "Administrator",
+  "special": []
+ },
+ {
+  "key": "Start with Windows",
+  "en": "Start with Windows",
+  "special": []
+ },
+ {
+  "key": "Connect VPN at sign-in",
+  "en": "Connect VPN at sign-in",
+  "special": []
+ },
+ {
+  "key": "Windows starts another copy: %s",
+  "en": "Windows starts another copy: %s",
+  "special": []
+ },
+ {
+  "key": "Change this in a normal start, not as administrator",
+  "en": "Change this in a normal start, not as administrator",
+  "special": []
+ },
+ {
+  "key": "Requires administrator rights",
+  "en": "Requires administrator rights",
+  "special": []
+ },
+ {
+  "key": "Autostart entry (Start with Windows)",
+  "en": "Autostart entry (Start with Windows)",
+  "special": []
+ },
+ {
+  "key": "Ask for administrator rights at start when TUN is enabled",
+  "en": "Ask for administrator rights at start when TUN is enabled",
+  "special": []
+ },
+ {
+  "key": "Off: the launcher starts without rights and asks when you press Start",
+  "en": "Off: the launcher starts without rights and asks when you press Start",
+  "special": []
+ },
+ {
+  "key": "portable.txt ignored",
+  "en": "portable.txt ignored",
+  "special": []
+ },
+ {
+  "key": "Without administrator rights the old copy in the program folder stays, and on the next start the launcher copies the data from it into the data folder again. To remove it, run the cleanup as administrator.",
+  "en": "Without administrator rights the old copy in the program folder stays, and on the next start the launcher copies the data from it into the data folder again. To remove it, run the cleanup as administrator.",
+  "special": []
+ },
+ {
+  "key": "Install service",
+  "en": "Install service",
+  "special": []
+ },
+ {
+  "key": "With administrator rights the launcher starts the sing-box core from a protected copy in Program Files that your user account cannot modify, and there is no such copy yet.",
+  "en": "With administrator rights the launcher starts the sing-box core from a protected copy in Program Files that your user account cannot modify, and there is no such copy yet.",
+  "special": []
+ },
+ {
+  "key": "With administrator rights the launcher starts the sing-box core from a protected copy in Program Files, and the copy does not match the launcher's current core (%s) — for example after a core update.",
+  "en": "With administrator rights the launcher starts the sing-box core from a protected copy in Program Files, and the copy does not match the launcher's current core (%s) — for example after a core update.",
+  "special": []
+ },
+ {
+  "key": "With administrator rights the launcher starts the sing-box core from a protected copy, and the copy's location failed the protection check:\n%s",
+  "en": "With administrator rights the launcher starts the sing-box core from a protected copy, and the copy's location failed the protection check:\n%s",
+  "special": []
+ },
+ {
+  "key": "The daemon service is installed on this computer, so the command is its Install or update command: it refreshes the same copy and restarts the service.",
+  "en": "The daemon service is installed on this computer, so the command is its Install or update command: it refreshes the same copy and restarts the service.",
+  "special": []
+ },
+ {
+  "key": "Click Run as administrator (or run this command in PowerShell as administrator), then click Retry:",
+  "en": "Click Run as administrator (or run this command in PowerShell as administrator), then click Retry:",
+  "special": []
+ },
+ {
+  "key": "If the command below reports the same problem, fix the permissions of that path.",
+  "en": "If the command below reports the same problem, fix the permissions of that path.",
+  "special": []
+ },
+ {
+  "key": "Run this command in PowerShell as administrator, then click Retry:",
+  "en": "Run this command in PowerShell as administrator, then click Retry:",
+  "special": []
+ },
+ {
+  "key": "Run anyway starts the launcher's own core with administrator rights: any program running under your account could replace that file and get administrator rights on the next start. The choice lasts until the launcher is closed.",
+  "en": "Run anyway starts the launcher's own core with administrator rights: any program running under your account could replace that file and get administrator rights on the next start. The choice lasts until the launcher is closed.",
+  "special": []
+ },
+ {
+  "key": "With administrator rights the core writes its log to a protected folder, and the folder is missing:\n%s",
+  "en": "With administrator rights the core writes its log to a protected folder, and the folder is missing:\n%s",
+  "special": []
+ },
+ {
+  "key": "With administrator rights the core writes its log to a protected folder, and the folder failed the protection check:\n%s",
+  "en": "With administrator rights the core writes its log to a protected folder, and the folder failed the protection check:\n%s",
+  "special": []
+ },
+ {
+  "key": "Any program running under your account could replace the log folder and get administrator rights on the next start. Run anyway writes the core output to the launcher's own log instead; the choice lasts until the launcher is closed.",
+  "en": "Any program running under your account could replace the log folder and get administrator rights on the next start. Run anyway writes the core output to the launcher's own log instead; the choice lasts until the launcher is closed.",
+  "special": []
+ },
+ {
+  "key": "Core log folder is missing",
+  "en": "Core log folder is missing",
+  "special": []
+ },
+ {
+  "key": "Core log folder is not protected",
+  "en": "Core log folder is not protected",
+  "special": []
+ },
+ {
+  "key": "Run anyway",
+  "en": "Run anyway",
+  "special": []
+ },
+ {
+  "key": "The daemon service still runs the previous core. Install the new core into the service and restart it (Run as administrator):",
+  "en": "The daemon service still runs the previous core. Install the new core into the service and restart it (Run as administrator):",
+  "special": []
+ },
+ {
+  "key": "The daemon service runs with SYSTEM rights from a file that is not protected:\n%s\n\nAny program running as you could replace it and take over this computer. Install or update the service to move it to a protected copy of the core (Run as administrator). The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.",
+  "en": "The daemon service runs with SYSTEM rights from a file that is not protected:\n%s\n\nAny program running as you could replace it and take over this computer. Install or update the service to move it to a protected copy of the core (Run as administrator). The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.",
+  "special": []
+ },
+ {
+  "key": "The daemon service runs with SYSTEM rights from a file that is not protected:\n%s\n\nAny program running as you could replace it and take over this computer. %s The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.",
+  "en": "The daemon service runs with SYSTEM rights from a file that is not protected:\n%s\n\nAny program running as you could replace it and take over this computer. %s The VPN keeps working meanwhile; the LOCAL tab of the connection settings shows this until it is fixed.",
+  "special": []
+ },
+ {
+  "key": "Open file…",
+  "en": "Open file…",
+  "special": []
+ },
+ {
+  "key": "Import from file…",
+  "en": "Import from file…",
+  "special": []
+ },
+ {
+  "key": "Load state.json from another folder",
+  "en": "Load state.json from another folder",
+  "special": []
+ },
+ {
+  "key": "Load remote-daemons.json from another folder",
+  "en": "Load remote-daemons.json from another folder",
+  "special": []
+ },
+ {
+  "key": "Imported %d remote servers",
+  "en": "Imported %d remote servers",
+  "special": []
+ },
+ {
+  "key": "up",
+  "en": "up",
+  "special": []
+ },
+ {
+  "key": "asleep",
+  "en": "asleep",
+  "special": []
+ },
+ {
+  "key": "released",
+  "en": "released",
+  "special": []
+ },
+ {
+  "key": "not started yet",
+  "en": "not started yet",
+  "special": []
+ },
+ {
+  "key": "disabled",
+  "en": "disabled",
+  "special": []
+ },
+ {
+  "key": "idle %s",
+  "en": "idle %s",
+  "special": []
+ },
+ {
+  "key": "Until the core restarts or the config is applied.",
+  "en": "Until the core restarts or the config is applied.",
+  "special": []
+ },
+ {
+  "key": "Disable",
+  "en": "Disable",
+  "special": []
+ },
+ {
+  "key": "sleep",
+  "en": "sleep",
+  "special": []
+ },
+ {
+  "key": "freed",
+  "en": "freed",
+  "special": []
+ },
+ {
+  "key": "Enable WireGuard",
+  "en": "Enable WireGuard",
+  "special": []
+ },
+ {
+  "key": "Disable WireGuard",
+  "en": "Disable WireGuard",
+  "special": []
+ },
+ {
+  "key": "WireGuard switch error: %s",
+  "en": "WireGuard switch error: %s",
+  "special": []
+ },
+ {
+  "key": "Tag %q is already used by a node: the node will get a numeric suffix in the config.",
+  "en": "Tag %q is already used by a node: the node will get a numeric suffix in the config.",
+  "special": []
+ },
+ {
+  "key": "Tag %q is already used by another source's swap: the swap lower in the list will not be built until the tag is free.",
+  "en": "Tag %q is already used by another source's swap: the swap lower in the list will not be built until the tag is free.",
+  "special": []
+ },
+ {
+  "key": "Tag %q is a template tag: the swap group will not be built until the tag is free.",
+  "en": "Tag %q is a template tag: the swap group will not be built until the tag is free.",
+  "special": []
+ },
+ {
+  "key": "Tag %q is already used by a Direction: the swap group will not be built until the tag is free.",
+  "en": "Tag %q is already used by a Direction: the swap group will not be built until the tag is free.",
+  "special": []
+ },
+ {
+  "key": "Only the node is saved. The rest of the input is not kept.",
+  "en": "Only the node is saved. The rest of the input is not kept.",
+  "special": []
+ },
+ {
+  "key": "Replace the source with JSON?",
+  "en": "Replace the source with JSON?",
+  "special": []
+ },
+ {
+  "key": "This node was added from a share link or a WireGuard config. Saving the JSON replaces that source with the JSON: the link or config is no longer kept, and the app stops fixing the node's settings. It will only report problems. Continue?",
+  "en": "This node was added from a share link or a WireGuard config. Saving the JSON replaces that source with the JSON: the link or config is no longer kept, and the app stops fixing the node's settings. It will only report problems. Continue?",
+  "special": []
+ },
+ {
+  "key": "Node saved",
+  "en": "Node saved",
+  "special": []
+ },
+ {
+  "key": "%s — the file carries routing or DNS entries attached to this record; they are not imported, because a node no longer carries its own entries",
+  "en": "%s — the file carries routing or DNS entries attached to this record; they are not imported, because a node no longer carries its own entries",
+  "special": []
+ },
+ {
+  "key": "DNS cache size",
+  "en": "DNS cache size",
+  "special": []
+ },
+ {
+  "key": "Number of cached answers.",
+  "en": "Number of cached answers.",
+  "special": []
+ },
+ {
+  "key": "Serve stale answers",
+  "en": "Serve stale answers",
+  "special": []
+ },
+ {
+  "key": "Answer from cache at once and refresh in the background.",
+  "en": "Answer from cache at once and refresh in the background.",
+  "special": []
+ },
+ {
+  "key": "Keep DNS cache after restart",
+  "en": "Keep DNS cache after restart",
+  "special": []
+ },
+ {
+  "key": "Never serve stale answers for node hostnames",
+  "en": "Never serve stale answers for node hostnames",
+  "special": []
+ }
+]

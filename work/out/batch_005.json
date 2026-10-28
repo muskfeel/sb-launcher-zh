@@ -1,0 +1,482 @@
+[
+ {
+  "key": "rule must contain \"outbound\" or \"action\"",
+  "value": "规则必须包含“出站”或“操作”"
+ },
+ {
+  "key": "Rule not recognized",
+  "value": "规则未被认可"
+ },
+ {
+  "key": "Could not recognize rule, form cannot be loaded; staying on Raw.",
+  "value": "无法识别规则，无法加载表单；保持原始状态。"
+ },
+ {
+  "key": "We recommend looking for suitable rule-set files in the project:",
+  "value": "我们建议在项目中寻找合适的规则集文件："
+ },
+ {
+  "key": "SRS rule-sets",
+  "value": "SRS 规则集"
+ },
+ {
+  "key": "enter at least one path pattern",
+  "value": "输入至少一种路径模式"
+ },
+ {
+  "key": "enter at least one SRS URL",
+  "value": "输入至少一个 SRS URL"
+ },
+ {
+  "key": "enter at least one valid SRS URL",
+  "value": "输入至少一个有效的 SRS URL"
+ },
+ {
+  "key": "Custom JSON is empty",
+  "value": "自定义 JSON 为空"
+ },
+ {
+  "key": "Custom JSON must be an object",
+  "value": "自定义 JSON 必须是对象"
+ },
+ {
+  "key": "Paste one rule at a time: the editor keeps one sing-box rule per entry",
+  "value": "一次粘贴一条规则：编辑器为每个条目保留一条单框规则"
+ },
+ {
+  "key": "Save State",
+  "value": "保存状态"
+ },
+ {
+  "key": "Enter state ID (a-z, A-Z, 0-9, -, _)",
+  "value": "输入状态 ID（a-z、A-Z、0-9、-、_）"
+ },
+ {
+  "key": "Comment (optional)",
+  "value": "评论（可选）"
+ },
+ {
+  "key": "State with this ID already exists. It will be overwritten.",
+  "value": "具有此 ID 的状态已存在。它将被覆盖。"
+ },
+ {
+  "key": "Make it the current state and rebuild config",
+  "value": "使其成为当前状态并重建配置"
+ },
+ {
+  "key": "State ID:",
+  "value": "州 ID："
+ },
+ {
+  "key": "Comment:",
+  "value": "评论："
+ },
+ {
+  "key": "ID cannot be empty",
+  "value": "身份证不能为空"
+ },
+ {
+  "key": "Load State",
+  "value": "负载状态"
+ },
+ {
+  "key": "Failed to load states list",
+  "value": "无法加载状态列表"
+ },
+ {
+  "key": " (Current)",
+  "value": "（当前的）"
+ },
+ {
+  "key": "Load",
+  "value": "加载"
+ },
+ {
+  "key": "New",
+  "value": "新的"
+ },
+ {
+  "key": "Delete",
+  "value": "删除"
+ },
+ {
+  "key": "Cannot delete current state (state.json)",
+  "value": "无法删除当前状态 (state.json)"
+ },
+ {
+  "key": "Delete State",
+  "value": "删除状态"
+ },
+ {
+  "key": "Delete state '%s'?",
+  "value": "删除状态“%s”吗？"
+ },
+ {
+  "key": "Failed to delete state",
+  "value": "删除状态失败"
+ },
+ {
+  "key": "Edit direction",
+  "value": "编辑方向"
+ },
+ {
+  "key": "Add direction",
+  "value": "添加方向"
+ },
+ {
+  "key": "e.g. vpn-1",
+  "value": "例如VPN-1"
+ },
+ {
+  "key": "Source ",
+  "value": "来源"
+ },
+ {
+  "key": "tag",
+  "value": "标签"
+ },
+ {
+  "key": "Add auto-select (paired <tag>-auto group)",
+  "value": "添加自动选择（配对 <tag>-自动组）"
+ },
+ {
+  "key": "Auto-select",
+  "value": "自动选择"
+ },
+ {
+  "key": "A paired urltest group named <tag>-auto with the same nodes as this direction. It is offered as the first option and becomes the default unless a default node is set.",
+  "value": "名为 <tag>-auto 的配对 urltest 组，其节点与此方向相同。它作为第一个选项提供，并成为默认选项，除非设置了默认节点。"
+ },
+ {
+  "key": "· auto",
+  "value": "· 汽车"
+ },
+ {
+  "key": "(off)",
+  "value": "（离开）"
+ },
+ {
+  "key": "Include this direction in the config. A switched-off direction keeps its settings but is not built and cannot be picked as a rule target.",
+  "value": "将此方向包含在配置中。关闭的方向会保留其设置，但不会构建，也无法选为规则目标。"
+ },
+ {
+  "key": "Auto-select mode",
+  "value": "自动选择模式"
+ },
+ {
+  "key": "fastest node",
+  "value": "最快的节点"
+ },
+ {
+  "key": "spread across a pool",
+  "value": "分布在整个池子上"
+ },
+ {
+  "key": "Invert: keep nodes that do NOT match",
+  "value": "反转：保留不匹配的节点"
+ },
+ {
+  "key": "Filter syntax and examples",
+  "value": "过滤器语法和示例"
+ },
+ {
+  "key": "e.g. 🇳🇱 or DE-",
+  "value": "例如🇳🇱 或 DE-"
+ },
+ {
+  "key": "e.g. 🇳🇱",
+  "value": "例如🇳🇱"
+ },
+ {
+  "key": "Node filter (regular expression body; empty = every node)",
+  "value": "节点过滤器（正则表达式主体；空=每个节点）"
+ },
+ {
+  "key": "Default node (regular expression; first match wins)",
+  "value": "默认节点（正则表达式；第一个匹配获胜）"
+ },
+ {
+  "key": "Extra options offered in the picker",
+  "value": "选择器中提供的额外选项"
+ },
+ {
+  "key": "Raw outbound JSON",
+  "value": "原始出站 JSON"
+ },
+ {
+  "key": "📖 Documentation",
+  "value": "📖 文档"
+ },
+ {
+  "key": "Switch to Preview to see nodes for this outbound.",
+  "value": "切换到预览以查看此出站的节点。"
+ },
+ {
+  "key": "Preview is not available in this context (no presenter).",
+  "value": "在这种情况下预览不可用（无演示者）。"
+ },
+ {
+  "key": "Preview is not available: wizard model is nil.",
+  "value": "预览不可用：向导模型为零。"
+ },
+ {
+  "key": "Failed to build preview: invalid outbound JSON. Please switch to the \"Raw\" tab and fix JSON first.",
+  "value": "无法构建预览：出站 JSON 无效。请切换到“Raw”选项卡并首先修复 JSON。"
+ },
+ {
+  "key": "Failed to build preview cache: %v",
+  "value": "无法构建预览缓存：%v"
+ },
+ {
+  "key": "No nodes available for preview. Please configure sources and try again.",
+  "value": "没有可供预览的节点。请配置源并重试。"
+ },
+ {
+  "key": "Unknown source",
+  "value": "来源不明"
+ },
+ {
+  "key": "%d node(s) total, %d matched filters",
+  "value": "总共 %d 个节点，%d 个匹配的过滤器"
+ },
+ {
+  "key": ", default: %s",
+  "value": "，默认：%s"
+ },
+ {
+  "key": " | Also includes: %s",
+  "value": "|还包括：%s"
+ },
+ {
+  "key": " | ⚠️ %d source error(s)",
+  "value": "| ⚠️ %d 个源错误"
+ },
+ {
+  "key": "ParserConfig is not available",
+  "value": "ParserConfig 不可用"
+ },
+ {
+  "key": "invalid JSON",
+  "value": "无效的 JSON"
+ },
+ {
+  "key": "tag is required",
+  "value": "标签为必填项"
+ },
+ {
+  "key": "failed to open documentation",
+  "value": "无法打开文档"
+ },
+ {
+  "key": "Directions:",
+  "value": "路线："
+ },
+ {
+  "key": "Packets travel top to bottom: the first hop is next to you, the last one is the address the site sees.",
+  "value": "数据包从上到下传输：第一跳是您旁边的，最后一跳是站点看到的地址。"
+ },
+ {
+  "key": "Chain name",
+  "value": "连锁名称"
+ },
+ {
+  "key": "Directions and rules reference this name",
+  "value": "方向和规则引用此名称"
+ },
+ {
+  "key": "Add hop",
+  "value": "添加跃点"
+ },
+ {
+  "key": "unnamed",
+  "value": "未命名的"
+ },
+ {
+  "key": "No positions yet — add at least two.",
+  "value": "尚无职位 - 至少添加两个。"
+ },
+ {
+  "key": "One more position needed: the core rejects a single-hop chain.",
+  "value": "还需要一个位置：核心拒绝单跳链。"
+ },
+ {
+  "key": "Nothing left to add: every available target is already in the chain.",
+  "value": "没有什么需要添加的：每个可用的目标都已经在链中。"
+ },
+ {
+  "key": "ClientHello fingerprint is stripped, but positions %s are reality nodes that require it — the chain will keep tls.utls on every position. Clear tls.utls to match.",
+  "value": "ClientHello 指纹被剥离，但位置 %s 是需要它的现实节点——链将在每个位置保留 tls.utls。清除 tls.utls 以进行匹配。"
+ },
+ {
+  "key": "A nested chain (%s) is only allowed at the first position — move it to the top or remove it.",
+  "value": "嵌套链 (%s) 只允许出现在第一个位置 - 将其移至顶部或将其删除。"
+ },
+ {
+  "key": "Chains %s are declared below this one in the sources list — a chain may only reference chains above it. Drag them higher, or this chain will not build.",
+  "value": "链 %s 在源列表中的该链下方声明 — 链只能引用其上方的链。将它们拖得更高，否则这条链将无法构建。"
+ },
+ {
+  "key": "The name “%s” is already taken by another node, Direction or chain — two outbounds with one tag cannot coexist, this chain will be dropped at build.",
+  "value": "名称“%s”已被另一节点、方向或链占用 - 具有一个标签的两个出站不能共存，该链将在构建时被删除。"
+ },
+ {
+  "key": "The first position (%s) dials through its own detour — the real path is longer than shown: one more hop precedes it that is not in this list.",
+  "value": "第一个位置 (%s) 绕了自己的弯路 — 实际路径比显示的要长：它前面还有一个不在此列表中的跃点。"
+ },
+ {
+  "key": "Positions %s have their own detour — it does not apply inside a chain: a link always dials through the previous position. The path is exactly as shown.",
+  "value": "位置 %s 有自己的绕道 — 它不适用于链内：链接始终会经过前一个位置。路径完全如图所示。"
+ },
+ {
+  "key": "These positions are no longer among the available targets: %s. A chain with such a reference will not reach the config.",
+  "value": "这些位置不再属于可用目标：%s。具有此类引用的链将无法到达配置。"
+ },
+ {
+  "key": "Chain %s is used as a position by: %s. After renaming, their position will point nowhere — fix those too.",
+  "value": "链 %s 被 %s 用作位置。重命名后，它们的位置将指向任何地方——也修复它们。"
+ },
+ {
+  "key": "node",
+  "value": "节点"
+ },
+ {
+  "key": "group",
+  "value": "团体"
+ },
+ {
+  "key": "direction",
+  "value": "方向"
+ },
+ {
+  "key": "chain",
+  "value": "链"
+ },
+ {
+  "key": "built-in",
+  "value": "内置"
+ },
+ {
+  "key": "not found",
+  "value": "未找到"
+ },
+ {
+  "key": "loading…",
+  "value": "加载中…"
+ },
+ {
+  "key": "Advanced",
+  "value": "先进的"
+ },
+ {
+  "key": "Option overrides",
+  "value": "选项覆盖"
+ },
+ {
+  "key": "Applied from the 2nd position on: the first one dials as-is.",
+  "value": "从第二个位置开始应用：第一个位置按原样拨号。"
+ },
+ {
+  "key": "The value is JSON: quote strings (\"safari\"), write numbers as 1280, nest as {\"utls\":{\"fingerprint\":\"safari\"}}. null is special — it does not store a value, it removes the option from the link.",
+  "value": "该值为 JSON：引用字符串（“safari”），将数字写入 1280，嵌套为 {“utls”：{“fingerprint”：“safari”}}。 null 很特殊——它不存储值，而是从链接中删除选项。"
+ },
+ {
+  "key": "Add override",
+  "value": "添加覆盖"
+ },
+ {
+  "key": "type",
+  "value": "类型"
+ },
+ {
+  "key": "option",
+  "value": "选项"
+ },
+ {
+  "key": "value (JSON)",
+  "value": "值（JSON）"
+ },
+ {
+  "key": "The value must be JSON: quote strings, e.g. \"safari\".",
+  "value": "该值必须是 JSON: 引号字符串，例如“野生动物园”。"
+ },
+ {
+  "key": "Option %s · %s is set twice — only the last one reaches the config.",
+  "value": "选项 %s · %s 设置了两次 — 只有最后一个达到了配置。"
+ },
+ {
+  "key": "Link idle timeout",
+  "value": "链路空闲超时"
+ },
+ {
+  "key": "5m — core default, 0s — never drop",
+  "value": "5m — 核心默认值，0s — 永不掉落"
+ },
+ {
+  "key": "Strip DPI evasion from links",
+  "value": "从链接中去除 DPI 规避"
+ },
+ {
+  "key": "ClientHello fragmentation",
+  "value": "ClientHello 碎片"
+ },
+ {
+  "key": "multiplex padding",
+  "value": "多重填充"
+ },
+ {
+  "key": "XHTTP padding",
+  "value": "XHTTP 填充"
+ },
+ {
+  "key": "ClientHello fingerprint (must not be stripped on reality nodes)",
+  "value": "ClientHello 指纹（不得在现实节点上剥离）"
+ },
+ {
+  "key": "Free community servers",
+  "value": "免费社区服务器"
+ },
+ {
+  "key": "Community VPN sources",
+  "value": "社区 VPN 来源"
+ },
+ {
+  "key": "Loading",
+  "value": "加载中"
+ },
+ {
+  "key": "Fetching community sources list…",
+  "value": "正在获取社区来源列表..."
+ },
+ {
+  "key": "These are subscription URLs maintained by the community. Pick one and click Insert — the URL goes into the input field, then click Add to register it.",
+  "value": "这些是社区维护的订阅 URL。选择一个并单击“插入”——URL 将进入输入字段，然后单击“添加”进行注册。"
+ },
+ {
+  "key": "Insert",
+  "value": "插入"
+ },
+ {
+  "key": "Failed to load community sources:\n\nLocal cache missing or corrupted.",
+  "value": "无法加载社区源：\n\n本地缓存丢失或损坏。"
+ },
+ {
+  "key": "No community sources available right now.",
+  "value": "目前没有可用的社区资源。"
+ },
+ {
+  "key": "Port:",
+  "value": "港口："
+ },
+ {
+  "key": "Invalid port",
+  "value": "端口无效"
+ },
+ {
+  "key": "Port must be a number between 1024 and 65535.",
+  "value": "端口必须是 1024 到 65535 之间的数字。"
+ },
+ {
+  "key": "Must be a number.",
+  "value": "必须是一个数字。"
+ }
+]

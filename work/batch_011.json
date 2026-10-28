@@ -1,0 +1,602 @@
+[
+ {
+  "key": "Origin (raw JSON)",
+  "en": "Origin (raw JSON)",
+  "special": []
+ },
+ {
+  "key": "A manual config_json is set — the origin above is ignored at build time (see the JSON tab). Regen from raw rebuilds the node from it.",
+  "en": "A manual config_json is set — the origin above is ignored at build time (see the JSON tab). Regen from raw rebuilds the node from it.",
+  "special": []
+ },
+ {
+  "key": "Endpoints",
+  "en": "Endpoints",
+  "special": []
+ },
+ {
+  "key": "Skip Tailscale presets",
+  "en": "Skip Tailscale presets",
+  "special": []
+ },
+ {
+  "key": "Tailscale presets will not add routing or DNS rules for this node.",
+  "en": "Tailscale presets will not add routing or DNS rules for this node.",
+  "special": []
+ },
+ {
+  "key": "Incoming connections from this tunnel",
+  "en": "Incoming connections from this tunnel",
+  "special": []
+ },
+ {
+  "key": "Peers on the other side of this tunnel can open connections to this device. Without the switches below they are rejected.",
+  "en": "Peers on the other side of this tunnel can open connections to this device. Without the switches below they are rejected.",
+  "special": []
+ },
+ {
+  "key": "Allow access to this device",
+  "en": "Allow access to this device",
+  "special": []
+ },
+ {
+  "key": "Peers reach services on this device's tunnel address. The service sees them as 127.0.0.1, so everything that trusts localhost becomes reachable.",
+  "en": "Peers reach services on this device's tunnel address. The service sees them as 127.0.0.1, so everything that trusts localhost becomes reachable.",
+  "special": []
+ },
+ {
+  "key": "Expose local network",
+  "en": "Expose local network",
+  "special": []
+ },
+ {
+  "key": "Peers reach private networks behind this device.",
+  "en": "Peers reach private networks behind this device.",
+  "special": []
+ },
+ {
+  "key": "Allow as gateway",
+  "en": "Allow as gateway",
+  "special": []
+ },
+ {
+  "key": "Peers route any traffic through this device; it leaves through the outbound chosen in the Tunnel ingress preset.",
+  "en": "Peers route any traffic through this device; it leaves through the outbound chosen in the Tunnel ingress preset.",
+  "special": []
+ },
+ {
+  "key": "No matching nodes",
+  "en": "No matching nodes",
+  "special": []
+ },
+ {
+  "key": "No matching nodes.",
+  "en": "No matching nodes.",
+  "special": []
+ },
+ {
+  "key": "Loading…",
+  "en": "Loading…",
+  "special": []
+ },
+ {
+  "key": "No selector groups in the config.",
+  "en": "No selector groups in the config.",
+  "special": []
+ },
+ {
+  "key": "No endpoints in the config.",
+  "en": "No endpoints in the config.",
+  "special": []
+ },
+ {
+  "key": "error: %v",
+  "en": "error: %v",
+  "special": []
+ },
+ {
+  "key": "(no active outbound)",
+  "en": "(no active outbound)",
+  "special": []
+ },
+ {
+  "key": "running",
+  "en": "running",
+  "special": []
+ },
+ {
+  "key": "needs login",
+  "en": "needs login",
+  "special": []
+ },
+ {
+  "key": "stopped",
+  "en": "stopped",
+  "special": []
+ },
+ {
+  "key": "no state",
+  "en": "no state",
+  "special": []
+ },
+ {
+  "key": "Network",
+  "en": "Network",
+  "special": []
+ },
+ {
+  "key": "exit node",
+  "en": "exit node",
+  "special": []
+ },
+ {
+  "key": "last seen %s ago",
+  "en": "last seen %s ago",
+  "special": []
+ },
+ {
+  "key": "no traffic yet",
+  "en": "no traffic yet",
+  "special": []
+ },
+ {
+  "key": "Direct: packets go straight between the devices over UDP, to the address:port shown. The fastest path.",
+  "en": "Direct: packets go straight between the devices over UDP, to the address:port shown. The fastest path.",
+  "special": []
+ },
+ {
+  "key": "Peer relay: no direct path, so packets go through another device of your tailnet that relays them. Usually faster than a Tailscale relay server.",
+  "en": "Peer relay: no direct path, so packets go through another device of your tailnet that relays them. Usually faster than a Tailscale relay server.",
+  "special": []
+ },
+ {
+  "key": "Relay (DERP): no direct path, so packets go through a Tailscale relay server; the code is its region (ams = Amsterdam). Works through any NAT or firewall, but adds latency and limits speed. Tailscale keeps trying to switch to direct.",
+  "en": "Relay (DERP): no direct path, so packets go through a Tailscale relay server; the code is its region (ams = Amsterdam). Works through any NAT or firewall, but adds latency and limits speed. Tailscale keeps trying to switch to direct.",
+  "special": []
+ },
+ {
+  "key": "Nothing has been sent to this device yet: Tailscale opens the tunnel on the first packet. Ping it from the ⋯ menu to see the path.",
+  "en": "Nothing has been sent to this device yet: Tailscale opens the tunnel on the first packet. Ping it from the ⋯ menu to see the path.",
+  "special": []
+ },
+ {
+  "key": "%ds",
+  "en": "%ds",
+  "special": []
+ },
+ {
+  "key": "%dm",
+  "en": "%dm",
+  "special": []
+ },
+ {
+  "key": "%dh",
+  "en": "%dh",
+  "special": []
+ },
+ {
+  "key": "%dd",
+  "en": "%dd",
+  "special": []
+ },
+ {
+  "key": "Notifications",
+  "en": "Notifications",
+  "special": []
+ },
+ {
+  "key": "Errors",
+  "en": "Errors",
+  "special": []
+ },
+ {
+  "key": "Warnings",
+  "en": "Warnings",
+  "special": []
+ },
+ {
+  "key": "What happened:",
+  "en": "What happened:",
+  "special": []
+ },
+ {
+  "key": "+%d",
+  "en": "+%d",
+  "special": []
+ },
+ {
+  "key": "⚠ %d field(s) stripped on %d node(s)",
+  "en": "⚠ %d field(s) stripped on %d node(s)",
+  "special": []
+ },
+ {
+  "key": "⚠ %d warning(s) on %d node(s)",
+  "en": "⚠ %d warning(s) on %d node(s)",
+  "special": []
+ },
+ {
+  "key": "⚠ %d node(s) with warnings",
+  "en": "⚠ %d node(s) with warnings",
+  "special": []
+ },
+ {
+  "key": " · %d with warnings",
+  "en": " · %d with warnings",
+  "special": []
+ },
+ {
+  "key": "Why it happens:",
+  "en": "Why it happens:",
+  "special": []
+ },
+ {
+  "key": "What you can do:",
+  "en": "What you can do:",
+  "special": []
+ },
+ {
+  "key": "For your information: %d node(s)",
+  "en": "For your information: %d node(s)",
+  "special": []
+ },
+ {
+  "key": "Filters…",
+  "en": "Filters…",
+  "special": []
+ },
+ {
+  "key": "Filters",
+  "en": "Filters",
+  "special": []
+ },
+ {
+  "key": "Filters — %d / %d shown",
+  "en": "Filters — %d / %d shown",
+  "special": []
+ },
+ {
+  "key": "Filter: %d of %d shown",
+  "en": "Filter: %d of %d shown",
+  "special": []
+ },
+ {
+  "key": "Emoji",
+  "en": "Emoji",
+  "special": []
+ },
+ {
+  "key": "Test",
+  "en": "Test",
+  "special": []
+ },
+ {
+  "key": "any",
+  "en": "any",
+  "special": []
+ },
+ {
+  "key": "untested",
+  "en": "untested",
+  "special": []
+ },
+ {
+  "key": "ms",
+  "en": "ms",
+  "special": []
+ },
+ {
+  "key": "ping ≤",
+  "en": "ping ≤",
+  "special": []
+ },
+ {
+  "key": "Invert all",
+  "en": "Invert all",
+  "special": []
+ },
+ {
+  "key": "Clear the pattern",
+  "en": "Clear the pattern",
+  "special": []
+ },
+ {
+  "key": "Invalid regex: %s",
+  "en": "Invalid regex: %s",
+  "special": []
+ },
+ {
+  "key": "Copy the pattern body (no wrapper) — paste it into a Direction's filter field.",
+  "en": "Copy the pattern body (no wrapper) — paste it into a Direction's filter field.",
+  "special": []
+ },
+ {
+  "key": "Pattern body copied. Its invert flag is NOT part of the body: tick Invert in the Direction's filter.",
+  "en": "Pattern body copied. Its invert flag is NOT part of the body: tick Invert in the Direction's filter.",
+  "special": []
+ },
+ {
+  "key": "Pattern body copied.",
+  "en": "Pattern body copied.",
+  "special": []
+ },
+ {
+  "key": "Invert this category: keep the nodes it does NOT select.",
+  "en": "Invert this category: keep the nodes it does NOT select.",
+  "special": []
+ },
+ {
+  "key": "Invert the whole filter: show exactly the rows it hides now.",
+  "en": "Invert the whole filter: show exactly the rows it hides now.",
+  "special": []
+ },
+ {
+  "key": "Toggle this emoji in the Regex field (OR pattern).",
+  "en": "Toggle this emoji in the Regex field (OR pattern).",
+  "special": []
+ },
+ {
+  "key": "No emoji in the names of the nodes in this list.",
+  "en": "No emoji in the names of the nodes in this list.",
+  "special": []
+ },
+ {
+  "key": "Selected rows, direct-out and the active proxy are never hidden.",
+  "en": "Selected rows, direct-out and the active proxy are never hidden.",
+  "special": []
+ },
+ {
+  "key": "Show nodes at or below this latency. Untested nodes pass the threshold — it answers «show me the fast ones», not «drop the unmeasured»; nodes whose test failed do not pass.",
+  "en": "Show nodes at or below this latency. Untested nodes pass the threshold — it answers «show me the fast ones», not «drop the unmeasured»; nodes whose test failed do not pass.",
+  "special": []
+ },
+ {
+  "key": "regex, e.g. NL|DE|Proton",
+  "en": "regex, e.g. NL|DE|Proton",
+  "special": []
+ },
+ {
+  "key": "1 server disabled",
+  "en": "1 server disabled",
+  "special": []
+ },
+ {
+  "key": "%d servers disabled",
+  "en": "%d servers disabled",
+  "special": []
+ },
+ {
+  "key": "The core rejected it, so it was turned off to let the VPN start: %s",
+  "en": "The core rejected it, so it was turned off to let the VPN start: %s",
+  "special": []
+ },
+ {
+  "key": "The core rejected them, so they were turned off to let the VPN start: %s",
+  "en": "The core rejected them, so they were turned off to let the VPN start: %s",
+  "special": []
+ },
+ {
+  "key": "+%d more",
+  "en": "+%d more",
+  "special": []
+ },
+ {
+  "key": "Show",
+  "en": "Show",
+  "special": []
+ },
+ {
+  "key": "%d servers disabled — there may be more",
+  "en": "%d servers disabled — there may be more",
+  "special": []
+ },
+ {
+  "key": "The core has rejected %d servers so far, and each was turned off. Keep checking the rest? On a large subscription this can take a while.",
+  "en": "The core has rejected %d servers so far, and each was turned off. Keep checking the rest? On a large subscription this can take a while.",
+  "special": []
+ },
+ {
+  "key": "If you stop, the VPN will not start. The servers already turned off will stay off.",
+  "en": "If you stop, the VPN will not start. The servers already turned off will stay off.",
+  "special": []
+ },
+ {
+  "key": "Keep checking",
+  "en": "Keep checking",
+  "special": []
+ },
+ {
+  "key": "Checking servers… (%d disabled)",
+  "en": "Checking servers… (%d disabled)",
+  "special": []
+ },
+ {
+  "key": "Servers turned off by the core",
+  "en": "Servers turned off by the core",
+  "special": []
+ },
+ {
+  "key": "(unnamed)",
+  "en": "(unnamed)",
+  "special": []
+ },
+ {
+  "key": "%d files, %s",
+  "en": "%d files, %s",
+  "special": []
+ },
+ {
+  "key": "Copy paths",
+  "en": "Copy paths",
+  "special": []
+ },
+ {
+  "key": "Data from before the migration, inside the app bundle",
+  "en": "Data from before the migration, inside the app bundle",
+  "special": []
+ },
+ {
+  "key": "Data from before the migration, next to the program",
+  "en": "Data from before the migration, next to the program",
+  "special": []
+ },
+ {
+  "key": "Data",
+  "en": "Data",
+  "special": []
+ },
+ {
+  "key": "Data, logs, core and template paths copied. Paste them into the bug report.",
+  "en": "Data, logs, core and template paths copied. Paste them into the bug report.",
+  "special": []
+ },
+ {
+  "key": "Environment",
+  "en": "Environment",
+  "special": []
+ },
+ {
+  "key": "Left over from a data move",
+  "en": "Left over from a data move",
+  "special": []
+ },
+ {
+  "key": "Legacy",
+  "en": "Legacy",
+  "special": []
+ },
+ {
+  "key": "Move launcher data",
+  "en": "Move launcher data",
+  "special": []
+ },
+ {
+  "key": "Moving data…",
+  "en": "Moving data…",
+  "special": []
+ },
+ {
+  "key": "Network cleanup: ghost wintun adapters and orphan firewall rules",
+  "en": "Network cleanup: ghost wintun adapters and orphan firewall rules",
+  "special": []
+ },
+ {
+  "key": "Settings and subscriptions are kept in the data folder below. If you used an earlier version of the launcher and your subscriptions are missing, restore them from an LX Backup (Settings → Backup). Data folder:",
+  "en": "Settings and subscriptions are kept in the data folder below. If you used an earlier version of the launcher and your subscriptions are missing, restore them from an LX Backup (Settings → Backup). Data folder:",
+  "special": []
+ },
+ {
+  "key": "Welcome",
+  "en": "Welcome",
+  "special": []
+ },
+ {
+  "key": "Not found: the core will be downloaded to this path",
+  "en": "Not found: the core will be downloaded to this path",
+  "special": []
+ },
+ {
+  "key": "Not found: the template will be downloaded to this path",
+  "en": "Not found: the template will be downloaded to this path",
+  "special": []
+ },
+ {
+  "key": "Nothing to remove.",
+  "en": "Nothing to remove.",
+  "special": []
+ },
+ {
+  "key": "Old logs next to the program",
+  "en": "Old logs next to the program",
+  "special": []
+ },
+ {
+  "key": "Paths are set by environment variables",
+  "en": "Paths are set by environment variables",
+  "special": []
+ },
+ {
+  "key": "Paths copied",
+  "en": "Paths copied",
+  "special": []
+ },
+ {
+  "key": "Portable mode (keep data next to the program)",
+  "en": "Portable mode (keep data next to the program)",
+  "special": []
+ },
+ {
+  "key": "Portable",
+  "en": "Portable",
+  "special": []
+ },
+ {
+  "key": "Program",
+  "en": "Program",
+  "special": []
+ },
+ {
+  "key": "The service is installed but not running.",
+  "en": "The service is installed but not running.",
+  "special": []
+ },
+ {
+  "key": "launchd reports: %s",
+  "en": "launchd reports: %s",
+  "special": []
+ },
+ {
+  "key": "Run as administrator",
+  "en": "Run as administrator",
+  "special": []
+ },
+ {
+  "key": "Start the service",
+  "en": "Start the service",
+  "special": []
+ },
+ {
+  "key": "Service Control Manager reports: %s",
+  "en": "Service Control Manager reports: %s",
+  "special": []
+ },
+ {
+  "key": "The service copy differs from the launcher core in %s. Install or update the service to refresh it.",
+  "en": "The service copy differs from the launcher core in %s. Install or update the service to refresh it.",
+  "special": []
+ },
+ {
+  "key": "The service runs a binary your user can modify. Install or update the service to move it to a protected copy.",
+  "en": "The service runs a binary your user can modify. Install or update the service to move it to a protected copy.",
+  "special": []
+ },
+ {
+  "key": "2. Remove the service (Windows asks for administrator rights):",
+  "en": "2. Remove the service (Windows asks for administrator rights):",
+  "special": []
+ },
+ {
+  "key": "Remove the service",
+  "en": "Remove the service",
+  "special": []
+ },
+ {
+  "key": "Keep the protected core copy? The classic engine starts from it when the launcher runs as administrator. Remove all also deletes the copy and all daemon data.",
+  "en": "Keep the protected core copy? The classic engine starts from it when the launcher runs as administrator. Remove all also deletes the copy and all daemon data.",
+  "special": []
+ },
+ {
+  "key": "Keep the core copy",
+  "en": "Keep the core copy",
+  "special": []
+ },
+ {
+  "key": "Remove all",
+  "en": "Remove all",
+  "special": []
+ },
+ {
+  "key": "The daemon service is installed and is not removed with the data: it runs from its own protected copy of the core. To remove the service as well, run this command as administrator:",
+  "en": "The daemon service is installed and is not removed with the data: it runs from its own protected copy of the core. To remove the service as well, run this command as administrator:",
+  "special": []
+ }
+]

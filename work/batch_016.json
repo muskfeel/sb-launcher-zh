@@ -1,0 +1,152 @@
+[
+ {
+  "key": "Ranges, comma-separated: 20000:30000",
+  "en": "Ranges, comma-separated: 20000:30000",
+  "special": []
+ },
+ {
+  "key": "Hop interval",
+  "en": "Hop interval",
+  "special": []
+ },
+ {
+  "key": "e.g. 30s",
+  "en": "e.g. 30s",
+  "special": []
+ },
+ {
+  "key": "Upload, Mbps",
+  "en": "Upload, Mbps",
+  "special": []
+ },
+ {
+  "key": "Download, Mbps",
+  "en": "Download, Mbps",
+  "special": []
+ },
+ {
+  "key": "Obfuscation",
+  "en": "Obfuscation",
+  "special": []
+ },
+ {
+  "key": "Off",
+  "en": "Off",
+  "special": []
+ },
+ {
+  "key": "Obfuscation password",
+  "en": "Obfuscation password",
+  "special": []
+ },
+ {
+  "key": "UDP over TCP",
+  "en": "UDP over TCP",
+  "special": []
+ },
+ {
+  "key": "Allow insecure ⚠",
+  "en": "Allow insecure ⚠",
+  "special": []
+ },
+ {
+  "key": "ALPN",
+  "en": "ALPN",
+  "special": []
+ },
+ {
+  "key": "REALITY",
+  "en": "REALITY",
+  "special": []
+ },
+ {
+  "key": "Host header",
+  "en": "Host header",
+  "special": []
+ },
+ {
+  "key": "Seconds",
+  "en": "Seconds",
+  "special": []
+ },
+ {
+  "key": "AmneziaWG",
+  "en": "AmneziaWG",
+  "special": []
+ },
+ {
+  "key": "Default (%s)",
+  "en": "Default (%s)",
+  "special": []
+ },
+ {
+  "key": "The form for this server type is unavailable",
+  "en": "The form for this server type is unavailable",
+  "special": []
+ },
+ {
+  "key": "Send DNS to a dedicated server",
+  "en": "Send DNS to a dedicated server",
+  "special": []
+ },
+ {
+  "key": "Force IPv4 (drop AAAA)",
+  "en": "Force IPv4 (drop AAAA)",
+  "special": []
+ },
+ {
+  "key": "Works only if the rule set contains domains.",
+  "en": "Works only if the rule set contains domains.",
+  "special": []
+ },
+ {
+  "key": "Unavailable for rules with ports, protocols or network, and for rules that match only IP addresses.",
+  "en": "Unavailable for rules with ports, protocols or network, and for rules that match only IP addresses.",
+  "special": []
+ },
+ {
+  "key": "DNS: %s",
+  "en": "DNS: %s",
+  "special": []
+ },
+ {
+  "key": "IPv4 only",
+  "en": "IPv4 only",
+  "special": []
+ },
+ {
+  "key": "From the rule's DNS options. Edit the rule on the Rules tab.",
+  "en": "From the rule's DNS options. Edit the rule on the Rules tab.",
+  "special": []
+ },
+ {
+  "key": "Used by rule %s: kept in the config while the rule needs it.",
+  "en": "Used by rule %s: kept in the config while the rule needs it.",
+  "special": []
+ },
+ {
+  "key": "Fill in the rule to see what it adds to the config.",
+  "en": "Fill in the rule to see what it adds to the config.",
+  "special": []
+ },
+ {
+  "key": "Rule set not downloaded yet: the rule stays out of the config until it is.",
+  "en": "Rule set not downloaded yet: the rule stays out of the config until it is.",
+  "special": []
+ },
+ {
+  "key": "DNS options do not apply to this rule: it has ports, protocols or network, or matches only IP addresses.",
+  "en": "DNS options do not apply to this rule: it has ports, protocols or network, or matches only IP addresses.",
+  "special": []
+ },
+ {
+  "key": "DNS server %s not found: its DNS rule stays out of the config.",
+  "en": "DNS server %s not found: its DNS rule stays out of the config.",
+  "special": []
+ },
+ {
+  "key": "DNS server %s is turned off: it is kept in the config because this rule uses it.",
+  "en": "DNS server %s is turned off: it is kept in the config because this rule uses it.",
+  "special": []
+ }
+]

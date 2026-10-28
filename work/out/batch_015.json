@@ -1,0 +1,482 @@
+[
+ {
+  "key": "Restarting the daemon — reconnecting… %d s",
+  "value": "正在重新启动守护程序 — 正在重新连接...%d s"
+ },
+ {
+  "key": "Suggested commands",
+  "value": "建议的命令"
+ },
+ {
+  "key": "TLS mode mismatch",
+  "value": "TLS 模式不匹配"
+ },
+ {
+  "key": "The core binary path is the default — the daemon has not reported it yet.",
+  "value": "核心二进制路径是默认的——守护进程尚未报告它。"
+ },
+ {
+  "key": "The daemon can update itself: choose update above and press Run. The steps below are the manual way.",
+  "value": "守护进程可以自行更新：选择上面的更新并按运行。以下步骤为手动方式。"
+ },
+ {
+  "key": "The daemon is back — checking the update…",
+  "value": "守护进程回来了——检查更新……"
+ },
+ {
+  "key": "The daemon runs, but not as a service: install the service first.",
+  "value": "守护进程运行，但不作为服务：首先安装服务。"
+ },
+ {
+  "key": "The daemon will download the latest core (~60 MB) and restart itself. Connections through it will drop for a few seconds. Continue?",
+  "value": "该守护进程将下载最新的核心（~60 MB）并自行重新启动。通过它的连接将会中断几秒钟。继续？"
+ },
+ {
+  "key": "The system service is not installed yet — install it in the Core section, then pair in the Pairing section.",
+  "value": "系统服务尚未安装 - 将其安装在“核心”部分，然后在“配对”部分进行配对。"
+ },
+ {
+  "key": "Troubleshooting · commands run on this computer",
+  "value": "故障排除·命令在此计算机上运行"
+ },
+ {
+  "key": "Troubleshooting · commands run via ssh %s",
+  "value": "故障排除·命令通过 ssh %s 运行"
+ },
+ {
+  "key": "Update the core",
+  "value": "更新核心"
+ },
+ {
+  "key": "\"refusing to run\" → Core · \"bind: address in use\" → Reference",
+  "value": "《拒绝运行》→核心·《绑定：地址正在使用》→参考"
+ },
+ {
+  "key": "add \"commands\" to daemon.json → Troubleshooting → Suggested commands",
+  "value": "将“命令”添加到 daemon.json → 故障排除 → 建议命令"
+ },
+ {
+  "key": "certificate changed",
+  "value": "证书已更改"
+ },
+ {
+  "key": "done · exit %d · %s ago",
+  "value": "已完成·退出 %d·%s 前"
+ },
+ {
+  "key": "done · exit %d",
+  "value": "完成 · 退出 %d"
+ },
+ {
+  "key": "install or update the service",
+  "value": "安装或更新服务"
+ },
+ {
+  "key": "lost",
+  "value": "丢失的"
+ },
+ {
+  "key": "no recipe for this init",
+  "value": "没有这个初始化的配方"
+ },
+ {
+  "key": "not available",
+  "value": "无法使用"
+ },
+ {
+  "key": "not paired yet",
+  "value": "尚未配对"
+ },
+ {
+  "key": "reported by the daemon",
+  "value": "由守护进程报告"
+ },
+ {
+  "key": "running…",
+  "value": "跑步…"
+ },
+ {
+  "key": "started by %s",
+  "value": "由 %s 开始"
+ },
+ {
+  "key": "starting…",
+  "value": "开始…"
+ },
+ {
+  "key": "the daemon does not trust this launcher",
+  "value": "守护进程不信任此启动器"
+ },
+ {
+  "key": "the launcher core is too old",
+  "value": "启动器核心太旧"
+ },
+ {
+  "key": "the new core",
+  "value": "新核心"
+ },
+ {
+  "key": "the service is not loaded",
+  "value": "服务未加载"
+ },
+ {
+  "key": "updating…",
+  "value": "正在更新…"
+ },
+ {
+  "key": "✔ Already up to date (%s)",
+  "value": "✔ 已经是最新的 (%s)"
+ },
+ {
+  "key": "✔ Updated %s → %s",
+  "value": "✔ 已更新 %s → %s"
+ },
+ {
+  "key": "✔ Updated to %s. Commands are not available in this core version",
+  "value": "✔ 已更新至 %s。命令在此核心版本中不可用"
+ },
+ {
+  "key": "✖ %s did not come up, rolled back to %s",
+  "value": "✖ %s 未出现，已回滚至 %s"
+ },
+ {
+  "key": "✖ The command is no longer in daemon.json",
+  "value": "✖ 该命令不再位于 daemon.json 中"
+ },
+ {
+  "key": "✖ The daemon did not come back",
+  "value": "✖ 守护进程没有回来"
+ },
+ {
+  "key": "Paste the invite printed by the daemon and click Pair. Installing or updating the service pairs the launcher automatically, so an invite is only needed when that did not happen:\n\n- \"Mint an invite\" in the Pairing section issues a new invite and pairs with it (Windows asks for administrator rights).\n- Or run the command below in a terminal opened as administrator, then paste the printed invite into the pairing field.\n\nThe code is one-time: it burns after a successful pairing. The secret field is only for daemons running without TLS.",
+  "value": "粘贴守护程序打印的邀请，然后单击“配对”。安装或更新服务会自动与启动器配对，因此仅当未发生这种情况时才需要邀请：\n\n- 配对部分中的“创建邀请”会发出新邀请并与其配对（Windows 要求管理员权限）。\n- 或者在以管理员身份打开的终端中运行以下命令，然后将打印的邀请粘贴到配对字段中。\n\n该代码是一次性的：配对成功后就会被销毁。秘密字段仅适用于没有 TLS 运行的守护进程。"
+ },
+ {
+  "key": "Paste the invite printed by the daemon and click Pair. Where to get one:\n\n- Installing the service prints an invite at the end of its Terminal output (Core section).\n- For a fresh invite run the command below (copy or open in Terminal), then paste the printed invite into the pairing field.\n\nThe code is one-time: it burns after a successful pairing. The secret field is only for daemons running without TLS.",
+  "value": "粘贴守护程序打印的邀请，然后单击“配对”。哪里可以获得：\n\n- 安装服务会在其终端输出（核心部分）末尾打印邀请。\n- 对于新邀请，请运行以下命令（复制或在终端中打开），然后将打印的邀请粘贴到配对字段中。\n\n该代码是一次性的：配对成功后就会被销毁。秘密字段仅适用于没有 TLS 运行的守护进程。"
+ },
+ {
+  "key": "Open Not running",
+  "value": "打开未运行"
+ },
+ {
+  "key": "⚠ Updated to %s, but the core did not start: %s — restart the service",
+  "value": "⚠ 已更新至 %s，但核心未启动：%s — 重新启动服务"
+ },
+ {
+  "key": "Auto-deploy subscription updates",
+  "value": "自动部署订阅更新"
+ },
+ {
+  "key": "Refresh this machine's subscriptions hourly and deploy when only the nodes changed. The launcher must be running; a deploy restarts the machine's core for a moment.",
+  "value": "每小时刷新此计算机的订阅，并在仅节点发生更改时进行部署。启动器必须正在运行；部署会暂时重新启动机器的核心。"
+ },
+ {
+  "key": "Auto-deploy",
+  "value": "自动部署"
+ },
+ {
+  "key": "Last auto-deploy",
+  "value": "上次自动部署"
+ },
+ {
+  "key": "on",
+  "value": "在"
+ },
+ {
+  "key": "Auto-deploy: %s",
+  "value": "自动部署：%s"
+ },
+ {
+  "key": "Config updated from subscriptions and applied.",
+  "value": "配置从订阅更新并应用。"
+ },
+ {
+  "key": "Machine unreachable: %s",
+  "value": "机器无法访问：%s"
+ },
+ {
+  "key": "Failed: %s",
+  "value": "失败：%s"
+ },
+ {
+  "key": "just now",
+  "value": "现在"
+ },
+ {
+  "key": "%dm ago",
+  "value": "%dm 前"
+ },
+ {
+  "key": "%dh ago",
+  "value": "%dh 前"
+ },
+ {
+  "key": "%dd ago",
+  "value": "%dd 前"
+ },
+ {
+  "key": "Each wrong code triggers a new sign-in on the gateway",
+  "value": "每个错误代码都会触发网关上的新登录"
+ },
+ {
+  "key": "If the password for %s has changed, update it in the node settings so the next sign-in does not ask again.",
+  "value": "如果 %s 的密码已更改，请在节点设置中更新它，以便下次登录时不会再次询问。"
+ },
+ {
+  "key": "Submit",
+  "value": "提交"
+ },
+ {
+  "key": "Request a new code",
+  "value": "请求新代码"
+ },
+ {
+  "key": "The gateway will send a new code",
+  "value": "网关将发送一个新代码"
+ },
+ {
+  "key": "Sign in: %s",
+  "value": "登录：%s"
+ },
+ {
+  "key": "Not now",
+  "value": "现在不要"
+ },
+ {
+  "key": "SSO for this gateway type is not supported yet",
+  "value": "尚不支持此网关类型的 SSO"
+ },
+ {
+  "key": "Cannot listen on 127.0.0.1:%d: the port is busy or blocked. Close the program that uses it and try again.",
+  "value": "无法侦听 127.0.0.1:%d：端口正忙或被阻止。关闭使用它的程序并重试。"
+ },
+ {
+  "key": "Sign in in your browser",
+  "value": "在您的浏览器中登录"
+ },
+ {
+  "key": "The sign-in link is not a web address, so it is not opened automatically.",
+  "value": "登录链接不是网址，因此不会自动打开。"
+ },
+ {
+  "key": "Waiting for the browser to come back…",
+  "value": "等待浏览器返回..."
+ },
+ {
+  "key": "Signing in…",
+  "value": "正在登录..."
+ },
+ {
+  "key": "Waiting for sign-in",
+  "value": "等待登录"
+ },
+ {
+  "key": "sign in",
+  "value": "登入"
+ },
+ {
+  "key": "%s must be a whole number",
+  "value": "%s 必须是整数"
+ },
+ {
+  "key": "%s must be within %s…%s",
+  "value": "%s 必须在 %s…%s 之内"
+ },
+ {
+  "key": "Allow legacy crypto ⚠",
+  "value": "允许遗留加密货币 ⚠"
+ },
+ {
+  "key": "DPD interval",
+  "value": "DPD间隔"
+ },
+ {
+  "key": "Disable IPv6",
+  "value": "禁用 IPv6"
+ },
+ {
+  "key": "Disable SSO (external auth)",
+  "value": "禁用 SSO（外部身份验证）"
+ },
+ {
+  "key": "Do not verify ⚠",
+  "value": "请勿验证⚠"
+ },
+ {
+  "key": "Empty = core default (FortiGate: Mozilla/5.0 SV1)",
+  "value": "空 = 核心默认值（FortiGate：Mozilla/5.0 SV1）"
+ },
+ {
+  "key": "Empty = from gateway; lower it if HTTPS stalls (576…1500)",
+  "value": "空=来自网关；如果 HTTPS 停止，则降低该值 (576…1500)"
+ },
+ {
+  "key": "FortiGate only",
+  "value": "仅 FortiGate"
+ },
+ {
+  "key": "Gateway",
+  "value": "网关"
+ },
+ {
+  "key": "Group / Realm",
+  "value": "团体/领域"
+ },
+ {
+  "key": "Hostcheck",
+  "value": "主机检查"
+ },
+ {
+  "key": "How long to retry a dropped tunnel, e.g. 5m. Empty = core default (5m)",
+  "value": "重试已删除的隧道需要多长时间，例如5m。空=核心默认（5m）"
+ },
+ {
+  "key": "If the gateway asks for a code, you will be prompted on connect (daemon mode only)",
+  "value": "如果网关要求输入代码，则会在连接时提示您（仅限守护进程模式）"
+ },
+ {
+  "key": "Keep-alive probe period, e.g. 30s. Empty = from gateway",
+  "value": "保持活动探测周期，例如30多岁。空=来自网关"
+ },
+ {
+  "key": "Only for old gateways (TLS 1.0)",
+  "value": "仅适用于旧网关 (TLS 1.0)"
+ },
+ {
+  "key": "Only if it differs from the server host",
+  "value": "仅当它与服务器主机不同时"
+ },
+ {
+  "key": "Pinned fingerprint",
+  "value": "固定指纹"
+ },
+ {
+  "key": "Reconnect timeout",
+  "value": "重新连接超时"
+ },
+ {
+  "key": "Required: %s",
+  "value": "必需：%s"
+ },
+ {
+  "key": "Security",
+  "value": "安全"
+ },
+ {
+  "key": "Server certificate",
+  "value": "服务器证书"
+ },
+ {
+  "key": "Several fingerprints: comma-separated",
+  "value": "多个指纹：以逗号分隔"
+ },
+ {
+  "key": "System CA",
+  "value": "系统CA"
+ },
+ {
+  "key": "TCP only (no DTLS)",
+  "value": "仅 TCP（无 DTLS）"
+ },
+ {
+  "key": "This launcher runs the core in classic mode: second-factor prompts are unavailable here",
+  "value": "此启动器以经典模式运行核心：此处不提供第二因素提示"
+ },
+ {
+  "key": "Use when UDP is blocked and the tunnel keeps dropping",
+  "value": "当 UDP 被阻止并且隧道不断丢失时使用"
+ },
+ {
+  "key": "host:port or full URL; port 443 if omitted",
+  "value": "主机：端口或完整 URL；端口 443（如果省略）"
+ },
+ {
+  "key": "Nodes",
+  "value": "节点"
+ },
+ {
+  "key": "(missing)",
+  "value": "（丢失的）"
+ },
+ {
+  "key": "VLESS",
+  "value": "VLESS"
+ },
+ {
+  "key": "Hysteria2",
+  "value": "歇斯底里2"
+ },
+ {
+  "key": "Trojan",
+  "value": "木马"
+ },
+ {
+  "key": "WireGuard (AWG)",
+  "value": "线卫 (AWG)"
+ },
+ {
+  "key": "Naive",
+  "value": "幼稚的"
+ },
+ {
+  "key": "OpenConnect (SSL VPN)",
+  "value": "OpenConnect（SSL VPN）"
+ },
+ {
+  "key": "UUID",
+  "value": "UUID"
+ },
+ {
+  "key": "Flow",
+  "value": "流动"
+ },
+ {
+  "key": "Encryption",
+  "value": "加密"
+ },
+ {
+  "key": "Packet encoding",
+  "value": "数据包编码"
+ },
+ {
+  "key": "Version",
+  "value": "版本"
+ },
+ {
+  "key": "Profile",
+  "value": "轮廓"
+ },
+ {
+  "key": "Public key",
+  "value": "公钥"
+ },
+ {
+  "key": "IPv4 address",
+  "value": "IPv4地址"
+ },
+ {
+  "key": "IPv6 address",
+  "value": "IPv6地址"
+ },
+ {
+  "key": "URI",
+  "value": "URI"
+ },
+ {
+  "key": "HTTP version",
+  "value": "HTTP版本"
+ },
+ {
+  "key": "QUIC",
+  "value": "QUIC"
+ },
+ {
+  "key": "Congestion control",
+  "value": "拥塞控制"
+ },
+ {
+  "key": "Port hopping",
+  "value": "端口跳跃"
+ }
+]

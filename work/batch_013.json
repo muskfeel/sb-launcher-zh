@@ -1,0 +1,602 @@
+[
+ {
+  "key": "Resolve a node's hostname again once its TTL expires instead of dialing a cached address. Keeps nodes alive with providers that rotate addresses.",
+  "en": "Resolve a node's hostname again once its TTL expires instead of dialing a cached address. Keeps nodes alive with providers that rotate addresses.",
+  "special": []
+ },
+ {
+  "key": "From %d to %d",
+  "en": "From %d to %d",
+  "special": []
+ },
+ {
+  "key": "Clear DNS cache",
+  "en": "Clear DNS cache",
+  "special": []
+ },
+ {
+  "key": "Clear DNS cache?",
+  "en": "Clear DNS cache?",
+  "special": []
+ },
+ {
+  "key": "Drops cached answers of the running core, including those kept after restart.",
+  "en": "Drops cached answers of the running core, including those kept after restart.",
+  "special": []
+ },
+ {
+  "key": "Cached DNS answers are dropped, including those kept in cache.db. The connection stays up.",
+  "en": "Cached DNS answers are dropped, including those kept in cache.db. The connection stays up.",
+  "special": []
+ },
+ {
+  "key": "DNS cache can be cleared only while the core is running.",
+  "en": "DNS cache can be cleared only while the core is running.",
+  "special": []
+ },
+ {
+  "key": "Clearing the DNS cache needs the Clash API, which is off in this config.",
+  "en": "Clearing the DNS cache needs the Clash API, which is off in this config.",
+  "special": []
+ },
+ {
+  "key": "Could not clear DNS cache: %s",
+  "en": "Could not clear DNS cache: %s",
+  "special": []
+ },
+ {
+  "key": "DNS cache cleared.",
+  "en": "DNS cache cleared.",
+  "special": []
+ },
+ {
+  "key": "Copy address",
+  "en": "Copy address",
+  "special": []
+ },
+ {
+  "key": "Copy name",
+  "en": "Copy name",
+  "special": []
+ },
+ {
+  "key": "Done.",
+  "en": "Done.",
+  "special": []
+ },
+ {
+  "key": "Key expiry",
+  "en": "Key expiry",
+  "special": []
+ },
+ {
+  "key": "Log out",
+  "en": "Log out",
+  "special": []
+ },
+ {
+  "key": "MagicDNS name",
+  "en": "MagicDNS name",
+  "special": []
+ },
+ {
+  "key": "NETWORKS: %d nodes",
+  "en": "NETWORKS: %d nodes",
+  "special": []
+ },
+ {
+  "key": "No devices in this network.",
+  "en": "No devices in this network.",
+  "special": []
+ },
+ {
+  "key": "None",
+  "en": "None",
+  "special": []
+ },
+ {
+  "key": "Not saved. The choice is lost after restart.",
+  "en": "Not saved. The choice is lost after restart.",
+  "special": []
+ },
+ {
+  "key": "Not saved. The node stays in the lists, but has no exit until you save the choice.",
+  "en": "Not saved. The node stays in the lists, but has no exit until you save the choice.",
+  "special": []
+ },
+ {
+  "key": "Not saved. Traffic is not routed through this node until you save the choice.",
+  "en": "Not saved. Traffic is not routed through this node until you save the choice.",
+  "special": []
+ },
+ {
+  "key": "Ping %s",
+  "en": "Ping %s",
+  "special": []
+ },
+ {
+  "key": "Save choice",
+  "en": "Save choice",
+  "special": []
+ },
+ {
+  "key": "Sign in",
+  "en": "Sign in",
+  "special": []
+ },
+ {
+  "key": "Start VPN to see the network.",
+  "en": "Start VPN to see the network.",
+  "special": []
+ },
+ {
+  "key": "The node is not in the running config.",
+  "en": "The node is not in the running config.",
+  "special": []
+ },
+ {
+  "key": "The node leaves the network. If the node has an auth key, it signs in again on the next start.",
+  "en": "The node leaves the network. If the node has an auth key, it signs in again on the next start.",
+  "special": []
+ },
+ {
+  "key": "This device",
+  "en": "This device",
+  "special": []
+ },
+ {
+  "key": "This node has no exit. Check devices on the Network tab.",
+  "en": "This node has no exit. Check devices on the Network tab.",
+  "special": []
+ },
+ {
+  "key": "direct",
+  "en": "direct",
+  "special": []
+ },
+ {
+  "key": "key expired",
+  "en": "key expired",
+  "special": []
+ },
+ {
+  "key": "never",
+  "en": "never",
+  "special": []
+ },
+ {
+  "key": "no exit",
+  "en": "no exit",
+  "special": []
+ },
+ {
+  "key": "relay",
+  "en": "relay",
+  "special": []
+ },
+ {
+  "key": "shared",
+  "en": "shared",
+  "special": []
+ },
+ {
+  "key": "sign-in needed",
+  "en": "sign-in needed",
+  "special": []
+ },
+ {
+  "key": "signed in with a key",
+  "en": "signed in with a key",
+  "special": []
+ },
+ {
+  "key": "machine name or tailnet IP of the exit node — empty: no exit node",
+  "en": "machine name or tailnet IP of the exit node — empty: no exit node",
+  "special": []
+ },
+ {
+  "key": "Using an exit node sends this node's traffic through another machine of the tailnet; advertising makes this node the exit for others. The two roles exclude each other. Advertising stays pending until it is approved in the tailnet admin console. The Network tab of the node window lists the exit nodes that are online now.",
+  "en": "Using an exit node sends this node's traffic through another machine of the tailnet; advertising makes this node the exit for others. The two roles exclude each other. Advertising stays pending until it is approved in the tailnet admin console. The Network tab of the node window lists the exit nodes that are online now.",
+  "special": []
+ },
+ {
+  "key": "Peers",
+  "en": "Peers",
+  "special": []
+ },
+ {
+  "key": "no handshake yet",
+  "en": "no handshake yet",
+  "special": []
+ },
+ {
+  "key": "%s ago",
+  "en": "%s ago",
+  "special": []
+ },
+ {
+  "key": "Copy public key",
+  "en": "Copy public key",
+  "special": []
+ },
+ {
+  "key": "Diagnostics",
+  "en": "Diagnostics",
+  "special": []
+ },
+ {
+  "key": "Diagnostics needs the daemon mode or a remote machine.",
+  "en": "Diagnostics needs the daemon mode or a remote machine.",
+  "special": []
+ },
+ {
+  "key": "This is a group — it has no connection of its own. Check its members.",
+  "en": "This is a group — it has no connection of its own. Check its members.",
+  "special": []
+ },
+ {
+  "key": "Check",
+  "en": "Check",
+  "special": []
+ },
+ {
+  "key": "Request is sent through this node",
+  "en": "Request is sent through this node",
+  "special": []
+ },
+ {
+  "key": "Run",
+  "en": "Run",
+  "special": []
+ },
+ {
+  "key": "Running…",
+  "en": "Running…",
+  "special": []
+ },
+ {
+  "key": "Response",
+  "en": "Response",
+  "special": []
+ },
+ {
+  "key": "through this node in the running core",
+  "en": "through this node in the running core",
+  "special": []
+ },
+ {
+  "key": "(empty response)",
+  "en": "(empty response)",
+  "special": []
+ },
+ {
+  "key": "Response was longer and got cut off.",
+  "en": "Response was longer and got cut off.",
+  "special": []
+ },
+ {
+  "key": "Connected to %s from inside the tunnel",
+  "en": "Connected to %s from inside the tunnel",
+  "special": []
+ },
+ {
+  "key": "Devices",
+  "en": "Devices",
+  "special": []
+ },
+ {
+  "key": "%d online / %d",
+  "en": "%d online / %d",
+  "special": []
+ },
+ {
+  "key": "Copy MagicDNS name",
+  "en": "Copy MagicDNS name",
+  "special": []
+ },
+ {
+  "key": "Errors (%d)",
+  "en": "Errors (%d)",
+  "special": []
+ },
+ {
+  "key": "since %s",
+  "en": "since %s",
+  "special": []
+ },
+ {
+  "key": "No errors recorded.",
+  "en": "No errors recorded.",
+  "special": []
+ },
+ {
+  "key": "Copy all",
+  "en": "Copy all",
+  "special": []
+ },
+ {
+  "key": "Clear",
+  "en": "Clear",
+  "special": []
+ },
+ {
+  "key": "Clash API only",
+  "en": "Clash API only",
+  "special": []
+ },
+ {
+  "key": "gRPC and daemon only",
+  "en": "gRPC and daemon only",
+  "special": []
+ },
+ {
+  "key": "Show these errors",
+  "en": "Show these errors",
+  "special": []
+ },
+ {
+  "key": "%s: no connection",
+  "en": "%s: no connection",
+  "special": []
+ },
+ {
+  "key": "Tailnet",
+  "en": "Tailnet",
+  "special": []
+ },
+ {
+  "key": "live status, refreshed every %d s",
+  "en": "live status, refreshed every %d s",
+  "special": []
+ },
+ {
+  "key": "peer relay",
+  "en": "peer relay",
+  "special": []
+ },
+ {
+  "key": "no handshake",
+  "en": "no handshake",
+  "special": []
+ },
+ {
+  "key": "handshake %s ago",
+  "en": "handshake %s ago",
+  "special": []
+ },
+ {
+  "key": "%d devices without traffic",
+  "en": "%d devices without traffic",
+  "special": []
+ },
+ {
+  "key": "This core does not report peer paths (needs sing-box-lx 1.14.2-lx.12).",
+  "en": "This core does not report peer paths (needs sing-box-lx 1.14.2-lx.12).",
+  "special": []
+ },
+ {
+  "key": "The node is not running in the core.",
+  "en": "The node is not running in the core.",
+  "special": []
+ },
+ {
+  "key": "hold until it fails",
+  "en": "hold until it fails",
+  "special": []
+ },
+ {
+  "key": "held",
+  "en": "held",
+  "special": []
+ },
+ {
+  "key": "How the paired auto group picks a node: the single fastest one, a rotating pool of the fastest, or the fastest at the moment of choice held until it fails (only that node is probed, others sleep; a manual group test re-probes everyone and re-picks the fastest).",
+  "en": "How the paired auto group picks a node: the single fastest one, a rotating pool of the fastest, or the fastest at the moment of choice held until it fails (only that node is probed, others sleep; a manual group test re-probes everyone and re-picks the fastest).",
+  "special": []
+ },
+ {
+  "key": "Settings changed outside the Configurator",
+  "en": "Settings changed outside the Configurator",
+  "special": []
+ },
+ {
+  "key": "The settings of this configuration were just changed through the debug API while this window is open.\n\nReload settings — read the saved settings into this window (unsaved edits made here are lost).\nKeep mine — leave this window as it is; the next Save will overwrite the external change.",
+  "en": "The settings of this configuration were just changed through the debug API while this window is open.\n\nReload settings — read the saved settings into this window (unsaved edits made here are lost).\nKeep mine — leave this window as it is; the next Save will overwrite the external change.",
+  "special": []
+ },
+ {
+  "key": "Reload settings",
+  "en": "Reload settings",
+  "special": []
+ },
+ {
+  "key": "Keep mine",
+  "en": "Keep mine",
+  "special": []
+ },
+ {
+  "key": "%s  ✓ sha256 matches SHA256SUMS",
+  "en": "%s  ✓ sha256 matches SHA256SUMS",
+  "special": []
+ },
+ {
+  "key": "%s · %s/%s · service %s (%s)",
+  "en": "%s · %s/%s · service %s (%s)",
+  "special": []
+ },
+ {
+  "key": "%s — core log",
+  "en": "%s — core log",
+  "special": []
+ },
+ {
+  "key": "%s — sha256 %s. SHA256SUMS is unavailable: compare this sum with the one step 3 prints on the machine.",
+  "en": "%s — sha256 %s. SHA256SUMS is unavailable: compare this sum with the one step 3 prints on the machine.",
+  "special": []
+ },
+ {
+  "key": "(%d failed checks in a row)",
+  "en": "(%d failed checks in a row)",
+  "special": []
+ },
+ {
+  "key": "Add %s to /etc/sysupgrade.conf, or a firmware upgrade will drop it.",
+  "en": "Add %s to /etc/sysupgrade.conf, or a firmware upgrade will drop it.",
+  "special": []
+ },
+ {
+  "key": "Also wipe the state — keys, clients and last-good are lost, and every client has to pair again:",
+  "en": "Also wipe the state — keys, clients and last-good are lost, and every client has to pair again:",
+  "special": []
+ },
+ {
+  "key": "Back up, swap, restart",
+  "en": "Back up, swap, restart",
+  "special": []
+ },
+ {
+  "key": "Bearer for tls:false",
+  "en": "Bearer for tls:false",
+  "special": []
+ },
+ {
+  "key": "Bearer secret",
+  "en": "Bearer secret",
+  "special": []
+ },
+ {
+  "key": "Check before swapping: build tags and the current config",
+  "en": "Check before swapping: build tags and the current config",
+  "special": []
+ },
+ {
+  "key": "Checking the daemon…",
+  "en": "Checking the daemon…",
+  "special": []
+ },
+ {
+  "key": "Connect first: the log streams over the machine's channel.",
+  "en": "Connect first: the log streams over the machine's channel.",
+  "special": []
+ },
+ {
+  "key": "Connect to %s first: the log streams over its channel.",
+  "en": "Connect to %s first: the log streams over its channel.",
+  "special": []
+ },
+ {
+  "key": "Copy the path",
+  "en": "Copy the path",
+  "special": []
+ },
+ {
+  "key": "Core %s (required %s — cannot compare)",
+  "en": "Core %s (required %s — cannot compare)",
+  "special": []
+ },
+ {
+  "key": "Core %s (required %s ⚠)",
+  "en": "Core %s (required %s ⚠)",
+  "special": []
+ },
+ {
+  "key": "Core %s (required %s)",
+  "en": "Core %s (required %s)",
+  "special": []
+ },
+ {
+  "key": "Core %s cannot be compared with the required %s.",
+  "en": "Core %s cannot be compared with the required %s.",
+  "special": []
+ },
+ {
+  "key": "Core binary",
+  "en": "Core binary",
+  "special": []
+ },
+ {
+  "key": "Core is older than required — open Service",
+  "en": "Core is older than required — open Service",
+  "special": []
+ },
+ {
+  "key": "Core version unknown (required %s)",
+  "en": "Core version unknown (required %s)",
+  "special": []
+ },
+ {
+  "key": "Daemon address",
+  "en": "Daemon address",
+  "special": []
+ },
+ {
+  "key": "Daemon does not answer — open Service",
+  "en": "Daemon does not answer — open Service",
+  "special": []
+ },
+ {
+  "key": "Deploy anyway",
+  "en": "Deploy anyway",
+  "special": []
+ },
+ {
+  "key": "Deploy to %s?",
+  "en": "Deploy to %s?",
+  "special": []
+ },
+ {
+  "key": "Don't ask again for %s on this machine",
+  "en": "Don't ask again for %s on this machine",
+  "special": []
+ },
+ {
+  "key": "Download %s",
+  "en": "Download %s",
+  "special": []
+ },
+ {
+  "key": "Download failed: %s",
+  "en": "Download failed: %s",
+  "special": []
+ },
+ {
+  "key": "Enable and start it",
+  "en": "Enable and start it",
+  "special": []
+ },
+ {
+  "key": "Expect with_lxd among the build tags, the same sha256 as in step 1 and no error from check.",
+  "en": "Expect with_lxd among the build tags, the same sha256 as in step 1 and no error from check.",
+  "special": []
+ },
+ {
+  "key": "Follow the log",
+  "en": "Follow the log",
+  "special": []
+ },
+ {
+  "key": "Get the core for %s/%s",
+  "en": "Get the core for %s/%s",
+  "special": []
+ },
+ {
+  "key": "Guide:",
+  "en": "Guide:",
+  "special": []
+ },
+ {
+  "key": "Guides:",
+  "en": "Guides:",
+  "special": []
+ },
+ {
+  "key": "How to update",
+  "en": "How to update",
+  "special": []
+ },
+ {
+  "key": "If the header turns green, you are done.",
+  "en": "If the header turns green, you are done.",
+  "special": []
+ }
+]

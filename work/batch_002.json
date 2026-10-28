@@ -1,0 +1,604 @@
+[
+ {
+  "key": "Download failed. See the log for details.",
+  "en": "Download failed. See the log for details.",
+  "special": []
+ },
+ {
+  "key": "Please download the file manually and place it in the folder below.",
+  "en": "Please download the file manually and place it in the folder below.",
+  "special": []
+ },
+ {
+  "key": "Open download page",
+  "en": "Open download page",
+  "special": []
+ },
+ {
+  "key": "Open folder",
+  "en": "Open folder",
+  "special": []
+ },
+ {
+  "key": "OK",
+  "en": "OK",
+  "special": []
+ },
+ {
+  "key": "Kill Process",
+  "en": "Kill Process",
+  "special": []
+ },
+ {
+  "key": "Close This Warning",
+  "en": "Close This Warning",
+  "special": []
+ },
+ {
+  "key": "Sing-Box appears to be already running.\nWould you like to kill the existing process?",
+  "en": "Sing-Box appears to be already running.\nWould you like to kill the existing process?",
+  "special": []
+ },
+ {
+  "key": "Warning",
+  "en": "Warning",
+  "special": []
+ },
+ {
+  "key": "Status: Not checked",
+  "en": "Status: Not checked",
+  "special": []
+ },
+ {
+  "key": "Click 'Load Proxies'",
+  "en": "Click 'Load Proxies'",
+  "special": []
+ },
+ {
+  "key": "Loading proxies for '%s'...",
+  "en": "Loading proxies for '%s'...",
+  "special": []
+ },
+ {
+  "key": "Proxies loaded for '%s'. Active: %s",
+  "en": "Proxies loaded for '%s'. Active: %s",
+  "special": []
+ },
+ {
+  "key": "Clash API disabled due to config error",
+  "en": "Clash API disabled due to config error",
+  "special": []
+ },
+ {
+  "key": "❌ Clash API Off (Error)",
+  "en": "❌ Clash API Off (Error)",
+  "special": []
+ },
+ {
+  "key": "❌ Clash API Off (Config Error)",
+  "en": "❌ Clash API Off (Config Error)",
+  "special": []
+ },
+ {
+  "key": "✅ Clash API On",
+  "en": "✅ Clash API On",
+  "special": []
+ },
+ {
+  "key": "Status: Not running",
+  "en": "Status: Not running",
+  "special": []
+ },
+ {
+  "key": "Sing-box is stopped.",
+  "en": "Sing-box is stopped.",
+  "special": []
+ },
+ {
+  "key": "API service is not initialized",
+  "en": "API service is not initialized",
+  "special": []
+ },
+ {
+  "key": "API is disabled: config error",
+  "en": "API is disabled: config error",
+  "special": []
+ },
+ {
+  "key": "Delay error: %s",
+  "en": "Delay error: %s",
+  "special": []
+ },
+ {
+  "key": "Delay: %d ms for %s",
+  "en": "Delay: %d ms for %s",
+  "special": []
+ },
+ {
+  "key": "Selected: %s",
+  "en": "Selected: %s",
+  "special": []
+ },
+ {
+  "key": "Selected: %d proxies",
+  "en": "Selected: %d proxies",
+  "special": []
+ },
+ {
+  "key": "No proxy selected",
+  "en": "No proxy selected",
+  "special": []
+ },
+ {
+  "key": "Switch error: %s",
+  "en": "Switch error: %s",
+  "special": []
+ },
+ {
+  "key": "Switched '%s' to %s",
+  "en": "Switched '%s' to %s",
+  "special": []
+ },
+ {
+  "key": "Sorted by name (A-Z)",
+  "en": "Sorted by name (A-Z)",
+  "special": []
+ },
+ {
+  "key": "Sorted by name (Z-A)",
+  "en": "Sorted by name (Z-A)",
+  "special": []
+ },
+ {
+  "key": "Sorted by delay (fastest first)",
+  "en": "Sorted by delay (fastest first)",
+  "special": []
+ },
+ {
+  "key": "Sorted by delay (slowest first)",
+  "en": "Sorted by delay (slowest first)",
+  "special": []
+ },
+ {
+  "key": "No proxies to ping",
+  "en": "No proxies to ping",
+  "special": []
+ },
+ {
+  "key": "Total / Available: %d / %d",
+  "en": "Total / Available: %d / %d",
+  "special": []
+ },
+ {
+  "key": "Pinging %d proxies...",
+  "en": "Pinging %d proxies...",
+  "special": []
+ },
+ {
+  "key": "Pinging %d/%d...",
+  "en": "Pinging %d/%d...",
+  "special": []
+ },
+ {
+  "key": "Ping test completed for %d proxies",
+  "en": "Ping test completed for %d proxies",
+  "special": []
+ },
+ {
+  "key": "Selected group '%s'. Last used proxy: %s",
+  "en": "Selected group '%s'. Last used proxy: %s",
+  "special": []
+ },
+ {
+  "key": "Selected group '%s'.",
+  "en": "Selected group '%s'.",
+  "special": []
+ },
+ {
+  "key": "Ping test URL updated: %s",
+  "en": "Ping test URL updated: %s",
+  "special": []
+ },
+ {
+  "key": "Ping",
+  "en": "Ping",
+  "special": []
+ },
+ {
+  "key": "test",
+  "en": "test",
+  "special": []
+ },
+ {
+  "key": "Hide servers with ping errors",
+  "en": "Hide servers with ping errors",
+  "special": []
+ },
+ {
+  "key": "Show all servers",
+  "en": "Show all servers",
+  "special": []
+ },
+ {
+  "key": "Sort by name (toggle A–Z / Z–A)",
+  "en": "Sort by name (toggle A–Z / Z–A)",
+  "special": []
+ },
+ {
+  "key": "Sort by ping delay (toggle fastest first / slowest first)",
+  "en": "Sort by ping delay (toggle fastest first / slowest first)",
+  "special": []
+ },
+ {
+  "key": "Ping all proxies in this group",
+  "en": "Ping all proxies in this group",
+  "special": []
+ },
+ {
+  "key": "Ping test URL and parallel requests",
+  "en": "Ping test URL and parallel requests",
+  "special": []
+ },
+ {
+  "key": "Copy share links for all rows visible now, in current list order (one URI per line; hidden ping-error rows are skipped; excludes selector, urltest, direct).",
+  "en": "Copy share links for all rows visible now, in current list order (one URI per line; hidden ping-error rows are skipped; excludes selector, urltest, direct).",
+  "special": []
+ },
+ {
+  "key": "Copy share links for selected proxies only (multiple selection), in current list order (same URI rules as the default copy).",
+  "en": "Copy share links for selected proxies only (multiple selection), in current list order (same URI rules as the default copy).",
+  "special": []
+ },
+ {
+  "key": "Nothing to export (no rows match the current view).",
+  "en": "Nothing to export (no rows match the current view).",
+  "special": []
+ },
+ {
+  "key": "Nothing to export (no selected rows in the current view).",
+  "en": "Nothing to export (no selected rows in the current view).",
+  "special": []
+ },
+ {
+  "key": "Preparing export…",
+  "en": "Preparing export…",
+  "special": []
+ },
+ {
+  "key": "Clipboard: %d lines (one URI per line)",
+  "en": "Clipboard: %d lines (one URI per line)",
+  "special": []
+ },
+ {
+  "key": "No share links could be built for this list.",
+  "en": "No share links could be built for this list.",
+  "special": []
+ },
+ {
+  "key": "Config path is not set.",
+  "en": "Config path is not set.",
+  "special": []
+ },
+ {
+  "key": "A…Z",
+  "en": "A…Z",
+  "special": []
+ },
+ {
+  "key": "Select selector group",
+  "en": "Select selector group",
+  "special": []
+ },
+ {
+  "key": "Selector group:",
+  "en": "Selector group:",
+  "special": []
+ },
+ {
+  "key": "Reload the selector groups from the core",
+  "en": "Reload the selector groups from the core",
+  "special": []
+ },
+ {
+  "key": "Ping test settings",
+  "en": "Ping test settings",
+  "special": []
+ },
+ {
+  "key": "Ping test URL",
+  "en": "Ping test URL",
+  "special": []
+ },
+ {
+  "key": "Parallel requests (ping all):",
+  "en": "Parallel requests (ping all):",
+  "special": []
+ },
+ {
+  "key": "Single test timeout:",
+  "en": "Single test timeout:",
+  "special": []
+ },
+ {
+  "key": "s",
+  "en": "s",
+  "special": []
+ },
+ {
+  "key": "https://example.com/generate_204",
+  "en": "https://example.com/generate_204",
+  "special": []
+ },
+ {
+  "key": "Custom",
+  "en": "Custom",
+  "special": []
+ },
+ {
+  "key": "%d ms",
+  "en": "%d ms",
+  "special": []
+ },
+ {
+  "key": "Copy server link",
+  "en": "Copy server link",
+  "special": []
+ },
+ {
+  "key": "Copy jump server link",
+  "en": "Copy jump server link",
+  "special": []
+ },
+ {
+  "key": "Unknown type",
+  "en": "Unknown type",
+  "special": []
+ },
+ {
+  "key": "Building share URI from outbound…",
+  "en": "Building share URI from outbound…",
+  "special": []
+ },
+ {
+  "key": "Share URI copied to clipboard",
+  "en": "Share URI copied to clipboard",
+  "special": []
+ },
+ {
+  "key": "Building share URI for jump outbound…",
+  "en": "Building share URI for jump outbound…",
+  "special": []
+ },
+ {
+  "key": "Jump share URI copied to clipboard",
+  "en": "Jump share URI copied to clipboard",
+  "special": []
+ },
+ {
+  "key": "This outbound cannot be turned into a share link (e.g. selector, direct-out, or fields not supported by the URI encoder).",
+  "en": "This outbound cannot be turned into a share link (e.g. selector, direct-out, or fields not supported by the URI encoder).",
+  "special": []
+ },
+ {
+  "key": "Private key in the link",
+  "en": "Private key in the link",
+  "special": []
+ },
+ {
+  "key": "Config Wizard",
+  "en": "Config Wizard",
+  "special": []
+ },
+ {
+  "key": "Target",
+  "en": "Target",
+  "special": []
+ },
+ {
+  "key": "Sources",
+  "en": "Sources",
+  "special": []
+ },
+ {
+  "key": "Directions",
+  "en": "Directions",
+  "special": []
+ },
+ {
+  "key": "DNS",
+  "en": "DNS",
+  "special": []
+ },
+ {
+  "key": "Rules",
+  "en": "Rules",
+  "special": []
+ },
+ {
+  "key": "Show config",
+  "en": "Show config",
+  "special": []
+ },
+ {
+  "key": "Final",
+  "en": "Final",
+  "special": []
+ },
+ {
+  "key": "The build passed with no warnings.",
+  "en": "The build passed with no warnings.",
+  "special": []
+ },
+ {
+  "key": "Build warnings:",
+  "en": "Build warnings:",
+  "special": []
+ },
+ {
+  "key": "Show source",
+  "en": "Show source",
+  "special": []
+ },
+ {
+  "key": "Source %q produced no nodes: %s",
+  "en": "Source %q produced no nodes: %s",
+  "special": []
+ },
+ {
+  "key": "Source %q excluded from the config: %s",
+  "en": "Source %q excluded from the config: %s",
+  "special": []
+ },
+ {
+  "key": "Source %q: %d node(s) dropped — %s",
+  "en": "Source %q: %d node(s) dropped — %s",
+  "special": []
+ },
+ {
+  "key": "Chain %q did not build: %s",
+  "en": "Chain %q did not build: %s",
+  "special": []
+ },
+ {
+  "key": "%d node(s) dropped: detour target %q is gone",
+  "en": "%d node(s) dropped: detour target %q is gone",
+  "special": []
+ },
+ {
+  "key": "node %q: %s removed — it cannot be combined with detour %q",
+  "en": "node %q: %s removed — it cannot be combined with detour %q",
+  "special": []
+ },
+ {
+  "key": "%d node(s) left out of group %q: they dial through this very group (%s)",
+  "en": "%d node(s) left out of group %q: they dial through this very group (%s)",
+  "special": []
+ },
+ {
+  "key": "%s (not applied)",
+  "en": "%s (not applied)",
+  "special": []
+ },
+ {
+  "key": "This node was written by hand, so the app changed nothing in it. The rule below would normally apply.",
+  "en": "This node was written by hand, so the app changed nothing in it. The rule below would normally apply.",
+  "special": []
+ },
+ {
+  "key": "group %q: member %q left the group (%s)",
+  "en": "group %q: member %q left the group (%s)",
+  "special": []
+ },
+ {
+  "key": "the node fell out of the config",
+  "en": "the node fell out of the config",
+  "special": []
+ },
+ {
+  "key": "group %q is not emitted: no members left (an empty group breaks core startup)",
+  "en": "group %q is not emitted: no members left (an empty group breaks core startup)",
+  "special": []
+ },
+ {
+  "key": "group %q: default %q is not among the members — the key was dropped",
+  "en": "group %q: default %q is not among the members — the key was dropped",
+  "special": []
+ },
+ {
+  "key": "%s — %d node(s) skipped: %s",
+  "en": "%s — %d node(s) skipped: %s",
+  "special": []
+ },
+ {
+  "key": "Detour target %q is missing from the build: %s",
+  "en": "Detour target %q is missing from the build: %s",
+  "special": []
+ },
+ {
+  "key": "⚠ %d node(s) dropped: %s",
+  "en": "⚠ %d node(s) dropped: %s",
+  "special": []
+ },
+ {
+  "key": "Build OK",
+  "en": "Build OK",
+  "special": []
+ },
+ {
+  "key": "Build OK, %d warning(s)",
+  "en": "Build OK, %d warning(s)",
+  "special": []
+ },
+ {
+  "key": "Build FAILED: %v",
+  "en": "Build FAILED: %v",
+  "special": []
+ },
+ {
+  "key": "Copy config",
+  "en": "Copy config",
+  "special": []
+ },
+ {
+  "key": "Direction %q: node %q is listed as an option — a node cannot be added to a Direction directly, use a filter",
+  "en": "Direction %q: node %q is listed as an option — a node cannot be added to a Direction directly, use a filter",
+  "special": []
+ },
+ {
+  "key": "Direction %q: option %q was not found — it is left out of the group",
+  "en": "Direction %q: option %q was not found — it is left out of the group",
+  "special": []
+ },
+ {
+  "key": "Generated config.json",
+  "en": "Generated config.json",
+  "special": []
+ },
+ {
+  "key": "No template variables in this profile.",
+  "en": "No template variables in this profile.",
+  "special": []
+ },
+ {
+  "key": "⚠ No inbound is enabled — sing-box will start, but won't accept any traffic. Turn on Enable TUN above, or Enable Proxy-in below.",
+  "en": "⚠ No inbound is enabled — sing-box will start, but won't accept any traffic. Turn on Enable TUN above, or Enable Proxy-in below.",
+  "special": []
+ },
+ {
+  "key": "Reset",
+  "en": "Reset",
+  "special": [
+   "1"
+  ]
+ },
+ {
+  "key": "Reset to the template default.",
+  "en": "Reset to the template default.",
+  "special": []
+ },
+ {
+  "key": "Generate a new random secret.",
+  "en": "Generate a new random secret.",
+  "special": []
+ },
+ {
+  "key": "Stop the sing-box core first (Core tab -> Stop), then turn off TUN.\n\nAfter TUN ran with administrator rights, the experimental cache under bin/ and core log files (logs/sing-box.log) may be owned by root. They are removed automatically when you turn TUN off, but only while the core is stopped.",
+  "en": "Stop the sing-box core first (Core tab -> Stop), then turn off TUN.\n\nAfter TUN ran with administrator rights, the experimental cache under bin/ and core log files (logs/sing-box.log) may be owned by root. They are removed automatically when you turn TUN off, but only while the core is stopped.",
+  "special": []
+ },
+ {
+  "key": "sing-box is still running on the system (detected PID %d). Use Core -> Stop (enter your password if asked) until the process exits, or end it in Activity Monitor, then turn off TUN.\n\nIf Stop was cancelled earlier, the launcher could think the core was stopped while sing-box was still running — that leaves the TUN interface and ports (e.g. mixed proxy) busy.",
+  "en": "sing-box is still running on the system (detected PID %d). Use Core -> Stop (enter your password if asked) until the process exits, or end it in Activity Monitor, then turn off TUN.\n\nIf Stop was cancelled earlier, the launcher could think the core was stopped while sing-box was still running — that leaves the TUN interface and ports (e.g. mixed proxy) busy.",
+  "special": []
+ },
+ {
+  "key": "Read",
+  "en": "Read",
+  "special": []
+ },
+ {
+  "key": "Save As",
+  "en": "Save As",
+  "special": []
+ }
+]

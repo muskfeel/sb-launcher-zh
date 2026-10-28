@@ -1,0 +1,606 @@
+[
+ {
+  "key": "Copy API info",
+  "en": "Copy API info",
+  "special": []
+ },
+ {
+  "key": "API info copied",
+  "en": "API info copied",
+  "special": []
+ },
+ {
+  "key": "Connection card (base URL, token, versions, docs link) copied. Hand it to an agent — it has everything to connect.",
+  "en": "Connection card (base URL, token, versions, docs link) copied. Hand it to an agent — it has everything to connect.",
+  "special": []
+ },
+ {
+  "key": "Regenerate token",
+  "en": "Regenerate token",
+  "special": []
+ },
+ {
+  "key": "Regenerate Debug API token?",
+  "en": "Regenerate Debug API token?",
+  "special": []
+ },
+ {
+  "key": "A new bearer token will be generated and the old one will stop working immediately. Any scripts or automation using the old token must be updated. If the API is running it will restart with the new token. Continue?",
+  "en": "A new bearer token will be generated and the old one will stop working immediately. Any scripts or automation using the old token must be updated. If the API is running it will restart with the new token. Continue?",
+  "special": []
+ },
+ {
+  "key": "Token regenerated",
+  "en": "Token regenerated",
+  "special": []
+ },
+ {
+  "key": "A new Debug API token is active. Use “Copy token” to grab it.",
+  "en": "A new Debug API token is active. Use “Copy token” to grab it.",
+  "special": []
+ },
+ {
+  "key": "⚙️ Configurator",
+  "en": "⚙️ Configurator",
+  "special": []
+ },
+ {
+  "key": "Download Config Template",
+  "en": "Download Config Template",
+  "special": []
+ },
+ {
+  "key": "Sing-box",
+  "en": "Sing-box",
+  "special": []
+ },
+ {
+  "key": "sing-box is the core binary.\n\n",
+  "en": "sing-box is the core binary.\n\n",
+  "special": []
+ },
+ {
+  "key": "Look for: %s\n",
+  "en": "Look for: %s\n",
+  "special": []
+ },
+ {
+  "key": "Extract the binary into the bin folder.\n\n",
+  "en": "Extract the binary into the bin folder.\n\n",
+  "special": []
+ },
+ {
+  "key": "You can download with the button above, or manually from:",
+  "en": "You can download with the button above, or manually from:",
+  "special": []
+ },
+ {
+  "key": "Checking...",
+  "en": "Checking...",
+  "special": []
+ },
+ {
+  "key": "❌ not found",
+  "en": "❌ not found",
+  "special": []
+ },
+ {
+  "key": "Download",
+  "en": "Download",
+  "special": []
+ },
+ {
+  "key": "Download v%s",
+  "en": "Download v%s",
+  "special": []
+ },
+ {
+  "key": "Reinstall v%s",
+  "en": "Reinstall v%s",
+  "special": []
+ },
+ {
+  "key": "Close",
+  "en": "Close",
+  "special": []
+ },
+ {
+  "key": "Open bin folder",
+  "en": "Open bin folder",
+  "special": []
+ },
+ {
+  "key": "Wintun",
+  "en": "Wintun",
+  "special": []
+ },
+ {
+  "key": "wintun.dll is required for TUN mode on Windows.\n\n",
+  "en": "wintun.dll is required for TUN mode on Windows.\n\n",
+  "special": []
+ },
+ {
+  "key": "In the download archive, take wintun.dll \n\n Your system is %s.\n\n ",
+  "en": "In the download archive, take wintun.dll \n\n Your system is %s.\n\n ",
+  "special": []
+ },
+ {
+  "key": "Place it in the bin folder: bin\n\n",
+  "en": "Place it in the bin folder: bin\n\n",
+  "special": []
+ },
+ {
+  "key": "ok",
+  "en": "ok",
+  "special": []
+ },
+ {
+  "key": "❌ Error checking wintun.dll",
+  "en": "❌ Error checking wintun.dll",
+  "special": []
+ },
+ {
+  "key": "Config Template",
+  "en": "Config Template",
+  "special": []
+ },
+ {
+  "key": "Template saved to %s",
+  "en": "Template saved to %s",
+  "special": []
+ },
+ {
+  "key": "Downloading config template…",
+  "en": "Downloading config template…",
+  "special": []
+ },
+ {
+  "key": "Config template download failed",
+  "en": "Config template download failed",
+  "special": []
+ },
+ {
+  "key": "server returned an empty file",
+  "en": "server returned an empty file",
+  "special": []
+ },
+ {
+  "key": "Download Complete",
+  "en": "Download Complete",
+  "special": []
+ },
+ {
+  "key": "Update Available",
+  "en": "Update Available",
+  "special": []
+ },
+ {
+  "key": "A new version of the application is available",
+  "en": "A new version of the application is available",
+  "special": []
+ },
+ {
+  "key": "Current version: %s",
+  "en": "Current version: %s",
+  "special": []
+ },
+ {
+  "key": "New version: %s",
+  "en": "New version: %s",
+  "special": []
+ },
+ {
+  "key": "Download from GitHub",
+  "en": "Download from GitHub",
+  "special": []
+ },
+ {
+  "key": "Configuration Not Found",
+  "en": "Configuration Not Found",
+  "special": []
+ },
+ {
+  "key": "⚠️ Configuration file not found!\n\nThe file %s is missing from the bin/ folder.\n\nTo get started:\n1. open ⚙️ Configurator\n2. add subscription URLs in the Sources tab and click Save\n3. click 🔄 Update on this dashboard to fetch and build config\n4. press Start\n",
+  "en": "⚠️ Configuration file not found!\n\nThe file %s is missing from the bin/ folder.\n\nTo get started:\n1. open ⚙️ Configurator\n2. add subscription URLs in the Sources tab and click Save\n3. click 🔄 Update on this dashboard to fetch and build config\n4. press Start\n",
+  "special": []
+ },
+ {
+  "key": "Information",
+  "en": "Information",
+  "special": []
+ },
+ {
+  "key": "The application is already running. Use the existing instance or close it before starting a new one.",
+  "en": "The application is already running. Use the existing instance or close it before starting a new one.",
+  "special": []
+ },
+ {
+  "key": "Info",
+  "en": "Info",
+  "special": [
+   "1"
+  ]
+ },
+ {
+  "key": "Sing-Box already running (according to internal state).",
+  "en": "Sing-Box already running (according to internal state).",
+  "special": []
+ },
+ {
+  "key": "Crash",
+  "en": "Crash",
+  "special": []
+ },
+ {
+  "key": "Sing-Box crashed, restarting... (attempt %d/%d)",
+  "en": "Sing-Box crashed, restarting... (attempt %d/%d)",
+  "special": []
+ },
+ {
+  "key": "Failed to start sing-box:\n\n%s\n\nPlease check:\n1. config.json is valid\n2. sing-box executable exists\n3. Check logs for details",
+  "en": "Failed to start sing-box:\n\n%s\n\nPlease check:\n1. config.json is valid\n2. sing-box executable exists\n3. Check logs for details",
+  "special": []
+ },
+ {
+  "key": "Failed to rebuild config.json:\n\n%s\n\nsing-box was not started with the previous config.json: it may not match your current settings. Fix the cause and try again.",
+  "en": "Failed to rebuild config.json:\n\n%s\n\nsing-box was not started with the previous config.json: it may not match your current settings. Fix the cause and try again.",
+  "special": []
+ },
+ {
+  "key": "Parser failed:\n\n%s\n\nPlease check:\n1. Subscription URL is valid\n2. Network connection\n3. Check parser.log for details",
+  "en": "Parser failed:\n\n%s\n\nPlease check:\n1. Subscription URL is valid\n2. Network connection\n3. Check parser.log for details",
+  "special": []
+ },
+ {
+  "key": "Linux capabilities required",
+  "en": "Linux capabilities required",
+  "special": []
+ },
+ {
+  "key": "Could not stop sing-box with administrator rights (dialog cancelled or error). The core may still be running — try Stop again or quit sing-box in Activity Monitor.",
+  "en": "Could not stop sing-box with administrator rights (dialog cancelled or error). The core may still be running — try Stop again or quit sing-box in Activity Monitor.",
+  "special": []
+ },
+ {
+  "key": "Sing-Box failed to restart after %d attempts. Check sing-box.log for details.",
+  "en": "Sing-Box failed to restart after %d attempts. Check sing-box.log for details.",
+  "special": []
+ },
+ {
+  "key": "Open",
+  "en": "Open",
+  "special": []
+ },
+ {
+  "key": "Quit",
+  "en": "Quit",
+  "special": []
+ },
+ {
+  "key": "Start VPN",
+  "en": "Start VPN",
+  "special": []
+ },
+ {
+  "key": "Stop VPN",
+  "en": "Stop VPN",
+  "special": []
+ },
+ {
+  "key": "Select Proxy",
+  "en": "Select Proxy",
+  "special": []
+ },
+ {
+  "key": "No proxies available",
+  "en": "No proxies available",
+  "special": []
+ },
+ {
+  "key": "Hide app from Dock",
+  "en": "Hide app from Dock",
+  "special": []
+ },
+ {
+  "key": "Config folder",
+  "en": "Config folder",
+  "special": []
+ },
+ {
+  "key": "🛑 Kill Sing-Box",
+  "en": "🛑 Kill Sing-Box",
+  "special": []
+ },
+ {
+  "key": "Kill",
+  "en": "Kill",
+  "special": []
+ },
+ {
+  "key": "Sing-Box killed if running.",
+  "en": "Sing-Box killed if running.",
+  "special": []
+ },
+ {
+  "key": "📦 Version: %s",
+  "en": "📦 Version: %s",
+  "special": []
+ },
+ {
+  "key": "Checking for updates...",
+  "en": "Checking for updates...",
+  "special": []
+ },
+ {
+  "key": "Unable to check for updates",
+  "en": "Unable to check for updates",
+  "special": []
+ },
+ {
+  "key": "🆕 Update available: %s\nCurrent: %s",
+  "en": "🆕 Update available: %s\nCurrent: %s",
+  "special": []
+ },
+ {
+  "key": "✅ You are using a development build\nCurrent: %s\nLatest release: %s",
+  "en": "✅ You are using a development build\nCurrent: %s\nLatest release: %s",
+  "special": []
+ },
+ {
+  "key": "✅ You are using the latest version\nCurrent: %s",
+  "en": "✅ You are using the latest version\nCurrent: %s",
+  "special": []
+ },
+ {
+  "key": "💬 Telegram Channel",
+  "en": "💬 Telegram Channel",
+  "special": []
+ },
+ {
+  "key": "🐙 GitHub Repository",
+  "en": "🐙 GitHub Repository",
+  "special": []
+ },
+ {
+  "key": "Language:",
+  "en": "Language:",
+  "special": []
+ },
+ {
+  "key": "Language changed. Restart the app to apply fully.",
+  "en": "Language changed. Restart the app to apply fully.",
+  "special": []
+ },
+ {
+  "key": "📥 Download translations",
+  "en": "📥 Download translations",
+  "special": []
+ },
+ {
+  "key": "⬇",
+  "en": "⬇",
+  "special": []
+ },
+ {
+  "key": "Translations downloaded (%d). Restart to see new languages.",
+  "en": "Translations downloaded (%d). Restart to see new languages.",
+  "special": []
+ },
+ {
+  "key": "Failed to download translations",
+  "en": "Failed to download translations",
+  "special": []
+ },
+ {
+  "key": "Downloading...",
+  "en": "Downloading...",
+  "special": []
+ },
+ {
+  "key": "🔄",
+  "en": "🔄",
+  "special": []
+ },
+ {
+  "key": "STUN [UDP]",
+  "en": "STUN [UDP]",
+  "special": []
+ },
+ {
+  "key": "STUN Check",
+  "en": "STUN Check",
+  "special": []
+ },
+ {
+  "key": "Checking, please wait...",
+  "en": "Checking, please wait...",
+  "special": []
+ },
+ {
+  "key": "Your External IP: %s\n%s",
+  "en": "Your External IP: %s\n%s",
+  "special": []
+ },
+ {
+  "key": "Copy IP",
+  "en": "Copy IP",
+  "special": []
+ },
+ {
+  "key": "Copied",
+  "en": "Copied",
+  "special": []
+ },
+ {
+  "key": "IP address copied to clipboard.",
+  "en": "IP address copied to clipboard.",
+  "special": []
+ },
+ {
+  "key": "STUN Check Result",
+  "en": "STUN Check Result",
+  "special": []
+ },
+ {
+  "key": "STUN server (host:port):",
+  "en": "STUN server (host:port):",
+  "special": []
+ },
+ {
+  "key": "Use system SOCKS5 proxy",
+  "en": "Use system SOCKS5 proxy",
+  "special": []
+ },
+ {
+  "key": "STUN settings",
+  "en": "STUN settings",
+  "special": []
+ },
+ {
+  "key": "Save",
+  "en": "Save",
+  "special": []
+ },
+ {
+  "key": "Cancel",
+  "en": "Cancel",
+  "special": []
+ },
+ {
+  "key": "Log window",
+  "en": "Log window",
+  "special": []
+ },
+ {
+  "key": "Logs folder",
+  "en": "Logs folder",
+  "special": []
+ },
+ {
+  "key": "Clean unused rule-sets",
+  "en": "Clean unused rule-sets",
+  "special": []
+ },
+ {
+  "key": "Removed %d unused rule-set file(s).",
+  "en": "Removed %d unused rule-set file(s).",
+  "special": []
+ },
+ {
+  "key": "Traffic Profiler",
+  "en": "Traffic Profiler",
+  "special": []
+ },
+ {
+  "key": "Disable Mesa3D (use hardware OpenGL)",
+  "en": "Disable Mesa3D (use hardware OpenGL)",
+  "special": []
+ },
+ {
+  "key": "Enable Mesa3D (software rendering)",
+  "en": "Enable Mesa3D (software rendering)",
+  "special": []
+ },
+ {
+  "key": "Stop rendering through Mesa3D and use hardware OpenGL?",
+  "en": "Stop rendering through Mesa3D and use hardware OpenGL?",
+  "special": []
+ },
+ {
+  "key": "Render the window through the Mesa3D software renderer instead of the GPU?",
+  "en": "Render the window through the Mesa3D software renderer instead of the GPU?",
+  "special": []
+ },
+ {
+  "key": "The launcher will restart now.",
+  "en": "The launcher will restart now.",
+  "special": []
+ },
+ {
+  "key": "OpenGL",
+  "en": "OpenGL",
+  "special": []
+ },
+ {
+  "key": "Hardware OpenGL is now available:\n%s\nDisable Mesa3D and use it? The launcher will restart now.",
+  "en": "Hardware OpenGL is now available:\n%s\nDisable Mesa3D and use it? The launcher will restart now.",
+  "special": []
+ },
+ {
+  "key": "Yes",
+  "en": "Yes",
+  "special": []
+ },
+ {
+  "key": "Later",
+  "en": "Later",
+  "special": []
+ },
+ {
+  "key": "IP Check Services:",
+  "en": "IP Check Services:",
+  "special": []
+ },
+ {
+  "key": "Open in browser",
+  "en": "Open in browser",
+  "special": []
+ },
+ {
+  "key": "Logs",
+  "en": "Logs",
+  "special": []
+ },
+ {
+  "key": "Level:",
+  "en": "Level:",
+  "special": []
+ },
+ {
+  "key": "Error",
+  "en": "Error",
+  "special": [
+   "1"
+  ]
+ },
+ {
+  "key": "Warn",
+  "en": "Warn",
+  "special": []
+ },
+ {
+  "key": "Verbose",
+  "en": "Verbose",
+  "special": []
+ },
+ {
+  "key": "Trace",
+  "en": "Trace",
+  "special": []
+ },
+ {
+  "key": "Refresh",
+  "en": "Refresh",
+  "special": []
+ },
+ {
+  "key": "Internal",
+  "en": "Internal",
+  "special": []
+ },
+ {
+  "key": "Core",
+  "en": "Core",
+  "special": []
+ },
+ {
+  "key": "API",
+  "en": "API",
+  "special": []
+ },
+ {
+  "key": "Log file not available.",
+  "en": "Log file not available.",
+  "special": []
+ }
+]

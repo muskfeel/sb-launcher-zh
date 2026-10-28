@@ -1,0 +1,482 @@
+[
+ {
+  "key": "Init system:",
+  "value": "初始化系统："
+ },
+ {
+  "key": "Install from scratch (no service yet)",
+  "value": "从头开始安装（还没有服务）"
+ },
+ {
+  "key": "Install or update the service",
+  "value": "安装或更新服务"
+ },
+ {
+  "key": "Install record",
+  "value": "安装记录"
+ },
+ {
+  "key": "Is it running?",
+  "value": "正在运行吗？"
+ },
+ {
+  "key": "Last-good",
+  "value": "最后好"
+ },
+ {
+  "key": "Launcher core %s (required %s). The service runs its own copy of it; download a newer core on the Core tab of the dashboard, then install or update the service.",
+  "value": "启动器核心 %s（必需 %s）。该服务运行自己的副本；在仪表板的“核心”选项卡上下载较新的核心，然后安装或更新服务。"
+ },
+ {
+  "key": "Likely: a pairing problem, not the service — the daemon answers but refuses this launcher.",
+  "value": "可能：配对问题，而不是服务 - 守护进程回答但拒绝此启动器。"
+ },
+ {
+  "key": "Likely: the service is stopped or crash-looping.",
+  "value": "可能：服务已停止或崩溃循环。"
+ },
+ {
+  "key": "Live log window",
+  "value": "实时日志窗口"
+ },
+ {
+  "key": "Live log",
+  "value": "直播日志"
+ },
+ {
+  "key": "Load the service",
+  "value": "加载服务"
+ },
+ {
+  "key": "Log",
+  "value": "日志"
+ },
+ {
+  "key": "Mint an invite on the machine",
+  "value": "在机器上创建邀请"
+ },
+ {
+  "key": "Mint an invite",
+  "value": "发出邀请"
+ },
+ {
+  "key": "Not connected — press Connect on the machine's row to check the daemon. The commands below use the last known paths.",
+  "value": "未连接 — 按计算机所在行上的“连接”以检查守护程序。以下命令使用最后已知的路径。"
+ },
+ {
+  "key": "Not running",
+  "value": "未运行"
+ },
+ {
+  "key": "On %s the service is installed on the machine itself: run the core's `lxd --service=install` there as administrator — it installs or updates the service in place.",
+  "value": "在 %s 上，服务安装在计算机本身上：以管理员身份运行核心的 `lxd --service=install` — 它会就地安装或更新服务。"
+ },
+ {
+  "key": "Only for a daemon with tls:false in daemon.json: the Bearer secret is the whole authentication.",
+  "value": "仅适用于 daemon.json 中带有 tls:false 的守护进程：承载密钥是整个身份验证。"
+ },
+ {
+  "key": "Paired — connect to check the certificate.",
+  "value": "已配对 — 连接以检查证书。"
+ },
+ {
+  "key": "Paired — the daemon does not answer, so the certificate cannot be checked now.",
+  "value": "已配对 — 守护程序不应答，因此现在无法检查证书。"
+ },
+ {
+  "key": "Paired. A new client key was issued; connect again.",
+  "value": "配对。颁发了新的客户端密钥；再次连接。"
+ },
+ {
+  "key": "Pairing",
+  "value": "配对"
+ },
+ {
+  "key": "Paste what it printed",
+  "value": "粘贴打印的内容"
+ },
+ {
+  "key": "Paths — defaults: the daemon has not reported its paths yet",
+  "value": "路径 — 默认值：守护进程尚未报告其路径"
+ },
+ {
+  "key": "Paths — reported by the daemon %s ago",
+  "value": "路径 — 由守护程序 %s 前报告"
+ },
+ {
+  "key": "Paths — reported by the daemon just now",
+  "value": "路径 — 刚才由守护进程报告"
+ },
+ {
+  "key": "Plain mode (tls:false): Bearer secret",
+  "value": "普通模式 (tls:false)：承载秘密"
+ },
+ {
+  "key": "Puts the backed-up core back and restarts the service.",
+  "value": "将备份的核心放回去并重新启动服务。"
+ },
+ {
+  "key": "Re-pair when the error says \"certificate changed\" or \"not paired\", the service was reinstalled or its state dir was wiped.",
+  "value": "当错误显示“证书已更改”或“未配对”、服务已重新安装或其状态目录已擦除时，请重新配对。"
+ },
+ {
+  "key": "Read the log",
+  "value": "阅读日志"
+ },
+ {
+  "key": "Reference",
+  "value": "参考"
+ },
+ {
+  "key": "Reinstall the same version",
+  "value": "重新安装相同版本"
+ },
+ {
+  "key": "Replace the <…> part before running it.",
+  "value": "在运行之前替换 <...> 部分。"
+ },
+ {
+  "key": "Restart it",
+  "value": "重新启动它"
+ },
+ {
+  "key": "Revoke a client",
+  "value": "撤销客户"
+ },
+ {
+  "key": "Roll back if the new core misbehaves",
+  "value": "如果新核心行为异常则回滚"
+ },
+ {
+  "key": "Run in Terminal over ssh",
+  "value": "通过 ssh 在终端中运行"
+ },
+ {
+  "key": "Run it in an elevated PowerShell on the machine.",
+  "value": "在计算机上提升的 PowerShell 中运行它。"
+ },
+ {
+  "key": "Run the command",
+  "value": "运行命令"
+ },
+ {
+  "key": "Running %s, required %s",
+  "value": "正在运行 %s，需要 %s"
+ },
+ {
+  "key": "Runs in Terminal with your sudo and prints a one-time invite — paste it below:",
+  "value": "使用您的 sudo 在终端中运行并打印一次性邀请 - 将其粘贴到下面："
+ },
+ {
+  "key": "Runs in Terminal with your sudo:",
+  "value": "使用您的 sudo 在终端中运行："
+ },
+ {
+  "key": "Runs in Terminal with your sudo; a first install prints a pairing invite at the end:",
+  "value": "使用您的 sudo 在终端中运行；首次安装会在最后打印配对邀请："
+ },
+ {
+  "key": "Runs in the foreground: stop it with Ctrl-C, then start the service again.",
+  "value": "在前台运行：使用 Ctrl-C 停止它，然后再次启动该服务。"
+ },
+ {
+  "key": "SSH",
+  "value": "SSH"
+ },
+ {
+  "key": "Save this as %s on the machine, then enable and start it:",
+  "value": "在计算机上将其保存为 %s，然后启用并启动它："
+ },
+ {
+  "key": "Saved. It is used on the next connect.",
+  "value": "已保存。它在下一次连接时使用。"
+ },
+ {
+  "key": "Service binary",
+  "value": "服务二进制文件"
+ },
+ {
+  "key": "Service — %s",
+  "value": "服务 — %s"
+ },
+ {
+  "key": "Service",
+  "value": "服务"
+ },
+ {
+  "key": "Service: restart, update the core, pairing, paths and logs",
+  "value": "服务：重启、更新核心、配对、路径和日志"
+ },
+ {
+  "key": "Show it",
+  "value": "显示它"
+ },
+ {
+  "key": "Still down? Read why",
+  "value": "还低落吗？阅读原因"
+ },
+ {
+  "key": "Stops the daemon and removes its service definition. The state (keys, clients, last-good) stays.",
+  "value": "停止守护程序并删除其服务定义。状态（密钥、客户端、最后的好）保持不变。"
+ },
+ {
+  "key": "The client loses access at once. Replace <name> with a name from the list above.",
+  "value": "客户端立即失去访问权限。将 <name> 替换为上面列表中的名称。"
+ },
+ {
+  "key": "The core release has no build for %s/%s — build the core for this machine yourself.",
+  "value": "核心版本没有针对 %s/%s 的构建 - 请自行构建此机器的核心。"
+ },
+ {
+  "key": "The machine runs a UPX-packed core, but this release has no packed copy for it: this is the plain binary, 4–5 times larger. Check free space on the machine before uploading.",
+  "value": "该机器运行 UPX 打包核心，但此版本没有其打包副本：这是纯二进制文件，大 4-5 倍。上传前检查机器上的可用空间。"
+ },
+ {
+  "key": "The core's log, live, while the daemon answers",
+  "value": "核心的日志是实时的，而守护进程则应答"
+ },
+ {
+  "key": "The current core is kept as %s.",
+  "value": "当前核心保留为 %s。"
+ },
+ {
+  "key": "The daemon has not been checked yet: connect to the machine to see whether it answers. The steps below use the last known paths.",
+  "value": "守护进程尚未检查：连接到机器以查看其是否响应。以下步骤使用最后已知的路径。"
+ },
+ {
+  "key": "The daemon has not reported its core version yet (required %s).",
+  "value": "守护程序尚未报告其核心版本（必需 %s）。"
+ },
+ {
+  "key": "The header should now say %s · started.",
+  "value": "标头现在应该显示 %s · 已开始。"
+ },
+ {
+  "key": "The last config broke it? Boot the last working one once",
+  "value": "最后的配置破坏了它吗？启动最后一个工作的一次"
+ },
+ {
+  "key": "The last deploy did not start: the core rolled back to the last-good config.",
+  "value": "最后一次部署没有开始：核心回滚到最后一次好的配置。"
+ },
+ {
+  "key": "The service was restarted.",
+  "value": "服务已重新启动。"
+ },
+ {
+  "key": "This changes the service on %s. Run it?",
+  "value": "这会更改 %s 上的服务。运行它吗？"
+ },
+ {
+  "key": "This computer",
+  "value": "这台电脑"
+ },
+ {
+  "key": "Upload it (streamed over ssh — scp does not work on OpenWrt)",
+  "value": "上传（通过 ssh 传输 - scp 不适用于 OpenWrt）"
+ },
+ {
+  "key": "Upload it (streamed over ssh)",
+  "value": "上传（通过 ssh 传输）"
+ },
+ {
+  "key": "Waiting for log lines…",
+  "value": "等待日志行..."
+ },
+ {
+  "key": "Who holds the port",
+  "value": "谁拥有港口"
+ },
+ {
+  "key": "Who is trusted",
+  "value": "谁值得信赖"
+ },
+ {
+  "key": "Windows asks for administrator rights:",
+  "value": "Windows 要求管理员权限："
+ },
+ {
+  "key": "Windows asks for administrator rights; the launcher pairs with the new invite automatically:",
+  "value": "Windows 要求管理员权限；启动器会自动与新邀请配对："
+ },
+ {
+  "key": "Windows asks for administrator rights; the launcher pairs with the service automatically:",
+  "value": "Windows 要求管理员权限；启动器自动与服务配对："
+ },
+ {
+  "key": "core %s",
+  "value": "核心%s"
+ },
+ {
+  "key": "daemon.json — edit it, then restart the service (never reinstall)",
+  "value": "daemon.json — 编辑它，然后重新启动服务（切勿重新安装）"
+ },
+ {
+  "key": "default path — the daemon has not reported it yet",
+  "value": "默认路径 - 守护进程尚未报告它"
+ },
+ {
+  "key": "default",
+  "value": "默认"
+ },
+ {
+  "key": "log path",
+  "value": "日志路径"
+ },
+ {
+  "key": "mTLS on/off",
+  "value": "mTLS 开/关"
+ },
+ {
+  "key": "not reported",
+  "value": "没有报道"
+ },
+ {
+  "key": "rotation: size MB / backups / age h",
+  "value": "循环：大小 MB / 备份 / 年龄 h"
+ },
+ {
+  "key": "shown on the machine only",
+  "value": "仅在机器上显示"
+ },
+ {
+  "key": "the daemon does not answer",
+  "value": "守护进程没有应答"
+ },
+ {
+  "key": "unreachable",
+  "value": "无法到达的"
+ },
+ {
+  "key": "uptime %s",
+  "value": "正常运行时间 %s"
+ },
+ {
+  "key": "where it answers",
+  "value": "它在哪里回答"
+ },
+ {
+  "key": "— the core restarted —",
+  "value": "— 核心重启 —"
+ },
+ {
+  "key": "⚠ %s runs core %s; this launcher builds configs for %s. The old core may reject them — it will then roll back to the last working config.",
+  "value": "⚠ %s 运行核心 %s；该启动器为 %s 构建配置。旧的核心可能会拒绝它们——然后它将回滚到最后一个工作配置。"
+ },
+ {
+  "key": "⚠ Core %s is older than required (%s)",
+  "value": "⚠ 核心 %s 早于所需 (%s)"
+ },
+ {
+  "key": "✅ Answers",
+  "value": "✅ 答案"
+ },
+ {
+  "key": "✅ Core %s is current",
+  "value": "✅ 核心 %s 是当前的"
+ },
+ {
+  "key": "✅ Core %s is newer than required (%s)",
+  "value": "✅ 核心 %s 比所需的新 (%s)"
+ },
+ {
+  "key": "✅ Paired · certificate ok",
+  "value": "✅ 已配对·证书ok"
+ },
+ {
+  "key": "✅ The daemon answers — nothing to fix here.",
+  "value": "✅ 守护进程回答——这里没有什么需要修复的。"
+ },
+ {
+  "key": "✅ The daemon answers, uptime %s — nothing to fix here.",
+  "value": "✅ 守护进程回答，正常运行时间 %s — 这里没有什么需要修复的。"
+ },
+ {
+  "key": "✖ Not answering for %s: %s",
+  "value": "✖ 未接听 %s：%s"
+ },
+ {
+  "key": "✖ Not answering: %s",
+  "value": "✖ 未应答：%s"
+ },
+ {
+  "key": "✖ Not paired yet",
+  "value": "✖ 尚未配对"
+ },
+ {
+  "key": "✖ The TLS mode does not match the daemon's: %s",
+  "value": "✖ TLS 模式与守护程序的不匹配：%s"
+ },
+ {
+  "key": "✖ The daemon does not trust this launcher: %s",
+  "value": "✖ 守护进程不信任此启动器：%s"
+ },
+ {
+  "key": "✖ The daemon refuses this launcher: %s",
+  "value": "✖ 守护程序拒绝此启动器：%s"
+ },
+ {
+  "key": "✖ The daemon's certificate changed: %s",
+  "value": "✖ 守护程序的证书已更改：%s"
+ },
+ {
+  "key": "The daemon engine is not active yet: it switches on by itself once the service answers and the launcher is paired (stop the VPN first if it is running).",
+  "value": "守护进程引擎尚未激活：一旦服务应答并且启动器配对（如果正在运行，请先停止 VPN），它会自行打开。"
+ },
+ {
+  "key": "%s is older than required %s",
+  "value": "%s 早于所需的 %s"
+ },
+ {
+  "key": "%s · %s/%s · service %s (%s, not installed as a service)",
+  "value": "%s · %s/%s · 服务 %s（%s，未作为服务安装）"
+ },
+ {
+  "key": "Daemon command:",
+  "value": "守护进程命令："
+ },
+ {
+  "key": "Edit daemon.json",
+  "value": "编辑 daemon.json"
+ },
+ {
+  "key": "Install the service",
+  "value": "安装服务"
+ },
+ {
+  "key": "Named commands let this window run them on the daemon (the Daemon command row above). Add this to daemon.json:",
+  "value": "命名命令让该窗口在守护进程（上面的守护进程命令行）上运行它们。将其添加到 daemon.json："
+ },
+ {
+  "key": "No recipes for openrc yet — see the lxd guide",
+  "value": "还没有 openrc 的食谱 - 请参阅 lxd 指南"
+ },
+ {
+  "key": "Nothing changed",
+  "value": "一切都没有改变"
+ },
+ {
+  "key": "Nothing helps? Reinstall the core (Core section).",
+  "value": "没有什么帮助吗？重新安装核心（核心部分）。"
+ },
+ {
+  "key": "Open Core",
+  "value": "开放核心"
+ },
+ {
+  "key": "Open Pairing",
+  "value": "打开配对"
+ },
+ {
+  "key": "Open Uninstall",
+  "value": "打开卸载"
+ },
+ {
+  "key": "Paste into the top level of daemon.json next to \"listen\". The daemon validates names on start: a bad name keeps it from starting.",
+  "value": "粘贴到 daemon.json 的顶层“listen”旁边。守护进程在启动时验证名称：错误的名称会使其无法启动。"
+ },
+ {
+  "key": "Restart the service",
+  "value": "重新启动服务"
+ }
+]
